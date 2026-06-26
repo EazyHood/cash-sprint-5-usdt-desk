@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T18:21:18+00:00",
+  "generated_at_utc": "2026-06-26T18:22:55+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,10 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "actionable": 1,
     "account_required": 15,
     "watch": 352,
-    "rejected": 993
+    "rejected": 994
   },
   "target_status": {
     "target_usd": 5,
@@ -329,6 +328,74 @@
       "updated_at": "2026-06-26T18:00:10Z",
       "merged_at": null,
       "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1887,
+      "reward_basis": "100 third-batch API offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1887",
+      "title": "Update third API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1887",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:04:47Z",
+      "updated_at": "2026-06-26T18:04:47Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1888,
+      "reward_basis": "100 second-batch MCP server offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1888",
+      "title": "Update second MCP server metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1888",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:05:28Z",
+      "updated_at": "2026-06-26T18:05:28Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1889,
+      "reward_basis": "100 fourth-batch API offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1889",
+      "title": "Update fourth API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1889",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:16:32Z",
+      "updated_at": "2026-06-26T18:16:32Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1890,
+      "reward_basis": "97 storage offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 5.82,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1890",
+      "title": "Update storage offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1890",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:20:51Z",
+      "updated_at": "2026-06-26T18:20:51Z",
+      "merged_at": null,
+      "author": "EazyHood"
     }
   ],
   "submitted_reward_issues": [
@@ -351,29 +418,6 @@
     }
   ],
   "top_opportunities": [
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "[Bounty $10000] Improve tanh accuracy and performance (fp32)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/48287",
-      "amount_usd": 10000.0,
-      "labels": [
-        "community"
-      ],
-      "comments": 0,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-26T17:59:49Z",
-      "created_at": "2026-06-26T17:53:00Z",
-      "score": 130,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "very low discussion",
-        "recently updated"
-      ],
-      "body_preview": "- Current: ~114 cycles per iteration (WH); maxulperr=~3.7 - Target: **2.5x** perf improvement, 45 cycles (WH); maxulperr<3"
-    },
     {
       "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
       "title": "[PAID BOUNTY - $750] Email Threads API",
@@ -656,6 +700,33 @@
         "requires account/claim/approval flow"
       ],
       "body_preview": "## Type of Content **Tutorial** ## Summary Explain three replay prevention mechanisms: (1) Counter-based nonces that increment per operation, (2) Set-based nullifiers derived from `persistentCommit(secret, context)`, (3) Domain separation tags in hash functions to prevent cross-circuit replay. Show working examples of each and when to use which pattern. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Counter-based nonces that increment per op"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"bounty\" \"documentation\" \"$\"",
+      "title": "[Tutorial] Concurrent Transactions on Midnight: UTXO Race Conditions & Workarounds",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/301",
+      "amount_usd": 500.0,
+      "labels": [
+        "public",
+        "content-proposal",
+        "bounty",
+        "low-priority"
+      ],
+      "comments": 20,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-26T04:43:57Z",
+      "created_at": "2026-04-13T01:13:30Z",
+      "score": 70,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Type of Content **Tutorial** ## Summary Explain why two transactions from the same wallet can fail if they try to spend the same DUST UTXOs. Show the \"stale UTXO\" error, explain the UTXO model vs account model difference, and demonstrate patterns for sequential transaction queuing or multiple wallet instances for parallelism. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Why concurrent transactions from the same wallet can fail - The \"st"
     }
   ]
 }
