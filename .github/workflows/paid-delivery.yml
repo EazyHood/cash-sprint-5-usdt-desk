@@ -1,0 +1,36 @@
+name: Paid USDT Delivery
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+  issue_comment:
+    types: [created, edited]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: Issue number to verify
+        required: true
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  verify-and-deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Verify payment and invite buyer
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          DELIVERY_PAT: ${{ secrets.DELIVERY_PAT }}
+          DELIVERY_REPO: EazyHood/quickfix-pro-delivery
+          PAY_TO_WALLET: "0x06f44f4839fd5df4f4670036d028b29dec939363"
+          USDT_CONTRACT: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          MIN_USDT: "5"
+          MIN_TX_UNIX: "1782478200"
+          WORKFLOW_ISSUE_NUMBER: ${{ inputs.issue_number }}
+        run: node .github/scripts/verify-paid-delivery.mjs

@@ -83,7 +83,22 @@ unlockForm.addEventListener("submit", async (event) => {
       unlockStatus.textContent = "Transaction found, waiting for at least 3 confirmations.";
       return;
     }
-    unlockStatus.textContent = `Verified ${money(match.amount)} USDT. Download unlocked.`;
+    const title = `[Paid delivery] QuickFix Landing Kit Pro - ${txHash.slice(0, 12)}`;
+    const body = [
+      "## Paid delivery request",
+      "",
+      "Product: QuickFix Landing Kit Pro",
+      `Transaction hash: ${txHash}`,
+      `Wallet paid: ${wallet}`,
+      `Detected amount: ${money(match.amount)} USDT`,
+      "",
+      "The delivery automation will verify this transaction again and invite this GitHub user to the private delivery repository.",
+    ].join("\n");
+    const issueUrl = new URL(orderIssueUrl);
+    issueUrl.searchParams.set("title", title);
+    issueUrl.searchParams.set("body", body);
+    unlockStatus.textContent = `Verified ${money(match.amount)} USDT. Open the delivery issue to receive private repo access.`;
+    downloadPack.href = issueUrl.toString();
     downloadPack.hidden = false;
     downloadPack.focus();
   } catch (error) {
