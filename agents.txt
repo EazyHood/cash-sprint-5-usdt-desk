@@ -1,0 +1,26 @@
+# USDT Quick Fix Desk
+
+Agent-readable service summary:
+
+- Site: https://eazyhood.github.io/cash-sprint-5-usdt-desk/
+- Agent metadata: https://eazyhood.github.io/cash-sprint-5-usdt-desk/.well-known/agent.json
+- Payment catalog: https://eazyhood.github.io/cash-sprint-5-usdt-desk/.well-known/x402.json
+- Price floor: 5 USDT
+- Network: Ethereum mainnet / ERC-20
+- Token contract: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+- Pay to: 0x06f44f4839fd5df4f4670036d028b29dec939363
+- Order endpoint: https://github.com/EazyHood/cash-sprint-5-usdt-desk/issues/new
+
+Best-fit tasks:
+
+- Static one-page landing page
+- HTML/CSS bug fix
+- UI cleanup
+- Small JavaScript widget
+- USDT invoice page setup
+
+Required buyer evidence:
+
+- ERC-20 USDT transaction hash
+- Short scope
+- Delivery contact or GitHub username

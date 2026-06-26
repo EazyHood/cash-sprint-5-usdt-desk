@@ -1,0 +1,40 @@
+{
+  "x402Version": 2,
+  "scheme": "manual-erc20-transfer",
+  "network": "ethereum-mainnet",
+  "asset": "USDT",
+  "assetAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+  "payTo": "0x06f44f4839fd5df4f4670036d028b29dec939363",
+  "settlement": "buyer sends USDT ERC-20 transfer, then opens a GitHub delivery issue with the transaction hash",
+  "products": [
+    {
+      "product_id": "quick-web-fix-5-usdt",
+      "vendor_id": "usdt-quick-fix-desk",
+      "endpoint": "https://github.com/EazyHood/cash-sprint-5-usdt-desk/issues/new",
+      "method": "GITHUB_ISSUE",
+      "price_usdt": "5.00",
+      "price_display": "5 USDT",
+      "description": "One narrow static web fix, landing section, HTML/CSS cleanup, or small frontend widget.",
+      "resource": "https://eazyhood.github.io/cash-sprint-5-usdt-desk/",
+      "required_evidence": ["tx_hash", "short_scope"],
+      "delivery_sla": "best effort within 24-30h for small scope"
+    },
+    {
+      "product_id": "quickfix-landing-kit-pro",
+      "vendor_id": "usdt-quick-fix-desk",
+      "endpoint": "https://github.com/EazyHood/cash-sprint-5-usdt-desk/issues/5",
+      "method": "GITHUB_ISSUE",
+      "price_usdt": "5.00",
+      "price_display": "5 USDT",
+      "description": "Six editable static landing page starters plus generated buyer-specific landing page, delivered by private repo access after payment verification.",
+      "resource": "https://eazyhood.github.io/cash-sprint-5-usdt-desk/downloads/quickfix-landing-kit.zip",
+      "required_evidence": ["tx_hash", "buyer_github_username"],
+      "delivery_sla": "private delivery repo invite after verified payment"
+    }
+  ],
+  "verification": {
+    "explorer_hint": "https://etherscan.io/address/0x06f44f4839fd5df4f4670036d028b29dec939363",
+    "minimum_amount_usdt": "5.00",
+    "accepted_token_contracts": ["0xdAC17F958D2ee523a2206206994597C13D831ec7"]
+  }
+}

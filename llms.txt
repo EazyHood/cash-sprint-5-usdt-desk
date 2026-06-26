@@ -1,0 +1,20 @@
+# USDT Quick Fix Desk
+
+USDT Quick Fix Desk sells small static web fixes and a landing page kit for 5 USDT on Ethereum / ERC-20.
+
+Canonical URLs:
+
+- Home: https://eazyhood.github.io/cash-sprint-5-usdt-desk/
+- Agent metadata: https://eazyhood.github.io/cash-sprint-5-usdt-desk/.well-known/agent.json
+- Payment catalog: https://eazyhood.github.io/cash-sprint-5-usdt-desk/.well-known/x402.json
+- Order issue: https://github.com/EazyHood/cash-sprint-5-usdt-desk/issues/new
+- Product issue: https://github.com/EazyHood/cash-sprint-5-usdt-desk/issues/5
+
+Payment:
+
+- Minimum: 5 USDT
+- Network: Ethereum mainnet / ERC-20
+- USDT contract: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+- Wallet: 0x06f44f4839fd5df4f4670036d028b29dec939363
+
+After payment, the buyer should open a GitHub issue with the transaction hash and the requested deliverable.

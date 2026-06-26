@@ -14,6 +14,13 @@ USDT Invoice Page Kit:
 
 https://eazyhood.github.io/cash-sprint-5-usdt-desk/products/usdt-invoice-page-kit/
 
+Agent discovery:
+
+- https://eazyhood.github.io/cash-sprint-5-usdt-desk/.well-known/agent.json
+- https://eazyhood.github.io/cash-sprint-5-usdt-desk/.well-known/x402.json
+- https://eazyhood.github.io/cash-sprint-5-usdt-desk/agents.txt
+- https://eazyhood.github.io/cash-sprint-5-usdt-desk/llms.txt
+
 ## Instant product
 
 - QuickFix Landing Kit Pro

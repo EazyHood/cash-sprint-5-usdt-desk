@@ -1,0 +1,40 @@
+{
+  "name": "USDT Quick Fix Desk",
+  "description": "Wallet-first $5+ USDT ERC-20 desk for small static web fixes, landing pages, invoice pages, and frontend cleanup.",
+  "url": "https://eazyhood.github.io/cash-sprint-5-usdt-desk/",
+  "version": "2026-06-26",
+  "protocols": ["static-web", "github-issues", "erc20-usdt"],
+  "catalog": "https://eazyhood.github.io/cash-sprint-5-usdt-desk/.well-known/x402.json",
+  "contact": {
+    "github_issues": "https://github.com/EazyHood/cash-sprint-5-usdt-desk/issues/new"
+  },
+  "wallets": [
+    {
+      "asset": "USDT",
+      "network": "ethereum-mainnet",
+      "standard": "ERC-20",
+      "address": "0x06f44f4839fd5df4f4670036d028b29dec939363",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+    }
+  ],
+  "paid_tools": [
+    {
+      "name": "quick_web_fix",
+      "description": "One small HTML/CSS/JS/static web fix or UI cleanup delivered through GitHub issue workflow.",
+      "endpoint": "https://github.com/EazyHood/cash-sprint-5-usdt-desk/issues/new",
+      "price": "5 USDT",
+      "network": "ethereum-mainnet",
+      "asset": "USDT",
+      "requires": ["transaction_hash", "short_scope", "delivery_contact"]
+    },
+    {
+      "name": "quickfix_landing_kit_pro",
+      "description": "Static landing page kit with generated buyer-specific page and private repo delivery after payment verification.",
+      "endpoint": "https://github.com/EazyHood/cash-sprint-5-usdt-desk/issues/5",
+      "price": "5 USDT",
+      "network": "ethereum-mainnet",
+      "asset": "USDT",
+      "requires": ["transaction_hash", "brand", "audience", "offer"]
+    }
+  ]
+}
