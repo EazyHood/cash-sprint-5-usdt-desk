@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T17:45:49+00:00",
+  "generated_at_utc": "2026-06-26T17:50:24+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,7 +9,7 @@
   },
   "counts": {
     "account_required": 15,
-    "watch": 329,
+    "watch": 326,
     "rejected": 983
   },
   "target_status": {
@@ -275,6 +275,23 @@
       "draft": false,
       "created_at": "2026-06-26T17:39:00Z",
       "updated_at": "2026-06-26T17:39:00Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1884,
+      "reward_basis": "100 MCP server offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1884",
+      "title": "Update MCP server offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1884",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:48:30Z",
+      "updated_at": "2026-06-26T17:48:30Z",
       "merged_at": null,
       "author": "EazyHood"
     }
