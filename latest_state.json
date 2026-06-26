@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T17:09:37+00:00",
+  "generated_at_utc": "2026-06-26T17:14:55+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 15,
-    "watch": 343,
-    "rejected": 967
+    "watch": 334,
+    "rejected": 976
   },
   "target_status": {
     "target_usd": 5,
@@ -190,6 +190,23 @@
       "draft": false,
       "created_at": "2026-06-26T17:00:50Z",
       "updated_at": "2026-06-26T17:00:50Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1879,
+      "reward_basis": "95 ramp and faucet offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 5.7,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1879",
+      "title": "Update ramp and faucet offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1879",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:12:46Z",
+      "updated_at": "2026-06-26T17:12:46Z",
       "merged_at": null,
       "author": "EazyHood"
     }
