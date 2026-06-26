@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T23:17:53+00:00",
+  "generated_at_utc": "2026-06-26T23:31:20+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -10,8 +10,8 @@
   "counts": {
     "actionable": 1,
     "account_required": 3,
-    "watch": 157,
-    "rejected": 1097
+    "watch": 155,
+    "rejected": 1083
   },
   "target_status": {
     "target_usd": 5,
@@ -531,6 +531,23 @@
       "draft": false,
       "created_at": "2026-06-26T19:41:02Z",
       "updated_at": "2026-06-26T21:39:41Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1901,
+      "reward_basis": "236 Chainlink CCIP listing fields at 0.06 USDC each",
+      "estimated_reward_usdc": 14.16,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1901",
+      "title": "Add Chainlink CCIP listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1901",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T23:29:05Z",
+      "updated_at": "2026-06-26T23:29:05Z",
       "merged_at": null,
       "author": "EazyHood"
     },
