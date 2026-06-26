@@ -1,0 +1,314 @@
+{
+  "generated_at_utc": "2026-06-26T12:36:05+00:00",
+  "wallet": {
+    "asset": "USDT",
+    "network": "Ethereum / ERC-20",
+    "address": "0x06f44f4839fd5df4f4670036d028b29dec939363",
+    "target_usd": 5,
+    "deadline_hours": 30
+  },
+  "counts": {
+    "manual_review": 53,
+    "rejected": 308,
+    "watch": 186
+  },
+  "top_opportunities": [
+    {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "title": "[PAID BOUNTY - $750] Audio Note Recording",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/9",
+      "amount_usd": 750.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend",
+        "audio",
+        "notes"
+      ],
+      "comments": 32,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:18:49Z",
+      "created_at": "2026-05-28T21:03:15Z",
+      "score": 110,
+      "status": "manual_review",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated"
+      ],
+      "body_preview": "## Bounty Overview Build full audio-note recording, playback, transcription, and management support for the warpSpeed Notes experience. This bounty allows users to record quick voice notes directly inside the app, save them as audio attachments to notes, transcribe them into text, and replay/manage them later through a reliable in-note audio player. The implementation should use the provided app skeleton and OpenAPI spec, with clean separation between UI components, audio logic, backend helpers,"
+    },
+    {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "title": "[PAID BOUNTY - $660] Note Locking - Biometrics/PIN",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/7",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend",
+        "security"
+      ],
+      "comments": 24,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T16:37:08Z",
+      "created_at": "2026-05-28T20:59:38Z",
+      "score": 110,
+      "status": "manual_review",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated"
+      ],
+      "body_preview": "## Bounty Overview Build note-level locking for the warpSpeed Notes experience using biometrics, device authentication, or a user-defined PIN. This bounty gives users a private vault inside Notes. Users should be able to lock new or existing notes, clearly see which notes are locked, and unlock them only after successful authentication. Locked notes must stay hidden or obscured until unlocked, and the app should require re-authentication after app restart or after a configurable timeout. This bo"
+    },
+    {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "title": "[PAID BOUNTY - $660] Enhanced Image Preview",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/6",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 26,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:19:36Z",
+      "created_at": "2026-05-28T20:55:43Z",
+      "score": 110,
+      "status": "manual_review",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated"
+      ],
+      "body_preview": "## Bounty Overview Build an enhanced full-screen image preview experience for the warpSpeed app. This bounty upgrades how users view images across the app. When a user taps an image, it should open in a fast, smooth, full-screen modal/lightbox with zoom, pan, swipe navigation, and optional actions such as download, share, and delete where permissions allow. The goal is to make image viewing feel modern, responsive, and consistent across the app. This bounty is part of the warpSpeed OPEN develope"
+    },
+    {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "title": "[PAID BOUNTY - $660] Inline Image Editing",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/5",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 20,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:19:35Z",
+      "created_at": "2026-05-28T19:43:40Z",
+      "score": 110,
+      "status": "manual_review",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated"
+      ],
+      "body_preview": "## Bounty Overview Build an inline image editing feature for the warpSpeed app. This bounty allows users to make quick, lightweight image edits directly inside the app without exporting images to another tool. From the image preview, users should be able to open an editor, crop, rotate, adjust basic image settings, and add simple annotations. Edited images must be saved as a new version while keeping the original image intact. This bounty is part of the warpSpeed OPEN developer bounty programme."
+    },
+    {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "title": "[PAID BOUNTY - $960] Attachment Summarizer Service",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/1",
+      "amount_usd": 960.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "expert",
+        "paid",
+        "open",
+        "nodejs",
+        "prisma",
+        "typescript",
+        "backend"
+      ],
+      "comments": 51,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:54:13Z",
+      "created_at": "2026-05-28T19:24:29Z",
+      "score": 85,
+      "status": "rejected",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "crowded thread",
+        "fast-lane label",
+        "recently updated"
+      ],
+      "body_preview": "## Bounty Overview Build a Node.js attachment summarizer service that consumes email attachment events from AWS SQS, downloads attachments from Google Cloud Storage, extracts content from supported file types, and generates natural-language summaries using a self-hosted open-source LLM. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward $960 ## Difficulty Expert ## Main Skills - Node.js - TypeScript - Prisma - AWS SQS - Google Cloud Storage - Docker - Ollama / Open-s"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"BountyBoard\" bounty",
+      "title": "Constrain bountyboard image and element size",
+      "url": "https://github.com/MakUrSpace/hyperspace/issues/3",
+      "amount_usd": 9999.99,
+      "labels": [
+        "enhancement",
+        "frontend"
+      ],
+      "comments": 0,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2021-08-29T03:58:50Z",
+      "created_at": "2021-05-23T02:48:29Z",
+      "score": 70,
+      "status": "rejected",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "very low discussion",
+        "fast-lane label",
+        "no real bounty/funding signal",
+        "stale"
+      ],
+      "body_preview": "![image](https://user-images.githubusercontent.com/48997118/119246422-74b8a300-bb4f-11eb-932c-a633961dd4db.png) The an example of the card elements: ``` <div class=\"card col-lg-3 col-md-4 col-sm-6 bounty-item mx-3 mb-3\" onclick=\"location.href='/rest/rendered_bounty/Flower Pots';\" align=\"left\"> <a class=\"bounty-link\" href=\"/rest/rendered_bounty/Flower Pots\" target=\"_top\"><img class=\"card-img-top\" src=\"/bountyboard/Flower Pots/181705380_2901001423509022_7820819286673678541_n.jpg\" alt=\"Flower Pots "
+    },
+    {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"good first issue\"",
+      "title": "[Bounty] Validate user creation payloads",
+      "url": "https://github.com/xevrion-v2/agent-playground/issues/2207",
+      "amount_usd": 250.0,
+      "labels": [
+        "good first issue",
+        "bounty",
+        "AI agent friendly"
+      ],
+      "comments": 7,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-26T09:43:54Z",
+      "created_at": "2026-06-26T03:11:59Z",
+      "score": 65,
+      "status": "manual_review",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "fast-lane label",
+        "recently updated",
+        "blocked/risky wording: ai agent friendly, xevrion-v2, agent-playground, submitted pr"
+      ],
+      "body_preview": "POST /users currently trusts arbitrary request bodies. A client can send a custom id and extra fields, and the API returns them in the created user response. User creation should generate ids server-side, require a valid email, normalize optional names, and reject invalid JSON shapes. Acceptance criteria: - Reject non-object JSON bodies. In - Require a valid email. - Normalize email/name values. - Ignore client-controlled id and unrelated fields. - Add regression tests for these cases. /bounty $"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty USDC -label:invalid -label:wontfix",
+      "title": "[ T3 Code ] Add cross-platform copy/paste keybindings to terminal component",
+      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/824",
+      "amount_usd": 60.0,
+      "labels": [
+        "good first issue",
+        "help wanted",
+        "💎 Bounty",
+        "AI Agent friendly",
+        "AI only allowed - no humans",
+        "$60"
+      ],
+      "comments": 10,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-26T07:57:16Z",
+      "created_at": "2026-05-15T07:26:53Z",
+      "score": 65,
+      "status": "manual_review",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "fast-lane label",
+        "recently updated",
+        "blocked/risky wording: ai only allowed, no humans, ai agent friendly, bounty-hunters"
+      ],
+      "body_preview": "The terminal component `ThreadTerminalDrawer.tsx` in `t3code/apps/web/src/components/` does not support copying selected text to clipboard via keyboard shortcut on all platforms. ### Fix - Add Ctrl+Shift+C (Linux/Windows) and Cmd+C (macOS) keybindings to the xterm.js terminal instance for copying selected text - Detect the platform using navigator.platform and bind the correct shortcut - Add Ctrl+Shift+V / Cmd+V for pasting from clipboard into the terminal - Show a brief toast notification when "
+    },
+    {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"good first issue\"",
+      "title": "[$50 BOUNTY] [Python] Add error handling to diagnostic build process",
+      "url": "https://github.com/thanhle74/TentOfTrials/issues/2",
+      "amount_usd": 50.0,
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty",
+        "language:python"
+      ],
+      "comments": 6,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-25T01:28:01Z",
+      "created_at": "2026-06-18T18:05:31Z",
+      "score": 65,
+      "status": "manual_review",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "fast-lane label",
+        "recently updated",
+        "blocked/risky wording: tentoftrials, opened pr"
+      ],
+      "body_preview": "**Bounty:** $50 (LT) **Area:** build.py diagnostics **Current state:** Diagnostic build lacks comprehensive error handling **What is needed:** Add robust error handling to build diagnostics **Acceptance criteria:** - Error handling implemented - Graceful failure modes - Diagnostic logging preserved - Code follows conventions **Related PR:** https://github.com/lobster-trap/TentOfTrials/pull/284 RECENT ISSUE COMMENTS: I'd like to work on this. I have experience adding robust error handling to Pyth"
+    },
+    {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"good first issue\"",
+      "title": "[$45 BOUNTY] [TypeScript] Add guarded API token refresh handling",
+      "url": "https://github.com/9904099/zeroeye/issues/2",
+      "amount_usd": 45.0,
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty",
+        "language:typescript"
+      ],
+      "comments": 9,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-23T20:55:54Z",
+      "created_at": "2026-06-20T14:54:14Z",
+      "score": 65,
+      "status": "manual_review",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "fast-lane label",
+        "recently updated",
+        "blocked/risky wording: zeroeye, submitted pr"
+      ],
+      "body_preview": "**Bounty:** $45 (LT) **Area:** frontend/src/services/api.ts **Current state:** The API client has retry plumbing, but token refresh is still a TODO and concurrent 401 responses can trigger duplicated refresh work or leave callers with inconsistent auth state. **What is needed:** Implement a guarded token refresh flow that deduplicates concurrent refresh attempts and retries the original request once after a successful refresh. **Acceptance criteria:** - Add a single-flight refresh guard so multi"
+    }
+  ]
+}

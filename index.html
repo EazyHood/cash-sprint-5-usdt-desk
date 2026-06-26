@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>USDT Quick Fix Desk</title>
+    <meta
+      name="description"
+      content="Pay $5+ USDT ERC-20 for a small web page, landing page polish, or front-end fix."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="mark" aria-hidden="true">$</span>
+        <span>USDT Quick Fix Desk</span>
+      </div>
+      <a class="toplink" href="https://github.com/EazyHood/cash-sprint-5-usdt-desk/issues/new" id="repoLink">
+        Open order
+      </a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="heroText">
+          <p class="eyebrow">Small web work. Direct USDT payment.</p>
+          <h1>$5+ quick web fix or one-page build</h1>
+          <p class="lead">
+            Send USDT on Ethereum/ERC-20, then submit a short order with the transaction hash.
+            Simple pages, landing sections, HTML/CSS fixes, UI cleanup, and static microsites are the best fit.
+          </p>
+
+          <div class="walletBox">
+            <div>
+              <span class="label">Wallet</span>
+              <code id="wallet">0x06f44f4839fd5df4f4670036d028b29dec939363</code>
+            </div>
+            <button id="copyWallet" class="iconButton" type="button" aria-label="Copy wallet address" title="Copy wallet address">
+              Copy
+            </button>
+          </div>
+
+          <div class="metrics" aria-label="Order facts">
+            <div>
+              <strong>$5+</strong>
+              <span>minimum</span>
+            </div>
+            <div>
+              <strong>USDT</strong>
+              <span>ERC-20</span>
+            </div>
+            <div>
+              <strong>24-30h</strong>
+              <span>small scope</span>
+            </div>
+          </div>
+        </div>
+        <div class="heroVisual">
+          <img src="asset-preview.png" alt="Preview of the wallet-first order flow" />
+        </div>
+      </section>
+
+      <section class="orderBand" aria-labelledby="orderTitle">
+        <div class="sectionHead">
+          <h2 id="orderTitle">Create an order</h2>
+          <p>Keep the task narrow: one page, one fix, one section, or one static deliverable.</p>
+        </div>
+
+        <form id="orderForm" class="orderGrid">
+          <label>
+            <span>Task type</span>
+            <select id="taskType" required>
+              <option>Landing page section</option>
+              <option>Static one-page website</option>
+              <option>HTML/CSS bug fix</option>
+              <option>UI cleanup</option>
+              <option>Small JavaScript widget</option>
+            </select>
+          </label>
+          <label>
+            <span>Budget sent</span>
+            <input id="budget" type="number" min="5" step="1" value="5" required />
+          </label>
+          <label>
+            <span>Transaction hash</span>
+            <input id="txHash" type="text" placeholder="0x..." />
+          </label>
+          <label class="wide">
+            <span>Request</span>
+            <textarea
+              id="request"
+              rows="5"
+              placeholder="Describe the page, fix, colors, text, links, and deadline."
+              required
+            ></textarea>
+          </label>
+          <button class="primary" type="submit">Open GitHub order</button>
+        </form>
+      </section>
+
+      <section class="statusBand" aria-labelledby="radarTitle">
+        <div class="sectionHead">
+          <h2 id="radarTitle">Cash sprint radar</h2>
+          <p id="radarUpdated">Waiting for the latest scan.</p>
+        </div>
+        <div class="statusGrid" id="statusGrid">
+          <div class="statusCard">
+            <strong>0</strong>
+            <span>actionable</span>
+          </div>
+          <div class="statusCard">
+            <strong>0</strong>
+            <span>manual review</span>
+          </div>
+          <div class="statusCard">
+            <strong>0</strong>
+            <span>watch</span>
+          </div>
+        </div>
+        <ol class="opportunityList" id="opportunityList"></ol>
+      </section>
+    </main>
+
+    <footer>
+      <span>Payment address: USDT ERC-20</span>
+      <code>0x06f44f4839fd5df4f4670036d028b29dec939363</code>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
