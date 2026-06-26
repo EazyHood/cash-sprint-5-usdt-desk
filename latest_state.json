@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T21:44:01+00:00",
+  "generated_at_utc": "2026-06-26T21:48:25+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 181,
-    "rejected": 1063
+    "watch": 180,
+    "rejected": 1064
   },
   "target_status": {
     "target_usd": 5,
@@ -581,6 +581,40 @@
       "draft": false,
       "created_at": "2026-06-26T21:36:36Z",
       "updated_at": "2026-06-26T21:36:36Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "StellarLend/Stellarlend-frontend",
+      "number": 548,
+      "reward_basis": "GrantFox/Stellar Wave issue #516; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/548",
+      "title": "test: cover transaction validator clamping",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/548",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T21:43:00Z",
+      "updated_at": "2026-06-26T21:43:00Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "StellarLend/Stellarlend-frontend",
+      "number": 549,
+      "reward_basis": "GrantFox/Stellar Wave issue #542; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/549",
+      "title": "test: cover sentry telemetry guard",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/549",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T21:46:21Z",
+      "updated_at": "2026-06-26T21:46:21Z",
       "merged_at": null,
       "author": "EazyHood"
     }
