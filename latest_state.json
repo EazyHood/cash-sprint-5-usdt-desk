@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T23:33:10+00:00",
+  "generated_at_utc": "2026-06-26T23:40:15+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -718,6 +718,23 @@
       "draft": false,
       "created_at": "2026-06-26T22:07:51Z",
       "updated_at": "2026-06-26T22:07:51Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "StellarLend/Stellarlend-frontend",
+      "number": 557,
+      "reward_basis": "GrantFox/Stellar Wave issue #523; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/557",
+      "title": "test: cover positions wallet query params",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/557",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T23:37:49Z",
+      "updated_at": "2026-06-26T23:37:49Z",
       "merged_at": null,
       "author": "EazyHood"
     }
