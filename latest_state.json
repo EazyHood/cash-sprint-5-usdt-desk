@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T13:24:19+00:00",
+  "generated_at_utc": "2026-06-26T13:34:37+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,9 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "manual_review": 53,
-    "rejected": 330,
-    "watch": 162
+    "account_required": 7,
+    "watch": 172,
+    "rejected": 524
   },
   "target_status": {
     "target_usd": 5,
@@ -20,6 +20,40 @@
     "note": "No incoming USDT >= target found since the sprint baseline."
   },
   "top_opportunities": [
+    {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "title": "[PAID BOUNTY - $750] Email Threads API",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4",
+      "amount_usd": 750.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "expert",
+        "paid",
+        "open",
+        "nodejs",
+        "prisma",
+        "typescript",
+        "backend",
+        "API"
+      ],
+      "comments": 37,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:55:36Z",
+      "created_at": "2026-05-28T19:40:03Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build a thread-first Email Threads API for the warpSpeed app. This bounty introduces a new threaded email experience so users can work with conversations instead of isolated messages. Developers will create API support for listing email threads, opening a thread to view related messages, preserving draft activity inside the correct conversation, and ensuring search/filter behaviour remains consistent with the existing message API. This bounty is part of the warpSpeed OPEN deve"
+    },
     {
       "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
       "title": "[PAID BOUNTY - $750] Audio Note Recording",
@@ -42,14 +76,15 @@
       "state": "open",
       "updated_at": "2026-06-24T02:18:49Z",
       "created_at": "2026-05-28T21:03:15Z",
-      "score": 110,
-      "status": "manual_review",
+      "score": 85,
+      "status": "account_required",
       "reasons": [
         "explicit payout >= $5",
         "unassigned",
         "busy thread",
         "fast-lane label",
-        "recently updated"
+        "recently updated",
+        "requires account/claim/approval flow"
       ],
       "body_preview": "## Bounty Overview Build full audio-note recording, playback, transcription, and management support for the warpSpeed Notes experience. This bounty allows users to record quick voice notes directly inside the app, save them as audio attachments to notes, transcribe them into text, and replay/manage them later through a reliable in-note audio player. The implementation should use the provided app skeleton and OpenAPI spec, with clean separation between UI components, audio logic, backend helpers,"
     },
@@ -73,14 +108,15 @@
       "state": "open",
       "updated_at": "2026-06-24T16:37:08Z",
       "created_at": "2026-05-28T20:59:38Z",
-      "score": 110,
-      "status": "manual_review",
+      "score": 85,
+      "status": "account_required",
       "reasons": [
         "explicit payout >= $5",
         "unassigned",
         "busy thread",
         "fast-lane label",
-        "recently updated"
+        "recently updated",
+        "requires account/claim/approval flow"
       ],
       "body_preview": "## Bounty Overview Build note-level locking for the warpSpeed Notes experience using biometrics, device authentication, or a user-defined PIN. This bounty gives users a private vault inside Notes. Users should be able to lock new or existing notes, clearly see which notes are locked, and unlock them only after successful authentication. Locked notes must stay hidden or obscured until unlocked, and the app should require re-authentication after app restart or after a configurable timeout. This bo"
     },
@@ -104,14 +140,15 @@
       "state": "open",
       "updated_at": "2026-06-24T02:19:36Z",
       "created_at": "2026-05-28T20:55:43Z",
-      "score": 110,
-      "status": "manual_review",
+      "score": 85,
+      "status": "account_required",
       "reasons": [
         "explicit payout >= $5",
         "unassigned",
         "busy thread",
         "fast-lane label",
-        "recently updated"
+        "recently updated",
+        "requires account/claim/approval flow"
       ],
       "body_preview": "## Bounty Overview Build an enhanced full-screen image preview experience for the warpSpeed app. This bounty upgrades how users view images across the app. When a user taps an image, it should open in a fast, smooth, full-screen modal/lightbox with zoom, pan, swipe navigation, and optional actions such as download, share, and delete where permissions allow. The goal is to make image viewing feel modern, responsive, and consistent across the app. This bounty is part of the warpSpeed OPEN develope"
     },
@@ -135,48 +172,55 @@
       "state": "open",
       "updated_at": "2026-06-24T02:19:35Z",
       "created_at": "2026-05-28T19:43:40Z",
-      "score": 110,
-      "status": "manual_review",
+      "score": 85,
+      "status": "account_required",
       "reasons": [
         "explicit payout >= $5",
         "unassigned",
         "busy thread",
         "fast-lane label",
-        "recently updated"
+        "recently updated",
+        "requires account/claim/approval flow"
       ],
       "body_preview": "## Bounty Overview Build an inline image editing feature for the warpSpeed app. This bounty allows users to make quick, lightweight image edits directly inside the app without exporting images to another tool. From the image preview, users should be able to open an editor, crop, rotate, adjust basic image settings, and add simple annotations. Edited images must be saved as a new version while keeping the original image intact. This bounty is part of the warpSpeed OPEN developer bounty programme."
     },
     {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "Explorer Bounty Umbrella: Orchestrator and Account Improvements",
-      "url": "https://github.com/livepeer/explorer/issues/711",
-      "amount_usd": 500.0,
+      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
+      "amount_usd": 440.0,
       "labels": [
         "help wanted",
-        "retrospective compensation"
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
       ],
-      "comments": 1,
+      "comments": 30,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-26T13:04:15Z",
-      "created_at": "2026-06-26T13:04:10Z",
-      "score": 100,
-      "status": "rejected",
+      "updated_at": "2026-06-24T02:54:14Z",
+      "created_at": "2026-05-28T19:35:25Z",
+      "score": 85,
+      "status": "account_required",
       "reasons": [
         "explicit payout >= $5",
         "unassigned",
-        "very low discussion",
+        "busy thread",
         "fast-lane label",
-        "no real bounty/funding signal",
-        "recently updated"
+        "recently updated",
+        "requires account/claim/approval flow"
       ],
-      "body_preview": "## Overview This umbrella issue tracks a small set of Explorer feature improvements that may be suitable for bounty work. ## Todo ### Features * [ ] [Add a delegator list to the orchestrator detail view](https://github.com/livepeer/explorer/issues/106) * [ ] [Add account transaction history filtering](https://github.com/livepeer/explorer/issues/511) ## Retroactive Grant Notice > [!IMPORTANT] > Compensation cap: **$500** (Paid in LPT) > > Before picking this up, read the [Retroactive Grants post]"
+      "body_preview": "## Bounty Overview Build a poll creation and voting feature for group chats in the warpSpeed app. The feature should allow users to create polls directly from the group chat input area, send polls inline into the conversation, vote on options, view real-time results, and open a detailed “View Votes” bottom sheet. The experience should feel smooth, intuitive, and consistent with modern messaging apps such as WhatsApp. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward"
     },
     {
       "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
-      "title": "[PAID BOUNTY - $960] Attachment Summarizer Service",
-      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/1",
-      "amount_usd": 960.0,
+      "title": "[PAID BOUNTY - $330] Email Inbox Classic View Page UI",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2",
+      "amount_usd": 330.0,
       "labels": [
         "help wanted",
         "bounty",
@@ -184,136 +228,92 @@
         "paid",
         "open",
         "nodejs",
-        "prisma",
         "typescript",
-        "backend"
-      ],
-      "comments": 51,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-24T02:54:13Z",
-      "created_at": "2026-05-28T19:24:29Z",
-      "score": 85,
-      "status": "rejected",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "crowded thread",
-        "fast-lane label",
-        "recently updated"
-      ],
-      "body_preview": "## Bounty Overview Build a Node.js attachment summarizer service that consumes email attachment events from AWS SQS, downloads attachments from Google Cloud Storage, extracts content from supported file types, and generates natural-language summaries using a self-hosted open-source LLM. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward $960 ## Difficulty Expert ## Main Skills - Node.js - TypeScript - Prisma - AWS SQS - Google Cloud Storage - Docker - Ollama / Open-s"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"BountyBoard\" bounty",
-      "title": "Constrain bountyboard image and element size",
-      "url": "https://github.com/MakUrSpace/hyperspace/issues/3",
-      "amount_usd": 9999.99,
-      "labels": [
-        "enhancement",
+        "react-native",
         "frontend"
       ],
-      "comments": 0,
+      "comments": 28,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2021-08-29T03:58:50Z",
-      "created_at": "2021-05-23T02:48:29Z",
-      "score": 70,
-      "status": "rejected",
+      "updated_at": "2026-06-24T02:19:33Z",
+      "created_at": "2026-05-28T19:31:57Z",
+      "score": 85,
+      "status": "account_required",
       "reasons": [
         "explicit payout >= $5",
         "unassigned",
-        "very low discussion",
-        "fast-lane label",
-        "no real bounty/funding signal",
-        "stale"
-      ],
-      "body_preview": "![image](https://user-images.githubusercontent.com/48997118/119246422-74b8a300-bb4f-11eb-932c-a633961dd4db.png) The an example of the card elements: ``` <div class=\"card col-lg-3 col-md-4 col-sm-6 bounty-item mx-3 mb-3\" onclick=\"location.href='/rest/rendered_bounty/Flower Pots';\" align=\"left\"> <a class=\"bounty-link\" href=\"/rest/rendered_bounty/Flower Pots\" target=\"_top\"><img class=\"card-img-top\" src=\"/bountyboard/Flower Pots/181705380_2901001423509022_7820819286673678541_n.jpg\" alt=\"Flower Pots "
-    },
-    {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"good first issue\"",
-      "title": "[Bounty] Validate user creation payloads",
-      "url": "https://github.com/xevrion-v2/agent-playground/issues/2207",
-      "amount_usd": 250.0,
-      "labels": [
-        "good first issue",
-        "bounty",
-        "AI agent friendly"
-      ],
-      "comments": 7,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-26T09:43:54Z",
-      "created_at": "2026-06-26T03:11:59Z",
-      "score": 65,
-      "status": "manual_review",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion",
+        "busy thread",
         "fast-lane label",
         "recently updated",
-        "blocked/risky wording: ai agent friendly, xevrion-v2, agent-playground, submitted pr"
+        "requires account/claim/approval flow"
       ],
-      "body_preview": "POST /users currently trusts arbitrary request bodies. A client can send a custom id and extra fields, and the API returns them in the created user response. User creation should generate ids server-side, require a valid email, normalize optional names, and reject invalid JSON shapes. Acceptance criteria: - Reject non-object JSON bodies. In - Require a valid email. - Normalize email/name values. - Ignore client-controlled id and unrelated fields. - Add regression tests for these cases. /bounty $"
+      "body_preview": "## Bounty Overview Build the refreshed Classic Inbox UI using the latest warpSpeed design system. The UI should include the new top navigation row, category buttons, updated icons, search and filter UI, opened/unopened email states, and smooth scroll-based header behaviour. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward $330 ## Difficulty Medium ## Main Skills * React Native * TypeScript * Storybook * UI Implementation * Design System Components ## Design Referen"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty USDC -label:invalid -label:wontfix",
-      "title": "[ T3 Code ] Add cross-platform copy/paste keybindings to terminal component",
-      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/824",
-      "amount_usd": 60.0,
+      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
+      "title": "RAZER Basilisk X Hyperspeed ",
+      "url": "https://github.com/1kc/razer-macos/issues/628",
+      "amount_usd": 2.0,
       "labels": [
-        "good first issue",
-        "help wanted",
-        "💎 Bounty",
-        "AI Agent friendly",
-        "AI only allowed - no humans",
-        "$60"
+        ":dollar: Funded on Issuehunt"
       ],
-      "comments": 10,
+      "comments": 9,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-26T07:57:16Z",
-      "created_at": "2026-05-15T07:26:53Z",
-      "score": 65,
-      "status": "manual_review",
+      "updated_at": "2026-05-11T04:00:21Z",
+      "created_at": "2022-04-28T13:04:24Z",
+      "score": 37,
+      "status": "watch",
       "reasons": [
-        "explicit payout >= $5",
+        "explicit payout below target",
         "unassigned",
-        "moderate discussion",
-        "fast-lane label",
-        "recently updated",
-        "blocked/risky wording: ai only allowed, no humans, ai agent friendly, bounty-hunters"
+        "moderate discussion"
       ],
-      "body_preview": "The terminal component `ThreadTerminalDrawer.tsx` in `t3code/apps/web/src/components/` does not support copying selected text to clipboard via keyboard shortcut on all platforms. ### Fix - Add Ctrl+Shift+C (Linux/Windows) and Cmd+C (macOS) keybindings to the xterm.js terminal instance for copying selected text - Detect the platform using navigator.platform and bind the correct shortcut - Add Ctrl+Shift+V / Cmd+V for pasting from clipboard into the terminal - Show a brief toast notification when "
+      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2439%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/1kc/razer-macos/issues/628) <!-- /Issuehunt Badges --> .I can't use basilisk x hyperspeed Could you add it please? <!-- Issuehunt content --> --- <details> <summary> <b>IssueHunt Summary</b> </summary> ### Backers (Total: $39.00) - [<img src='https://avatars.githubusercontent.com/u/68773224?v=4' alt='balourd' width=24 height=24> balourd](http"
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"good first issue\"",
-      "title": "[$50 BOUNTY] [Python] Add error handling to diagnostic build process",
-      "url": "https://github.com/thanhle74/TentOfTrials/issues/2",
-      "amount_usd": 50.0,
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "Add --json output mode (Bounty: $2 crypto)",
+      "url": "https://github.com/promptpolish-ai/git-context/issues/2",
+      "amount_usd": 2.0,
       "labels": [
-        "help wanted",
-        "good first issue",
-        "bounty",
-        "language:python"
+        "bounty"
       ],
-      "comments": 6,
+      "comments": 20,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-25T01:28:01Z",
-      "created_at": "2026-06-18T18:05:31Z",
-      "score": 65,
-      "status": "manual_review",
+      "updated_at": "2026-06-25T17:01:01Z",
+      "created_at": "2026-06-04T01:59:04Z",
+      "score": 27,
+      "status": "watch",
       "reasons": [
-        "explicit payout >= $5",
+        "explicit payout below target",
         "unassigned",
-        "moderate discussion",
-        "fast-lane label",
-        "recently updated",
-        "blocked/risky wording: tentoftrials, opened pr"
+        "busy thread",
+        "recently updated"
       ],
-      "body_preview": "**Bounty:** $50 (LT) **Area:** build.py diagnostics **Current state:** Diagnostic build lacks comprehensive error handling **What is needed:** Add robust error handling to build diagnostics **Acceptance criteria:** - Error handling implemented - Graceful failure modes - Diagnostic logging preserved - Code follows conventions **Related PR:** https://github.com/lobster-trap/TentOfTrials/pull/284 RECENT ISSUE COMMENTS: I'd like to work on this. I have experience adding robust error handling to Pyth"
+      "body_preview": "**Bounty:** $2 USD in crypto (ETH or any) Add a --json flag to git-context. Claim: Submit a PR and I send the crypto. --- Wallet: 0x96ae5ac39ac118361c158c045e6c41dc0c08c533"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "Bounty: $50 USD ",
+      "url": "https://github.com/fredldotme/ISODriveUT/issues/12",
+      "amount_usd": 1.0,
+      "labels": [],
+      "comments": 19,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-25T19:14:32Z",
+      "created_at": "2021-06-24T20:01:49Z",
+      "score": 26,
+      "status": "watch",
+      "reasons": [
+        "explicit payout below target",
+        "unassigned",
+        "busy thread",
+        "recently updated"
+      ],
+      "body_preview": "1.) If you can allow paths to be decided /documents/iso or /dococuments/flashdrive. 2.) You can add .img files that are readable and write able like a flash drive when plugged in. Point of these, I can use Linux to make .img files of hdd's and then use my phone to boot off them, and or also make mini portable flash drives. :) Also boot .img files like opnsense. I will pay $50 USD around 49 Euros, to see this come to light. trwidick"
     }
   ]
 }
