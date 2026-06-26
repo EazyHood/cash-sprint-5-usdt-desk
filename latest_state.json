@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T17:17:29+00:00",
+  "generated_at_utc": "2026-06-26T17:19:13.477448+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -13,7 +13,7 @@
     "rejected": 974
   },
   "target_status": {
-    "target_usd": 5,
+    "target_usd": 5.0,
     "deadline_hours": 30,
     "earned_verified_usd": 0.0,
     "completion": "not_verified",
@@ -207,6 +207,23 @@
       "draft": false,
       "created_at": "2026-06-26T17:12:46Z",
       "updated_at": "2026-06-26T17:12:46Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1880,
+      "reward_basis": "100 wallet offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1880",
+      "title": "Update wallet offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1880",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:17:02Z",
+      "updated_at": "2026-06-26T17:17:02Z",
       "merged_at": null,
       "author": "EazyHood"
     }
