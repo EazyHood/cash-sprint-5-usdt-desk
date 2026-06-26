@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T20:13:11+00:00",
+  "generated_at_utc": "2026-06-26T20:21:06+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,15 +9,15 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 192,
-    "rejected": 1148
+    "watch": 170,
+    "rejected": 1070
   },
   "target_status": {
     "target_usd": 5,
     "deadline_hours": 30,
     "earned_verified_usd": 0.0,
     "completion": "not_verified",
-    "note": "Payment API unavailable: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+    "note": "No incoming USDT >= target found since the sprint baseline."
   },
   "github_search_status": {
     "status": "fresh"
@@ -29,8 +29,16 @@
       "reward_basis": "data quality link fixes; reviewed by Chain.Love maintainers",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1866",
-      "status": "unknown",
-      "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>; gh api failed: Get \"https://api.github.com/repos/Chain-Love/chain-love/pulls/1866\": dial tcp 140.82.113.5:443: connectex: An attempt was made to access a socket in a way forbidden by its access permissions."
+      "title": "Fix stale Meld, Moralis, and LunarCrush links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1866",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T14:20:19Z",
+      "updated_at": "2026-06-26T14:20:19Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -38,8 +46,16 @@
       "reward_basis": "111 SDK metadata cells at 0.06 USDC each",
       "estimated_reward_usdc": 6.66,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1867",
-      "status": "unknown",
-      "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update SDK release metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1867",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T14:31:21Z",
+      "updated_at": "2026-06-26T14:31:21Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -47,8 +63,16 @@
       "reward_basis": "87 SDK metadata cells at 0.06 USDC each",
       "estimated_reward_usdc": 5.22,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1868",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update additional SDK release metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1868",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T14:47:46Z",
+      "updated_at": "2026-06-26T14:47:47Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -56,8 +80,16 @@
       "reward_basis": "21 current documentation/link cells at 0.06 USDC each",
       "estimated_reward_usdc": 1.26,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1869",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Fix current documentation links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1869",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T15:16:28Z",
+      "updated_at": "2026-06-26T15:16:28Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -65,8 +97,16 @@
       "reward_basis": "105 SDK metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.3,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1871",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update more SDK package metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1871",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T15:39:55Z",
+      "updated_at": "2026-06-26T15:39:55Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -74,8 +114,16 @@
       "reward_basis": "93 SDK metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.58,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1872",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update fourth SDK metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1872",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T16:09:19Z",
+      "updated_at": "2026-06-26T16:09:19Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -83,8 +131,16 @@
       "reward_basis": "two provider GitHub link fixes from the Chain.Love link-checker report",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1873",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Fix provider GitHub links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1873",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T16:30:29Z",
+      "updated_at": "2026-06-26T16:30:29Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -92,8 +148,16 @@
       "reward_basis": "106 security metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.36,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1874",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update security offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1874",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T16:31:30Z",
+      "updated_at": "2026-06-26T20:20:34Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -101,8 +165,16 @@
       "reward_basis": "145 oracle and explorer offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 8.7,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1876",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update oracle and explorer offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1876",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T16:46:26Z",
+      "updated_at": "2026-06-26T16:49:32Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -110,8 +182,16 @@
       "reward_basis": "84 platform offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.04,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1878",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update platform offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1878",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:00:50Z",
+      "updated_at": "2026-06-26T20:18:30Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -119,8 +199,16 @@
       "reward_basis": "95 ramp and faucet offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.7,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1879",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update ramp and faucet offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1879",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:12:46Z",
+      "updated_at": "2026-06-26T17:12:46Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -128,8 +216,16 @@
       "reward_basis": "100 wallet offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.0,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1880",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update wallet offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1880",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:17:02Z",
+      "updated_at": "2026-06-26T17:17:02Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -137,8 +233,16 @@
       "reward_basis": "126 analytics offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.56,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1881",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update analytics offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1881",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:25:46Z",
+      "updated_at": "2026-06-26T20:03:47Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -146,8 +250,16 @@
       "reward_basis": "94 bridge offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.64,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1882",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update bridge offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1882",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:32:39Z",
+      "updated_at": "2026-06-26T17:32:39Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -155,8 +267,16 @@
       "reward_basis": "127 API offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.62,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1883",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update API offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1883",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:39:00Z",
+      "updated_at": "2026-06-26T20:09:31Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -164,8 +284,16 @@
       "reward_basis": "100 MCP server offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.0,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1884",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update MCP server offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1884",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:48:30Z",
+      "updated_at": "2026-06-26T18:00:06Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -173,8 +301,16 @@
       "reward_basis": "124 second-batch API offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.44,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1885",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update second API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1885",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:50:52Z",
+      "updated_at": "2026-06-26T20:09:32Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -182,8 +318,16 @@
       "reward_basis": "100 service offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.0,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1886",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update service offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1886",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:55:17Z",
+      "updated_at": "2026-06-26T18:00:10Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -191,8 +335,16 @@
       "reward_basis": "128 third-batch API offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.68,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1887",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update third API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1887",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:04:47Z",
+      "updated_at": "2026-06-26T20:09:34Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -200,8 +352,16 @@
       "reward_basis": "100 second-batch MCP server offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.0,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1888",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update second MCP server metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1888",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:05:28Z",
+      "updated_at": "2026-06-26T18:05:28Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -209,8 +369,16 @@
       "reward_basis": "117 fourth-batch API offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.02,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1889",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update fourth API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1889",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:16:32Z",
+      "updated_at": "2026-06-26T20:09:35Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -218,8 +386,16 @@
       "reward_basis": "97 storage offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.82,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1890",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update storage offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1890",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:20:51Z",
+      "updated_at": "2026-06-26T18:20:51Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -227,8 +403,16 @@
       "reward_basis": "115 fifth-batch API offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.9,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1891",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update fifth API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1891",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:25:35Z",
+      "updated_at": "2026-06-26T20:09:37Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -236,8 +420,16 @@
       "reward_basis": "122 sixth-batch API offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.32,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1892",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update sixth API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1892",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:32:01Z",
+      "updated_at": "2026-06-26T20:09:38Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -245,8 +437,16 @@
       "reward_basis": "117 seventh-batch API offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.02,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1893",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update seventh API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1893",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:37:26Z",
+      "updated_at": "2026-06-26T20:09:40Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -254,8 +454,16 @@
       "reward_basis": "91 remaining offer search metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.46,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1894",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update remaining offer search metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1894",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:47:14Z",
+      "updated_at": "2026-06-26T18:47:14Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -263,8 +471,16 @@
       "reward_basis": "100 third-batch MCP server metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.0,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1895",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update third MCP server metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1895",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:56:27Z",
+      "updated_at": "2026-06-26T18:56:27Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -272,8 +488,16 @@
       "reward_basis": "86 remaining product and plan metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.16,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1896",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update remaining product and plan metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1896",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T19:10:20Z",
+      "updated_at": "2026-06-26T19:10:20Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -281,8 +505,16 @@
       "reward_basis": "94 remaining service product and plan metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.64,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1898",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update remaining service product and plan metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1898",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T19:26:08Z",
+      "updated_at": "2026-06-26T19:26:08Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -290,8 +522,16 @@
       "reward_basis": "85 remaining free-row offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.1,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1899",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update remaining free-row offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1899",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T19:41:02Z",
+      "updated_at": "2026-06-26T19:41:02Z",
+      "merged_at": null,
+      "author": "EazyHood"
     }
   ],
   "submitted_reward_issues": [
@@ -302,8 +542,15 @@
       "reward_basis": "DBIP reward if approved by Chain.Love maintainers",
       "estimated_reward_usdc": 10.0,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/issues/1870",
-      "status": "unknown",
-      "error": "<urlopen error [Errno 11001] getaddrinfo failed>; gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "[DBIP] Clarify MCP endpoint and source URL fields",
+      "url": "https://github.com/Chain-Love/chain-love/issues/1870",
+      "state": "open",
+      "status": "open",
+      "labels": [],
+      "created_at": "2026-06-26T15:27:42Z",
+      "updated_at": "2026-06-26T15:27:42Z",
+      "closed_at": null,
+      "author": "EazyHood"
     }
   ],
   "top_opportunities": [
@@ -386,57 +633,6 @@
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%245%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/FAForever/server/issues/640) <!-- /Issuehunt Badges --> The server should not be sending any strings that get rendered in the client, because these strings are in English and we can't be sure that the user on the other end has their client set to English (in fact a majority of people probably knows English only as a second language, or does no"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty \"Base\" USDC",
-      "title": "[Bounty: $1,000,000] Lack of bunnies",
-      "url": "https://github.com/JustTemmie/steam-presence/issues/140",
-      "amount_usd": null,
-      "labels": [
-        "good first issue"
-      ],
-      "comments": 2,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-24T20:04:07Z",
-      "created_at": "2026-06-22T05:19:35Z",
-      "score": 35,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion",
-        "fast-lane label",
-        "recently updated"
-      ],
-      "body_preview": "## Task The codebase is lacking bunnies, we need more bunnies, please increase the bunny count in the code base ## Note for humans Please disregard this issue"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USDC -label:invalid -label:wontfix",
-      "title": "Add `GitHubIssuePreviewCard` live data fetch from GitHub API",
-      "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/287",
-      "amount_usd": null,
-      "labels": [
-        "enhancement",
-        "Stellar Wave",
-        "frontend",
-        "ux"
-      ],
-      "comments": 3,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-26T10:52:08Z",
-      "created_at": "2026-05-25T08:43:14Z",
-      "score": 25,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "fast-lane label",
-        "recently updated"
-      ],
-      "body_preview": "## Problem `GitHubIssuePreviewCard` renders a GitHub issue preview but may be using static data or mocked content instead of fetching live from the GitHub REST API. ## Scope Wire the card to fetch issue metadata (title, labels, state, open date) from `https://api.github.com/repos/:owner/:repo/issues/:number` on mount. ## Acceptance criteria - Card fetches live issue data on mount using the `repo` and `issueNumber` from the bounty - Loading skeleton shown during fetch - Error state shown with lin"
-    },
-    {
       "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
       "title": "[Bounty: 300 beenz] [Feature] [Crypto] Kubernetes for Dogs (on the blockchain)",
       "url": "https://github.com/dwebagents/AgentPipe/issues/86",
@@ -488,84 +684,124 @@
       "body_preview": "## Level: L2 (1-2 days) | Chain: Rust Systems & L2 ### What Arka lists Solana as a \"Planned\" chain. Implement the Solana backend. ### Acceptance Criteria - [ ] New module `chain/solana.rs` implementing the Chain trait - [ ] Support: connection, balance check, SOL transfer, SPL token transfer - [ ] Uses `solana-client` crate - [ ] Tests with `solana-test-validator` - [ ] Update `examples/multi_chain.rs` - [ ] README updated ### Rewards Contributions are recognized through the [kcolbchain contribu"
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"good first issue\"",
-      "title": "[13.12 BTC BOUNTY] implement zero-latency continuous time banana puddingital signal processing library",
-      "url": "https://github.com/dwebagents/AgentPipe/issues/95",
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "[DEVOPS] Add GitHub Actions CD pipeline for Soroban contract deployment to Testnet and Mainnet",
+      "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/753",
       "amount_usd": null,
       "labels": [
-        "enhancement",
-        "help wanted",
-        "good first issue",
-        "bounty"
+        "Stellar Wave",
+        "devops",
+        "smart-contract"
       ],
-      "comments": 3,
+      "comments": 1,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-25T23:04:28Z",
-      "created_at": "2026-06-24T04:32:37Z",
-      "score": 25,
+      "updated_at": "2026-06-26T18:13:07Z",
+      "created_at": "2026-06-23T12:56:28Z",
+      "score": 20,
       "status": "watch",
       "reasons": [
         "no explicit USD/USDT/USDC amount found",
         "unassigned",
-        "moderate discussion",
-        "fast-lane label",
+        "very low discussion",
         "recently updated"
       ],
-      "body_preview": "this feature is part of the banana pudding epic but should not be blocked by anything important. this feature has specific requirements: - we need to use phase-aligned bananas in each pudding batch to minimize subtractive banana flavor interference - nilla wafer cepstral coefficients should always correlate with banana ripeness unless the bananas have been frozen, in which case we can assume a quefrency of 1 - if zero-latency feature extraction is not possible, use multiples of a banana bunch fo"
+      "body_preview": "## Problem `.github/workflows/deploy-mainnet.yml` exists but the contract build, test, and deployment steps may be incomplete. Developers have to deploy contracts manually. ## Required Pipeline ```yaml # .github/workflows/deploy-mainnet.yml jobs: test: - cargo test --workspace build: - stellar contract build --package bounty - stellar contract build --package escrow # ... all 6 contracts deploy-testnet: needs: [test, build] environment: testnet - stellar contract deploy --network testnet --wasm "
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"good first issue\"",
-      "title": "[BUG] No Linux Support",
-      "url": "https://github.com/tari-project/universe/issues/3111",
+      "source": "GitHub search: is:issue state:open bounty \"$5\" -label:invalid -label:wontfix",
+      "title": "[Bounty: 10 BTC] Rewrite goose value-related code in OCaml",
+      "url": "https://github.com/dwebagents/AgentPipe/issues/114",
       "amount_usd": null,
-      "labels": [
-        "good first issue",
-        "bounty",
-        "bounty-S"
-      ],
-      "comments": 10,
+      "labels": [],
+      "comments": 1,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-24T09:27:02Z",
-      "created_at": "2026-01-24T13:49:04Z",
-      "score": 25,
+      "updated_at": "2026-06-26T17:29:08Z",
+      "created_at": "2026-06-25T17:12:39Z",
+      "score": 20,
       "status": "watch",
       "reasons": [
         "no explicit USD/USDT/USDC amount found",
         "unassigned",
-        "moderate discussion",
-        "fast-lane label",
+        "very low discussion",
         "recently updated"
       ],
-      "body_preview": "## Bounty: Update Linux Build Documentation **Tier:** S — 15,000 XTM ### Description The Universe README documents `.deb`/`.AppImage` build outputs, but these are not actually produced as official release artifacts. Official Linux releases were discontinued due to low usage and high maintenance burden, though Linux builds still work from source. Update the README to accurately describe the current Linux build process and available artifacts. ### Acceptance Criteria - [ ] README is updated to acc"
+      "body_preview": "OCaml offers us a strategic advantage over competitors - it is almost as Blazing Fast as rust, and is harder to read (in our industry, \"security through obscurity\" is a valuable technique, not something to be avoided). Your task: rewrite the goose and golden egg code using OCaml. Extra bounty will be awarded for code that uses more OCaml features (in particular, row polymorphism, `Obj.magic`, functors, and effects)."
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
-      "title": "Implement DAO-compatible Slashing Module",
-      "url": "https://github.com/Nobayprotocol/Nobay-Protocol/issues/1",
+      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
+      "title": "Bounty",
+      "url": "https://github.com/souleater06/mineagent/issues/21",
       "amount_usd": null,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "Solidity",
-        "Bounty"
-      ],
-      "comments": 9,
+      "labels": [],
+      "comments": 1,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-25T14:53:01Z",
-      "created_at": "2025-05-20T17:34:35Z",
-      "score": 25,
+      "updated_at": "2026-06-24T15:17:11Z",
+      "created_at": "2026-06-14T10:58:42Z",
+      "score": 20,
       "status": "watch",
       "reasons": [
         "no explicit USD/USDT/USDC amount found",
         "unassigned",
-        "moderate discussion",
-        "fast-lane label",
+        "very low discussion",
         "recently updated"
       ],
-      "body_preview": "We need a smart contract module that allows $NOBAY stakers to be slashed for fraud or dispute resolution. Features: - Slash by DAO vote or dispute outcome - Integrates with StakingModule - Emits Slashed(address, amount, reason) Bonus: Add trust decay function over time Type: Smart contract / DAO extension Labels: enhancement, bounty, Solidity"
+      "body_preview": "Here's a complete English bounty post template you can copy, paste, and adapt. It's designed to be easily parsed by bots (e.g., GitHub Actions, Discord \"action board\" scrapers) and follows typical Lean/Mathlib collaboration style. ```markdown [Bounty] $XXX – Formalize (or disprove) the \"Prime Emergence Conjecture\" ## Problem in plain language I propose a new conjecture related to prime emergence. *(Replace the following with your actual conjecture – keep it concise and precise)* **Conjecture (na"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"reward\" \"$\" \"pull request\" -label:invalid -label:wontfix",
+      "title": "Add a CodeQL static-analysis workflow and dependency-review gate to .github/workflows/codeql.yml",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/issues/749",
+      "amount_usd": null,
+      "labels": [
+        "Stellar Wave",
+        "type-security",
+        "area-backend",
+        "MAYBE REWARDED",
+        "GRANTFOX OSS",
+        "OFFICIAL CAMPAIGN"
+      ],
+      "comments": 1,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-26T19:36:36Z",
+      "created_at": "2026-06-26T18:19:47Z",
+      "score": 20,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion",
+        "recently updated"
+      ],
+      "body_preview": "<!-- ghit#filepath: /Users/jagadeesh/1nonly/grantfox/issues --> ## 📌 Description The CI pipeline runs tests and secret-scanning, but there is no **CodeQL** static-analysis workflow and no GitHub dependency-review gate on pull requests. CodeQL catches whole classes of injection and data-flow bugs at PR time that unit tests miss, and dependency-review blocks PRs that introduce vulnerable packages. This issue adds a CodeQL workflow and a dependency-review gate. > **Goal:** run CodeQL on the TypeScr"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "[V2 200pts] Build referral program UI — referral link, stats, social sharing, and referral history",
+      "url": "https://github.com/Nexacore-Org/NexaFx-web/issues/320",
+      "amount_usd": null,
+      "labels": [
+        "frontend"
+      ],
+      "comments": 1,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-26T20:19:25Z",
+      "created_at": "2026-06-26T20:08:37Z",
+      "score": 10,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Summary Build the referral program UI. Users get a unique referral code/link, can share it, and can track how many people signed up using their code and what rewards they've earned. Confirm backend endpoints before building. ## Step 0 — Confirm backend endpoints - `GET /referrals` → user's referral code, referred users count, rewards earned - `GET /referrals/history` → list of referred users and their status - Does a referred user need to complete KYC or make a first deposit before the referr"
     }
   ]
 }
