@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T22:52:26+00:00",
+  "generated_at_utc": "2026-06-26T22:55:25+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -10,8 +10,8 @@
   "counts": {
     "actionable": 1,
     "account_required": 3,
-    "watch": 152,
-    "rejected": 1071
+    "watch": 151,
+    "rejected": 1072
   },
   "target_status": {
     "target_usd": 5,
@@ -163,8 +163,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1876,
-      "reward_basis": "145 oracle and explorer offer metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 8.7,
+      "reward_basis": "147 oracle and explorer offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 8.82,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1876",
       "title": "Update oracle and explorer offer metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1876",
@@ -173,7 +173,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T16:46:26Z",
-      "updated_at": "2026-06-26T16:49:32Z",
+      "updated_at": "2026-06-26T22:53:17Z",
       "merged_at": null,
       "author": "EazyHood"
     },
@@ -909,32 +909,6 @@
       "body_preview": "Here's a complete English bounty post template you can copy, paste, and adapt. It's designed to be easily parsed by bots (e.g., GitHub Actions, Discord \"action board\" scrapers) and follows typical Lean/Mathlib collaboration style. ```markdown [Bounty] $XXX – Formalize (or disprove) the \"Prime Emergence Conjecture\" ## Problem in plain language I propose a new conjecture related to prime emergence. *(Replace the following with your actual conjecture – keep it concise and precise)* **Conjecture (na"
     },
     {
-      "source": "GitHub search: is:issue state:open \"reward\" \"$\" \"pull request\" -label:invalid -label:wontfix",
-      "title": "[V2 200pts] Build referral program UI — referral link, stats, social sharing, and referral history",
-      "url": "https://github.com/Nexacore-Org/NexaFx-web/issues/320",
-      "amount_usd": null,
-      "labels": [
-        "frontend",
-        "Stellar Wave"
-      ],
-      "comments": 2,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-26T21:20:22Z",
-      "created_at": "2026-06-26T20:08:37Z",
-      "score": 10,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion",
-        "fast-lane label",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "## Summary Build the referral program UI. Users get a unique referral code/link, can share it, and can track how many people signed up using their code and what rewards they've earned. Confirm backend endpoints before building. ## Step 0 — Confirm backend endpoints - `GET /referrals` → user's referral code, referred users count, rewards earned - `GET /referrals/history` → list of referred users and their status - Does a referred user need to complete KYC or make a first deposit before the referr"
-    },
-    {
       "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
       "title": "[Bounty] Create a sett style auto-compounding LP token vault",
       "url": "https://github.com/SharedStake/Contracts/issues/7",
@@ -998,6 +972,26 @@
         "very low discussion"
       ],
       "body_preview": "Create Wiki Page - Zcash Mining Pool Bounty: 0.18 ZEC Create a wiki page listing the Zcash mining pools in the Zcash ecosystem submit as markdown document: <https://github.com/ZecHub/zechub/tree/main/site/Using_Zcash> [Read more about this task and rewards on Dework.xyz](https://app.dework.xyz/zechub-2424/main-space-20666?taskId=660892ce-80a3-46df-abd4-dc32356f462b)"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"Dework\" bounty",
+      "title": "ZecWeekly Indonesian Translation - Zcash Shielded News Vol.23",
+      "url": "https://github.com/ZecHub/zechub/issues/1768",
+      "amount_usd": null,
+      "labels": [],
+      "comments": 0,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-22T09:27:28Z",
+      "created_at": "2026-06-22T09:27:28Z",
+      "score": 5,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion"
+      ],
+      "body_preview": "I would like to translate the Zcash Shielded News Vol.23 newsletter into Bahasa Indonesia to help grow the Zcash community in Indonesia and Southeast Asia. Indonesia has one of the largest crypto communities in the region and there is currently no Indonesian language content for Zcash Source: <https://substack.com/@zechub/p-202612866> Bounty: 0.035 ZEC [Read more about this task and rewards on Dework.xyz](https://app.dework.xyz/zechub-2424/main-space-20666?taskId=a403535b-1a25-48cf-9e81-37ac2701"
     }
   ]
 }
