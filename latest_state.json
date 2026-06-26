@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T22:57:30+00:00",
+  "generated_at_utc": "2026-06-26T23:02:28+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -10,8 +10,8 @@
   "counts": {
     "actionable": 1,
     "account_required": 3,
-    "watch": 151,
-    "rejected": 1072
+    "watch": 150,
+    "rejected": 1074
   },
   "target_status": {
     "target_usd": 5,
@@ -231,8 +231,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1881,
-      "reward_basis": "133 analytics offer metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 7.98,
+      "reward_basis": "140 analytics offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 8.4,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1881",
       "title": "Update analytics offer metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1881",
@@ -241,7 +241,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T17:25:46Z",
-      "updated_at": "2026-06-26T22:10:05Z",
+      "updated_at": "2026-06-26T23:00:23Z",
       "merged_at": null,
       "author": "EazyHood"
     },
