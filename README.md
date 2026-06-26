@@ -13,6 +13,8 @@ https://eazyhood.github.io/cash-sprint-5-usdt-desk/
 - One generated landing page based on buyer-provided fields
 - Delivered through a private GitHub repository after on-chain transaction verification
 - Price: $5 USDT ERC-20
+- Payment QR and wallet deeplink included on the order page
+- Live preview from buyer-provided fields before opening the delivery issue
 
 ## Custom work that fits
 

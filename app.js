@@ -12,6 +12,7 @@ const repoLink = document.querySelector("#repoLink");
 const radarUpdated = document.querySelector("#radarUpdated");
 const statusGrid = document.querySelector("#statusGrid");
 const opportunityList = document.querySelector("#opportunityList");
+const previewBox = document.querySelector("#landingPreview");
 
 repoLink.href = orderIssueUrl;
 
@@ -121,6 +122,12 @@ unlockForm.addEventListener("submit", async (event) => {
   }
 });
 
+["#unlockBrand", "#unlockAudience", "#unlockOffer", "#unlockCta", "#unlockTheme"].forEach((selector) => {
+  document.querySelector(selector).addEventListener("input", updatePreview);
+});
+
+updatePreview();
+
 async function fetchTx(txHash) {
   const url = `https://api.ethplorer.io/getTxInfo/${encodeURIComponent(txHash)}?apiKey=freekey`;
   const response = await fetch(url, { cache: "no-store" });
@@ -141,6 +148,24 @@ function findUsdtPayment(tx) {
     if (amount >= 5) return { amount, operation };
   }
   return null;
+}
+
+function updatePreview() {
+  const brand = document.querySelector("#unlockBrand").value.trim() || "QuickLaunch";
+  const audience = document.querySelector("#unlockAudience").value.trim() || "busy customers";
+  const offer = document.querySelector("#unlockOffer").value.trim() || "A focused service delivered quickly";
+  const cta = document.querySelector("#unlockCta").value.trim() || "Request a quote";
+  const theme = document.querySelector("#unlockTheme").value.trim();
+  const colors = {
+    green: "#0f8a62",
+    blue: "#245f99",
+    gold: "#a86d12",
+    rose: "#a83f65",
+  };
+  previewBox.querySelector("strong").textContent = brand;
+  previewBox.querySelector("p").textContent = `Built for ${audience}. ${offer}.`;
+  previewBox.querySelector(".previewButton").textContent = cta;
+  previewBox.querySelector(".previewButton").style.background = colors[theme] || colors.green;
 }
 
 function money(value) {

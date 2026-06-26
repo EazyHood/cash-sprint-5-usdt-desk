@@ -6,9 +6,31 @@
     <title>USDT Quick Fix Desk</title>
     <meta
       name="description"
-      content="Pay $5+ USDT ERC-20 for a small web page, landing page polish, or front-end fix."
+      content="Pay $5 USDT ERC-20 for QuickFix Landing Kit Pro and an automatically generated landing page delivered through a private GitHub repo."
     />
+    <meta property="og:title" content="USDT Quick Fix Desk" />
+    <meta property="og:description" content="QuickFix Landing Kit Pro plus generated static landing page for 5 USDT ERC-20." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://eazyhood.github.io/cash-sprint-5-usdt-desk/" />
+    <meta property="og:image" content="https://eazyhood.github.io/cash-sprint-5-usdt-desk/asset-preview.png" />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "QuickFix Landing Kit Pro",
+        "description": "Six static landing page templates plus an automatically generated custom landing page delivered through a private GitHub repository after USDT payment verification.",
+        "brand": {"@type": "Brand", "name": "USDT Quick Fix Desk"},
+        "offers": {
+          "@type": "Offer",
+          "price": "5",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://eazyhood.github.io/cash-sprint-5-usdt-desk/"
+        }
+      }
+    </script>
   </head>
   <body>
     <header class="topbar">
@@ -39,6 +61,17 @@
             <button id="copyWallet" class="iconButton" type="button" aria-label="Copy wallet address" title="Copy wallet address">
               Copy
             </button>
+          </div>
+
+          <div class="payPanel">
+            <img src="payment-usdt-qr.png" alt="USDT ERC-20 payment QR code" />
+            <div>
+              <span class="label">Fast payment</span>
+              <p>Scan for a 5 USDT ERC-20 transfer request, or copy the wallet above and send manually.</p>
+              <a id="walletDeepLink" class="smallLink" href="ethereum:0xdAC17F958D2ee523a2206206994597C13D831ec7/transfer?address=0x06f44f4839fd5df4f4670036d028b29dec939363&uint256=5000000">
+                Open wallet deeplink
+              </a>
+            </div>
           </div>
 
           <div class="metrics" aria-label="Order facts">
@@ -117,6 +150,12 @@
                   <option>rose</option>
                 </select>
               </label>
+            </div>
+            <div class="previewBox" id="landingPreview" aria-live="polite">
+              <span class="label">Generated preview</span>
+              <strong>QuickLaunch</strong>
+              <p>Built for busy customers. A focused service delivered quickly.</p>
+              <span class="previewButton">Request a quote</span>
             </div>
             <button class="primary" type="submit">Verify and start delivery</button>
             <p id="unlockStatus" class="finePrint">The transaction must send at least 5 USDT to the wallet above. A GitHub issue will trigger private repo access.</p>

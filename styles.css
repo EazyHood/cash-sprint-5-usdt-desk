@@ -175,6 +175,39 @@ code {
   max-width: 620px;
 }
 
+.payPanel {
+  display: grid;
+  grid-template-columns: 104px minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+  max-width: 620px;
+  margin: 0 0 20px;
+  padding: 12px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.payPanel img {
+  display: block;
+  width: 104px;
+  height: 104px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.payPanel p {
+  margin: 4px 0 8px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.smallLink {
+  color: var(--blue);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
 .metrics div,
 .statusCard {
   padding: 16px;
@@ -283,6 +316,35 @@ code {
   margin: 0;
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.previewBox {
+  padding: 14px;
+  background: #f7fbff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.previewBox strong {
+  display: block;
+  margin: 6px 0;
+  font-size: 1.15rem;
+}
+
+.previewBox p {
+  margin-bottom: 12px;
+}
+
+.previewButton {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 10px;
+  color: #ffffff;
+  background: var(--green);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 850;
 }
 
 .downloadLink {
@@ -402,6 +464,7 @@ footer {
   }
 
   .walletBox,
+  .payPanel,
   .sectionHead {
     grid-template-columns: 1fr;
   }

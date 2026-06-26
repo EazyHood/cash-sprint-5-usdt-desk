@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eazyhood.github.io/cash-sprint-5-usdt-desk/sitemap.xml
