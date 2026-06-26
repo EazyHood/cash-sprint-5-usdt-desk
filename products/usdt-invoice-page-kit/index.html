@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>USDT Invoice Page Kit</title>
+    <meta name="description" content="Static USDT ERC-20 invoice page with QR code and wallet deeplink." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="intro">
+        <p class="eyebrow">USDT ERC-20 invoice</p>
+        <h1>Send a clean crypto invoice in one static page.</h1>
+        <p>
+          Edit the wallet and text in <code>app.js</code>, deploy anywhere, and use the generated QR,
+          deeplink, and invoice copy for small service payments.
+        </p>
+      </section>
+
+      <section class="tool" aria-label="Invoice generator">
+        <form id="invoiceForm" class="panel">
+          <label>
+            <span>Amount USDT</span>
+            <input id="amount" type="number" min="5" step="0.01" value="5" required />
+          </label>
+          <label>
+            <span>Item</span>
+            <input id="item" type="text" />
+          </label>
+          <label>
+            <span>Memo</span>
+            <input id="memo" type="text" />
+          </label>
+          <button type="submit">Generate invoice</button>
+        </form>
+
+        <div class="panel result">
+          <img id="qr" alt="USDT payment QR code" />
+          <textarea id="invoiceText" rows="9" readonly></textarea>
+          <div class="actions">
+            <button id="copyInvoice" type="button">Copy invoice</button>
+            <a id="walletLink" href="#">Open wallet</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
