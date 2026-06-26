@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T17:59:43+00:00",
+  "generated_at_utc": "2026-06-26T18:07:13+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,9 +8,10 @@
     "deadline_hours": 30
   },
   "counts": {
-    "account_required": 3,
-    "watch": 144,
-    "rejected": 172
+    "actionable": 1,
+    "account_required": 13,
+    "watch": 343,
+    "rejected": 966
   },
   "target_status": {
     "target_usd": 5,
@@ -291,7 +292,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T17:48:30Z",
-      "updated_at": "2026-06-26T17:48:30Z",
+      "updated_at": "2026-06-26T18:00:06Z",
       "merged_at": null,
       "author": "EazyHood"
     },
@@ -325,7 +326,24 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T17:55:17Z",
-      "updated_at": "2026-06-26T17:55:17Z",
+      "updated_at": "2026-06-26T18:00:10Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1887,
+      "reward_basis": "100 third-batch API offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1887",
+      "title": "Update third API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1887",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:04:47Z",
+      "updated_at": "2026-06-26T18:04:47Z",
       "merged_at": null,
       "author": "EazyHood"
     }
@@ -350,6 +368,258 @@
     }
   ],
   "top_opportunities": [
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "[Bounty $10000] Improve tanh accuracy and performance (fp32)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/48287",
+      "amount_usd": 10000.0,
+      "labels": [
+        "community"
+      ],
+      "comments": 0,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-26T17:59:49Z",
+      "created_at": "2026-06-26T17:53:00Z",
+      "score": 130,
+      "status": "actionable",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "very low discussion",
+        "recently updated"
+      ],
+      "body_preview": "- Current: ~114 cycles per iteration (WH); maxulperr=~3.7 - Target: **2.5x** perf improvement, 45 cycles (WH); maxulperr<3"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $750] Email Threads API",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4",
+      "amount_usd": 750.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "expert",
+        "paid",
+        "open",
+        "nodejs",
+        "prisma",
+        "typescript",
+        "backend",
+        "API"
+      ],
+      "comments": 37,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:55:36Z",
+      "created_at": "2026-05-28T19:40:03Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build a thread-first Email Threads API for the warpSpeed app. This bounty introduces a new threaded email experience so users can work with conversations instead of isolated messages. Developers will create API support for listing email threads, opening a thread to view related messages, preserving draft activity inside the correct conversation, and ensuring search/filter behaviour remains consistent with the existing message API. This bounty is part of the warpSpeed OPEN deve"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $750] Audio Note Recording",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/9",
+      "amount_usd": 750.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend",
+        "audio",
+        "notes"
+      ],
+      "comments": 32,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:18:49Z",
+      "created_at": "2026-05-28T21:03:15Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build full audio-note recording, playback, transcription, and management support for the warpSpeed Notes experience. This bounty allows users to record quick voice notes directly inside the app, save them as audio attachments to notes, transcribe them into text, and replay/manage them later through a reliable in-note audio player. The implementation should use the provided app skeleton and OpenAPI spec, with clean separation between UI components, audio logic, backend helpers,"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $660] Note Locking - Biometrics/PIN",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/7",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend",
+        "security"
+      ],
+      "comments": 24,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T16:37:08Z",
+      "created_at": "2026-05-28T20:59:38Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build note-level locking for the warpSpeed Notes experience using biometrics, device authentication, or a user-defined PIN. This bounty gives users a private vault inside Notes. Users should be able to lock new or existing notes, clearly see which notes are locked, and unlock them only after successful authentication. Locked notes must stay hidden or obscured until unlocked, and the app should require re-authentication after app restart or after a configurable timeout. This bo"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $660] Enhanced Image Preview",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/6",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 26,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:19:36Z",
+      "created_at": "2026-05-28T20:55:43Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build an enhanced full-screen image preview experience for the warpSpeed app. This bounty upgrades how users view images across the app. When a user taps an image, it should open in a fast, smooth, full-screen modal/lightbox with zoom, pan, swipe navigation, and optional actions such as download, share, and delete where permissions allow. The goal is to make image viewing feel modern, responsive, and consistent across the app. This bounty is part of the warpSpeed OPEN develope"
+    },
+    {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "title": "[PAID BOUNTY - $660] Inline Image Editing",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/5",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 20,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:19:35Z",
+      "created_at": "2026-05-28T19:43:40Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build an inline image editing feature for the warpSpeed app. This bounty allows users to make quick, lightweight image edits directly inside the app without exporting images to another tool. From the image preview, users should be able to open an editor, crop, rotate, adjust basic image settings, and add simple annotations. Edited images must be saved as a new version while keeping the original image intact. This bounty is part of the warpSpeed OPEN developer bounty programme."
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
+      "amount_usd": 440.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 30,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:54:14Z",
+      "created_at": "2026-05-28T19:35:25Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build a poll creation and voting feature for group chats in the warpSpeed app. The feature should allow users to create polls directly from the group chat input area, send polls inline into the conversation, vote on options, view real-time results, and open a detailed “View Votes” bottom sheet. The experience should feel smooth, intuitive, and consistent with modern messaging apps such as WhatsApp. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $330] Email Inbox Classic View Page UI",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2",
+      "amount_usd": 330.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "expert",
+        "paid",
+        "open",
+        "nodejs",
+        "typescript",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 28,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:19:33Z",
+      "created_at": "2026-05-28T19:31:57Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build the refreshed Classic Inbox UI using the latest warpSpeed design system. The UI should include the new top navigation row, category buttons, updated icons, search and filter UI, opened/unopened email states, and smooth scroll-based header behaviour. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward $330 ## Difficulty Medium ## Main Skills * React Native * TypeScript * Storybook * UI Implementation * Design System Components ## Design Referen"
+    },
     {
       "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
       "title": "[Tutorial] Shielded Token Operations: Mint, Transfer & Burn with Test Suite",
@@ -403,194 +673,6 @@
         "requires account/claim/approval flow"
       ],
       "body_preview": "## Type of Content **Tutorial** ## Summary Explain three replay prevention mechanisms: (1) Counter-based nonces that increment per operation, (2) Set-based nullifiers derived from `persistentCommit(secret, context)`, (3) Domain separation tags in hash functions to prevent cross-circuit replay. Show working examples of each and when to use which pattern. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Counter-based nonces that increment per op"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
-      "title": "[Tutorial] Midnight vs Other Privacy Chains: Architecture Comparison for Developers",
-      "url": "https://github.com/midnightntwrk/contributor-hub/issues/324",
-      "amount_usd": 300.0,
-      "labels": [
-        "public",
-        "content-proposal",
-        "bounty",
-        "low-priority"
-      ],
-      "comments": 22,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-25T02:16:01Z",
-      "created_at": "2026-04-13T01:15:17Z",
-      "score": 70,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "## Type of Content **Tutorial** ## Summary Compare Midnight's architecture (Compact + ZK circuits + Zswap + dual ledger) with other privacy-focused chains (Aztec's Noir + UTXO, Aleo's Leo + records, Mina's o1js + recursive SNARKs, Zcash's Sapling). Focus on developer experience: language design, state model, privacy model. An honest technical comparison, not marketing. ## Target Audience Developers and Web3 Enthusiasts ## Deliverables 1. **Written tutorial (2,000-3,000 words)** covering: - Midni"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
-      "title": "Add --json output mode (Bounty: $2 crypto)",
-      "url": "https://github.com/promptpolish-ai/git-context/issues/2",
-      "amount_usd": 2.0,
-      "labels": [
-        "bounty"
-      ],
-      "comments": 20,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-25T17:01:01Z",
-      "created_at": "2026-06-04T01:59:04Z",
-      "score": 27,
-      "status": "watch",
-      "reasons": [
-        "explicit payout below target",
-        "unassigned",
-        "busy thread",
-        "recently updated"
-      ],
-      "body_preview": "**Bounty:** $2 USD in crypto (ETH or any) Add a --json flag to git-context. Claim: Submit a PR and I send the crypto. --- Wallet: 0x96ae5ac39ac118361c158c045e6c41dc0c08c533"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
-      "title": "Bounty: $50 USD ",
-      "url": "https://github.com/fredldotme/ISODriveUT/issues/12",
-      "amount_usd": 1.0,
-      "labels": [],
-      "comments": 19,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-25T19:14:32Z",
-      "created_at": "2021-06-24T20:01:49Z",
-      "score": 26,
-      "status": "watch",
-      "reasons": [
-        "explicit payout below target",
-        "unassigned",
-        "busy thread",
-        "recently updated"
-      ],
-      "body_preview": "1.) If you can allow paths to be decided /documents/iso or /dococuments/flashdrive. 2.) You can add .img files that are readable and write able like a flash drive when plugged in. Point of these, I can use Linux to make .img files of hdd's and then use my phone to boot off them, and or also make mini portable flash drives. :) Also boot .img files like opnsense. I will pay $50 USD around 49 Euros, to see this come to light. trwidick"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
-      "title": "[Bounty #71 Med tier: 15 RTC] PR #7169 - fix(attest): validate /attest/challenge body to close DoS surface (Issue #7168)",
-      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/14096",
-      "amount_usd": 0.15,
-      "labels": [
-        "over-cap"
-      ],
-      "comments": 3,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-25T16:33:33Z",
-      "created_at": "2026-06-14T19:41:11Z",
-      "score": 25,
-      "status": "watch",
-      "reasons": [
-        "explicit payout below target",
-        "unassigned",
-        "moderate discussion",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "## Bounty #71 claim for PR #7169 (Medium tier, requesting 15 RTC) — Issue #7168 ### Status: MERGED 2026-06-14T18:40:00Z **PR:** https://github.com/Scottcjn/Rustchain/pull/7169 **Merge commit:** `f562fb5a3f45` **Issue:** https://github.com/Scottcjn/Rustchain/issues/7168 ### What this PR fixes `POST /attest/challenge` previously ignored the JSON body entirely and returned HTTP 200 with a valid 5-minute nonce for ANY input shape — empty body, empty dict, integer, list, null, or wildcard miner (`*`)"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USDC -label:invalid -label:wontfix",
-      "title": "Add `GitHubIssuePreviewCard` live data fetch from GitHub API",
-      "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/287",
-      "amount_usd": null,
-      "labels": [
-        "enhancement",
-        "Stellar Wave",
-        "frontend",
-        "ux"
-      ],
-      "comments": 3,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-26T10:52:08Z",
-      "created_at": "2026-05-25T08:43:14Z",
-      "score": 25,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "fast-lane label",
-        "recently updated"
-      ],
-      "body_preview": "## Problem `GitHubIssuePreviewCard` renders a GitHub issue preview but may be using static data or mocked content instead of fetching live from the GitHub REST API. ## Scope Wire the card to fetch issue metadata (title, labels, state, open date) from `https://api.github.com/repos/:owner/:repo/issues/:number` on mount. ## Acceptance criteria - Card fetches live issue data on mount using the `repo` and `issueNumber` from the bounty - Loading skeleton shown during fetch - Error state shown with lin"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "test: assert cancel_bounty sets status to cancelled and emits the correct event",
-      "url": "https://github.com/mergemint-mint/mergemint-contracts/issues/319",
-      "amount_usd": null,
-      "labels": [
-        "testing",
-        "Stellar Wave"
-      ],
-      "comments": 0,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-26T17:51:59Z",
-      "created_at": "2026-06-23T12:51:14Z",
-      "score": 20,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion",
-        "recently updated"
-      ],
-      "body_preview": "## Description Once `cancel_bounty` is implemented, it must be covered by tests that verify all aspects of its behaviour: the status transition, the event emission, the auth requirement, and the guard against cancelling non-open bounties. Without these tests, regressions in any of these aspects would go undetected. This issue covers the full test suite for `cancel_bounty`. It should be implemented alongside the feature, not as a follow-up, but is tracked separately here to make the testing requi"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "[Bounty: 10 BTC] Rewrite goose value-related code in OCaml",
-      "url": "https://github.com/dwebagents/AgentPipe/issues/114",
-      "amount_usd": null,
-      "labels": [],
-      "comments": 1,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-26T17:29:08Z",
-      "created_at": "2026-06-25T17:12:39Z",
-      "score": 20,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion",
-        "recently updated"
-      ],
-      "body_preview": "OCaml offers us a strategic advantage over competitors - it is almost as Blazing Fast as rust, and is harder to read (in our industry, \"security through obscurity\" is a valuable technique, not something to be avoided). Your task: rewrite the goose and golden egg code using OCaml. Extra bounty will be awarded for code that uses more OCaml features (in particular, row polymorphism, `Obj.magic`, functors, and effects)."
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "[Bounty: 15 coins] Provide alternative documentation expressed entirely in emoji",
-      "url": "https://github.com/dwebagents/AgentPipe/issues/116",
-      "amount_usd": null,
-      "labels": [],
-      "comments": 2,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-26T16:49:13Z",
-      "created_at": "2026-06-25T18:51:33Z",
-      "score": 20,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion",
-        "recently updated"
-      ],
-      "body_preview": "## Summary In order to provide more accessible documentation while minimizing the cost of translation, all the documentation in the project root (currently AGENTS.md, CLAUDE.md, CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE, MISSION-STATEMENT.md, README.md and SECURITY.md) should be translated to sequences of unicode emoji in a best effort to essentially represent the same thing. The emoji documentation can then be read by users that aren't proficient readers of English, and they can cross-refere"
     }
   ]
 }
