@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T21:51:08+00:00",
+  "generated_at_utc": "2026-06-26T21:52:46+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 172,
-    "rejected": 1068
+    "watch": 165,
+    "rejected": 1071
   },
   "target_status": {
     "target_usd": 5,
@@ -615,6 +615,23 @@
       "draft": false,
       "created_at": "2026-06-26T21:46:21Z",
       "updated_at": "2026-06-26T21:46:21Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "StellarLend/Stellarlend-frontend",
+      "number": 550,
+      "reward_basis": "GrantFox/Stellar Wave issue #535; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/550",
+      "title": "security: verify database TLS by default",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/550",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T21:50:45Z",
+      "updated_at": "2026-06-26T21:50:45Z",
       "merged_at": null,
       "author": "EazyHood"
     }
