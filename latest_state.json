@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T16:58:29+00:00",
+  "generated_at_utc": "2026-06-26T17:03:00+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 12,
-    "watch": 316,
-    "rejected": 886
+    "watch": 314,
+    "rejected": 850
   },
   "target_status": {
     "target_usd": 5,
@@ -162,8 +162,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1876,
-      "reward_basis": "90 explorer offer metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 5.4,
+      "reward_basis": "145 oracle and explorer offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 8.7,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1876",
       "title": "Update oracle and explorer offer metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1876",
@@ -173,23 +173,6 @@
       "draft": false,
       "created_at": "2026-06-26T16:46:26Z",
       "updated_at": "2026-06-26T16:49:32Z",
-      "merged_at": null,
-      "author": "EazyHood"
-    },
-    {
-      "repo": "Chain-Love/chain-love",
-      "number": 1877,
-      "reward_basis": "56 oracle offer metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 3.36,
-      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1877",
-      "title": "Update oracle offer metadata",
-      "url": "https://github.com/Chain-Love/chain-love/pull/1877",
-      "state": "closed",
-      "status": "closed",
-      "mergeable": true,
-      "draft": false,
-      "created_at": "2026-06-26T16:53:50Z",
-      "updated_at": "2026-06-26T16:57:17Z",
       "merged_at": null,
       "author": "EazyHood"
     }
