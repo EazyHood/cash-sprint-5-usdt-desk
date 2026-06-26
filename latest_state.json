@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T17:57:49+00:00",
+  "generated_at_utc": "2026-06-26T17:59:42+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,9 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "account_required": 13,
-    "watch": 323,
-    "rejected": 968
+    "account_required": 16,
+    "watch": 403,
+    "rejected": 1079
   },
   "target_status": {
     "target_usd": 5,
@@ -580,6 +580,30 @@
       "body_preview": "## Bounty Overview Build the refreshed Classic Inbox UI using the latest warpSpeed design system. The UI should include the new top navigation row, category buttons, updated icons, search and filter UI, opened/unopened email states, and smooth scroll-based header behaviour. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward $330 ## Difficulty Medium ## Main Skills * React Native * TypeScript * Storybook * UI Implementation * Design System Components ## Design Referen"
     },
     {
+      "source": "GitHub search: is:issue state:open \"small bounty\" \"$\"",
+      "title": "Use JuliaLowering.jl for a cleaner way to transform resumable functions to finite state machines [$600]",
+      "url": "https://github.com/JuliaDynamics/ResumableFunctions.jl/issues/99",
+      "amount_usd": 600.0,
+      "labels": [
+        "bug bounty",
+        "bounty:600"
+      ],
+      "comments": 6,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-13T22:19:44Z",
+      "created_at": "2024-08-01T16:17:28Z",
+      "score": 80,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "Edit: #100 has fixed most of these issues without relying on the not-yet-published JuliaLowering.jl. It uses a local reimplementation of most scoping rules of the language, thus missing edge cases might exist. Leaving this (now smaller) bounty for future work of moving this implementation to JuliaLowering, to provide a more centralized source-of-truth on scoping. --- This software transform annotated julia functions into finite state machines that can be paused and re-entered. The issue tracker "
+    },
+    {
       "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
       "title": "[Tutorial] Shielded Token Operations: Mint, Transfer & Burn with Test Suite",
       "url": "https://github.com/midnightntwrk/contributor-hub/issues/327",
@@ -632,33 +656,6 @@
         "requires account/claim/approval flow"
       ],
       "body_preview": "## Type of Content **Tutorial** ## Summary Explain three replay prevention mechanisms: (1) Counter-based nonces that increment per operation, (2) Set-based nullifiers derived from `persistentCommit(secret, context)`, (3) Domain separation tags in hash functions to prevent cross-circuit replay. Show working examples of each and when to use which pattern. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Counter-based nonces that increment per op"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
-      "title": "[Tutorial] Midnight vs Other Privacy Chains: Architecture Comparison for Developers",
-      "url": "https://github.com/midnightntwrk/contributor-hub/issues/324",
-      "amount_usd": 300.0,
-      "labels": [
-        "public",
-        "content-proposal",
-        "bounty",
-        "low-priority"
-      ],
-      "comments": 22,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-25T02:16:01Z",
-      "created_at": "2026-04-13T01:15:17Z",
-      "score": 70,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "## Type of Content **Tutorial** ## Summary Compare Midnight's architecture (Compact + ZK circuits + Zswap + dual ledger) with other privacy-focused chains (Aztec's Noir + UTXO, Aleo's Leo + records, Mina's o1js + recursive SNARKs, Zcash's Sapling). Focus on developer experience: language design, state model, privacy model. An honest technical comparison, not marketing. ## Target Audience Developers and Web3 Enthusiasts ## Deliverables 1. **Written tutorial (2,000-3,000 words)** covering: - Midni"
     }
   ]
 }
