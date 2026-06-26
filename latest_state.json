@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T19:45:22+00:00",
+  "generated_at_utc": "2026-06-26T19:48:59+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,9 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "account_required": 4,
-    "watch": 330,
-    "rejected": 1272
+    "account_required": 3,
+    "watch": 228,
+    "rejected": 1077
   },
   "target_status": {
     "target_usd": 5,
@@ -555,30 +555,6 @@
   ],
   "top_opportunities": [
     {
-      "source": "GitHub search: is:issue state:open \"small bounty\" \"$\"",
-      "title": "Use JuliaLowering.jl for a cleaner way to transform resumable functions to finite state machines [$600]",
-      "url": "https://github.com/JuliaDynamics/ResumableFunctions.jl/issues/99",
-      "amount_usd": 600.0,
-      "labels": [
-        "bug bounty",
-        "bounty:600"
-      ],
-      "comments": 6,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-13T22:19:44Z",
-      "created_at": "2024-08-01T16:17:28Z",
-      "score": 80,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "Edit: #100 has fixed most of these issues without relying on the not-yet-published JuliaLowering.jl. It uses a local reimplementation of most scoping rules of the language, thus missing edge cases might exist. Leaving this (now smaller) bounty for future work of moving this implementation to JuliaLowering, to provide a more centralized source-of-truth on scoping. --- This software transform annotated julia functions into finite state machines that can be paused and re-entered. The issue tracker "
-    },
-    {
       "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
       "title": "ipython support",
       "url": "https://github.com/Qix-/better-exceptions/issues/10",
@@ -679,33 +655,6 @@
         "recently updated"
       ],
       "body_preview": "## Task The codebase is lacking bunnies, we need more bunnies, please increase the bunny count in the code base ## Note for humans Please disregard this issue"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"small bounty\" \"$\"",
-      "title": "[Feature] Limit Order Execution via Off-Chain Keepers",
-      "url": "https://github.com/BETAIL-BOYS/TradeFlow-Core/issues/174",
-      "amount_usd": null,
-      "labels": [
-        "help wanted",
-        "Maybe Rewarded",
-        "GrantFox OSS",
-        "Official Campaign"
-      ],
-      "comments": 1,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-25T13:02:34Z",
-      "created_at": "2026-06-23T22:08:17Z",
-      "score": 35,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion",
-        "fast-lane label",
-        "recently updated"
-      ],
-      "body_preview": "**Description:** Currently, TradeFlow only supports market orders. We want to allow users to place limit orders. The core contract must store the order intent, allowing off-chain \"keepers\" to execute the trade when the market price meets the order criteria. **Context / Motivation:** Advanced traders require limit orders. Moving this on-chain allows TradeFlow to capture a more sophisticated demographic of DeFi users while rewarding keepers for network maintenance. **Acceptance Criteria:** - [ ] I"
     },
     {
       "source": "GitHub search: is:issue state:open bounty USDC -label:invalid -label:wontfix",
@@ -811,6 +760,59 @@
         "recently updated"
       ],
       "body_preview": "this feature is part of the banana pudding epic but should not be blocked by anything important. this feature has specific requirements: - we need to use phase-aligned bananas in each pudding batch to minimize subtractive banana flavor interference - nilla wafer cepstral coefficients should always correlate with banana ripeness unless the bananas have been frozen, in which case we can assume a quefrency of 1 - if zero-latency feature extraction is not possible, use multiples of a banana bunch fo"
+    },
+    {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"good first issue\"",
+      "title": "[BUG] No Linux Support",
+      "url": "https://github.com/tari-project/universe/issues/3111",
+      "amount_usd": null,
+      "labels": [
+        "good first issue",
+        "bounty",
+        "bounty-S"
+      ],
+      "comments": 10,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T09:27:02Z",
+      "created_at": "2026-01-24T13:49:04Z",
+      "score": 25,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "moderate discussion",
+        "fast-lane label",
+        "recently updated"
+      ],
+      "body_preview": "## Bounty: Update Linux Build Documentation **Tier:** S — 15,000 XTM ### Description The Universe README documents `.deb`/`.AppImage` build outputs, but these are not actually produced as official release artifacts. Official Linux releases were discontinued due to low usage and high maintenance burden, though Linux builds still work from source. Update the README to accurately describe the current Linux build process and available artifacts. ### Acceptance Criteria - [ ] README is updated to acc"
+    },
+    {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "title": "Implement DAO-compatible Slashing Module",
+      "url": "https://github.com/Nobayprotocol/Nobay-Protocol/issues/1",
+      "amount_usd": null,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "Solidity",
+        "Bounty"
+      ],
+      "comments": 9,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-25T14:53:01Z",
+      "created_at": "2025-05-20T17:34:35Z",
+      "score": 25,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "moderate discussion",
+        "fast-lane label",
+        "recently updated"
+      ],
+      "body_preview": "We need a smart contract module that allows $NOBAY stakers to be slashed for fraud or dispute resolution. Features: - Slash by DAO vote or dispute outcome - Integrates with StakingModule - Emits Slashed(address, amount, reason) Bonus: Add trust decay function over time Type: Smart contract / DAO extension Labels: enhancement, bounty, Solidity"
     }
   ]
 }
