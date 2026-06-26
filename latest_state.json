@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T21:27:54+00:00",
+  "generated_at_utc": "2026-06-26T21:34:34+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -10,7 +10,7 @@
   "counts": {
     "account_required": 3,
     "watch": 184,
-    "rejected": 1064
+    "rejected": 1063
   },
   "target_status": {
     "target_usd": 5,
@@ -60,8 +60,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1868,
-      "reward_basis": "107 SDK metadata cells at 0.06 USDC each",
-      "estimated_reward_usdc": 6.42,
+      "reward_basis": "121 SDK metadata cells at 0.06 USDC each",
+      "estimated_reward_usdc": 7.26,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1868",
       "title": "Update additional SDK release metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1868",
@@ -70,7 +70,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T14:47:46Z",
-      "updated_at": "2026-06-26T20:43:46Z",
+      "updated_at": "2026-06-26T21:30:37Z",
       "merged_at": null,
       "author": "EazyHood"
     },
@@ -104,7 +104,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T15:39:55Z",
-      "updated_at": "2026-06-26T20:33:04Z",
+      "updated_at": "2026-06-26T21:33:44Z",
       "merged_at": null,
       "author": "EazyHood"
     },
@@ -547,6 +547,23 @@
       "draft": false,
       "created_at": "2026-06-26T21:17:32Z",
       "updated_at": "2026-06-26T21:17:32Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "StellarLend/stellarlend-contracts",
+      "number": 1163,
+      "reward_basis": "GrantFox/Stellar Wave issue #1131; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/StellarLend/stellarlend-contracts/pulls/1163",
+      "title": "test(amm): add mint share invariant proptests",
+      "url": "https://github.com/StellarLend/stellarlend-contracts/pull/1163",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T21:26:21Z",
+      "updated_at": "2026-06-26T21:31:27Z",
       "merged_at": null,
       "author": "EazyHood"
     }
