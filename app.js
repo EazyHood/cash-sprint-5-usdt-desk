@@ -57,8 +57,9 @@ function money(value) {
   return `$${value.toFixed(value % 1 === 0 ? 0 : 2)}`;
 }
 
-function renderCounts(counts = {}) {
+function renderCounts(counts = {}, targetStatus = {}) {
   const items = [
+    [targetStatus.earned_verified_usd || 0, "verified USDT"],
     ["actionable", "actionable"],
     ["manual_review", "manual review"],
     ["watch", "watch"],
@@ -67,7 +68,7 @@ function renderCounts(counts = {}) {
     .map(
       ([key, label]) => `
         <div class="statusCard">
-          <strong>${counts[key] || 0}</strong>
+          <strong>${typeof key === "number" ? money(key) : counts[key] || 0}</strong>
           <span>${label}</span>
         </div>
       `,
@@ -113,7 +114,7 @@ async function loadRadar() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const state = await response.json();
     radarUpdated.textContent = `Latest scan: ${state.generated_at_utc}`;
-    renderCounts(state.counts);
+    renderCounts(state.counts, state.target_status);
     renderOpportunities(state.top_opportunities);
   } catch {
     radarUpdated.textContent = "Run cash_sprint.py scan to publish the latest local radar.";
