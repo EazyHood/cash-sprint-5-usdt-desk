@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T20:21:06+00:00",
+  "generated_at_utc": "2026-06-26T20:24:28+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 170,
-    "rejected": 1070
+    "watch": 115,
+    "rejected": 1032
   },
   "target_status": {
     "target_usd": 5,
@@ -145,8 +145,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1874,
-      "reward_basis": "106 security metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 6.36,
+      "reward_basis": "133 security metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 7.98,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1874",
       "title": "Update security offer metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1874",
@@ -155,7 +155,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T16:31:30Z",
-      "updated_at": "2026-06-26T20:20:34Z",
+      "updated_at": "2026-06-26T20:21:04Z",
       "merged_at": null,
       "author": "EazyHood"
     },
@@ -179,8 +179,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1878,
-      "reward_basis": "84 platform offer metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 5.04,
+      "reward_basis": "105 platform offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.3,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1878",
       "title": "Update platform offer metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1878",
@@ -189,7 +189,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T17:00:50Z",
-      "updated_at": "2026-06-26T20:18:30Z",
+      "updated_at": "2026-06-26T20:21:06Z",
       "merged_at": null,
       "author": "EazyHood"
     },
@@ -633,31 +633,6 @@
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%245%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/FAForever/server/issues/640) <!-- /Issuehunt Badges --> The server should not be sending any strings that get rendered in the client, because these strings are in English and we can't be sure that the user on the other end has their client set to English (in fact a majority of people probably knows English only as a second language, or does no"
     },
     {
-      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
-      "title": "[Bounty: 300 beenz] [Feature] [Crypto] Kubernetes for Dogs (on the blockchain)",
-      "url": "https://github.com/dwebagents/AgentPipe/issues/86",
-      "amount_usd": null,
-      "labels": [
-        "help wanted",
-        "good first issue"
-      ],
-      "comments": 5,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-25T16:52:24Z",
-      "created_at": "2026-06-22T17:09:52Z",
-      "score": 25,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "fast-lane label",
-        "recently updated"
-      ],
-      "body_preview": "For too long our canine companions have been unjustly deprived of the opportunity to agilely nete kubers. Without access to hyperfungible IoT fog-computing, they will forever be left behind in the stone age. Imagine being able to deploy Fido his very own cloud-native AJAX single-page REST API, all from the touchscreen of your Juicero. The industry must be disrupted with blockchain-enabled ultrascale agentic quantum hypervisors for deploying serverless femptoservices to the metaverse. For dogs."
-    },
-    {
       "source": "GitHub search: is:issue state:open \"Opire\" bounty",
       "title": "L2: Implement Solana chain module",
       "url": "https://github.com/kcolbchain/arka/issues/22",
@@ -707,27 +682,6 @@
         "recently updated"
       ],
       "body_preview": "## Problem `.github/workflows/deploy-mainnet.yml` exists but the contract build, test, and deployment steps may be incomplete. Developers have to deploy contracts manually. ## Required Pipeline ```yaml # .github/workflows/deploy-mainnet.yml jobs: test: - cargo test --workspace build: - stellar contract build --package bounty - stellar contract build --package escrow # ... all 6 contracts deploy-testnet: needs: [test, build] environment: testnet - stellar contract deploy --network testnet --wasm "
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$5\" -label:invalid -label:wontfix",
-      "title": "[Bounty: 10 BTC] Rewrite goose value-related code in OCaml",
-      "url": "https://github.com/dwebagents/AgentPipe/issues/114",
-      "amount_usd": null,
-      "labels": [],
-      "comments": 1,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-26T17:29:08Z",
-      "created_at": "2026-06-25T17:12:39Z",
-      "score": 20,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion",
-        "recently updated"
-      ],
-      "body_preview": "OCaml offers us a strategic advantage over competitors - it is almost as Blazing Fast as rust, and is harder to read (in our industry, \"security through obscurity\" is a valuable technique, not something to be avoided). Your task: rewrite the goose and golden egg code using OCaml. Extra bounty will be awarded for code that uses more OCaml features (in particular, row polymorphism, `Obj.magic`, functors, and effects)."
     },
     {
       "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
@@ -802,6 +756,51 @@
         "requires account/claim/approval flow"
       ],
       "body_preview": "## Summary Build the referral program UI. Users get a unique referral code/link, can share it, and can track how many people signed up using their code and what rewards they've earned. Confirm backend endpoints before building. ## Step 0 — Confirm backend endpoints - `GET /referrals` → user's referral code, referred users count, rewards earned - `GET /referrals/history` → list of referred users and their status - Does a referred user need to complete KYC or make a first deposit before the referr"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
+      "title": "[Bounty] Create a sett style auto-compounding LP token vault",
+      "url": "https://github.com/SharedStake/Contracts/issues/7",
+      "amount_usd": null,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "bounty"
+      ],
+      "comments": 9,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-05-25T17:03:02Z",
+      "created_at": "2021-02-16T03:22:39Z",
+      "score": 10,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "moderate discussion",
+        "fast-lane label"
+      ],
+      "body_preview": "We want to move from geysers to Sett style vaults for our rewards, based on yearn vaults. We want this sett vault to be useable for LP providers for SGT ETH. It should have an accompanying strategy that allows it to auto-compound earnings in SGT by providing them as liquidity to uniswap, and selling any required to create the ETH side. Should have documentation for functionality and deployment. Should be tested on a testnet. We can send you SGT to test with on goerli. Bonus high value requiremen"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
+      "title": "DEEP SEEK",
+      "url": "https://github.com/souleater06/mineagent/issues/4",
+      "amount_usd": null,
+      "labels": [],
+      "comments": 0,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-13T21:38:20Z",
+      "created_at": "2026-06-13T21:38:20Z",
+      "score": 5,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion"
+      ],
+      "body_preview": "Ω-Coder：VSCode 插件伪代码 一、插件结构 ``` omega-coder/ ├── package.json # 插件配置 ├── extension.ts # 插件入口 ├── bountyCreator.ts # 悬赏创建模块 ├── bountyView.ts # 悬赏侧边栏 Webview ├── sandboxRunner.ts # 代码沙箱执行 ├── omegaArbiter.ts # 欧米伽裁决器 └── bountyChain.ts # 悬赏链集成（可选） ``` --- 二、package.json ```json { \"name\": \"omega-coder\", \"displayName\": \"Ω-Coder\", \"description\": \"不写代码的编程助手——把你的需求变成悬赏，让AI来竞标\", \"version\": \"0.1.0\", \"engines\": { \"vscode\": \"^1.80.0\" }, \"activationEvents\": [\"onCommand:omega-coder.createBounty\"], \"contribu"
     }
   ]
 }
