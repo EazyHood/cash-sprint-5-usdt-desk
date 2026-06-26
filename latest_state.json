@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T21:38:45+00:00",
+  "generated_at_utc": "2026-06-26T21:41:46+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 185,
-    "rejected": 1063
+    "watch": 184,
+    "rejected": 1060
   },
   "target_status": {
     "target_usd": 5,
@@ -43,8 +43,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1867,
-      "reward_basis": "150 SDK metadata cells at 0.06 USDC each",
-      "estimated_reward_usdc": 9.0,
+      "reward_basis": "157 SDK metadata cells at 0.06 USDC each",
+      "estimated_reward_usdc": 9.42,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1867",
       "title": "Update SDK release metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1867",
@@ -94,8 +94,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1871,
-      "reward_basis": "156 SDK metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 9.36,
+      "reward_basis": "158 SDK metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 9.48,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1871",
       "title": "Update more SDK package metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1871",
@@ -104,7 +104,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T15:39:55Z",
-      "updated_at": "2026-06-26T21:33:44Z",
+      "updated_at": "2026-06-26T21:39:41Z",
       "merged_at": null,
       "author": "EazyHood"
     },
@@ -519,8 +519,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1899,
-      "reward_basis": "134 remaining free-row offer and SDK metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 8.04,
+      "reward_basis": "136 remaining free-row offer and SDK metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 8.16,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1899",
       "title": "Update remaining free-row offer metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1899",
@@ -529,7 +529,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T19:41:02Z",
-      "updated_at": "2026-06-26T21:19:20Z",
+      "updated_at": "2026-06-26T21:39:41Z",
       "merged_at": null,
       "author": "EazyHood"
     },
