@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T20:42:19+00:00",
+  "generated_at_utc": "2026-06-26T20:45:01+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -43,8 +43,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1867,
-      "reward_basis": "127 SDK metadata cells at 0.06 USDC each",
-      "estimated_reward_usdc": 7.62,
+      "reward_basis": "137 SDK metadata cells at 0.06 USDC each",
+      "estimated_reward_usdc": 8.22,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1867",
       "title": "Update SDK release metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1867",
@@ -53,15 +53,15 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T14:31:21Z",
-      "updated_at": "2026-06-26T20:33:00Z",
+      "updated_at": "2026-06-26T20:43:44Z",
       "merged_at": null,
       "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
       "number": 1868,
-      "reward_basis": "106 SDK metadata cells at 0.06 USDC each",
-      "estimated_reward_usdc": 6.36,
+      "reward_basis": "107 SDK metadata cells at 0.06 USDC each",
+      "estimated_reward_usdc": 6.42,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1868",
       "title": "Update additional SDK release metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1868",
@@ -70,7 +70,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T14:47:46Z",
-      "updated_at": "2026-06-26T20:33:02Z",
+      "updated_at": "2026-06-26T20:43:46Z",
       "merged_at": null,
       "author": "EazyHood"
     },
@@ -566,6 +566,23 @@
       "labels": [],
       "created_at": "2026-06-26T20:39:46Z",
       "updated_at": "2026-06-26T20:39:46Z",
+      "closed_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "APN-Network/bugs",
+      "number": 144,
+      "type": "APN bug bounty report",
+      "reward_basis": "bug-report contact address mismatch; likely $10 USDT only if accepted and labeled by APN maintainers",
+      "estimated_reward_usdt": 10.0,
+      "api_url": "https://api.github.com/repos/APN-Network/bugs/issues/144",
+      "title": "Public bug page uses bug@apn.tech while reward docs use bugs@apn.tech",
+      "url": "https://github.com/APN-Network/bugs/issues/144",
+      "state": "open",
+      "status": "open",
+      "labels": [],
+      "created_at": "2026-06-26T20:43:11Z",
+      "updated_at": "2026-06-26T20:43:11Z",
       "closed_at": null,
       "author": "EazyHood"
     }
