@@ -6,6 +6,14 @@ Live order page:
 
 https://eazyhood.github.io/cash-sprint-5-usdt-desk/
 
+Free USDT payment link generator:
+
+https://eazyhood.github.io/cash-sprint-5-usdt-desk/tools/usdt-payment-link-generator/
+
+USDT Invoice Page Kit:
+
+https://eazyhood.github.io/cash-sprint-5-usdt-desk/products/usdt-invoice-page-kit/
+
 ## Instant product
 
 - QuickFix Landing Kit Pro

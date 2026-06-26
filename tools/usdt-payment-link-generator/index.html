@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>USDT ERC-20 Payment Link Generator</title>
+    <meta
+      name="description"
+      content="Generate a USDT ERC-20 payment deeplink, QR code, and embeddable pay button for static websites."
+    />
+    <meta property="og:title" content="USDT ERC-20 Payment Link Generator" />
+    <meta property="og:description" content="Free static USDT payment link and QR generator with a $5 setup service." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://eazyhood.github.io/cash-sprint-5-usdt-desk/tools/usdt-payment-link-generator/" />
+    <link rel="canonical" href="https://eazyhood.github.io/cash-sprint-5-usdt-desk/tools/usdt-payment-link-generator/" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <a href="../../">USDT Quick Fix Desk</a>
+      <a class="order" href="../../#orderTitle">Order setup</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Free crypto checkout tool</p>
+        <h1>USDT ERC-20 payment link generator</h1>
+        <p>
+          Create a wallet deeplink, QR code, and HTML button snippet for a fixed USDT amount.
+          Need it wired into a real page? The setup desk starts at 5 USDT.
+        </p>
+      </section>
+
+      <section class="tool">
+        <form id="linkForm" class="panel">
+          <label>
+            <span>Recipient wallet</span>
+            <input id="recipient" type="text" required />
+          </label>
+          <label>
+            <span>Amount USDT</span>
+            <input id="amount" type="number" min="0.01" step="0.01" value="5" required />
+          </label>
+          <label>
+            <span>Button label</span>
+            <input id="buttonLabel" type="text" value="Pay 5 USDT" />
+          </label>
+          <label>
+            <span>Success note</span>
+            <input id="note" type="text" value="Send the transaction hash after payment." />
+          </label>
+          <button type="submit">Generate</button>
+        </form>
+
+        <div class="panel output">
+          <div class="qrWrap">
+            <img id="qr" alt="USDT payment QR code" />
+          </div>
+          <label>
+            <span>Wallet deeplink</span>
+            <textarea id="deeplink" rows="3" readonly></textarea>
+          </label>
+          <label>
+            <span>Embeddable button snippet</span>
+            <textarea id="snippet" rows="9" readonly></textarea>
+          </label>
+          <div class="actions">
+            <button id="copyLink" type="button">Copy link</button>
+            <button id="copySnippet" type="button">Copy snippet</button>
+            <a id="openWallet" href="#">Open wallet</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "USDT ERC-20 Payment Link Generator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Web",
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
+      }
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
