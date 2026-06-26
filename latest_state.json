@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T21:20:05+00:00",
+  "generated_at_utc": "2026-06-26T21:22:25+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -519,8 +519,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1899,
-      "reward_basis": "124 remaining free-row offer and SDK metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 7.44,
+      "reward_basis": "134 remaining free-row offer and SDK metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 8.04,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1899",
       "title": "Update remaining free-row offer metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1899",
@@ -739,10 +739,10 @@
         "frontend",
         "Stellar Wave"
       ],
-      "comments": 1,
+      "comments": 2,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-26T20:51:42Z",
+      "updated_at": "2026-06-26T21:20:22Z",
       "created_at": "2026-06-26T20:08:37Z",
       "score": 10,
       "status": "watch",
