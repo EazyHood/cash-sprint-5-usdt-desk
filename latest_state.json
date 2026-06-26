@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T21:36:33+00:00",
+  "generated_at_utc": "2026-06-26T21:38:45+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 184,
-    "rejected": 1064
+    "watch": 185,
+    "rejected": 1063
   },
   "target_status": {
     "target_usd": 5,
@@ -53,7 +53,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T14:31:21Z",
-      "updated_at": "2026-06-26T21:25:47Z",
+      "updated_at": "2026-06-26T21:37:48Z",
       "merged_at": null,
       "author": "EazyHood"
     },
@@ -111,8 +111,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1872,
-      "reward_basis": "120 SDK metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 7.2,
+      "reward_basis": "128 SDK metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 7.68,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1872",
       "title": "Update fourth SDK metadata batch",
       "url": "https://github.com/Chain-Love/chain-love/pull/1872",
@@ -121,7 +121,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T16:09:19Z",
-      "updated_at": "2026-06-26T21:35:55Z",
+      "updated_at": "2026-06-26T21:36:08Z",
       "merged_at": null,
       "author": "EazyHood"
     },
@@ -564,6 +564,23 @@
       "draft": false,
       "created_at": "2026-06-26T21:26:21Z",
       "updated_at": "2026-06-26T21:31:27Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "StellarLend/Stellarlend-frontend",
+      "number": 547,
+      "reward_basis": "GrantFox/Stellar Wave issue #541; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/547",
+      "title": "test: cover account export bundle scoping",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/547",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T21:36:36Z",
+      "updated_at": "2026-06-26T21:36:36Z",
       "merged_at": null,
       "author": "EazyHood"
     }
