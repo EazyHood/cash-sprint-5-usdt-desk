@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T21:15:29+00:00",
+  "generated_at_utc": "2026-06-26T21:20:05+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -10,7 +10,7 @@
   "counts": {
     "account_required": 3,
     "watch": 184,
-    "rejected": 1062
+    "rejected": 1063
   },
   "target_status": {
     "target_usd": 5,
@@ -529,7 +529,24 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T19:41:02Z",
-      "updated_at": "2026-06-26T20:59:47Z",
+      "updated_at": "2026-06-26T21:19:20Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "StellarLend/Stellarlend-frontend",
+      "number": 546,
+      "reward_basis": "GrantFox/Stellar Wave issue #524; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/546",
+      "title": "test: cover request id ULID helpers",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/546",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T21:17:32Z",
+      "updated_at": "2026-06-26T21:17:32Z",
       "merged_at": null,
       "author": "EazyHood"
     }
