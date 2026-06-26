@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T23:11:46+00:00",
+  "generated_at_utc": "2026-06-26T23:15:05+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -10,7 +10,7 @@
   "counts": {
     "actionable": 1,
     "account_required": 3,
-    "watch": 152,
+    "watch": 158,
     "rejected": 1072
   },
   "target_status": {
@@ -720,6 +720,23 @@
       "labels": [],
       "created_at": "2026-06-26T15:27:42Z",
       "updated_at": "2026-06-26T15:27:42Z",
+      "closed_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1900,
+      "type": "DBIP",
+      "reward_basis": "DBIP reward if approved by Chain.Love maintainers",
+      "estimated_reward_usdc": 10.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/issues/1900",
+      "title": "[DBIP] Add sourceUrls column for offer evidence provenance",
+      "url": "https://github.com/Chain-Love/chain-love/issues/1900",
+      "state": "open",
+      "status": "open",
+      "labels": [],
+      "created_at": "2026-06-26T23:12:50Z",
+      "updated_at": "2026-06-26T23:12:50Z",
       "closed_at": null,
       "author": "EazyHood"
     },
