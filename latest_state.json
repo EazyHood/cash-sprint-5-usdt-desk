@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T18:57:52+00:00",
+  "generated_at_utc": "2026-06-26T18:59:38+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,9 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "account_required": 12,
-    "watch": 333,
-    "rejected": 916
+    "account_required": 15,
+    "watch": 352,
+    "rejected": 996
   },
   "target_status": {
     "target_usd": 5,
@@ -464,6 +464,23 @@
       "updated_at": "2026-06-26T18:47:14Z",
       "merged_at": null,
       "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1895,
+      "reward_basis": "100 third-batch MCP server metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1895",
+      "title": "Update third MCP server metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1895",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:56:27Z",
+      "updated_at": "2026-06-26T18:56:27Z",
+      "merged_at": null,
+      "author": "EazyHood"
     }
   ],
   "submitted_reward_issues": [
@@ -619,6 +636,38 @@
       "body_preview": "## Bounty Overview Build an enhanced full-screen image preview experience for the warpSpeed app. This bounty upgrades how users view images across the app. When a user taps an image, it should open in a fast, smooth, full-screen modal/lightbox with zoom, pan, swipe navigation, and optional actions such as download, share, and delete where permissions allow. The goal is to make image viewing feel modern, responsive, and consistent across the app. This bounty is part of the warpSpeed OPEN develope"
     },
     {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "title": "[PAID BOUNTY - $660] Inline Image Editing",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/5",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 20,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:19:35Z",
+      "created_at": "2026-05-28T19:43:40Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build an inline image editing feature for the warpSpeed app. This bounty allows users to make quick, lightweight image edits directly inside the app without exporting images to another tool. From the image preview, users should be able to open an editor, crop, rotate, adjust basic image settings, and add simple annotations. Edited images must be saved as a new version while keeping the original image intact. This bounty is part of the warpSpeed OPEN developer bounty programme."
+    },
+    {
       "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
       "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
       "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
@@ -738,21 +787,21 @@
       "body_preview": "## Type of Content **Tutorial** ## Summary Explain three replay prevention mechanisms: (1) Counter-based nonces that increment per operation, (2) Set-based nullifiers derived from `persistentCommit(secret, context)`, (3) Domain separation tags in hash functions to prevent cross-circuit replay. Show working examples of each and when to use which pattern. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Counter-based nonces that increment per op"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
-      "title": "[Tutorial] Midnight vs Other Privacy Chains: Architecture Comparison for Developers",
-      "url": "https://github.com/midnightntwrk/contributor-hub/issues/324",
-      "amount_usd": 300.0,
+      "source": "GitHub search: is:issue state:open \"bounty\" \"documentation\" \"$\"",
+      "title": "[Tutorial] Concurrent Transactions on Midnight: UTXO Race Conditions & Workarounds",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/301",
+      "amount_usd": 500.0,
       "labels": [
         "public",
         "content-proposal",
         "bounty",
         "low-priority"
       ],
-      "comments": 22,
+      "comments": 20,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-25T02:16:01Z",
-      "created_at": "2026-04-13T01:15:17Z",
+      "updated_at": "2026-06-26T04:43:57Z",
+      "created_at": "2026-04-13T01:13:30Z",
       "score": 70,
       "status": "account_required",
       "reasons": [
@@ -762,33 +811,7 @@
         "recently updated",
         "requires account/claim/approval flow"
       ],
-      "body_preview": "## Type of Content **Tutorial** ## Summary Compare Midnight's architecture (Compact + ZK circuits + Zswap + dual ledger) with other privacy-focused chains (Aztec's Noir + UTXO, Aleo's Leo + records, Mina's o1js + recursive SNARKs, Zcash's Sapling). Focus on developer experience: language design, state model, privacy model. An honest technical comparison, not marketing. ## Target Audience Developers and Web3 Enthusiasts ## Deliverables 1. **Written tutorial (2,000-3,000 words)** covering: - Midni"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
-      "title": "ipython support",
-      "url": "https://github.com/Qix-/better-exceptions/issues/10",
-      "amount_usd": 70.0,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        ":dollar: Funded on Issuehunt"
-      ],
-      "comments": 23,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-13T21:26:02Z",
-      "created_at": "2017-03-22T22:02:55Z",
-      "score": 70,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "fast-lane label",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2470%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/Qix-/better-exceptions/issues/10) <!-- /Issuehunt Badges --> Does not appear to work in ipython (at least in emacs) <!-- Issuehunt content --> --- <details> <summary> <b>IssueHunt Summary</b> </summary> ### Backers (Total: $70.00) - [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt"
+      "body_preview": "## Type of Content **Tutorial** ## Summary Explain why two transactions from the same wallet can fail if they try to spend the same DUST UTXOs. Show the \"stale UTXO\" error, explain the UTXO model vs account model difference, and demonstrate patterns for sequential transaction queuing or multiple wallet instances for parallelism. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Why concurrent transactions from the same wallet can fail - The \"st"
     }
   ]
 }
