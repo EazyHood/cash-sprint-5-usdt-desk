@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T13:38:58+00:00",
+  "generated_at_utc": "2026-06-26T13:43:21+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,9 +8,11 @@
     "deadline_hours": 30
   },
   "counts": {
-    "account_required": 7,
-    "watch": 173,
-    "rejected": 525
+    "actionable": 2,
+    "manual_review": 2,
+    "account_required": 13,
+    "watch": 362,
+    "rejected": 983
   },
   "target_status": {
     "target_usd": 5,
@@ -21,7 +23,100 @@
   },
   "top_opportunities": [
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
+      "title": "AI money patterns research and revenue-lane scoreboard",
+      "url": "https://github.com/gagan114662/her_2/issues/44",
+      "amount_usd": 19.0,
+      "labels": [],
+      "comments": 0,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-20T02:10:18Z",
+      "created_at": "2026-05-17T11:55:12Z",
+      "score": 99,
+      "status": "actionable",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "very low discussion"
+      ],
+      "body_preview": "# AI Money Patterns Research Generated: 2026-05-17 America/Toronto Source of truth: GitHub issue for gagan114662/her_2. This file is a local working copy for the same research. ## Rule Do not count a pattern as success until it has one of these states: - cash_received - accepted_paid_work - payment_ask_sent - submitted_paid_work - prep_only ## Evidence-Backed Patterns ### 1. Boring n8n automations for startups Evidence: - Reddit r/n8n post: \"I have built n8n automations for a dozen startups this"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
+      "title": "$250 bounty: come up with and implement a very \"pretty\" way for diffs and cursor jumping to be shown",
+      "url": "https://github.com/reachingforthejack/cursortab.nvim/issues/8",
+      "amount_usd": 250.0,
+      "labels": [],
+      "comments": 3,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2025-06-02T21:01:09Z",
+      "created_at": "2025-04-13T06:36:24Z",
+      "score": 90,
+      "status": "actionable",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "stale"
+      ],
+      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%240%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/reachingforthejack/cursortab.nvim/issues/8) <!-- /Issuehunt Badges --> I have a pretty crude but working version of the diffing and cursor jumping set up and working right now, but it's quite intrusive. I'm making a best effort attempt on the Go side to determine what lines changed, and I have code set up that splits the diffs into three p"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
+      "title": "Make it easier to write reliable cleanup tasks",
+      "url": "https://github.com/avajs/ava/issues/928",
+      "amount_usd": 82.0,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "scope:test-interface",
+        ":dollar: Funded on Issuehunt"
+      ],
+      "comments": 39,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2023-07-03T15:04:35Z",
+      "created_at": "2016-06-19T20:05:43Z",
+      "score": 80,
+      "status": "manual_review",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "stale"
+      ],
+      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://issuehunt.io/r/avajs/ava/issues/928/badge.svg\" />](https://issuehunt.io/r/avajs/ava/issues/928) <!-- /Issuehunt Badges --> See: https://github.com/avajs/ava/pull/918#issuecomment-227016238 `after.always` has some issues when used as a cleanup task. Specifically, it won't run if: - There are test failures and `--fail-fast` is used. - There are uncaught exceptions thrown. I've advocated using `.before` or `.beforeEach` to ensure s"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
+      "title": "Improve github pr/issue embedding poopup message.",
+      "url": "https://github.com/BoostIO/BoostNote-App/issues/1149",
+      "amount_usd": 10.0,
+      "labels": [
+        "improvement request :hammer:",
+        "help wanted :sos:",
+        "funded on issuehunt :dollar:"
+      ],
+      "comments": 6,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-02-17T06:14:17Z",
+      "created_at": "2021-09-07T01:55:11Z",
+      "score": 65,
+      "status": "manual_review",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "stale"
+      ],
+      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2410%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/BoostIO/BoostNote-App/issues/1149) <!-- /Issuehunt Badges --> The current app is suggesting users embedding a Github block when they paste Github URL to markdown editor. But the suggestion popup is not distinguishing that the entity is an issue or a pull request so the message is always \"Embed Pull Request?\" although it should be \"Embed Issue"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
       "title": "[PAID BOUNTY - $750] Email Threads API",
       "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4",
       "amount_usd": 750.0,
@@ -55,7 +150,7 @@
       "body_preview": "## Bounty Overview Build a thread-first Email Threads API for the warpSpeed app. This bounty introduces a new threaded email experience so users can work with conversations instead of isolated messages. Developers will create API support for listing email threads, opening a thread to view related messages, preserving draft activity inside the correct conversation, and ensuring search/filter behaviour remains consistent with the existing message API. This bounty is part of the warpSpeed OPEN deve"
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
       "title": "[PAID BOUNTY - $750] Audio Note Recording",
       "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/9",
       "amount_usd": 750.0,
@@ -89,7 +184,7 @@
       "body_preview": "## Bounty Overview Build full audio-note recording, playback, transcription, and management support for the warpSpeed Notes experience. This bounty allows users to record quick voice notes directly inside the app, save them as audio attachments to notes, transcribe them into text, and replay/manage them later through a reliable in-note audio player. The implementation should use the provided app skeleton and OpenAPI spec, with clean separation between UI components, audio logic, backend helpers,"
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
       "title": "[PAID BOUNTY - $660] Note Locking - Biometrics/PIN",
       "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/7",
       "amount_usd": 660.0,
@@ -121,7 +216,7 @@
       "body_preview": "## Bounty Overview Build note-level locking for the warpSpeed Notes experience using biometrics, device authentication, or a user-defined PIN. This bounty gives users a private vault inside Notes. Users should be able to lock new or existing notes, clearly see which notes are locked, and unlock them only after successful authentication. Locked notes must stay hidden or obscured until unlocked, and the app should require re-authentication after app restart or after a configurable timeout. This bo"
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
       "title": "[PAID BOUNTY - $660] Enhanced Image Preview",
       "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/6",
       "amount_usd": 660.0,
@@ -185,7 +280,7 @@
       "body_preview": "## Bounty Overview Build an inline image editing feature for the warpSpeed app. This bounty allows users to make quick, lightweight image edits directly inside the app without exporting images to another tool. From the image preview, users should be able to open an editor, crop, rotate, adjust basic image settings, and add simple annotations. Edited images must be saved as a new version while keeping the original image intact. This bounty is part of the warpSpeed OPEN developer bounty programme."
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
       "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
       "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
       "amount_usd": 440.0,
@@ -215,105 +310,6 @@
         "requires account/claim/approval flow"
       ],
       "body_preview": "## Bounty Overview Build a poll creation and voting feature for group chats in the warpSpeed app. The feature should allow users to create polls directly from the group chat input area, send polls inline into the conversation, vote on options, view real-time results, and open a detailed “View Votes” bottom sheet. The experience should feel smooth, intuitive, and consistent with modern messaging apps such as WhatsApp. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward"
-    },
-    {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
-      "title": "[PAID BOUNTY - $330] Email Inbox Classic View Page UI",
-      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2",
-      "amount_usd": 330.0,
-      "labels": [
-        "help wanted",
-        "bounty",
-        "expert",
-        "paid",
-        "open",
-        "nodejs",
-        "typescript",
-        "react-native",
-        "frontend"
-      ],
-      "comments": 28,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-24T02:19:33Z",
-      "created_at": "2026-05-28T19:31:57Z",
-      "score": 85,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "fast-lane label",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "## Bounty Overview Build the refreshed Classic Inbox UI using the latest warpSpeed design system. The UI should include the new top navigation row, category buttons, updated icons, search and filter UI, opened/unopened email states, and smooth scroll-based header behaviour. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward $330 ## Difficulty Medium ## Main Skills * React Native * TypeScript * Storybook * UI Implementation * Design System Components ## Design Referen"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
-      "title": "RAZER Basilisk X Hyperspeed ",
-      "url": "https://github.com/1kc/razer-macos/issues/628",
-      "amount_usd": 2.0,
-      "labels": [
-        ":dollar: Funded on Issuehunt"
-      ],
-      "comments": 9,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-05-11T04:00:21Z",
-      "created_at": "2022-04-28T13:04:24Z",
-      "score": 37,
-      "status": "watch",
-      "reasons": [
-        "explicit payout below target",
-        "unassigned",
-        "moderate discussion"
-      ],
-      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2439%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/1kc/razer-macos/issues/628) <!-- /Issuehunt Badges --> .I can't use basilisk x hyperspeed Could you add it please? <!-- Issuehunt content --> --- <details> <summary> <b>IssueHunt Summary</b> </summary> ### Backers (Total: $39.00) - [<img src='https://avatars.githubusercontent.com/u/68773224?v=4' alt='balourd' width=24 height=24> balourd](http"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
-      "title": "Add --json output mode (Bounty: $2 crypto)",
-      "url": "https://github.com/promptpolish-ai/git-context/issues/2",
-      "amount_usd": 2.0,
-      "labels": [
-        "bounty"
-      ],
-      "comments": 20,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-25T17:01:01Z",
-      "created_at": "2026-06-04T01:59:04Z",
-      "score": 27,
-      "status": "watch",
-      "reasons": [
-        "explicit payout below target",
-        "unassigned",
-        "busy thread",
-        "recently updated"
-      ],
-      "body_preview": "**Bounty:** $2 USD in crypto (ETH or any) Add a --json flag to git-context. Claim: Submit a PR and I send the crypto. --- Wallet: 0x96ae5ac39ac118361c158c045e6c41dc0c08c533"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
-      "title": "Bounty: $50 USD ",
-      "url": "https://github.com/fredldotme/ISODriveUT/issues/12",
-      "amount_usd": 1.0,
-      "labels": [],
-      "comments": 19,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-25T19:14:32Z",
-      "created_at": "2021-06-24T20:01:49Z",
-      "score": 26,
-      "status": "watch",
-      "reasons": [
-        "explicit payout below target",
-        "unassigned",
-        "busy thread",
-        "recently updated"
-      ],
-      "body_preview": "1.) If you can allow paths to be decided /documents/iso or /dococuments/flashdrive. 2.) You can add .img files that are readable and write able like a flash drive when plugged in. Point of these, I can use Linux to make .img files of hdd's and then use my phone to boot off them, and or also make mini portable flash drives. :) Also boot .img files like opnsense. I will pay $50 USD around 49 Euros, to see this come to light. trwidick"
     }
   ]
 }
