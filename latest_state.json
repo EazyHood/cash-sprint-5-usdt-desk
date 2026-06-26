@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T23:40:15+00:00",
+  "generated_at_utc": "2026-06-26T23:46:11+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -548,6 +548,23 @@
       "draft": false,
       "created_at": "2026-06-26T23:29:05Z",
       "updated_at": "2026-06-26T23:29:05Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1902,
+      "reward_basis": "32 Chainlink Data Feeds oracle listing fields at 0.06 USDC each",
+      "estimated_reward_usdc": 1.92,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1902",
+      "title": "Add Chainlink Data Feeds oracle links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1902",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T23:39:15Z",
+      "updated_at": "2026-06-26T23:39:15Z",
       "merged_at": null,
       "author": "EazyHood"
     },
