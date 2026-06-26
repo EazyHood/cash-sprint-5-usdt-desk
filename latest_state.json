@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T16:33:48+00:00",
+  "generated_at_utc": "2026-06-26T16:35:27+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,9 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "account_required": 15,
-    "watch": 493,
-    "rejected": 1008
+    "account_required": 13,
+    "watch": 327,
+    "rejected": 849
   },
   "target_status": {
     "target_usd": 5,
@@ -181,6 +181,32 @@
   ],
   "top_opportunities": [
     {
+      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
+      "title": "Kill tree (all sub-processes) ",
+      "url": "https://github.com/sindresorhus/fkill/issues/21",
+      "amount_usd": 40.0,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        ":dollar: Funded on Issuehunt"
+      ],
+      "comments": 7,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-05-12T09:13:34Z",
+      "created_at": "2017-09-17T08:03:57Z",
+      "score": 95,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "fast-lane label",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://issuehunt.io/r/sindresorhus/fkill/issues/21/badge.svg\" />](https://issuehunt.io/r/sindresorhus/fkill/issues/21) <!-- /Issuehunt Badges --> Typical use case is starting a process with multiple sub-processes and then wanting to killing them all: ```js const child = require('child_process').exec(\"node -e 'while (true);'\"); child.kill(); // will not work ``` It's been implemented for Windows in https://github.com/sindresorhus/fkill/"
+    },
+    {
       "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
       "title": "[PAID BOUNTY - $750] Email Threads API",
       "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4",
@@ -313,38 +339,6 @@
       "body_preview": "## Bounty Overview Build an enhanced full-screen image preview experience for the warpSpeed app. This bounty upgrades how users view images across the app. When a user taps an image, it should open in a fast, smooth, full-screen modal/lightbox with zoom, pan, swipe navigation, and optional actions such as download, share, and delete where permissions allow. The goal is to make image viewing feel modern, responsive, and consistent across the app. This bounty is part of the warpSpeed OPEN develope"
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
-      "title": "[PAID BOUNTY - $660] Inline Image Editing",
-      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/5",
-      "amount_usd": 660.0,
-      "labels": [
-        "help wanted",
-        "bounty",
-        "paid",
-        "open",
-        "typescript",
-        "ui",
-        "react-native",
-        "frontend"
-      ],
-      "comments": 20,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-24T02:19:35Z",
-      "created_at": "2026-05-28T19:43:40Z",
-      "score": 85,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "fast-lane label",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "## Bounty Overview Build an inline image editing feature for the warpSpeed app. This bounty allows users to make quick, lightweight image edits directly inside the app without exporting images to another tool. From the image preview, users should be able to open an editor, crop, rotate, adjust basic image settings, and add simple annotations. Edited images must be saved as a new version while keeping the original image intact. This bounty is part of the warpSpeed OPEN developer bounty programme."
-    },
-    {
       "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
       "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
       "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
@@ -410,57 +404,6 @@
       "body_preview": "## Bounty Overview Build the refreshed Classic Inbox UI using the latest warpSpeed design system. The UI should include the new top navigation row, category buttons, updated icons, search and filter UI, opened/unopened email states, and smooth scroll-based header behaviour. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward $330 ## Difficulty Medium ## Main Skills * React Native * TypeScript * Storybook * UI Implementation * Design System Components ## Design Referen"
     },
     {
-      "source": "GitHub search: is:issue state:open \"small bounty\" \"$\"",
-      "title": "Use JuliaLowering.jl for a cleaner way to transform resumable functions to finite state machines [$600]",
-      "url": "https://github.com/JuliaDynamics/ResumableFunctions.jl/issues/99",
-      "amount_usd": 600.0,
-      "labels": [
-        "bug bounty",
-        "bounty:600"
-      ],
-      "comments": 6,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-13T22:19:44Z",
-      "created_at": "2024-08-01T16:17:28Z",
-      "score": 80,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "Edit: #100 has fixed most of these issues without relying on the not-yet-published JuliaLowering.jl. It uses a local reimplementation of most scoping rules of the language, thus missing edge cases might exist. Leaving this (now smaller) bounty for future work of moving this implementation to JuliaLowering, to provide a more centralized source-of-truth on scoping. --- This software transform annotated julia functions into finite state machines that can be paused and re-entered. The issue tracker "
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"quick bounty\" \"$\"",
-      "title": "[Tutorial] Adding Privacy to an Existing dApp: A Retrofit Guide",
-      "url": "https://github.com/midnightntwrk/contributor-hub/issues/307",
-      "amount_usd": 700.0,
-      "labels": [
-        "public",
-        "content-proposal",
-        "bounty",
-        "low-priority"
-      ],
-      "comments": 18,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-24T19:19:49Z",
-      "created_at": "2026-04-13T01:13:56Z",
-      "score": 70,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "## Type of Content **Tutorial** ## Summary Show how to take a conventional transparent dApp and add Midnight's privacy features. Cover identifying which state should be private, replacing public state with commitments, adding selective disclosure for compliance, and integrating the proof server into an existing deployment pipeline. ## Target Audience Developers ## Deliverables 1. **Written tutorial (3,000-4,000 words)** covering: - Identifying which state should be private - Replacing public sta"
-    },
-    {
       "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
       "title": "[Tutorial] Shielded Token Operations: Mint, Transfer & Burn with Test Suite",
       "url": "https://github.com/midnightntwrk/contributor-hub/issues/327",
@@ -486,6 +429,60 @@
         "requires account/claim/approval flow"
       ],
       "body_preview": "## Type of Content **Tutorial** ## Summary Walk through the complete shielded token lifecycle in Compact: minting, transferring, and burning, with compilable code and a full test suite. No UI required, this is focused on the contract and testing layer. Covers: - Minting with `mintShieldedToken` and `evolveNonce` - Transferring with `sendShielded` and change management via `ShieldedSendResult` - Burning via `sendImmediateShielded` to `shieldedBurnAddress()` - The Merkle tree constraint (freshly m"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "[Tutorial] Replay Attack Prevention in Compact: Nonces, Nullifiers & Domain Separation",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/297",
+      "amount_usd": 500.0,
+      "labels": [
+        "public",
+        "content-proposal",
+        "bounty",
+        "low-priority"
+      ],
+      "comments": 16,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T19:21:53Z",
+      "created_at": "2026-04-13T01:13:12Z",
+      "score": 70,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Type of Content **Tutorial** ## Summary Explain three replay prevention mechanisms: (1) Counter-based nonces that increment per operation, (2) Set-based nullifiers derived from `persistentCommit(secret, context)`, (3) Domain separation tags in hash functions to prevent cross-circuit replay. Show working examples of each and when to use which pattern. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Counter-based nonces that increment per op"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "[Tutorial] Midnight vs Other Privacy Chains: Architecture Comparison for Developers",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/324",
+      "amount_usd": 300.0,
+      "labels": [
+        "public",
+        "content-proposal",
+        "bounty",
+        "low-priority"
+      ],
+      "comments": 22,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-25T02:16:01Z",
+      "created_at": "2026-04-13T01:15:17Z",
+      "score": 70,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Type of Content **Tutorial** ## Summary Compare Midnight's architecture (Compact + ZK circuits + Zswap + dual ledger) with other privacy-focused chains (Aztec's Noir + UTXO, Aleo's Leo + records, Mina's o1js + recursive SNARKs, Zcash's Sapling). Focus on developer experience: language design, state model, privacy model. An honest technical comparison, not marketing. ## Target Audience Developers and Web3 Enthusiasts ## Deliverables 1. **Written tutorial (2,000-3,000 words)** covering: - Midni"
     }
   ]
 }
