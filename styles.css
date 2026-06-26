@@ -24,6 +24,7 @@ body {
   margin: 0;
   color: var(--ink);
   background: var(--wash);
+  overflow-x: hidden;
 }
 
 a {
@@ -47,6 +48,7 @@ a {
   display: flex;
   align-items: center;
   gap: 10px;
+  min-width: 0;
   font-weight: 800;
 }
 
@@ -117,6 +119,7 @@ h1 {
   font-size: clamp(2.3rem, 6vw, 5.2rem);
   line-height: 0.98;
   letter-spacing: 0;
+  overflow-wrap: anywhere;
 }
 
 h2 {
@@ -239,6 +242,7 @@ code {
 }
 
 .productBand,
+.invoiceBand,
 .orderBand,
 .statusBand {
   padding: 34px 0 48px;
@@ -304,6 +308,60 @@ code {
 .unlockBox {
   display: grid;
   gap: 12px;
+}
+
+.invoiceGrid {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.8fr) minmax(0, 1.2fr);
+  gap: 18px;
+  align-items: stretch;
+}
+
+.invoiceForm,
+.invoiceResult {
+  padding: 18px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.invoiceForm {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.invoiceResult {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.invoiceResult img {
+  width: 220px;
+  height: 220px;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.invoiceTextWrap {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.invoiceTextWrap textarea {
+  min-height: 172px;
+  font-family: "Cascadia Mono", "SFMono-Regular", Consolas, monospace;
+  font-size: 0.84rem;
+}
+
+.invoiceActions {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 10px;
 }
 
 .unlockFields {
@@ -450,6 +508,7 @@ footer {
 
 @media (max-width: 860px) {
   .topbar {
+    gap: 12px;
     padding: 0 16px;
   }
 
@@ -476,9 +535,16 @@ footer {
   .metrics,
   .statusGrid,
   .productGrid,
+  .invoiceGrid,
+  .invoiceResult,
   .unlockFields,
   .orderGrid {
     grid-template-columns: 1fr;
+  }
+
+  .invoiceResult img {
+    width: 180px;
+    height: 180px;
   }
 }
 
@@ -496,9 +562,16 @@ footer {
 
   .toplink {
     padding-inline: 10px;
+    white-space: nowrap;
   }
 
   h1 {
-    font-size: 2.35rem;
+    font-size: 2.2rem;
+    line-height: 1.04;
+  }
+
+  .invoiceForm,
+  .invoiceActions {
+    grid-template-columns: 1fr;
   }
 }

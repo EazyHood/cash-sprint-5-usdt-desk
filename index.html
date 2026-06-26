@@ -6,10 +6,10 @@
     <title>USDT Quick Fix Desk</title>
     <meta
       name="description"
-      content="Pay $5 USDT ERC-20 for QuickFix Landing Kit Pro and an automatically generated landing page delivered through a private GitHub repo."
+      content="Pay $5 USDT ERC-20 for Quick web fixes, QuickFix Landing Kit Pro, and a browser USDT invoice generator with QR payment requests."
     />
     <meta property="og:title" content="USDT Quick Fix Desk" />
-    <meta property="og:description" content="QuickFix Landing Kit Pro plus generated static landing page for 5 USDT ERC-20." />
+    <meta property="og:description" content="QuickFix Landing Kit Pro plus generated static landing page and USDT ERC-20 invoice QR tools." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://eazyhood.github.io/cash-sprint-5-usdt-desk/" />
     <meta property="og:image" content="https://eazyhood.github.io/cash-sprint-5-usdt-desk/asset-preview.png" />
@@ -19,8 +19,8 @@
       {
         "@context": "https://schema.org",
         "@type": "Product",
-        "name": "QuickFix Landing Kit Pro",
-        "description": "Six static landing page templates plus an automatically generated custom landing page delivered through a private GitHub repository after USDT payment verification.",
+        "name": "USDT Quick Fix Desk",
+        "description": "Quick web fixes, six static landing page templates, generated custom landing pages, and browser-side USDT ERC-20 invoice QR generation.",
         "brand": {"@type": "Brand", "name": "USDT Quick Fix Desk"},
         "offers": {
           "@type": "Offer",
@@ -39,7 +39,7 @@
         <span>USDT Quick Fix Desk</span>
       </div>
       <a class="toplink" href="https://github.com/EazyHood/cash-sprint-5-usdt-desk/issues/new" id="repoLink">
-        Open order
+        Order
       </a>
     </header>
 
@@ -47,7 +47,7 @@
       <section class="hero">
         <div class="heroText">
           <p class="eyebrow">Small web work. Direct USDT payment.</p>
-          <h1>$5+ quick web fix or one-page build</h1>
+          <h1>Quick web fixes from $5</h1>
           <p class="lead">
             Send USDT on Ethereum/ERC-20, then submit a short order with the transaction hash.
             Simple pages, landing sections, HTML/CSS fixes, UI cleanup, and static microsites are the best fit.
@@ -163,6 +163,49 @@
               Open paid delivery issue
             </a>
           </form>
+        </div>
+      </section>
+
+      <section class="invoiceBand" aria-labelledby="invoiceTitle">
+        <div class="sectionHead">
+          <h2 id="invoiceTitle">USDT invoice generator</h2>
+          <p>Create a 5+ USDT ERC-20 payment request for this desk, copy the invoice text, or open the wallet deeplink.</p>
+        </div>
+
+        <div class="invoiceGrid">
+          <form id="invoiceForm" class="invoiceForm">
+            <label>
+              <span>Amount USDT</span>
+              <input id="invoiceAmount" type="number" min="5" step="0.01" value="5" required />
+            </label>
+            <label>
+              <span>Work item</span>
+              <select id="invoiceItem">
+                <option>Quick landing page</option>
+                <option>HTML/CSS fix</option>
+                <option>USDT invoice page setup</option>
+                <option>Static widget</option>
+                <option>README/docs polish</option>
+              </select>
+            </label>
+            <label class="wide">
+              <span>Memo</span>
+              <input id="invoiceMemo" type="text" value="5 USDT quick web fix" />
+            </label>
+            <button class="primary" type="submit">Generate invoice</button>
+          </form>
+
+          <div class="invoiceResult">
+            <img id="invoiceQr" alt="Generated USDT payment request QR code" />
+            <div class="invoiceTextWrap">
+              <span class="label">Payment request</span>
+              <textarea id="invoiceText" rows="7" readonly></textarea>
+              <div class="invoiceActions">
+                <button id="copyInvoice" type="button">Copy invoice</button>
+                <a id="invoiceWalletLink" class="downloadLink" href="#">Open wallet</a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 

@@ -5,6 +5,14 @@ const orderIssueUrl = "https://github.com/EazyHood/cash-sprint-5-usdt-desk/issue
 const copyButton = document.querySelector("#copyWallet");
 const orderForm = document.querySelector("#orderForm");
 const unlockForm = document.querySelector("#unlockForm");
+const invoiceForm = document.querySelector("#invoiceForm");
+const invoiceAmount = document.querySelector("#invoiceAmount");
+const invoiceItem = document.querySelector("#invoiceItem");
+const invoiceMemo = document.querySelector("#invoiceMemo");
+const invoiceQr = document.querySelector("#invoiceQr");
+const invoiceText = document.querySelector("#invoiceText");
+const invoiceWalletLink = document.querySelector("#invoiceWalletLink");
+const copyInvoice = document.querySelector("#copyInvoice");
 const unlockTx = document.querySelector("#unlockTx");
 const unlockStatus = document.querySelector("#unlockStatus");
 const downloadPack = document.querySelector("#downloadPack");
@@ -56,6 +64,28 @@ orderForm.addEventListener("submit", (event) => {
   url.searchParams.set("title", title);
   url.searchParams.set("body", body);
   window.open(url.toString(), "_blank", "noopener,noreferrer");
+});
+
+invoiceForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  updateInvoice();
+});
+
+copyInvoice.addEventListener("click", async () => {
+  try {
+    await navigator.clipboard.writeText(invoiceText.value);
+    copyInvoice.textContent = "Copied";
+    setTimeout(() => {
+      copyInvoice.textContent = "Copy invoice";
+    }, 1600);
+  } catch {
+    invoiceText.focus();
+    invoiceText.select();
+  }
+});
+
+[invoiceAmount, invoiceItem, invoiceMemo].forEach((field) => {
+  field.addEventListener("input", updateInvoice);
 });
 
 unlockForm.addEventListener("submit", async (event) => {
@@ -127,6 +157,7 @@ unlockForm.addEventListener("submit", async (event) => {
 });
 
 updatePreview();
+updateInvoice();
 
 async function fetchTx(txHash) {
   const url = `https://api.ethplorer.io/getTxInfo/${encodeURIComponent(txHash)}?apiKey=freekey`;
@@ -171,6 +202,28 @@ function updatePreview() {
 function money(value) {
   if (typeof value !== "number") return "n/a";
   return `$${value.toFixed(value % 1 === 0 ? 0 : 2)}`;
+}
+
+function updateInvoice() {
+  const amount = Math.max(5, Number(invoiceAmount.value || 5));
+  const item = invoiceItem.value.trim() || "Quick web fix";
+  const memo = invoiceMemo.value.trim() || item;
+  const rawAmount = Math.round(amount * 1_000_000);
+  const deeplink = `ethereum:${usdtContract}/transfer?address=${wallet}&uint256=${rawAmount}`;
+  const text = [
+    `USDT Quick Fix Desk invoice`,
+    `Item: ${item}`,
+    `Memo: ${memo}`,
+    `Amount: ${amount.toFixed(amount % 1 === 0 ? 0 : 2)} USDT`,
+    `Network: Ethereum / ERC-20`,
+    `Token: USDT (${usdtContract})`,
+    `Recipient: ${wallet}`,
+    `Wallet deeplink: ${deeplink}`,
+    `Order page: ${window.location.origin}${window.location.pathname}`,
+  ].join("\n");
+  invoiceWalletLink.href = deeplink;
+  invoiceText.value = text;
+  invoiceQr.src = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=10&data=${encodeURIComponent(deeplink)}`;
 }
 
 function renderCounts(counts = {}, targetStatus = {}) {
