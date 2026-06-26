@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T15:46:10+00:00",
+  "generated_at_utc": "2026-06-26T15:50:00+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -7,13 +7,20 @@
     "target_usd": 5,
     "deadline_hours": 30
   },
-  "counts": {},
+  "counts": {
+    "account_required": 17,
+    "watch": 349,
+    "rejected": 963
+  },
   "target_status": {
     "target_usd": 5,
     "deadline_hours": 30,
     "earned_verified_usd": 0.0,
     "completion": "not_verified",
     "note": "No incoming USDT >= target found since the sprint baseline."
+  },
+  "github_search_status": {
+    "status": "fresh"
   },
   "submitted_pull_requests": [
     {
@@ -121,5 +128,315 @@
       "author": "EazyHood"
     }
   ],
-  "top_opportunities": []
+  "top_opportunities": [
+    {
+      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
+      "title": "Kill tree (all sub-processes) ",
+      "url": "https://github.com/sindresorhus/fkill/issues/21",
+      "amount_usd": 40.0,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        ":dollar: Funded on Issuehunt"
+      ],
+      "comments": 7,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-05-12T09:13:34Z",
+      "created_at": "2017-09-17T08:03:57Z",
+      "score": 95,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "fast-lane label",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://issuehunt.io/r/sindresorhus/fkill/issues/21/badge.svg\" />](https://issuehunt.io/r/sindresorhus/fkill/issues/21) <!-- /Issuehunt Badges --> Typical use case is starting a process with multiple sub-processes and then wanting to killing them all: ```js const child = require('child_process').exec(\"node -e 'while (true);'\"); child.kill(); // will not work ``` It's been implemented for Windows in https://github.com/sindresorhus/fkill/"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $750] Email Threads API",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4",
+      "amount_usd": 750.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "expert",
+        "paid",
+        "open",
+        "nodejs",
+        "prisma",
+        "typescript",
+        "backend",
+        "API"
+      ],
+      "comments": 37,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:55:36Z",
+      "created_at": "2026-05-28T19:40:03Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build a thread-first Email Threads API for the warpSpeed app. This bounty introduces a new threaded email experience so users can work with conversations instead of isolated messages. Developers will create API support for listing email threads, opening a thread to view related messages, preserving draft activity inside the correct conversation, and ensuring search/filter behaviour remains consistent with the existing message API. This bounty is part of the warpSpeed OPEN deve"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $750] Audio Note Recording",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/9",
+      "amount_usd": 750.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend",
+        "audio",
+        "notes"
+      ],
+      "comments": 32,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:18:49Z",
+      "created_at": "2026-05-28T21:03:15Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build full audio-note recording, playback, transcription, and management support for the warpSpeed Notes experience. This bounty allows users to record quick voice notes directly inside the app, save them as audio attachments to notes, transcribe them into text, and replay/manage them later through a reliable in-note audio player. The implementation should use the provided app skeleton and OpenAPI spec, with clean separation between UI components, audio logic, backend helpers,"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $660] Note Locking - Biometrics/PIN",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/7",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend",
+        "security"
+      ],
+      "comments": 24,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T16:37:08Z",
+      "created_at": "2026-05-28T20:59:38Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build note-level locking for the warpSpeed Notes experience using biometrics, device authentication, or a user-defined PIN. This bounty gives users a private vault inside Notes. Users should be able to lock new or existing notes, clearly see which notes are locked, and unlock them only after successful authentication. Locked notes must stay hidden or obscured until unlocked, and the app should require re-authentication after app restart or after a configurable timeout. This bo"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $660] Enhanced Image Preview",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/6",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 26,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:19:36Z",
+      "created_at": "2026-05-28T20:55:43Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build an enhanced full-screen image preview experience for the warpSpeed app. This bounty upgrades how users view images across the app. When a user taps an image, it should open in a fast, smooth, full-screen modal/lightbox with zoom, pan, swipe navigation, and optional actions such as download, share, and delete where permissions allow. The goal is to make image viewing feel modern, responsive, and consistent across the app. This bounty is part of the warpSpeed OPEN develope"
+    },
+    {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "title": "[PAID BOUNTY - $660] Inline Image Editing",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/5",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 20,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:19:35Z",
+      "created_at": "2026-05-28T19:43:40Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build an inline image editing feature for the warpSpeed app. This bounty allows users to make quick, lightweight image edits directly inside the app without exporting images to another tool. From the image preview, users should be able to open an editor, crop, rotate, adjust basic image settings, and add simple annotations. Edited images must be saved as a new version while keeping the original image intact. This bounty is part of the warpSpeed OPEN developer bounty programme."
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
+      "amount_usd": 440.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 30,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:54:14Z",
+      "created_at": "2026-05-28T19:35:25Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build a poll creation and voting feature for group chats in the warpSpeed app. The feature should allow users to create polls directly from the group chat input area, send polls inline into the conversation, vote on options, view real-time results, and open a detailed “View Votes” bottom sheet. The experience should feel smooth, intuitive, and consistent with modern messaging apps such as WhatsApp. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $330] Email Inbox Classic View Page UI",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2",
+      "amount_usd": 330.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "expert",
+        "paid",
+        "open",
+        "nodejs",
+        "typescript",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 28,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:19:33Z",
+      "created_at": "2026-05-28T19:31:57Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build the refreshed Classic Inbox UI using the latest warpSpeed design system. The UI should include the new top navigation row, category buttons, updated icons, search and filter UI, opened/unopened email states, and smooth scroll-based header behaviour. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward $330 ## Difficulty Medium ## Main Skills * React Native * TypeScript * Storybook * UI Implementation * Design System Components ## Design Referen"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "[Tutorial] Shielded Token Operations: Mint, Transfer & Burn with Test Suite",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/327",
+      "amount_usd": 500.0,
+      "labels": [
+        "public",
+        "content-proposal",
+        "bounty",
+        "medium-priority"
+      ],
+      "comments": 28,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T19:23:09Z",
+      "created_at": "2026-04-13T12:32:02Z",
+      "score": 70,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Type of Content **Tutorial** ## Summary Walk through the complete shielded token lifecycle in Compact: minting, transferring, and burning, with compilable code and a full test suite. No UI required, this is focused on the contract and testing layer. Covers: - Minting with `mintShieldedToken` and `evolveNonce` - Transferring with `sendShielded` and change management via `ShieldedSendResult` - Burning via `sendImmediateShielded` to `shieldedBurnAddress()` - The Merkle tree constraint (freshly m"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "[Tutorial] Replay Attack Prevention in Compact: Nonces, Nullifiers & Domain Separation",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/297",
+      "amount_usd": 500.0,
+      "labels": [
+        "public",
+        "content-proposal",
+        "bounty",
+        "low-priority"
+      ],
+      "comments": 16,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T19:21:53Z",
+      "created_at": "2026-04-13T01:13:12Z",
+      "score": 70,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Type of Content **Tutorial** ## Summary Explain three replay prevention mechanisms: (1) Counter-based nonces that increment per operation, (2) Set-based nullifiers derived from `persistentCommit(secret, context)`, (3) Domain separation tags in hash functions to prevent cross-circuit replay. Show working examples of each and when to use which pattern. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Counter-based nonces that increment per op"
+    }
+  ]
 }
