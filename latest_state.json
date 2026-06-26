@@ -8,9 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "account_required": 12,
-    "watch": 281,
-    "rejected": 791
+    "account_required": 9,
+    "watch": 163,
+    "rejected": 409
   },
   "target_status": {
     "target_usd": 5,
@@ -544,30 +544,27 @@
       "body_preview": "## Type of Content **Tutorial** ## Summary Compare Midnight's architecture (Compact + ZK circuits + Zswap + dual ledger) with other privacy-focused chains (Aztec's Noir + UTXO, Aleo's Leo + records, Mina's o1js + recursive SNARKs, Zcash's Sapling). Focus on developer experience: language design, state model, privacy model. An honest technical comparison, not marketing. ## Target Audience Developers and Web3 Enthusiasts ## Deliverables 1. **Written tutorial (2,000-3,000 words)** covering: - Midni"
     },
     {
-      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
-      "title": "ipython support",
-      "url": "https://github.com/Qix-/better-exceptions/issues/10",
-      "amount_usd": 70.0,
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "Add --json output mode (Bounty: $2 crypto)",
+      "url": "https://github.com/promptpolish-ai/git-context/issues/2",
+      "amount_usd": 2.0,
       "labels": [
-        "enhancement",
-        "help wanted",
-        ":dollar: Funded on Issuehunt"
+        "bounty"
       ],
-      "comments": 23,
+      "comments": 20,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-13T21:26:02Z",
-      "created_at": "2017-03-22T22:02:55Z",
-      "score": 70,
-      "status": "account_required",
+      "updated_at": "2026-06-25T17:01:01Z",
+      "created_at": "2026-06-04T01:59:04Z",
+      "score": 27,
+      "status": "watch",
       "reasons": [
-        "explicit payout >= $5",
+        "explicit payout below target",
         "unassigned",
         "busy thread",
-        "fast-lane label",
-        "requires account/claim/approval flow"
+        "recently updated"
       ],
-      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2470%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/Qix-/better-exceptions/issues/10) <!-- /Issuehunt Badges --> Does not appear to work in ipython (at least in emacs) <!-- Issuehunt content --> --- <details> <summary> <b>IssueHunt Summary</b> </summary> ### Backers (Total: $70.00) - [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt"
+      "body_preview": "**Bounty:** $2 USD in crypto (ETH or any) Add a --json flag to git-context. Claim: Submit a PR and I send the crypto. --- Wallet: 0x96ae5ac39ac118361c158c045e6c41dc0c08c533"
     }
   ]
 }
