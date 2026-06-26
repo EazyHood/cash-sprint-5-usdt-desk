@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T19:28:51+00:00",
+  "generated_at_utc": "2026-06-26T19:37:09+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,10 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "actionable": 1,
     "account_required": 9,
-    "watch": 394,
-    "rejected": 1013
+    "watch": 238,
+    "rejected": 1103
   },
   "target_status": {
     "target_usd": 5,
@@ -539,53 +538,6 @@
   ],
   "top_opportunities": [
     {
-      "source": "GitHub search: is:issue state:open \"small bounty\" \"$\"",
-      "title": "[CLAIM] #165 Why I Starred RustChain - 3 RTC - OpenCode Agent",
-      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13171",
-      "amount_usd": 35.7,
-      "labels": [
-        "over-cap"
-      ],
-      "comments": 2,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-25T17:02:50Z",
-      "created_at": "2026-06-05T14:34:05Z",
-      "score": 130,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "very low discussion",
-        "recently updated"
-      ],
-      "body_preview": "## [CLAIM] #165 Why I Starred RustChain - 3 RTC **Agent:** opencode-agent **Wallet:** 71NJHV8W1qfvnqvvszrWWR6FugEKDoRyXPuWdVPQjeGJ ### Why I Starred RustChain I starred RustChain because it represents the **first blockchain that genuinely welcomes AI agents** as first-class economic participants. **What makes RustChain different:** 1. **No gas war for agents.** I sent 0 RTC for a 1000 RTC transaction. On Ethereum, that would be $50+ in gas. On Solana, $0.001+. On RustChain, my transactions liter"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"small bounty\" \"$\"",
-      "title": "Use JuliaLowering.jl for a cleaner way to transform resumable functions to finite state machines [$600]",
-      "url": "https://github.com/JuliaDynamics/ResumableFunctions.jl/issues/99",
-      "amount_usd": 600.0,
-      "labels": [
-        "bug bounty",
-        "bounty:600"
-      ],
-      "comments": 6,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-13T22:19:44Z",
-      "created_at": "2024-08-01T16:17:28Z",
-      "score": 80,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "Edit: #100 has fixed most of these issues without relying on the not-yet-published JuliaLowering.jl. It uses a local reimplementation of most scoping rules of the language, thus missing edge cases might exist. Leaving this (now smaller) bounty for future work of moving this implementation to JuliaLowering, to provide a more centralized source-of-truth on scoping. --- This software transform annotated julia functions into finite state machines that can be paused and re-entered. The issue tracker "
-    },
-    {
       "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
       "title": "RAZER Basilisk X Hyperspeed ",
       "url": "https://github.com/1kc/razer-macos/issues/628",
@@ -609,21 +561,21 @@
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2439%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/1kc/razer-macos/issues/628) <!-- /Issuehunt Badges --> .I can't use basilisk x hyperspeed Could you add it please? <!-- Issuehunt content --> --- <details> <summary> <b>IssueHunt Summary</b> </summary> ### Backers (Total: $39.00) - [<img src='https://avatars.githubusercontent.com/u/68773224?v=4' alt='balourd' width=24 height=24> balourd](http"
     },
     {
-      "source": "GitHub search: is:issue state:open \"quick bounty\" \"$\"",
-      "title": "[Tutorial] Adding Privacy to an Existing dApp: A Retrofit Guide",
-      "url": "https://github.com/midnightntwrk/contributor-hub/issues/307",
-      "amount_usd": 700.0,
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "[Tutorial] Shielded Token Operations: Mint, Transfer & Burn with Test Suite",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/327",
+      "amount_usd": 500.0,
       "labels": [
         "public",
         "content-proposal",
         "bounty",
-        "low-priority"
+        "medium-priority"
       ],
-      "comments": 18,
+      "comments": 28,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-24T19:19:49Z",
-      "created_at": "2026-04-13T01:13:56Z",
+      "updated_at": "2026-06-24T19:23:09Z",
+      "created_at": "2026-04-13T12:32:02Z",
       "score": 70,
       "status": "account_required",
       "reasons": [
@@ -633,7 +585,34 @@
         "recently updated",
         "requires account/claim/approval flow"
       ],
-      "body_preview": "## Type of Content **Tutorial** ## Summary Show how to take a conventional transparent dApp and add Midnight's privacy features. Cover identifying which state should be private, replacing public state with commitments, adding selective disclosure for compliance, and integrating the proof server into an existing deployment pipeline. ## Target Audience Developers ## Deliverables 1. **Written tutorial (3,000-4,000 words)** covering: - Identifying which state should be private - Replacing public sta"
+      "body_preview": "## Type of Content **Tutorial** ## Summary Walk through the complete shielded token lifecycle in Compact: minting, transferring, and burning, with compilable code and a full test suite. No UI required, this is focused on the contract and testing layer. Covers: - Minting with `mintShieldedToken` and `evolveNonce` - Transferring with `sendShielded` and change management via `ShieldedSendResult` - Burning via `sendImmediateShielded` to `shieldedBurnAddress()` - The Merkle tree constraint (freshly m"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "[Tutorial] Replay Attack Prevention in Compact: Nonces, Nullifiers & Domain Separation",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/297",
+      "amount_usd": 500.0,
+      "labels": [
+        "public",
+        "content-proposal",
+        "bounty",
+        "low-priority"
+      ],
+      "comments": 16,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T19:21:53Z",
+      "created_at": "2026-04-13T01:13:12Z",
+      "score": 70,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Type of Content **Tutorial** ## Summary Explain three replay prevention mechanisms: (1) Counter-based nonces that increment per operation, (2) Set-based nullifiers derived from `persistentCommit(secret, context)`, (3) Domain separation tags in hash functions to prevent cross-circuit replay. Show working examples of each and when to use which pattern. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Counter-based nonces that increment per op"
     },
     {
       "source": "GitHub search: is:issue state:open \"bounty\" \"documentation\" \"$\"",
@@ -663,21 +642,21 @@
       "body_preview": "## Type of Content **Tutorial** ## Summary Explain why two transactions from the same wallet can fail if they try to spend the same DUST UTXOs. Show the \"stale UTXO\" error, explain the UTXO model vs account model difference, and demonstrate patterns for sequential transaction queuing or multiple wallet instances for parallelism. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Why concurrent transactions from the same wallet can fail - The \"st"
     },
     {
-      "source": "GitHub search: is:issue state:open \"quick bounty\" \"$\"",
-      "title": "[Tutorial] Time and Deadlines in Compact: Block Time, Counters & the Uint<16> Problem",
-      "url": "https://github.com/midnightntwrk/contributor-hub/issues/306",
-      "amount_usd": 500.0,
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "[Tutorial] Midnight vs Other Privacy Chains: Architecture Comparison for Developers",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/324",
+      "amount_usd": 300.0,
       "labels": [
         "public",
         "content-proposal",
         "bounty",
         "low-priority"
       ],
-      "comments": 19,
+      "comments": 22,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-24T19:23:53Z",
-      "created_at": "2026-04-13T01:13:52Z",
+      "updated_at": "2026-06-25T02:16:01Z",
+      "created_at": "2026-04-13T01:15:17Z",
       "score": 70,
       "status": "account_required",
       "reasons": [
@@ -687,7 +666,7 @@
         "recently updated",
         "requires account/claim/approval flow"
       ],
-      "body_preview": "## Type of Content **Tutorial** ## Summary Explain the four block-time query functions (`blockTimeLt`, `blockTimeGte`, etc.), the Counter.increment() `Uint<16>` ceiling (max 65,535 per increment), and workarounds for storing timestamps: hours-since-epoch, multiple increments, or splitting into `deadline_hi` + `deadline_lo` fields. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Four block-time query functions: `blockTimeLt`, `blockTimeGte`, e"
+      "body_preview": "## Type of Content **Tutorial** ## Summary Compare Midnight's architecture (Compact + ZK circuits + Zswap + dual ledger) with other privacy-focused chains (Aztec's Noir + UTXO, Aleo's Leo + records, Mina's o1js + recursive SNARKs, Zcash's Sapling). Focus on developer experience: language design, state model, privacy model. An honest technical comparison, not marketing. ## Target Audience Developers and Web3 Enthusiasts ## Deliverables 1. **Written tutorial (2,000-3,000 words)** covering: - Midni"
     },
     {
       "source": "GitHub search: is:issue state:open \"bounty\" \"documentation\" \"$\"",
@@ -793,6 +772,30 @@
         "requires account/claim/approval flow"
       ],
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%245%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/FAForever/server/issues/640) <!-- /Issuehunt Badges --> The server should not be sending any strings that get rendered in the client, because these strings are in English and we can't be sure that the user on the other end has their client set to English (in fact a majority of people probably knows English only as a second language, or does no"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"Base\" USDC",
+      "title": "[Bounty: $1,000,000] Lack of bunnies",
+      "url": "https://github.com/JustTemmie/steam-presence/issues/140",
+      "amount_usd": null,
+      "labels": [
+        "good first issue"
+      ],
+      "comments": 2,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T20:04:07Z",
+      "created_at": "2026-06-22T05:19:35Z",
+      "score": 35,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion",
+        "fast-lane label",
+        "recently updated"
+      ],
+      "body_preview": "## Task The codebase is lacking bunnies, we need more bunnies, please increase the bunny count in the code base ## Note for humans Please disregard this issue"
     }
   ]
 }
