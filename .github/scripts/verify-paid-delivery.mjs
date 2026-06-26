@@ -63,6 +63,7 @@ if (duplicate) {
 }
 
 await inviteBuyer(issue.user.login);
+const generated = await generateCustomLanding(issue, issueText, txHash, payment.amount);
 await ensureLabel("paid-verified", "0e8a62", "USDT payment verified and delivery access sent.");
 await addLabels(issue.number, ["paid-verified"]);
 await removeLabel(issue.number, "payment-needed");
@@ -77,6 +78,10 @@ await commentOnce(
     `https://github.com/${deliveryRepo}`,
     "",
     "Accept the GitHub invitation to access QuickFix Landing Kit Pro.",
+    "",
+    "Your generated landing page files were also created here:",
+    "",
+    generated.url,
   ].join("\n"),
 );
 
@@ -139,6 +144,201 @@ async function inviteBuyer(username) {
     const text = await response.text();
     throw new Error(`Could not invite ${username}: HTTP ${response.status} ${text}`);
   }
+}
+
+async function generateCustomLanding(issueData, sourceText, txHash, paidAmount) {
+  const fields = parseOrderFields(sourceText);
+  const brand = fields.brand || fields.business || "QuickLaunch";
+  const audience = fields.audience || "busy customers";
+  const offer = fields.offer || "a focused service delivered quickly";
+  const cta = fields.cta || "Request a quote";
+  const contact = fields.contact || `https://github.com/${issueData.user.login}`;
+  const theme = normalizeTheme(fields.theme || fields.color || "green");
+  const slug = `orders/order-${issueData.number}`;
+  const files = {
+    [`${slug}/README.md`]: renderOrderReadme({ issueData, brand, audience, offer, cta, contact, txHash, paidAmount }),
+    [`${slug}/index.html`]: renderLandingHtml({ brand, audience, offer, cta, contact }),
+    [`${slug}/styles.css`]: renderLandingCss(theme),
+    [`${slug}/script.js`]: "document.querySelector('[data-year]').textContent = new Date().getFullYear();\n",
+  };
+
+  for (const [path, content] of Object.entries(files)) {
+    await putDeliveryFile(path, content, `Add generated landing for paid order #${issueData.number}`);
+  }
+
+  return { path: slug, url: `https://github.com/${deliveryRepo}/tree/main/${slug}` };
+}
+
+function parseOrderFields(text) {
+  const fields = {};
+  const aliases = {
+    brand: ["brand", "business", "business name", "name", "marca", "negocio"],
+    audience: ["audience", "customers", "target", "publico", "público", "cliente"],
+    offer: ["offer", "service", "product", "oferta", "servicio", "producto"],
+    cta: ["cta", "button", "call to action", "boton", "botón"],
+    contact: ["contact", "url", "email", "link", "contacto"],
+    theme: ["theme", "color", "tema"],
+  };
+  const lines = String(text || "").split(/\r?\n/);
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = lines[index];
+    const match = line.match(/^\s*(?:[-*]\s*)?([^:]{2,40})\s*:\s*(.+?)\s*$/);
+    if (match) {
+      assignField(fields, aliases, match[1].trim().toLowerCase(), match[2].trim());
+      continue;
+    }
+    const heading = line.match(/^#{2,4}\s+(.+?)\s*$/);
+    if (!heading) continue;
+    const key = heading[1].trim().toLowerCase();
+    let value = "";
+    for (let next = index + 1; next < lines.length; next += 1) {
+      const candidate = lines[next].trim();
+      if (!candidate) continue;
+      if (candidate.startsWith("#")) break;
+      value = candidate;
+      break;
+    }
+    if (value) assignField(fields, aliases, key, value);
+  }
+  return fields;
+}
+
+function assignField(fields, aliases, key, value) {
+  for (const [canonical, keys] of Object.entries(aliases)) {
+    if (keys.includes(key)) fields[canonical] = value;
+  }
+}
+
+function normalizeTheme(theme) {
+  const value = String(theme || "").toLowerCase();
+  if (value.includes("blue")) return "blue";
+  if (value.includes("gold") || value.includes("yellow")) return "gold";
+  if (value.includes("red") || value.includes("rose")) return "rose";
+  return "green";
+}
+
+function renderOrderReadme({ issueData, brand, audience, offer, cta, contact, txHash, paidAmount }) {
+  return [
+    `# Paid Order #${issueData.number} - ${escapeMarkdown(brand)}`,
+    "",
+    `Buyer: @${issueData.user.login}`,
+    `Paid: ${paidAmount} USDT`,
+    `Transaction: \`${txHash}\``,
+    "",
+    "## Generated Inputs",
+    "",
+    `- Brand: ${brand}`,
+    `- Audience: ${audience}`,
+    `- Offer: ${offer}`,
+    `- CTA: ${cta}`,
+    `- Contact: ${contact}`,
+    "",
+    "## Files",
+    "",
+    "- `index.html`",
+    "- `styles.css`",
+    "- `script.js`",
+    "",
+    "Open `index.html`, edit text as needed, and deploy as a static site.",
+  ].join("\n");
+}
+
+function renderLandingHtml({ brand, audience, offer, cta, contact }) {
+  return `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>${escapeHtml(brand)}</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <strong>${escapeHtml(brand)}</strong>
+      <a href="${escapeAttr(contact)}">Contact</a>
+    </nav>
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Built for ${escapeHtml(audience)}</p>
+          <h1>${escapeHtml(offer)}</h1>
+          <p class="lead">A focused landing page generated from your paid QuickFix order. Edit this copy, connect your links, and publish anywhere static hosting is supported.</p>
+          <a class="button" href="${escapeAttr(contact)}">${escapeHtml(cta)}</a>
+        </div>
+        <div class="panel">
+          <div><strong>Fast</strong><span>Static files, no build step.</span></div>
+          <div><strong>Editable</strong><span>Plain HTML, CSS, and JavaScript.</span></div>
+          <div><strong>Ready</strong><span>Deploy to GitHub Pages or Netlify.</span></div>
+        </div>
+      </section>
+      <section class="band">
+        <h2>Why this works</h2>
+        <div class="grid">
+          <article><strong>Clear offer</strong><p>Visitors immediately understand what you provide and who it is for.</p></article>
+          <article><strong>Simple action</strong><p>One primary button keeps the next step obvious.</p></article>
+          <article><strong>Low maintenance</strong><p>No framework or backend is required for launch.</p></article>
+        </div>
+      </section>
+    </main>
+    <footer>© <span data-year></span> ${escapeHtml(brand)}</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+`;
+}
+
+function renderLandingCss(theme) {
+  const palettes = {
+    green: ["#102033", "#0f8a62", "#245f99", "#f4f7fb"],
+    blue: ["#102033", "#245f99", "#0f8a62", "#f4f7fb"],
+    gold: ["#20170a", "#a86d12", "#245f99", "#fff8eb"],
+    rose: ["#25111a", "#a83f65", "#245f99", "#fff5f8"],
+  };
+  const [ink, accent, second, wash] = palettes[theme] || palettes.green;
+  return `:root{--ink:${ink};--accent:${accent};--second:${second};--wash:${wash};--line:#d8e2ee;--paper:#fff;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--wash)}.nav,.hero,.band,footer{width:min(1080px,calc(100% - 32px));margin:0 auto}.nav{display:flex;align-items:center;justify-content:space-between;min-height:68px}.nav a{color:var(--ink);font-weight:800}.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,.75fr);gap:30px;align-items:center;min-height:calc(100vh - 68px);padding:34px 0}.eyebrow{margin:0 0 12px;color:var(--accent);font-size:.88rem;font-weight:850;text-transform:uppercase}h1{margin:0 0 18px;font-size:clamp(2.35rem,7vw,5.4rem);line-height:.98;letter-spacing:0}.lead,p{color:#607084;line-height:1.6}.button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 16px;color:#fff;background:var(--accent);border-radius:8px;font-weight:850;text-decoration:none}.panel{display:grid;gap:12px;padding:18px;background:var(--paper);border:1px solid var(--line);border-radius:8px;box-shadow:0 18px 44px rgba(17,28,46,.08)}.panel div,.grid article{padding:16px;background:var(--paper);border:1px solid var(--line);border-radius:8px}.panel strong{display:block;font-size:1.25rem}.panel span{color:#607084}.band{padding:38px 0;border-top:1px solid var(--line)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}footer{padding:30px 0 42px;color:#607084}@media(max-width:820px){.hero,.grid{grid-template-columns:1fr}.hero{min-height:auto}}\n`;
+}
+
+async function putDeliveryFile(path, content, message) {
+  const encodedPath = path.split("/").map(encodeURIComponent).join("/");
+  const existing = await github(deliveryToken, `/repos/${deliveryRepo}/contents/${encodedPath}`);
+  let sha;
+  if (existing.status === 200) {
+    const payload = await existing.json();
+    sha = payload.sha;
+  } else if (existing.status !== 404) {
+    const text = await existing.text();
+    throw new Error(`Could not inspect delivery file ${path}: HTTP ${existing.status} ${text}`);
+  }
+  const body = {
+    message,
+    content: Buffer.from(content, "utf8").toString("base64"),
+  };
+  if (sha) body.sha = sha;
+  await githubJson(deliveryToken, `/repos/${deliveryRepo}/contents/${encodedPath}`, {
+    method: "PUT",
+    body: JSON.stringify(body),
+  });
+}
+
+function escapeHtml(value) {
+  return String(value).replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#039;",
+  })[char]);
+}
+
+function escapeAttr(value) {
+  const text = String(value || "#").trim();
+  if (/^(https?:|mailto:|tel:)/i.test(text)) return escapeHtml(text);
+  if (/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(text)) return `mailto:${escapeHtml(text)}`;
+  return "#";
+}
+
+function escapeMarkdown(value) {
+  return String(value).replace(/[`*_#[\]]/g, "\\$&");
 }
 
 async function ensureLabel(name, color, description) {

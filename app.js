@@ -84,6 +84,12 @@ unlockForm.addEventListener("submit", async (event) => {
       return;
     }
     const title = `[Paid delivery] QuickFix Landing Kit Pro - ${txHash.slice(0, 12)}`;
+    const brand = document.querySelector("#unlockBrand").value.trim();
+    const audience = document.querySelector("#unlockAudience").value.trim();
+    const offer = document.querySelector("#unlockOffer").value.trim();
+    const cta = document.querySelector("#unlockCta").value.trim();
+    const contact = document.querySelector("#unlockContact").value.trim();
+    const theme = document.querySelector("#unlockTheme").value.trim();
     const body = [
       "## Paid delivery request",
       "",
@@ -91,6 +97,15 @@ unlockForm.addEventListener("submit", async (event) => {
       `Transaction hash: ${txHash}`,
       `Wallet paid: ${wallet}`,
       `Detected amount: ${money(match.amount)} USDT`,
+      "",
+      "## Landing inputs",
+      "",
+      `Brand: ${brand || "QuickLaunch"}`,
+      `Audience: ${audience || "busy customers"}`,
+      `Offer: ${offer || "A focused service delivered quickly"}`,
+      `CTA: ${cta || "Request a quote"}`,
+      `Contact: ${contact || "https://github.com/EazyHood"}`,
+      `Theme: ${theme || "green"}`,
       "",
       "The delivery automation will verify this transaction again and invite this GitHub user to the private delivery repository.",
     ].join("\n");

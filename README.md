@@ -10,6 +10,7 @@ https://eazyhood.github.io/cash-sprint-5-usdt-desk/
 
 - QuickFix Landing Kit Pro
 - Six editable static landing page starters
+- One generated landing page based on buyer-provided fields
 - Delivered through a private GitHub repository after on-chain transaction verification
 - Price: $5 USDT ERC-20
 

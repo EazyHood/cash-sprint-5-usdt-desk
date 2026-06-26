@@ -1,0 +1,55 @@
+name: Paid QuickFix Pro delivery
+description: Verify a 5+ USDT ERC-20 payment and receive private delivery access.
+title: "[Paid delivery] QuickFix Landing Kit Pro"
+labels: ["payment-needed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Pay at least 5 USDT on Ethereum / ERC-20 to:
+
+        `0x06f44f4839fd5df4f4670036d028b29dec939363`
+
+        The automation validates the transaction and invites you to the private delivery repository.
+  - type: input
+    id: tx
+    attributes:
+      label: Transaction hash
+      description: Ethereum transaction hash containing the USDT transfer.
+      placeholder: "0x..."
+    validations:
+      required: true
+  - type: input
+    id: brand
+    attributes:
+      label: Brand
+      placeholder: "Acme Studio"
+  - type: input
+    id: audience
+    attributes:
+      label: Audience
+      placeholder: "local business owners"
+  - type: input
+    id: offer
+    attributes:
+      label: Offer
+      placeholder: "Launch a polished one-page website in 48 hours"
+  - type: input
+    id: cta
+    attributes:
+      label: CTA
+      placeholder: "Request a quote"
+  - type: input
+    id: contact
+    attributes:
+      label: Contact
+      placeholder: "mailto:hello@example.com"
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme
+      options:
+        - green
+        - blue
+        - gold
+        - rose

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T13:05:16+00:00",
+  "generated_at_utc": "2026-06-26T13:10:03+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "manual_review": 53,
-    "rejected": 325,
-    "watch": 172
+    "rejected": 321,
+    "watch": 169
   },
   "target_status": {
     "target_usd": 5,
@@ -145,6 +145,32 @@
         "recently updated"
       ],
       "body_preview": "## Bounty Overview Build an inline image editing feature for the warpSpeed app. This bounty allows users to make quick, lightweight image edits directly inside the app without exporting images to another tool. From the image preview, users should be able to open an editor, crop, rotate, adjust basic image settings, and add simple annotations. Edited images must be saved as a new version while keeping the original image intact. This bounty is part of the warpSpeed OPEN developer bounty programme."
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Explorer Bounty Umbrella: Orchestrator and Account Improvements",
+      "url": "https://github.com/livepeer/explorer/issues/711",
+      "amount_usd": 500.0,
+      "labels": [
+        "help wanted",
+        "retrospective compensation"
+      ],
+      "comments": 1,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-26T13:04:15Z",
+      "created_at": "2026-06-26T13:04:10Z",
+      "score": 100,
+      "status": "rejected",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "very low discussion",
+        "fast-lane label",
+        "no real bounty/funding signal",
+        "recently updated"
+      ],
+      "body_preview": "## Overview This umbrella issue tracks a small set of Explorer feature improvements that may be suitable for bounty work. ## Todo ### Features * [ ] [Add a delegator list to the orchestrator detail view](https://github.com/livepeer/explorer/issues/106) * [ ] [Add account transaction history filtering](https://github.com/livepeer/explorer/issues/511) ## Retroactive Grant Notice > [!IMPORTANT] > Compensation cap: **$500** (Paid in LPT) > > Before picking this up, read the [Retroactive Grants post]"
     },
     {
       "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
@@ -288,34 +314,6 @@
         "blocked/risky wording: tentoftrials, opened pr"
       ],
       "body_preview": "**Bounty:** $50 (LT) **Area:** build.py diagnostics **Current state:** Diagnostic build lacks comprehensive error handling **What is needed:** Add robust error handling to build diagnostics **Acceptance criteria:** - Error handling implemented - Graceful failure modes - Diagnostic logging preserved - Code follows conventions **Related PR:** https://github.com/lobster-trap/TentOfTrials/pull/284 RECENT ISSUE COMMENTS: I'd like to work on this. I have experience adding robust error handling to Pyth"
-    },
-    {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"good first issue\"",
-      "title": "[$45 BOUNTY] [TypeScript] Add guarded API token refresh handling",
-      "url": "https://github.com/9904099/zeroeye/issues/2",
-      "amount_usd": 45.0,
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "bounty",
-        "language:typescript"
-      ],
-      "comments": 9,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-23T20:55:54Z",
-      "created_at": "2026-06-20T14:54:14Z",
-      "score": 65,
-      "status": "manual_review",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion",
-        "fast-lane label",
-        "recently updated",
-        "blocked/risky wording: zeroeye, submitted pr"
-      ],
-      "body_preview": "**Bounty:** $45 (LT) **Area:** frontend/src/services/api.ts **Current state:** The API client has retry plumbing, but token refresh is still a TODO and concurrent 401 responses can trigger duplicated refresh work or leave callers with inconsistent auth state. **What is needed:** Implement a guarded token refresh flow that deduplicates concurrent refresh attempts and retries the original request once after a successful refresh. **Acceptance criteria:** - Add a single-flight refresh guard so multi"
     }
   ]
 }

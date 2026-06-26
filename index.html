@@ -87,6 +87,37 @@
               <span>USDT transaction hash</span>
               <input id="unlockTx" type="text" placeholder="0x..." required />
             </label>
+            <div class="unlockFields">
+              <label>
+                <span>Brand</span>
+                <input id="unlockBrand" type="text" placeholder="Acme Studio" />
+              </label>
+              <label>
+                <span>Audience</span>
+                <input id="unlockAudience" type="text" placeholder="local business owners" />
+              </label>
+              <label class="wide">
+                <span>Offer</span>
+                <input id="unlockOffer" type="text" placeholder="Launch a polished one-page website in 48 hours" />
+              </label>
+              <label>
+                <span>Button text</span>
+                <input id="unlockCta" type="text" placeholder="Request a quote" />
+              </label>
+              <label>
+                <span>Contact</span>
+                <input id="unlockContact" type="text" placeholder="mailto:hello@example.com" />
+              </label>
+              <label>
+                <span>Theme</span>
+                <select id="unlockTheme">
+                  <option>green</option>
+                  <option>blue</option>
+                  <option>gold</option>
+                  <option>rose</option>
+                </select>
+              </label>
+            </div>
             <button class="primary" type="submit">Verify and start delivery</button>
             <p id="unlockStatus" class="finePrint">The transaction must send at least 5 USDT to the wallet above. A GitHub issue will trigger private repo access.</p>
             <a id="downloadPack" class="downloadLink" href="https://github.com/EazyHood/cash-sprint-5-usdt-desk/issues/new" hidden>

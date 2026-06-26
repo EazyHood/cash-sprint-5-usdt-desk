@@ -273,6 +273,12 @@ code {
   gap: 12px;
 }
 
+.unlockFields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
 .finePrint {
   margin: 0;
   color: var(--muted);
@@ -407,6 +413,7 @@ footer {
   .metrics,
   .statusGrid,
   .productGrid,
+  .unlockFields,
   .orderGrid {
     grid-template-columns: 1fr;
   }
