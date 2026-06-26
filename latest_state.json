@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T17:22:46+00:00",
+  "generated_at_utc": "2026-06-26T17:27:31+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,9 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "account_required": 9,
-    "watch": 106,
-    "rejected": 428
+    "account_required": 12,
+    "watch": 281,
+    "rejected": 791
   },
   "target_status": {
     "target_usd": 5,
@@ -226,6 +226,23 @@
       "updated_at": "2026-06-26T17:17:02Z",
       "merged_at": null,
       "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1881,
+      "reward_basis": "100 analytics offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1881",
+      "title": "Update analytics offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1881",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:25:46Z",
+      "updated_at": "2026-06-26T17:25:46Z",
+      "merged_at": null,
+      "author": "EazyHood"
     }
   ],
   "submitted_reward_issues": [
@@ -249,7 +266,7 @@
   ],
   "top_opportunities": [
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
       "title": "[PAID BOUNTY - $750] Email Threads API",
       "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4",
       "amount_usd": 750.0,
@@ -283,7 +300,7 @@
       "body_preview": "## Bounty Overview Build a thread-first Email Threads API for the warpSpeed app. This bounty introduces a new threaded email experience so users can work with conversations instead of isolated messages. Developers will create API support for listing email threads, opening a thread to view related messages, preserving draft activity inside the correct conversation, and ensuring search/filter behaviour remains consistent with the existing message API. This bounty is part of the warpSpeed OPEN deve"
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
       "title": "[PAID BOUNTY - $750] Audio Note Recording",
       "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/9",
       "amount_usd": 750.0,
@@ -317,7 +334,7 @@
       "body_preview": "## Bounty Overview Build full audio-note recording, playback, transcription, and management support for the warpSpeed Notes experience. This bounty allows users to record quick voice notes directly inside the app, save them as audio attachments to notes, transcribe them into text, and replay/manage them later through a reliable in-note audio player. The implementation should use the provided app skeleton and OpenAPI spec, with clean separation between UI components, audio logic, backend helpers,"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty \"Base\" USDC",
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
       "title": "[PAID BOUNTY - $660] Note Locking - Biometrics/PIN",
       "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/7",
       "amount_usd": 660.0,
@@ -349,7 +366,7 @@
       "body_preview": "## Bounty Overview Build note-level locking for the warpSpeed Notes experience using biometrics, device authentication, or a user-defined PIN. This bounty gives users a private vault inside Notes. Users should be able to lock new or existing notes, clearly see which notes are locked, and unlock them only after successful authentication. Locked notes must stay hidden or obscured until unlocked, and the app should require re-authentication after app restart or after a configurable timeout. This bo"
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
       "title": "[PAID BOUNTY - $660] Enhanced Image Preview",
       "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/6",
       "amount_usd": 660.0,
@@ -381,39 +398,7 @@
       "body_preview": "## Bounty Overview Build an enhanced full-screen image preview experience for the warpSpeed app. This bounty upgrades how users view images across the app. When a user taps an image, it should open in a fast, smooth, full-screen modal/lightbox with zoom, pan, swipe navigation, and optional actions such as download, share, and delete where permissions allow. The goal is to make image viewing feel modern, responsive, and consistent across the app. This bounty is part of the warpSpeed OPEN develope"
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
-      "title": "[PAID BOUNTY - $660] Inline Image Editing",
-      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/5",
-      "amount_usd": 660.0,
-      "labels": [
-        "help wanted",
-        "bounty",
-        "paid",
-        "open",
-        "typescript",
-        "ui",
-        "react-native",
-        "frontend"
-      ],
-      "comments": 20,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-24T02:19:35Z",
-      "created_at": "2026-05-28T19:43:40Z",
-      "score": 85,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "fast-lane label",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "## Bounty Overview Build an inline image editing feature for the warpSpeed app. This bounty allows users to make quick, lightweight image edits directly inside the app without exporting images to another tool. From the image preview, users should be able to open an editor, crop, rotate, adjust basic image settings, and add simple annotations. Edited images must be saved as a new version while keeping the original image intact. This bounty is part of the warpSpeed OPEN developer bounty programme."
-    },
-    {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
       "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
       "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
       "amount_usd": 440.0,
@@ -445,7 +430,7 @@
       "body_preview": "## Bounty Overview Build a poll creation and voting feature for group chats in the warpSpeed app. The feature should allow users to create polls directly from the group chat input area, send polls inline into the conversation, vote on options, view real-time results, and open a detailed “View Votes” bottom sheet. The experience should feel smooth, intuitive, and consistent with modern messaging apps such as WhatsApp. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward"
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
       "title": "[PAID BOUNTY - $330] Email Inbox Classic View Page UI",
       "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2",
       "amount_usd": 330.0,
@@ -478,9 +463,36 @@
       "body_preview": "## Bounty Overview Build the refreshed Classic Inbox UI using the latest warpSpeed design system. The UI should include the new top navigation row, category buttons, updated icons, search and filter UI, opened/unopened email states, and smooth scroll-based header behaviour. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward $330 ## Difficulty Medium ## Main Skills * React Native * TypeScript * Storybook * UI Implementation * Design System Components ## Design Referen"
     },
     {
-      "source": "GitHub search: is:issue state:open \"bounty\" \"documentation\" \"$\"",
-      "title": "[Tutorial] Concurrent Transactions on Midnight: UTXO Race Conditions & Workarounds",
-      "url": "https://github.com/midnightntwrk/contributor-hub/issues/301",
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "[Tutorial] Shielded Token Operations: Mint, Transfer & Burn with Test Suite",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/327",
+      "amount_usd": 500.0,
+      "labels": [
+        "public",
+        "content-proposal",
+        "bounty",
+        "medium-priority"
+      ],
+      "comments": 28,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T19:23:09Z",
+      "created_at": "2026-04-13T12:32:02Z",
+      "score": 70,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Type of Content **Tutorial** ## Summary Walk through the complete shielded token lifecycle in Compact: minting, transferring, and burning, with compilable code and a full test suite. No UI required, this is focused on the contract and testing layer. Covers: - Minting with `mintShieldedToken` and `evolveNonce` - Transferring with `sendShielded` and change management via `ShieldedSendResult` - Burning via `sendImmediateShielded` to `shieldedBurnAddress()` - The Merkle tree constraint (freshly m"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "[Tutorial] Replay Attack Prevention in Compact: Nonces, Nullifiers & Domain Separation",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/297",
       "amount_usd": 500.0,
       "labels": [
         "public",
@@ -488,11 +500,11 @@
         "bounty",
         "low-priority"
       ],
-      "comments": 20,
+      "comments": 16,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-26T04:43:57Z",
-      "created_at": "2026-04-13T01:13:30Z",
+      "updated_at": "2026-06-24T19:21:53Z",
+      "created_at": "2026-04-13T01:13:12Z",
       "score": 70,
       "status": "account_required",
       "reasons": [
@@ -502,12 +514,12 @@
         "recently updated",
         "requires account/claim/approval flow"
       ],
-      "body_preview": "## Type of Content **Tutorial** ## Summary Explain why two transactions from the same wallet can fail if they try to spend the same DUST UTXOs. Show the \"stale UTXO\" error, explain the UTXO model vs account model difference, and demonstrate patterns for sequential transaction queuing or multiple wallet instances for parallelism. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Why concurrent transactions from the same wallet can fail - The \"st"
+      "body_preview": "## Type of Content **Tutorial** ## Summary Explain three replay prevention mechanisms: (1) Counter-based nonces that increment per operation, (2) Set-based nullifiers derived from `persistentCommit(secret, context)`, (3) Domain separation tags in hash functions to prevent cross-circuit replay. Show working examples of each and when to use which pattern. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Counter-based nonces that increment per op"
     },
     {
-      "source": "GitHub search: is:issue state:open \"bounty\" \"documentation\" \"$\"",
-      "title": "[Tutorial] DUST Sponsorship: How One Wallet Pays Fees for Another User's Transaction",
-      "url": "https://github.com/midnightntwrk/contributor-hub/issues/299",
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "[Tutorial] Midnight vs Other Privacy Chains: Architecture Comparison for Developers",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/324",
       "amount_usd": 300.0,
       "labels": [
         "public",
@@ -515,11 +527,11 @@
         "bounty",
         "low-priority"
       ],
-      "comments": 17,
+      "comments": 22,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-26T05:28:56Z",
-      "created_at": "2026-04-13T01:13:20Z",
+      "updated_at": "2026-06-25T02:16:01Z",
+      "created_at": "2026-04-13T01:15:17Z",
       "score": 70,
       "status": "account_required",
       "reasons": [
@@ -529,31 +541,33 @@
         "recently updated",
         "requires account/claim/approval flow"
       ],
-      "body_preview": "## Type of Content **Tutorial** ## Summary Explain the sponsorship flow where a backend wallet calls `balanceUnboundTransaction` with `tokenKindsToBalance: [\"dust\"]` on behalf of a user who has no DUST. Show how `ownPublicKey()` still returns the prover's key (not the sponsor's), walk through the full code for a sponsor service, and explain when DUST regenerates vs when it runs out. ## Target Audience Developers ## Deliverables 1. **Written tutorial (1,500-2,500 words)** covering: - The DUST spo"
+      "body_preview": "## Type of Content **Tutorial** ## Summary Compare Midnight's architecture (Compact + ZK circuits + Zswap + dual ledger) with other privacy-focused chains (Aztec's Noir + UTXO, Aleo's Leo + records, Mina's o1js + recursive SNARKs, Zcash's Sapling). Focus on developer experience: language design, state model, privacy model. An honest technical comparison, not marketing. ## Target Audience Developers and Web3 Enthusiasts ## Deliverables 1. **Written tutorial (2,000-3,000 words)** covering: - Midni"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty \"Base\" USDC",
-      "title": "[Bounty: $1,000,000] Lack of bunnies",
-      "url": "https://github.com/JustTemmie/steam-presence/issues/140",
-      "amount_usd": null,
+      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
+      "title": "ipython support",
+      "url": "https://github.com/Qix-/better-exceptions/issues/10",
+      "amount_usd": 70.0,
       "labels": [
-        "good first issue"
+        "enhancement",
+        "help wanted",
+        ":dollar: Funded on Issuehunt"
       ],
-      "comments": 2,
+      "comments": 23,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-24T20:04:07Z",
-      "created_at": "2026-06-22T05:19:35Z",
-      "score": 35,
-      "status": "watch",
+      "updated_at": "2026-06-13T21:26:02Z",
+      "created_at": "2017-03-22T22:02:55Z",
+      "score": 70,
+      "status": "account_required",
       "reasons": [
-        "no explicit USD/USDT/USDC amount found",
+        "explicit payout >= $5",
         "unassigned",
-        "very low discussion",
+        "busy thread",
         "fast-lane label",
-        "recently updated"
+        "requires account/claim/approval flow"
       ],
-      "body_preview": "## Task The codebase is lacking bunnies, we need more bunnies, please increase the bunny count in the code base ## Note for humans Please disregard this issue"
+      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2470%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/Qix-/better-exceptions/issues/10) <!-- /Issuehunt Badges --> Does not appear to work in ipython (at least in emacs) <!-- Issuehunt content --> --- <details> <summary> <b>IssueHunt Summary</b> </summary> ### Backers (Total: $70.00) - [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt"
     }
   ]
 }
