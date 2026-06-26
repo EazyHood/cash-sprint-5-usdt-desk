@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T21:48:25+00:00",
+  "generated_at_utc": "2026-06-26T21:51:08+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 180,
-    "rejected": 1064
+    "watch": 172,
+    "rejected": 1068
   },
   "target_status": {
     "target_usd": 5,
@@ -43,8 +43,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1867,
-      "reward_basis": "157 SDK metadata cells at 0.06 USDC each",
-      "estimated_reward_usdc": 9.42,
+      "reward_basis": "158 SDK metadata cells at 0.06 USDC each",
+      "estimated_reward_usdc": 9.48,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1867",
       "title": "Update SDK release metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1867",
@@ -53,15 +53,15 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T14:31:21Z",
-      "updated_at": "2026-06-26T21:37:48Z",
+      "updated_at": "2026-06-26T21:48:48Z",
       "merged_at": null,
       "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
       "number": 1868,
-      "reward_basis": "121 SDK metadata cells at 0.06 USDC each",
-      "estimated_reward_usdc": 7.26,
+      "reward_basis": "124 SDK metadata cells at 0.06 USDC each",
+      "estimated_reward_usdc": 7.44,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1868",
       "title": "Update additional SDK release metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1868",
@@ -70,7 +70,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T14:47:46Z",
-      "updated_at": "2026-06-26T21:30:37Z",
+      "updated_at": "2026-06-26T21:48:48Z",
       "merged_at": null,
       "author": "EazyHood"
     },
@@ -94,8 +94,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1871,
-      "reward_basis": "158 SDK metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 9.48,
+      "reward_basis": "160 SDK metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 9.6,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1871",
       "title": "Update more SDK package metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1871",
@@ -104,15 +104,15 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T15:39:55Z",
-      "updated_at": "2026-06-26T21:39:41Z",
+      "updated_at": "2026-06-26T21:48:49Z",
       "merged_at": null,
       "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
       "number": 1872,
-      "reward_basis": "128 SDK metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 7.68,
+      "reward_basis": "129 SDK metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 7.74,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1872",
       "title": "Update fourth SDK metadata batch",
       "url": "https://github.com/Chain-Love/chain-love/pull/1872",
@@ -121,7 +121,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T16:09:19Z",
-      "updated_at": "2026-06-26T21:36:08Z",
+      "updated_at": "2026-06-26T21:48:48Z",
       "merged_at": null,
       "author": "EazyHood"
     },
