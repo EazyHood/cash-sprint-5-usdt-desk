@@ -19,6 +19,7 @@ const downloadPack = document.querySelector("#downloadPack");
 const repoLink = document.querySelector("#repoLink");
 const radarUpdated = document.querySelector("#radarUpdated");
 const statusGrid = document.querySelector("#statusGrid");
+const submittedPrList = document.querySelector("#submittedPrList");
 const opportunityList = document.querySelector("#opportunityList");
 const previewBox = document.querySelector("#landingPreview");
 
@@ -268,6 +269,34 @@ function renderOpportunities(opportunities = []) {
     .join("");
 }
 
+function renderSubmittedPrs(prs = []) {
+  if (!submittedPrList) return;
+  if (!prs.length) {
+    submittedPrList.innerHTML = "";
+    return;
+  }
+  submittedPrList.innerHTML = prs
+    .map((item) => {
+      const reward =
+        typeof item.estimated_reward_usdc === "number"
+          ? `~${money(item.estimated_reward_usdc)}`
+          : "review-dependent";
+      return `
+        <li>
+          <a href="${item.url || item.api_url}" target="_blank" rel="noopener noreferrer">
+            ${escapeHtml(item.repo)}#${item.number}: ${escapeHtml(item.title || "submitted PR")}
+          </a>
+          <div class="oppMeta">
+            <span>${escapeHtml(item.status || "unknown")}</span>
+            <span>${reward}</span>
+            <span>${item.mergeable === null ? "mergeable pending" : `mergeable ${item.mergeable}`}</span>
+          </div>
+        </li>
+      `;
+    })
+    .join("");
+}
+
 function escapeHtml(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -284,10 +313,12 @@ async function loadRadar() {
     const state = await response.json();
     radarUpdated.textContent = `Latest scan: ${state.generated_at_utc}`;
     renderCounts(state.counts, state.target_status);
+    renderSubmittedPrs(state.submitted_pull_requests);
     renderOpportunities(state.top_opportunities);
   } catch {
     radarUpdated.textContent = "Run cash_sprint.py scan to publish the latest local radar.";
     renderCounts({});
+    renderSubmittedPrs([]);
   }
 }
 

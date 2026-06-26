@@ -474,6 +474,10 @@ textarea {
   border-radius: 8px;
 }
 
+.submittedList li {
+  border-left-color: var(--green);
+}
+
 .opportunityList a {
   font-weight: 800;
   text-decoration-thickness: 1px;
