@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T15:41:29+00:00",
+  "generated_at_utc": "2026-06-26T15:45:26+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,10 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "actionable": 3,
-    "account_required": 7,
-    "watch": 279,
-    "rejected": 671
+    "account_required": 20,
+    "watch": 529,
+    "rejected": 1196
   },
   "target_status": {
     "target_usd": 5,
@@ -128,75 +127,6 @@
   ],
   "top_opportunities": [
     {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "[$10 BOUNTY] [TypeScript] Add number formatter edge case tests",
-      "url": "https://github.com/aldorizona10-glitch/quickops-shadow-arena/issues/3",
-      "amount_usd": 5.0,
-      "labels": [
-        "bounty"
-      ],
-      "comments": 0,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-26T15:38:47Z",
-      "created_at": "2026-06-26T15:38:47Z",
-      "score": 100,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "very low discussion",
-        "recently updated"
-      ],
-      "body_preview": "## Bounty **Bounty:** $10 (LT) **Area:** frontend/src/utils/formatters.ts — number formatting functions **Current state:** The formatters module provides formatPrice, formatQuantity, formatVolume, and formatPercent. These functions handle Infinity, NaN, zero, very large numbers, and very small numbers with dynamic decimal selection. There are no unit tests verifying the edge case behavior or the dynamic decimal thresholds. **What is needed:** Add tests for the formatters that cover formatPrice w"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "[$10 BOUNTY] [Go] Add matching engine place/cancel order tests",
-      "url": "https://github.com/aldorizona10-glitch/quickops-shadow-arena/issues/2",
-      "amount_usd": 5.0,
-      "labels": [
-        "bounty"
-      ],
-      "comments": 0,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-26T15:38:47Z",
-      "created_at": "2026-06-26T15:38:47Z",
-      "score": 100,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "very low discussion",
-        "recently updated"
-      ],
-      "body_preview": "## Bounty **Bounty:** $10 (LT) **Area:** market/matching/engine.go — order placement and cancellation **Current state:** The MatchingEngine wraps an OrderBook and handles order placement, cancellation, and trade recording. PlaceOrder assigns UUIDs, sets timestamps, and records trades. CancelOrder delegates to the book. There are no tests verifying that PlaceOrder returns ErrSymbolNotFound for unknown symbols, that trades are recorded correctly, or that CancelOrder handles missing books. **What i"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "[$10 BOUNTY] [Go] Add orderbook add/cancel order tests",
-      "url": "https://github.com/aldorizona10-glitch/quickops-shadow-arena/issues/1",
-      "amount_usd": 5.0,
-      "labels": [
-        "bounty"
-      ],
-      "comments": 0,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-26T15:38:15Z",
-      "created_at": "2026-06-26T15:38:15Z",
-      "score": 100,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "very low discussion",
-        "recently updated"
-      ],
-      "body_preview": "## Bounty **Bounty:** $10 (LT) **Area:** market/orderbook/orderbook.go — order add/cancel logic **Current state:** The OrderBook struct manages bids, asks, and an order map. AddOrder and CancelOrder are implemented but have zero test coverage. There are no tests verifying order insertion into the correct side, cancellation from the order map, or closed-book error handling. **What is needed:** Add tests for the orderbook that cover add buy/sell orders, cancel existing orders, cancel non-existent "
-    },
-    {
       "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
       "title": "Kill tree (all sub-processes) ",
       "url": "https://github.com/sindresorhus/fkill/issues/21",
@@ -223,163 +153,284 @@
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://issuehunt.io/r/sindresorhus/fkill/issues/21/badge.svg\" />](https://issuehunt.io/r/sindresorhus/fkill/issues/21) <!-- /Issuehunt Badges --> Typical use case is starting a process with multiple sub-processes and then wanting to killing them all: ```js const child = require('child_process').exec(\"node -e 'while (true);'\"); child.kill(); // will not work ``` It's been implemented for Windows in https://github.com/sindresorhus/fkill/"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
-      "title": "[Tutorial] Shielded Token Operations: Mint, Transfer & Burn with Test Suite",
-      "url": "https://github.com/midnightntwrk/contributor-hub/issues/327",
-      "amount_usd": 500.0,
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $750] Email Threads API",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4",
+      "amount_usd": 750.0,
       "labels": [
-        "public",
-        "content-proposal",
+        "help wanted",
         "bounty",
-        "medium-priority"
+        "expert",
+        "paid",
+        "open",
+        "nodejs",
+        "prisma",
+        "typescript",
+        "backend",
+        "API"
+      ],
+      "comments": 37,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:55:36Z",
+      "created_at": "2026-05-28T19:40:03Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build a thread-first Email Threads API for the warpSpeed app. This bounty introduces a new threaded email experience so users can work with conversations instead of isolated messages. Developers will create API support for listing email threads, opening a thread to view related messages, preserving draft activity inside the correct conversation, and ensuring search/filter behaviour remains consistent with the existing message API. This bounty is part of the warpSpeed OPEN deve"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $750] Audio Note Recording",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/9",
+      "amount_usd": 750.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend",
+        "audio",
+        "notes"
+      ],
+      "comments": 32,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:18:49Z",
+      "created_at": "2026-05-28T21:03:15Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build full audio-note recording, playback, transcription, and management support for the warpSpeed Notes experience. This bounty allows users to record quick voice notes directly inside the app, save them as audio attachments to notes, transcribe them into text, and replay/manage them later through a reliable in-note audio player. The implementation should use the provided app skeleton and OpenAPI spec, with clean separation between UI components, audio logic, backend helpers,"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $660] Note Locking - Biometrics/PIN",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/7",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend",
+        "security"
+      ],
+      "comments": 24,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T16:37:08Z",
+      "created_at": "2026-05-28T20:59:38Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build note-level locking for the warpSpeed Notes experience using biometrics, device authentication, or a user-defined PIN. This bounty gives users a private vault inside Notes. Users should be able to lock new or existing notes, clearly see which notes are locked, and unlock them only after successful authentication. Locked notes must stay hidden or obscured until unlocked, and the app should require re-authentication after app restart or after a configurable timeout. This bo"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $660] Enhanced Image Preview",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/6",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 26,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:19:36Z",
+      "created_at": "2026-05-28T20:55:43Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build an enhanced full-screen image preview experience for the warpSpeed app. This bounty upgrades how users view images across the app. When a user taps an image, it should open in a fast, smooth, full-screen modal/lightbox with zoom, pan, swipe navigation, and optional actions such as download, share, and delete where permissions allow. The goal is to make image viewing feel modern, responsive, and consistent across the app. This bounty is part of the warpSpeed OPEN develope"
+    },
+    {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "title": "[PAID BOUNTY - $660] Inline Image Editing",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/5",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 20,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:19:35Z",
+      "created_at": "2026-05-28T19:43:40Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build an inline image editing feature for the warpSpeed app. This bounty allows users to make quick, lightweight image edits directly inside the app without exporting images to another tool. From the image preview, users should be able to open an editor, crop, rotate, adjust basic image settings, and add simple annotations. Edited images must be saved as a new version while keeping the original image intact. This bounty is part of the warpSpeed OPEN developer bounty programme."
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
+      "amount_usd": 440.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 30,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:54:14Z",
+      "created_at": "2026-05-28T19:35:25Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build a poll creation and voting feature for group chats in the warpSpeed app. The feature should allow users to create polls directly from the group chat input area, send polls inline into the conversation, vote on options, view real-time results, and open a detailed “View Votes” bottom sheet. The experience should feel smooth, intuitive, and consistent with modern messaging apps such as WhatsApp. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $330] Email Inbox Classic View Page UI",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2",
+      "amount_usd": 330.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "expert",
+        "paid",
+        "open",
+        "nodejs",
+        "typescript",
+        "react-native",
+        "frontend"
       ],
       "comments": 28,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-24T19:23:09Z",
-      "created_at": "2026-04-13T12:32:02Z",
-      "score": 70,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "## Type of Content **Tutorial** ## Summary Walk through the complete shielded token lifecycle in Compact: minting, transferring, and burning, with compilable code and a full test suite. No UI required, this is focused on the contract and testing layer. Covers: - Minting with `mintShieldedToken` and `evolveNonce` - Transferring with `sendShielded` and change management via `ShieldedSendResult` - Burning via `sendImmediateShielded` to `shieldedBurnAddress()` - The Merkle tree constraint (freshly m"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
-      "title": "[Tutorial] Replay Attack Prevention in Compact: Nonces, Nullifiers & Domain Separation",
-      "url": "https://github.com/midnightntwrk/contributor-hub/issues/297",
-      "amount_usd": 500.0,
-      "labels": [
-        "public",
-        "content-proposal",
-        "bounty",
-        "low-priority"
-      ],
-      "comments": 16,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-24T19:21:53Z",
-      "created_at": "2026-04-13T01:13:12Z",
-      "score": 70,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "## Type of Content **Tutorial** ## Summary Explain three replay prevention mechanisms: (1) Counter-based nonces that increment per operation, (2) Set-based nullifiers derived from `persistentCommit(secret, context)`, (3) Domain separation tags in hash functions to prevent cross-circuit replay. Show working examples of each and when to use which pattern. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Counter-based nonces that increment per op"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
-      "title": "[Tutorial] Midnight vs Other Privacy Chains: Architecture Comparison for Developers",
-      "url": "https://github.com/midnightntwrk/contributor-hub/issues/324",
-      "amount_usd": 300.0,
-      "labels": [
-        "public",
-        "content-proposal",
-        "bounty",
-        "low-priority"
-      ],
-      "comments": 22,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-25T02:16:01Z",
-      "created_at": "2026-04-13T01:15:17Z",
-      "score": 70,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "## Type of Content **Tutorial** ## Summary Compare Midnight's architecture (Compact + ZK circuits + Zswap + dual ledger) with other privacy-focused chains (Aztec's Noir + UTXO, Aleo's Leo + records, Mina's o1js + recursive SNARKs, Zcash's Sapling). Focus on developer experience: language design, state model, privacy model. An honest technical comparison, not marketing. ## Target Audience Developers and Web3 Enthusiasts ## Deliverables 1. **Written tutorial (2,000-3,000 words)** covering: - Midni"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
-      "title": "ipython support",
-      "url": "https://github.com/Qix-/better-exceptions/issues/10",
-      "amount_usd": 70.0,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        ":dollar: Funded on Issuehunt"
-      ],
-      "comments": 23,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-13T21:26:02Z",
-      "created_at": "2017-03-22T22:02:55Z",
-      "score": 70,
+      "updated_at": "2026-06-24T02:19:33Z",
+      "created_at": "2026-05-28T19:31:57Z",
+      "score": 85,
       "status": "account_required",
       "reasons": [
         "explicit payout >= $5",
         "unassigned",
         "busy thread",
         "fast-lane label",
+        "recently updated",
         "requires account/claim/approval flow"
       ],
-      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2470%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/Qix-/better-exceptions/issues/10) <!-- /Issuehunt Badges --> Does not appear to work in ipython (at least in emacs) <!-- Issuehunt content --> --- <details> <summary> <b>IssueHunt Summary</b> </summary> ### Backers (Total: $70.00) - [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt"
+      "body_preview": "## Bounty Overview Build the refreshed Classic Inbox UI using the latest warpSpeed design system. The UI should include the new top navigation row, category buttons, updated icons, search and filter UI, opened/unopened email states, and smooth scroll-based header behaviour. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward $330 ## Difficulty Medium ## Main Skills * React Native * TypeScript * Storybook * UI Implementation * Design System Components ## Design Referen"
     },
     {
-      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
-      "title": "Make it easier to write reliable cleanup tasks",
-      "url": "https://github.com/avajs/ava/issues/928",
-      "amount_usd": 82.0,
+      "source": "GitHub search: is:issue state:open \"small bounty\" \"$\"",
+      "title": "Use JuliaLowering.jl for a cleaner way to transform resumable functions to finite state machines [$600]",
+      "url": "https://github.com/JuliaDynamics/ResumableFunctions.jl/issues/99",
+      "amount_usd": 600.0,
       "labels": [
-        "enhancement",
-        "help wanted",
-        "scope:test-interface",
-        ":dollar: Funded on Issuehunt"
+        "bug bounty",
+        "bounty:600"
       ],
-      "comments": 39,
+      "comments": 6,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2023-07-03T15:04:35Z",
-      "created_at": "2016-06-19T20:05:43Z",
-      "score": 55,
+      "updated_at": "2026-06-13T22:19:44Z",
+      "created_at": "2024-08-01T16:17:28Z",
+      "score": 80,
       "status": "account_required",
       "reasons": [
         "explicit payout >= $5",
         "unassigned",
-        "busy thread",
-        "fast-lane label",
-        "stale",
+        "moderate discussion",
         "requires account/claim/approval flow"
       ],
-      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://issuehunt.io/r/avajs/ava/issues/928/badge.svg\" />](https://issuehunt.io/r/avajs/ava/issues/928) <!-- /Issuehunt Badges --> See: https://github.com/avajs/ava/pull/918#issuecomment-227016238 `after.always` has some issues when used as a cleanup task. Specifically, it won't run if: - There are test failures and `--fail-fast` is used. - There are uncaught exceptions thrown. I've advocated using `.before` or `.beforeEach` to ensure s"
+      "body_preview": "Edit: #100 has fixed most of these issues without relying on the not-yet-published JuliaLowering.jl. It uses a local reimplementation of most scoping rules of the language, thus missing edge cases might exist. Leaving this (now smaller) bounty for future work of moving this implementation to JuliaLowering, to provide a more centralized source-of-truth on scoping. --- This software transform annotated julia functions into finite state machines that can be paused and re-entered. The issue tracker "
     },
     {
-      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
-      "title": "Replace ban text with localizable message",
-      "url": "https://github.com/FAForever/server/issues/640",
-      "amount_usd": 5.0,
+      "source": "GitHub search: is:issue state:open \"quick bounty\" \"$\"",
+      "title": "[Tutorial] Adding Privacy to an Existing dApp: A Retrofit Guide",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/307",
+      "amount_usd": 700.0,
       "labels": [
-        "requires client changes",
-        ":dollar: Funded on Issuehunt"
+        "public",
+        "content-proposal",
+        "bounty",
+        "low-priority"
       ],
       "comments": 18,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-11T16:00:57Z",
-      "created_at": "2020-08-03T18:15:27Z",
-      "score": 25,
+      "updated_at": "2026-06-24T19:19:49Z",
+      "created_at": "2026-04-13T01:13:56Z",
+      "score": 70,
       "status": "account_required",
       "reasons": [
         "explicit payout >= $5",
         "unassigned",
         "busy thread",
+        "recently updated",
         "requires account/claim/approval flow"
       ],
-      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%245%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/FAForever/server/issues/640) <!-- /Issuehunt Badges --> The server should not be sending any strings that get rendered in the client, because these strings are in English and we can't be sure that the user on the other end has their client set to English (in fact a majority of people probably knows English only as a second language, or does no"
+      "body_preview": "## Type of Content **Tutorial** ## Summary Show how to take a conventional transparent dApp and add Midnight's privacy features. Cover identifying which state should be private, replacing public state with commitments, adding selective disclosure for compliance, and integrating the proof server into an existing deployment pipeline. ## Target Audience Developers ## Deliverables 1. **Written tutorial (3,000-4,000 words)** covering: - Identifying which state should be private - Replacing public sta"
     }
   ]
 }
