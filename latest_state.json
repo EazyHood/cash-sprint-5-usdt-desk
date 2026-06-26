@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T18:28:05+00:00",
+  "generated_at_utc": "2026-06-26T18:33:58+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -411,6 +411,23 @@
       "draft": false,
       "created_at": "2026-06-26T18:25:35Z",
       "updated_at": "2026-06-26T18:25:35Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1892,
+      "reward_basis": "100 sixth-batch API offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1892",
+      "title": "Update sixth API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1892",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:32:01Z",
+      "updated_at": "2026-06-26T18:32:01Z",
       "merged_at": null,
       "author": "EazyHood"
     }
