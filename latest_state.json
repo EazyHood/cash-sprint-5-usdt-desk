@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T18:42:08+00:00",
+  "generated_at_utc": "2026-06-26T18:47:25+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,11 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "actionable": 13,
-    "manual_review": 26,
-    "account_required": 14,
-    "watch": 413,
-    "rejected": 899
+    "account_required": 15,
+    "watch": 351,
+    "rejected": 998
   },
   "target_status": {
     "target_usd": 5,
@@ -22,9 +20,7 @@
     "note": "No incoming USDT >= target found since the sprint baseline."
   },
   "github_search_status": {
-    "status": "rate_limited_using_rescored_cached_opportunities",
-    "cached_at_utc": "2026-06-26T18:39:26+00:00",
-    "error_count": 36
+    "status": "fresh"
   },
   "submitted_pull_requests": [
     {
@@ -332,6 +328,125 @@
       "updated_at": "2026-06-26T18:00:10Z",
       "merged_at": null,
       "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1887,
+      "reward_basis": "100 third-batch API offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1887",
+      "title": "Update third API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1887",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:04:47Z",
+      "updated_at": "2026-06-26T18:04:47Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1888,
+      "reward_basis": "100 second-batch MCP server offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1888",
+      "title": "Update second MCP server metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1888",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:05:28Z",
+      "updated_at": "2026-06-26T18:05:28Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1889,
+      "reward_basis": "100 fourth-batch API offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1889",
+      "title": "Update fourth API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1889",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:16:32Z",
+      "updated_at": "2026-06-26T18:16:32Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1890,
+      "reward_basis": "97 storage offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 5.82,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1890",
+      "title": "Update storage offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1890",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:20:51Z",
+      "updated_at": "2026-06-26T18:20:51Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1891,
+      "reward_basis": "100 fifth-batch API offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1891",
+      "title": "Update fifth API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1891",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:25:35Z",
+      "updated_at": "2026-06-26T18:25:35Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1892,
+      "reward_basis": "100 sixth-batch API offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1892",
+      "title": "Update sixth API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1892",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:32:01Z",
+      "updated_at": "2026-06-26T18:32:01Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1893,
+      "reward_basis": "100 seventh-batch API offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1893",
+      "title": "Update seventh API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1893",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:37:26Z",
+      "updated_at": "2026-06-26T18:37:26Z",
+      "merged_at": null,
+      "author": "EazyHood"
     }
   ],
   "submitted_reward_issues": [
@@ -355,237 +470,314 @@
   ],
   "top_opportunities": [
     {
-      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
-      "title": "[bounty] Create a YouTube demo video — Free Lifetime access",
-      "url": "https://github.com/stefanoviana/deepalpha/issues/21",
-      "amount_usd": 199.0,
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $750] Email Threads API",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4",
+      "amount_usd": 750.0,
       "labels": [
-        "documentation",
-        "help wanted"
+        "help wanted",
+        "bounty",
+        "expert",
+        "paid",
+        "open",
+        "nodejs",
+        "prisma",
+        "typescript",
+        "backend",
+        "API"
       ],
-      "comments": 5,
+      "comments": 37,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-19T01:19:00Z",
-      "created_at": "2026-05-03T19:26:57Z",
-      "score": 120,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion",
-        "fast-lane label"
-      ],
-      "body_preview": "We need a professional demo video showing DeepAlpha in action. **What to show:** - Registration flow (30 seconds) - Dashboard overview - Starting the bot in Paper Mode - Real-time positions opening - PnL tracking - Settings (Paper/Live toggle) **Requirements:** - 3-5 minutes long - Screen recording with voiceover (English) - Background music - Upload to YouTube **Reward:** Lifetime Pro access ($199 value) **Difficulty:** Easy (non-coding) RECENT ISSUE COMMENTS: Thanks for opening an issue! **Qui"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USDC -label:invalid -label:wontfix",
-      "title": "[$100 Bounty] Box-Project Cube Environment Mapping",
-      "url": "https://github.com/armory3d/armory/issues/2613",
-      "amount_usd": 100.0,
-      "labels": [
-        "feature request",
-        "bounty"
-      ],
-      "comments": 10,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-25T19:28:40Z",
-      "created_at": "2022-10-01T17:16:51Z",
-      "score": 120,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion",
-        "recently updated"
-      ],
-      "body_preview": "A working implementation of Box Projected Cubemap Environment Mapping (BPCEM) will release the bounty of $100 on Bountysource. Sidenote: It doesn't have to be a realtime solution. Implementation material (Inspiration): - http://devlog-martinsh.blogspot.com/2011/09/box-projected-cube-environment-mapping.html - https://seblagarde.wordpress.com/2012/09/29/image-based-lighting-approaches-and-parallax-corrected-cubemap/ - https://rawcdn.githack.com/mrdoob/three.js/r107/examples/webgl_materials_envmap"
-    },
-    {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"good first issue\"",
-      "title": "[Bounty: $200] Website",
-      "url": "https://github.com/dwebagents/AgentPipe/issues/112",
-      "amount_usd": 200.0,
-      "labels": [
-        "good first issue",
-        "bounty"
-      ],
-      "comments": 13,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-26T13:19:57Z",
-      "created_at": "2026-06-25T14:23:13Z",
-      "score": 110,
-      "status": "actionable",
+      "updated_at": "2026-06-24T02:55:36Z",
+      "created_at": "2026-05-28T19:40:03Z",
+      "score": 85,
+      "status": "account_required",
       "reasons": [
         "explicit payout >= $5",
         "unassigned",
         "busy thread",
         "fast-lane label",
-        "recently updated"
+        "recently updated",
+        "requires account/claim/approval flow"
       ],
-      "body_preview": "Every well established and _important_ open source project needs a website! I think that a website would be great to attract contributions and customers. Since we have the budget of Free the best way to host a website for us would be Github Pages. The website should have the following: - A full description of the project - A download button to download the project - A fully 4d banana graphic, deterministically rendered in client sided deterministic Javascript It should be themed with a yellow co"
+      "body_preview": "## Bounty Overview Build a thread-first Email Threads API for the warpSpeed app. This bounty introduces a new threaded email experience so users can work with conversations instead of isolated messages. Developers will create API support for listing email threads, opening a thread to view related messages, preserving draft activity inside the correct conversation, and ensuring search/filter behaviour remains consistent with the existing message API. This bounty is part of the warpSpeed OPEN deve"
     },
     {
-      "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
-      "title": "Data Analytics Bounty",
-      "url": "https://github.com/Honest-Protocol/Gitcoin_Metamorphosis/issues/3",
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $750] Audio Note Recording",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/9",
+      "amount_usd": 750.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend",
+        "audio",
+        "notes"
+      ],
+      "comments": 32,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:18:49Z",
+      "created_at": "2026-05-28T21:03:15Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build full audio-note recording, playback, transcription, and management support for the warpSpeed Notes experience. This bounty allows users to record quick voice notes directly inside the app, save them as audio attachments to notes, transcribe them into text, and replay/manage them later through a reliable in-note audio player. The implementation should use the provided app skeleton and OpenAPI spec, with clean separation between UI components, audio logic, backend helpers,"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $660] Note Locking - Biometrics/PIN",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/7",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend",
+        "security"
+      ],
+      "comments": 24,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T16:37:08Z",
+      "created_at": "2026-05-28T20:59:38Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build note-level locking for the warpSpeed Notes experience using biometrics, device authentication, or a user-defined PIN. This bounty gives users a private vault inside Notes. Users should be able to lock new or existing notes, clearly see which notes are locked, and unlock them only after successful authentication. Locked notes must stay hidden or obscured until unlocked, and the app should require re-authentication after app restart or after a configurable timeout. This bo"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $660] Enhanced Image Preview",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/6",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 26,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:19:36Z",
+      "created_at": "2026-05-28T20:55:43Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build an enhanced full-screen image preview experience for the warpSpeed app. This bounty upgrades how users view images across the app. When a user taps an image, it should open in a fast, smooth, full-screen modal/lightbox with zoom, pan, swipe navigation, and optional actions such as download, share, and delete where permissions allow. The goal is to make image viewing feel modern, responsive, and consistent across the app. This bounty is part of the warpSpeed OPEN develope"
+    },
+    {
+      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "title": "[PAID BOUNTY - $660] Inline Image Editing",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/5",
+      "amount_usd": 660.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 20,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:19:35Z",
+      "created_at": "2026-05-28T19:43:40Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build an inline image editing feature for the warpSpeed app. This bounty allows users to make quick, lightweight image edits directly inside the app without exporting images to another tool. From the image preview, users should be able to open an editor, crop, rotate, adjust basic image settings, and add simple annotations. Edited images must be saved as a new version while keeping the original image intact. This bounty is part of the warpSpeed OPEN developer bounty programme."
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
+      "amount_usd": 440.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 30,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:54:14Z",
+      "created_at": "2026-05-28T19:35:25Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build a poll creation and voting feature for group chats in the warpSpeed app. The feature should allow users to create polls directly from the group chat input area, send polls inline into the conversation, vote on options, view real-time results, and open a detailed “View Votes” bottom sheet. The experience should feel smooth, intuitive, and consistent with modern messaging apps such as WhatsApp. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $330] Email Inbox Classic View Page UI",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2",
+      "amount_usd": 330.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "expert",
+        "paid",
+        "open",
+        "nodejs",
+        "typescript",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 28,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:19:33Z",
+      "created_at": "2026-05-28T19:31:57Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build the refreshed Classic Inbox UI using the latest warpSpeed design system. The UI should include the new top navigation row, category buttons, updated icons, search and filter UI, opened/unopened email states, and smooth scroll-based header behaviour. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward $330 ## Difficulty Medium ## Main Skills * React Native * TypeScript * Storybook * UI Implementation * Design System Components ## Design Referen"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "[Tutorial] Shielded Token Operations: Mint, Transfer & Burn with Test Suite",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/327",
       "amount_usd": 500.0,
-      "labels": [],
-      "comments": 4,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-05-01T04:32:24Z",
-      "created_at": "2022-09-12T02:04:19Z",
-      "score": 105,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion"
-      ],
-      "body_preview": "### Prize Title Ethereum Data Analytics Bounty ### Prize Bounty - 1st - 2250 USDC & 1 Vigilante NFT - 2nd - 1250 USDC - 3rd - 500 USDC ### Challenge Description In this bounty, participants will be tasked with implementing interesting analytics methodologies using tools such as Dune Analytics, Python, etc. Any available datasets can be used (ie existing Dune queries, data sets from other platforms) but the analytics should focus on assets, addresses, contracts, and transactions on the Ethereum b"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
-      "title": "Add new bounty email subscription feature. [$250]",
-      "url": "https://github.com/bountysource/core/issues/1141",
-      "amount_usd": 250.0,
       "labels": [
+        "public",
+        "content-proposal",
         "bounty",
-        "settings/profile/misc",
-        "search",
-        "✍️Developers Needed✍️"
+        "medium-priority"
       ],
-      "comments": 6,
+      "comments": 28,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-15T08:37:55Z",
-      "created_at": "2017-09-22T23:01:31Z",
-      "score": 105,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion"
-      ],
-      "body_preview": "Would it be possible to get a feature where I could be notified by email whenever a new bounty is posted that meets some specific search criteria? (Or when an existing bounty changes in a way that makes it meet the criteria.) RECENT ISSUE COMMENTS: Would you have to-be a member of bountysource, or confirm to be notified ? I have no idea, but I don't mind either way. Sounds like a saved search -> notify when there are updates every x interval. So it would be on the user with the interest to confi"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
-      "title": "Data Analytics Ideas Bounty",
-      "url": "https://github.com/Honest-Protocol/Gitcoin_Metamorphosis/issues/4",
-      "amount_usd": 250.0,
-      "labels": [],
-      "comments": 4,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-05-01T04:34:13Z",
-      "created_at": "2022-09-12T02:05:28Z",
-      "score": 105,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion"
-      ],
-      "body_preview": "### Prize Title Ethereum Data Analytics Ideas Bounty ### Prize Bounty - 1st - 750 USDC & 1 Vigilante NFT - 2nd - 500 USDC - 3rd - 250 USDC ### Challenge Description In this bounty, participants will be tasked with detailing a process for how they’d analyze data focused on assets, addresses, contracts, and transactions on the Ethereum blockchain. Although, data type and methodology are up to the participant, the data should be focused in 3 areas: security, compliance, and authenticity. - For secu"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
-      "title": "Vigilante Recon NFT Bounty",
-      "url": "https://github.com/Honest-Protocol/Gitcoin_Metamorphosis/issues/7",
-      "amount_usd": 200.0,
-      "labels": [],
-      "comments": 3,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-05-01T04:36:16Z",
-      "created_at": "2022-09-12T02:06:50Z",
-      "score": 105,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion"
-      ],
-      "body_preview": "### Prize Title Vigilante Recon NFT Bounty ### Prize Bounty - 1st - 500 USDC & 1 Vigilante NFT - 2nd - 300 USDC - 3rd - 200 USDC ### Challenge Description In this bounty, participants will be tasked with creating an interesting narrative utilizing at least one Vigilante Recon NFT Map. These are NFTs that update every time they are viewed, by mapping the location of the viewer. Warning: Viewing Vigilante Recon NFTs will lead to your IP address being logged. To remain anonymous while viewing these"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USDT -label:invalid -label:wontfix",
-      "title": "Curve Finance Integration and Stablecoin Management $900",
-      "url": "https://github.com/Spectral-Finance/lux/issues/81",
-      "amount_usd": 900.0,
-      "labels": [
-        "bounty",
-        "web3",
-        "exchanges"
-      ],
-      "comments": 14,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-25T18:13:03Z",
-      "created_at": "2025-02-25T10:43:53Z",
-      "score": 95,
-      "status": "actionable",
+      "updated_at": "2026-06-24T19:23:09Z",
+      "created_at": "2026-04-13T12:32:02Z",
+      "score": 70,
+      "status": "account_required",
       "reasons": [
         "explicit payout >= $5",
         "unassigned",
         "busy thread",
-        "recently updated"
+        "recently updated",
+        "requires account/claim/approval flow"
       ],
-      "body_preview": "## Overview Implement Curve Finance integration focusing on stablecoin management and optimal yield strategies. ## Core Features - Stablecoin pool management - Curve gauge integration - CRV rewards optimization - Pool analysis and selection - Automated rebalancing - Slippage optimization - Position monitoring - Yield maximization ## Acceptance Criteria - [ ] Pool position management - [ ] Gauge staking implementation - [ ] CRV rewards handling - [ ] Pool analysis system - [ ] Automated rebalanci"
+      "body_preview": "## Type of Content **Tutorial** ## Summary Walk through the complete shielded token lifecycle in Compact: minting, transferring, and burning, with compilable code and a full test suite. No UI required, this is focused on the contract and testing layer. Covers: - Minting with `mintShieldedToken` and `evolveNonce` - Transferring with `sendShielded` and change management via `ShieldedSendResult` - Burning via `sendImmediateShielded` to `shieldedBurnAddress()` - The Merkle tree constraint (freshly m"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty USDC -label:invalid -label:wontfix",
-      "title": "TradingView Technical Analysis Integration $600",
-      "url": "https://github.com/Spectral-Finance/lux/issues/86",
-      "amount_usd": 600.0,
-      "labels": [
-        "bounty",
-        "data"
-      ],
-      "comments": 15,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-25T08:42:39Z",
-      "created_at": "2025-02-25T10:48:10Z",
-      "score": 95,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "recently updated"
-      ],
-      "body_preview": "## Overview Implement TradingView technical analysis integration for advanced market analysis and signal generation. ## Core Features - Chart data integration - Technical indicator calculation - Custom script support - Alert management - Real-time data streaming - Strategy backtesting - Signal generation - Multi-timeframe analysis ## Acceptance Criteria - [ ] Chart data retrieval system - [ ] Technical indicator implementation - [ ] Custom script execution - [ ] Alert system integration - [ ] Re"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"Opire\" bounty",
-      "title": "OpenRouter Integration $500",
-      "url": "https://github.com/Spectral-Finance/lux/issues/95",
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "[Tutorial] Replay Attack Prevention in Compact: Nonces, Nullifiers & Domain Separation",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/297",
       "amount_usd": 500.0,
       "labels": [
-        "enhancement",
+        "public",
+        "content-proposal",
         "bounty",
-        "llm",
-        "in-progress"
+        "low-priority"
       ],
-      "comments": 15,
+      "comments": 16,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-25T05:20:08Z",
-      "created_at": "2025-02-25T11:05:51Z",
-      "score": 95,
-      "status": "actionable",
+      "updated_at": "2026-06-24T19:21:53Z",
+      "created_at": "2026-04-13T01:13:12Z",
+      "score": 70,
+      "status": "account_required",
       "reasons": [
         "explicit payout >= $5",
         "unassigned",
         "busy thread",
-        "recently updated"
+        "recently updated",
+        "requires account/claim/approval flow"
       ],
-      "body_preview": "## Overview Implement integration with OpenRouter to provide access to a wide range of LLM models through a single unified API. ## Core Features - OpenRouter API integration - Multiple model support - Unified API interface - Cost optimization - Error handling and retries ## Technical Details - Implement OpenRouter client - Add model selection and routing - Implement rate limiting and quotas - Add cost tracking and optimization - Set up proper error handling ## Acceptance Criteria - [ ] Implement"
+      "body_preview": "## Type of Content **Tutorial** ## Summary Explain three replay prevention mechanisms: (1) Counter-based nonces that increment per operation, (2) Set-based nullifiers derived from `persistentCommit(secret, context)`, (3) Domain separation tags in hash functions to prevent cross-circuit replay. Show working examples of each and when to use which pattern. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Counter-based nonces that increment per op"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"bounty\" \"documentation\" \"$\"",
+      "title": "[Tutorial] Concurrent Transactions on Midnight: UTXO Race Conditions & Workarounds",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/301",
+      "amount_usd": 500.0,
+      "labels": [
+        "public",
+        "content-proposal",
+        "bounty",
+        "low-priority"
+      ],
+      "comments": 20,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-26T04:43:57Z",
+      "created_at": "2026-04-13T01:13:30Z",
+      "score": 70,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Type of Content **Tutorial** ## Summary Explain why two transactions from the same wallet can fail if they try to spend the same DUST UTXOs. Show the \"stale UTXO\" error, explain the UTXO model vs account model difference, and demonstrate patterns for sequential transaction queuing or multiple wallet instances for parallelism. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Why concurrent transactions from the same wallet can fail - The \"st"
     }
   ]
 }
