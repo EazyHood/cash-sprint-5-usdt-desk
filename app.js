@@ -229,7 +229,7 @@ function updateInvoice() {
 
 function renderCounts(counts = {}, targetStatus = {}) {
   const items = [
-    [targetStatus.earned_verified_usd || 0, "verified USDT"],
+    [targetStatus.earned_verified_usd || 0, "verified USDT/USDC"],
     ["actionable", "actionable"],
     ["manual_review", "manual review"],
     ["watch", "watch"],
