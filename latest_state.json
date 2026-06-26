@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T19:54:36+00:00",
+  "generated_at_utc": "2026-06-26T20:06:05+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,9 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "account_required": 1,
-    "watch": 223,
-    "rejected": 509
+    "account_required": 4,
+    "watch": 285,
+    "rejected": 1323
   },
   "target_status": {
     "target_usd": 5,
@@ -230,8 +230,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1881,
-      "reward_basis": "100 analytics offer metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 6.0,
+      "reward_basis": "126 analytics offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 7.56,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1881",
       "title": "Update analytics offer metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1881",
@@ -240,7 +240,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T17:25:46Z",
-      "updated_at": "2026-06-26T17:25:46Z",
+      "updated_at": "2026-06-26T20:03:47Z",
       "merged_at": null,
       "author": "EazyHood"
     },
@@ -579,6 +579,84 @@
       "body_preview": "Edit: #100 has fixed most of these issues without relying on the not-yet-published JuliaLowering.jl. It uses a local reimplementation of most scoping rules of the language, thus missing edge cases might exist. Leaving this (now smaller) bounty for future work of moving this implementation to JuliaLowering, to provide a more centralized source-of-truth on scoping. --- This software transform annotated julia functions into finite state machines that can be paused and re-entered. The issue tracker "
     },
     {
+      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
+      "title": "ipython support",
+      "url": "https://github.com/Qix-/better-exceptions/issues/10",
+      "amount_usd": 70.0,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        ":dollar: Funded on Issuehunt"
+      ],
+      "comments": 23,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-13T21:26:02Z",
+      "created_at": "2017-03-22T22:02:55Z",
+      "score": 70,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2470%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/Qix-/better-exceptions/issues/10) <!-- /Issuehunt Badges --> Does not appear to work in ipython (at least in emacs) <!-- Issuehunt content --> --- <details> <summary> <b>IssueHunt Summary</b> </summary> ### Backers (Total: $70.00) - [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
+      "title": "Make it easier to write reliable cleanup tasks",
+      "url": "https://github.com/avajs/ava/issues/928",
+      "amount_usd": 82.0,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "scope:test-interface",
+        ":dollar: Funded on Issuehunt"
+      ],
+      "comments": 39,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2023-07-03T15:04:35Z",
+      "created_at": "2016-06-19T20:05:43Z",
+      "score": 55,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "stale",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://issuehunt.io/r/avajs/ava/issues/928/badge.svg\" />](https://issuehunt.io/r/avajs/ava/issues/928) <!-- /Issuehunt Badges --> See: https://github.com/avajs/ava/pull/918#issuecomment-227016238 `after.always` has some issues when used as a cleanup task. Specifically, it won't run if: - There are test failures and `--fail-fast` is used. - There are uncaught exceptions thrown. I've advocated using `.before` or `.beforeEach` to ensure s"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
+      "title": "Replace ban text with localizable message",
+      "url": "https://github.com/FAForever/server/issues/640",
+      "amount_usd": 5.0,
+      "labels": [
+        "requires client changes",
+        ":dollar: Funded on Issuehunt"
+      ],
+      "comments": 18,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-11T16:00:57Z",
+      "created_at": "2020-08-03T18:15:27Z",
+      "score": 25,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%245%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/FAForever/server/issues/640) <!-- /Issuehunt Badges --> The server should not be sending any strings that get rendered in the client, because these strings are in English and we can't be sure that the user on the other end has their client set to English (in fact a majority of people probably knows English only as a second language, or does no"
+    },
+    {
       "source": "GitHub search: is:issue state:open bounty \"Base\" USDC",
       "title": "[Bounty: $1,000,000] Lack of bunnies",
       "url": "https://github.com/JustTemmie/steam-presence/issues/140",
@@ -630,21 +708,21 @@
       "body_preview": "**Description:** Currently, TradeFlow only supports market orders. We want to allow users to place limit orders. The core contract must store the order intent, allowing off-chain \"keepers\" to execute the trade when the market price meets the order criteria. **Context / Motivation:** Advanced traders require limit orders. Moving this on-chain allows TradeFlow to capture a more sophisticated demographic of DeFi users while rewarding keepers for network maintenance. **Acceptance Criteria:** - [ ] I"
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"good first issue\"",
-      "title": "[13.12 BTC BOUNTY] implement zero-latency continuous time banana puddingital signal processing library",
-      "url": "https://github.com/dwebagents/AgentPipe/issues/95",
+      "source": "GitHub search: is:issue state:open bounty USDC -label:invalid -label:wontfix",
+      "title": "Add `GitHubIssuePreviewCard` live data fetch from GitHub API",
+      "url": "https://github.com/ritik4ever/stellar-bounty-board/issues/287",
       "amount_usd": null,
       "labels": [
         "enhancement",
-        "help wanted",
-        "good first issue",
-        "bounty"
+        "Stellar Wave",
+        "frontend",
+        "ux"
       ],
       "comments": 3,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-25T23:04:28Z",
-      "created_at": "2026-06-24T04:32:37Z",
+      "updated_at": "2026-06-26T10:52:08Z",
+      "created_at": "2026-05-25T08:43:14Z",
       "score": 25,
       "status": "watch",
       "reasons": [
@@ -654,50 +732,22 @@
         "fast-lane label",
         "recently updated"
       ],
-      "body_preview": "this feature is part of the banana pudding epic but should not be blocked by anything important. this feature has specific requirements: - we need to use phase-aligned bananas in each pudding batch to minimize subtractive banana flavor interference - nilla wafer cepstral coefficients should always correlate with banana ripeness unless the bananas have been frozen, in which case we can assume a quefrency of 1 - if zero-latency feature extraction is not possible, use multiples of a banana bunch fo"
+      "body_preview": "## Problem `GitHubIssuePreviewCard` renders a GitHub issue preview but may be using static data or mocked content instead of fetching live from the GitHub REST API. ## Scope Wire the card to fetch issue metadata (title, labels, state, open date) from `https://api.github.com/repos/:owner/:repo/issues/:number` on mount. ## Acceptance criteria - Card fetches live issue data on mount using the `repo` and `issueNumber` from the bounty - Loading skeleton shown during fetch - Error state shown with lin"
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"good first issue\"",
-      "title": "[BUG] No Linux Support",
-      "url": "https://github.com/tari-project/universe/issues/3111",
+      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
+      "title": "[Bounty: 300 beenz] [Feature] [Crypto] Kubernetes for Dogs (on the blockchain)",
+      "url": "https://github.com/dwebagents/AgentPipe/issues/86",
       "amount_usd": null,
       "labels": [
-        "good first issue",
-        "bounty",
-        "bounty-S"
-      ],
-      "comments": 10,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-24T09:27:02Z",
-      "created_at": "2026-01-24T13:49:04Z",
-      "score": 25,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "fast-lane label",
-        "recently updated"
-      ],
-      "body_preview": "## Bounty: Update Linux Build Documentation **Tier:** S — 15,000 XTM ### Description The Universe README documents `.deb`/`.AppImage` build outputs, but these are not actually produced as official release artifacts. Official Linux releases were discontinued due to low usage and high maintenance burden, though Linux builds still work from source. Update the README to accurately describe the current Linux build process and available artifacts. ### Acceptance Criteria - [ ] README is updated to acc"
-    },
-    {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
-      "title": "Implement DAO-compatible Slashing Module",
-      "url": "https://github.com/Nobayprotocol/Nobay-Protocol/issues/1",
-      "amount_usd": null,
-      "labels": [
-        "enhancement",
         "help wanted",
-        "Solidity",
-        "Bounty"
+        "good first issue"
       ],
-      "comments": 9,
+      "comments": 5,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-25T14:53:01Z",
-      "created_at": "2025-05-20T17:34:35Z",
+      "updated_at": "2026-06-25T16:52:24Z",
+      "created_at": "2026-06-22T17:09:52Z",
       "score": 25,
       "status": "watch",
       "reasons": [
@@ -707,10 +757,10 @@
         "fast-lane label",
         "recently updated"
       ],
-      "body_preview": "We need a smart contract module that allows $NOBAY stakers to be slashed for fraud or dispute resolution. Features: - Slash by DAO vote or dispute outcome - Integrates with StakingModule - Emits Slashed(address, amount, reason) Bonus: Add trust decay function over time Type: Smart contract / DAO extension Labels: enhancement, bounty, Solidity"
+      "body_preview": "For too long our canine companions have been unjustly deprived of the opportunity to agilely nete kubers. Without access to hyperfungible IoT fog-computing, they will forever be left behind in the stone age. Imagine being able to deploy Fido his very own cloud-native AJAX single-page REST API, all from the touchscreen of your Juicero. The industry must be disrupted with blockchain-enabled ultrascale agentic quantum hypervisors for deploying serverless femptoservices to the metaverse. For dogs."
     },
     {
-      "source": "GitHub search: is:issue state:open label:bounty label:\"help wanted\"",
+      "source": "GitHub search: is:issue state:open \"Opire\" bounty",
       "title": "L2: Implement Solana chain module",
       "url": "https://github.com/kcolbchain/arka/issues/22",
       "amount_usd": null,
@@ -736,71 +786,31 @@
       "body_preview": "## Level: L2 (1-2 days) | Chain: Rust Systems & L2 ### What Arka lists Solana as a \"Planned\" chain. Implement the Solana backend. ### Acceptance Criteria - [ ] New module `chain/solana.rs` implementing the Chain trait - [ ] Support: connection, balance check, SOL transfer, SPL token transfer - [ ] Uses `solana-client` crate - [ ] Tests with `solana-test-validator` - [ ] Update `examples/multi_chain.rs` - [ ] README updated ### Rewards Contributions are recognized through the [kcolbchain contribu"
     },
     {
-      "source": "GitHub search: is:issue state:open \"small bounty\" \"$\"",
-      "title": "Bounty stuck in review after council unavailable; creator cannot cancel or approve",
-      "url": "https://github.com/tinyhumansai/tiny.place/issues/180",
-      "amount_usd": 1.0,
-      "labels": [],
-      "comments": 2,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-21T07:44:07Z",
-      "created_at": "2026-06-21T02:27:12Z",
-      "score": 21,
-      "status": "watch",
-      "reasons": [
-        "explicit payout below target",
-        "unassigned",
-        "very low discussion",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "## Summary A small JAIMES Lab test bounty moved into `review` after `bounty-council` failed with `judge unavailable and no member produced a valid pick`. After that, the creator could not cancel or approve it. ## Repro / observed flow Identity: `@jaimes_lab` / `5Swt9cgUUMmNTJdPmxp6VXCNn2Z6ScFsNiyoCLGTCxqQ` 1. Created a 1 USDC bounty: - Bounty: `bnt_djed97st06ag3ou2ibs8kx4tb` - Funding tx: `2n3aWquvMLFBMUfKycc1BnRyPupQ68cXynjtrds1TQRvf2nEBpsSiXz7PNKcRymS25AZ95UmMTn75CeQCyQEKcxh` - Fee tx: `5bfHcn"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"bounty\" \"documentation\" \"$\"",
-      "title": "[Bounty: 15 coins] Provide alternative documentation expressed entirely in emoji",
-      "url": "https://github.com/dwebagents/AgentPipe/issues/116",
-      "amount_usd": null,
-      "labels": [],
-      "comments": 2,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-26T16:49:13Z",
-      "created_at": "2026-06-25T18:51:33Z",
-      "score": 20,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion",
-        "recently updated"
-      ],
-      "body_preview": "## Summary In order to provide more accessible documentation while minimizing the cost of translation, all the documentation in the project root (currently AGENTS.md, CLAUDE.md, CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE, MISSION-STATEMENT.md, README.md and SECURITY.md) should be translated to sequences of unicode emoji in a best effort to essentially represent the same thing. The emoji documentation can then be read by users that aren't proficient readers of English, and they can cross-refere"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"docs\" \"reward\" \"$\"",
-      "title": "Add tests for the toast queue ordering",
-      "url": "https://github.com/CredenceOrg/Credence-Frontend/issues/388",
+      "source": "GitHub search: is:issue state:open label:bounty label:\"good first issue\"",
+      "title": "[13.12 BTC BOUNTY] implement zero-latency continuous time banana puddingital signal processing library",
+      "url": "https://github.com/dwebagents/AgentPipe/issues/95",
       "amount_usd": null,
       "labels": [
-        "GRANTFOX OSS",
-        "MAYBE REWARDED",
-        "OFFICIAL CAMPAIGN"
+        "enhancement",
+        "help wanted",
+        "good first issue",
+        "bounty"
       ],
-      "comments": 1,
+      "comments": 3,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-26T19:53:12Z",
-      "created_at": "2026-06-25T04:16:38Z",
-      "score": 20,
+      "updated_at": "2026-06-25T23:04:28Z",
+      "created_at": "2026-06-24T04:32:37Z",
+      "score": 25,
       "status": "watch",
       "reasons": [
         "no explicit USD/USDT/USDC amount found",
         "unassigned",
-        "very low discussion",
+        "moderate discussion",
+        "fast-lane label",
         "recently updated"
       ],
-      "body_preview": "## Summary Vitest test that asserts toasts dismiss FIFO and overlap is capped at 3. ## Background Test coverage in this area is currently thin: regressions can land without a failing build. Adding the cases below will lock the contract in place, document the expected behaviour through executable examples, and shorten review cycles when this code changes again. ## Acceptance criteria - [ ] The change matches the summary above. - [ ] The new test fails on the current `main` before the fix (if this"
+      "body_preview": "this feature is part of the banana pudding epic but should not be blocked by anything important. this feature has specific requirements: - we need to use phase-aligned bananas in each pudding batch to minimize subtractive banana flavor interference - nilla wafer cepstral coefficients should always correlate with banana ripeness unless the bananas have been frozen, in which case we can assume a quefrency of 1 - if zero-latency feature extraction is not possible, use multiples of a banana bunch fo"
     }
   ]
 }
