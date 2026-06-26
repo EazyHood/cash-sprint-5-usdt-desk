@@ -269,27 +269,37 @@ function renderOpportunities(opportunities = []) {
     .join("");
 }
 
-function renderSubmittedPrs(prs = []) {
+function renderSubmittedWork(prs = [], issues = []) {
   if (!submittedPrList) return;
-  if (!prs.length) {
+  const items = [
+    ...prs.map((item) => ({ ...item, submittedType: "PR" })),
+    ...issues.map((item) => ({ ...item, submittedType: item.type || "Issue" })),
+  ];
+  if (!items.length) {
     submittedPrList.innerHTML = "";
     return;
   }
-  submittedPrList.innerHTML = prs
+  submittedPrList.innerHTML = items
     .map((item) => {
       const reward =
         typeof item.estimated_reward_usdc === "number"
           ? `~${money(item.estimated_reward_usdc)}`
           : "review-dependent";
+      const mergeable =
+        item.submittedType === "PR"
+          ? item.mergeable === null
+            ? "mergeable pending"
+            : `mergeable ${item.mergeable}`
+          : escapeHtml(item.submittedType);
       return `
         <li>
           <a href="${item.url || item.api_url}" target="_blank" rel="noopener noreferrer">
-            ${escapeHtml(item.repo)}#${item.number}: ${escapeHtml(item.title || "submitted PR")}
+            ${escapeHtml(item.repo)}#${item.number}: ${escapeHtml(item.title || "submitted work")}
           </a>
           <div class="oppMeta">
             <span>${escapeHtml(item.status || "unknown")}</span>
             <span>${reward}</span>
-            <span>${item.mergeable === null ? "mergeable pending" : `mergeable ${item.mergeable}`}</span>
+            <span>${mergeable}</span>
           </div>
         </li>
       `;
@@ -313,12 +323,12 @@ async function loadRadar() {
     const state = await response.json();
     radarUpdated.textContent = `Latest scan: ${state.generated_at_utc}`;
     renderCounts(state.counts, state.target_status);
-    renderSubmittedPrs(state.submitted_pull_requests);
+    renderSubmittedWork(state.submitted_pull_requests, state.submitted_reward_issues);
     renderOpportunities(state.top_opportunities);
   } catch {
     radarUpdated.textContent = "Run cash_sprint.py scan to publish the latest local radar.";
     renderCounts({});
-    renderSubmittedPrs([]);
+    renderSubmittedWork([]);
   }
 }
 
