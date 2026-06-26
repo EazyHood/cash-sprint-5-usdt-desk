@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T13:43:21+00:00",
+  "generated_at_utc": "2026-06-26T13:45:55+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,11 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "actionable": 2,
-    "manual_review": 2,
-    "account_required": 13,
-    "watch": 362,
-    "rejected": 983
+    "account_required": 17,
+    "watch": 367,
+    "rejected": 956
   },
   "target_status": {
     "target_usd": 5,
@@ -23,97 +21,30 @@
   },
   "top_opportunities": [
     {
-      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
-      "title": "AI money patterns research and revenue-lane scoreboard",
-      "url": "https://github.com/gagan114662/her_2/issues/44",
-      "amount_usd": 19.0,
-      "labels": [],
-      "comments": 0,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-20T02:10:18Z",
-      "created_at": "2026-05-17T11:55:12Z",
-      "score": 99,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "very low discussion"
-      ],
-      "body_preview": "# AI Money Patterns Research Generated: 2026-05-17 America/Toronto Source of truth: GitHub issue for gagan114662/her_2. This file is a local working copy for the same research. ## Rule Do not count a pattern as success until it has one of these states: - cash_received - accepted_paid_work - payment_ask_sent - submitted_paid_work - prep_only ## Evidence-Backed Patterns ### 1. Boring n8n automations for startups Evidence: - Reddit r/n8n post: \"I have built n8n automations for a dozen startups this"
-    },
-    {
       "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
-      "title": "$250 bounty: come up with and implement a very \"pretty\" way for diffs and cursor jumping to be shown",
-      "url": "https://github.com/reachingforthejack/cursortab.nvim/issues/8",
-      "amount_usd": 250.0,
-      "labels": [],
-      "comments": 3,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2025-06-02T21:01:09Z",
-      "created_at": "2025-04-13T06:36:24Z",
-      "score": 90,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion",
-        "stale"
-      ],
-      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%240%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/reachingforthejack/cursortab.nvim/issues/8) <!-- /Issuehunt Badges --> I have a pretty crude but working version of the diffing and cursor jumping set up and working right now, but it's quite intrusive. I'm making a best effort attempt on the Go side to determine what lines changed, and I have code set up that splits the diffs into three p"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
-      "title": "Make it easier to write reliable cleanup tasks",
-      "url": "https://github.com/avajs/ava/issues/928",
-      "amount_usd": 82.0,
+      "title": "Kill tree (all sub-processes) ",
+      "url": "https://github.com/sindresorhus/fkill/issues/21",
+      "amount_usd": 40.0,
       "labels": [
         "enhancement",
         "help wanted",
-        "scope:test-interface",
         ":dollar: Funded on Issuehunt"
       ],
-      "comments": 39,
+      "comments": 7,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2023-07-03T15:04:35Z",
-      "created_at": "2016-06-19T20:05:43Z",
-      "score": 80,
-      "status": "manual_review",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "fast-lane label",
-        "stale"
-      ],
-      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://issuehunt.io/r/avajs/ava/issues/928/badge.svg\" />](https://issuehunt.io/r/avajs/ava/issues/928) <!-- /Issuehunt Badges --> See: https://github.com/avajs/ava/pull/918#issuecomment-227016238 `after.always` has some issues when used as a cleanup task. Specifically, it won't run if: - There are test failures and `--fail-fast` is used. - There are uncaught exceptions thrown. I've advocated using `.before` or `.beforeEach` to ensure s"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
-      "title": "Improve github pr/issue embedding poopup message.",
-      "url": "https://github.com/BoostIO/BoostNote-App/issues/1149",
-      "amount_usd": 10.0,
-      "labels": [
-        "improvement request :hammer:",
-        "help wanted :sos:",
-        "funded on issuehunt :dollar:"
-      ],
-      "comments": 6,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-02-17T06:14:17Z",
-      "created_at": "2021-09-07T01:55:11Z",
-      "score": 65,
-      "status": "manual_review",
+      "updated_at": "2026-05-12T09:13:34Z",
+      "created_at": "2017-09-17T08:03:57Z",
+      "score": 95,
+      "status": "account_required",
       "reasons": [
         "explicit payout >= $5",
         "unassigned",
         "moderate discussion",
-        "stale"
+        "fast-lane label",
+        "requires account/claim/approval flow"
       ],
-      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2410%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/BoostIO/BoostNote-App/issues/1149) <!-- /Issuehunt Badges --> The current app is suggesting users embedding a Github block when they paste Github URL to markdown editor. But the suggestion popup is not distinguishing that the entity is an issue or a pull request so the message is always \"Embed Pull Request?\" although it should be \"Embed Issue"
+      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://issuehunt.io/r/sindresorhus/fkill/issues/21/badge.svg\" />](https://issuehunt.io/r/sindresorhus/fkill/issues/21) <!-- /Issuehunt Badges --> Typical use case is starting a process with multiple sub-processes and then wanting to killing them all: ```js const child = require('child_process').exec(\"node -e 'while (true);'\"); child.kill(); // will not work ``` It's been implemented for Windows in https://github.com/sindresorhus/fkill/"
     },
     {
       "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
@@ -310,6 +241,93 @@
         "requires account/claim/approval flow"
       ],
       "body_preview": "## Bounty Overview Build a poll creation and voting feature for group chats in the warpSpeed app. The feature should allow users to create polls directly from the group chat input area, send polls inline into the conversation, vote on options, view real-time results, and open a detailed “View Votes” bottom sheet. The experience should feel smooth, intuitive, and consistent with modern messaging apps such as WhatsApp. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "[PAID BOUNTY - $330] Email Inbox Classic View Page UI",
+      "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2",
+      "amount_usd": 330.0,
+      "labels": [
+        "help wanted",
+        "bounty",
+        "expert",
+        "paid",
+        "open",
+        "nodejs",
+        "typescript",
+        "react-native",
+        "frontend"
+      ],
+      "comments": 28,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T02:19:33Z",
+      "created_at": "2026-05-28T19:31:57Z",
+      "score": 85,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Bounty Overview Build the refreshed Classic Inbox UI using the latest warpSpeed design system. The UI should include the new top navigation row, category buttons, updated icons, search and filter UI, opened/unopened email states, and smooth scroll-based header behaviour. This bounty is part of the warpSpeed OPEN developer bounty programme. ## Reward $330 ## Difficulty Medium ## Main Skills * React Native * TypeScript * Storybook * UI Implementation * Design System Components ## Design Referen"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "[Tutorial] Shielded Token Operations: Mint, Transfer & Burn with Test Suite",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/327",
+      "amount_usd": 500.0,
+      "labels": [
+        "public",
+        "content-proposal",
+        "bounty",
+        "medium-priority"
+      ],
+      "comments": 28,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T19:23:09Z",
+      "created_at": "2026-04-13T12:32:02Z",
+      "score": 70,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Type of Content **Tutorial** ## Summary Walk through the complete shielded token lifecycle in Compact: minting, transferring, and burning, with compilable code and a full test suite. No UI required, this is focused on the contract and testing layer. Covers: - Minting with `mintShieldedToken` and `evolveNonce` - Transferring with `sendShielded` and change management via `ShieldedSendResult` - Burning via `sendImmediateShielded` to `shieldedBurnAddress()` - The Merkle tree constraint (freshly m"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "[Tutorial] Replay Attack Prevention in Compact: Nonces, Nullifiers & Domain Separation",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/297",
+      "amount_usd": 500.0,
+      "labels": [
+        "public",
+        "content-proposal",
+        "bounty",
+        "low-priority"
+      ],
+      "comments": 16,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T19:21:53Z",
+      "created_at": "2026-04-13T01:13:12Z",
+      "score": 70,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Type of Content **Tutorial** ## Summary Explain three replay prevention mechanisms: (1) Counter-based nonces that increment per operation, (2) Set-based nullifiers derived from `persistentCommit(secret, context)`, (3) Domain separation tags in hash functions to prevent cross-circuit replay. Show working examples of each and when to use which pattern. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Counter-based nonces that increment per op"
     }
   ]
 }
