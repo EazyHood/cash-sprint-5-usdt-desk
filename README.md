@@ -1,12 +1,19 @@
 # USDT Quick Fix Desk
 
-Small front-end/web fixes for $5+ paid in USDT on Ethereum / ERC-20.
+Small front-end/web fixes and an instant downloadable landing page kit for $5+ paid in USDT on Ethereum / ERC-20.
 
 Live order page:
 
 https://eazyhood.github.io/cash-sprint-5-usdt-desk/
 
-## What fits
+## Instant product
+
+- QuickFix Landing Kit
+- Three editable static landing page starters
+- Delivered as a ZIP after on-chain transaction verification
+- Price: $5 USDT ERC-20
+
+## Custom work that fits
 
 - Static one-page websites
 - HTML/CSS bug fixes

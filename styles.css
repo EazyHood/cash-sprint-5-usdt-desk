@@ -205,6 +205,7 @@ code {
   box-shadow: var(--shadow);
 }
 
+.productBand,
 .orderBand,
 .statusBand {
   padding: 34px 0 48px;
@@ -229,6 +230,65 @@ code {
   display: grid;
   grid-template-columns: 1.1fr 0.55fr 1.2fr;
   gap: 14px;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.72fr);
+  gap: 16px;
+  align-items: stretch;
+}
+
+.productInfo,
+.unlockBox {
+  padding: 18px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.productInfo h3 {
+  margin: 6px 0 10px;
+  font-size: 1.35rem;
+}
+
+.productMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.productMeta span {
+  padding: 7px 10px;
+  color: #153b2b;
+  background: var(--green-soft);
+  border-radius: 6px;
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+.unlockBox {
+  display: grid;
+  gap: 12px;
+}
+
+.finePrint {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.downloadLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  color: #ffffff;
+  background: var(--green);
+  border-radius: 8px;
+  font-weight: 850;
+  text-decoration: none;
 }
 
 label {
@@ -346,6 +406,7 @@ footer {
 
   .metrics,
   .statusGrid,
+  .productGrid,
   .orderGrid {
     grid-template-columns: 1fr;
   }

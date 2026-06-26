@@ -61,6 +61,40 @@
         </div>
       </section>
 
+      <section class="productBand" aria-labelledby="productTitle">
+        <div class="sectionHead">
+          <h2 id="productTitle">Instant template pack</h2>
+          <p>Three editable landing page starters delivered as a ZIP after a verified $5+ USDT ERC-20 transaction.</p>
+        </div>
+
+        <div class="productGrid">
+          <div class="productInfo">
+            <span class="label">Digital product</span>
+            <h3>QuickFix Landing Kit</h3>
+            <p>
+              SaaS, local service, and creator landing page templates with shared CSS and a tiny JavaScript helper.
+              No build step, no dependencies, ready for GitHub Pages or Netlify Drop.
+            </p>
+            <div class="productMeta">
+              <span>$5 USDT</span>
+              <span>Static HTML/CSS/JS</span>
+              <span>Instant ZIP</span>
+            </div>
+          </div>
+          <form id="unlockForm" class="unlockBox">
+            <label>
+              <span>USDT transaction hash</span>
+              <input id="unlockTx" type="text" placeholder="0x..." required />
+            </label>
+            <button class="primary" type="submit">Verify and unlock</button>
+            <p id="unlockStatus" class="finePrint">The transaction must send at least 5 USDT to the wallet above.</p>
+            <a id="downloadPack" class="downloadLink" href="downloads/quickfix-landing-kit.zip" download hidden>
+              Download QuickFix Landing Kit
+            </a>
+          </form>
+        </div>
+      </section>
+
       <section class="orderBand" aria-labelledby="orderTitle">
         <div class="sectionHead">
           <h2 id="orderTitle">Create an order</h2>

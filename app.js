@@ -1,8 +1,13 @@
 const wallet = "0x06f44f4839fd5df4f4670036d028b29dec939363";
+const usdtContract = "0xdac17f958d2ee523a2206206994597c13d831ec7";
 const orderIssueUrl = "https://github.com/EazyHood/cash-sprint-5-usdt-desk/issues/new";
 
 const copyButton = document.querySelector("#copyWallet");
 const orderForm = document.querySelector("#orderForm");
+const unlockForm = document.querySelector("#unlockForm");
+const unlockTx = document.querySelector("#unlockTx");
+const unlockStatus = document.querySelector("#unlockStatus");
+const downloadPack = document.querySelector("#downloadPack");
 const repoLink = document.querySelector("#repoLink");
 const radarUpdated = document.querySelector("#radarUpdated");
 const statusGrid = document.querySelector("#statusGrid");
@@ -51,6 +56,62 @@ orderForm.addEventListener("submit", (event) => {
   url.searchParams.set("body", body);
   window.open(url.toString(), "_blank", "noopener,noreferrer");
 });
+
+unlockForm.addEventListener("submit", async (event) => {
+  event.preventDefault();
+  const txHash = unlockTx.value.trim();
+  downloadPack.hidden = true;
+  unlockStatus.textContent = "Checking transaction on Ethereum...";
+
+  if (!/^0x[a-f0-9]{64}$/i.test(txHash)) {
+    unlockStatus.textContent = "Paste a valid Ethereum transaction hash.";
+    return;
+  }
+
+  try {
+    const tx = await fetchTx(txHash);
+    const match = findUsdtPayment(tx);
+    if (!match) {
+      unlockStatus.textContent = "No 5+ USDT ERC-20 transfer to this wallet was found in that transaction.";
+      return;
+    }
+    if (tx.success === false) {
+      unlockStatus.textContent = "That transaction is not marked successful.";
+      return;
+    }
+    if ((tx.confirmations || 0) < 3) {
+      unlockStatus.textContent = "Transaction found, waiting for at least 3 confirmations.";
+      return;
+    }
+    unlockStatus.textContent = `Verified ${money(match.amount)} USDT. Download unlocked.`;
+    downloadPack.hidden = false;
+    downloadPack.focus();
+  } catch (error) {
+    unlockStatus.textContent = `Could not verify automatically: ${error.message}`;
+  }
+});
+
+async function fetchTx(txHash) {
+  const url = `https://api.ethplorer.io/getTxInfo/${encodeURIComponent(txHash)}?apiKey=freekey`;
+  const response = await fetch(url, { cache: "no-store" });
+  if (!response.ok) throw new Error(`verification API returned HTTP ${response.status}`);
+  return response.json();
+}
+
+function findUsdtPayment(tx) {
+  const operations = Array.isArray(tx.operations) ? tx.operations : [];
+  for (const operation of operations) {
+    const token = operation.tokenInfo || {};
+    const tokenAddress = String(token.address || "").toLowerCase();
+    const toAddress = String(operation.to || "").toLowerCase();
+    if (tokenAddress !== usdtContract || toAddress !== wallet.toLowerCase()) continue;
+    const decimals = Number(token.decimals || 6);
+    const rawValue = Number(operation.value || 0);
+    const amount = rawValue / 10 ** decimals;
+    if (amount >= 5) return { amount, operation };
+  }
+  return null;
+}
 
 function money(value) {
   if (typeof value !== "number") return "n/a";
