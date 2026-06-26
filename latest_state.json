@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T23:02:28+00:00",
+  "generated_at_utc": "2026-06-26T23:06:01+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -486,8 +486,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1896,
-      "reward_basis": "86 remaining product and plan metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 5.16,
+      "reward_basis": "87 remaining product and plan metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 5.22,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1896",
       "title": "Update remaining product and plan metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1896",
@@ -496,7 +496,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T19:10:20Z",
-      "updated_at": "2026-06-26T19:10:20Z",
+      "updated_at": "2026-06-26T23:04:02Z",
       "merged_at": null,
       "author": "EazyHood"
     },
