@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T21:03:27+00:00",
+  "generated_at_utc": "2026-06-26T21:09:24+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,15 +9,15 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 182,
-    "rejected": 1066
+    "watch": 184,
+    "rejected": 1063
   },
   "target_status": {
     "target_usd": 5,
     "deadline_hours": 30,
     "earned_verified_usd": 0.0,
     "completion": "not_verified",
-    "note": "No incoming USDT >= target found since the sprint baseline."
+    "note": "No incoming USDT/USDC >= target found since the sprint baseline."
   },
   "github_search_status": {
     "status": "fresh"
