@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T17:55:38+00:00",
+  "generated_at_utc": "2026-06-26T17:57:49+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,9 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "account_required": 15,
-    "watch": 427,
-    "rejected": 1091
+    "account_required": 13,
+    "watch": 323,
+    "rejected": 968
   },
   "target_status": {
     "target_usd": 5,
@@ -309,6 +309,23 @@
       "draft": false,
       "created_at": "2026-06-26T17:50:52Z",
       "updated_at": "2026-06-26T17:50:52Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1886,
+      "reward_basis": "100 service offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1886",
+      "title": "Update service offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1886",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:55:17Z",
+      "updated_at": "2026-06-26T17:55:17Z",
       "merged_at": null,
       "author": "EazyHood"
     }
@@ -617,21 +634,21 @@
       "body_preview": "## Type of Content **Tutorial** ## Summary Explain three replay prevention mechanisms: (1) Counter-based nonces that increment per operation, (2) Set-based nullifiers derived from `persistentCommit(secret, context)`, (3) Domain separation tags in hash functions to prevent cross-circuit replay. Show working examples of each and when to use which pattern. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Counter-based nonces that increment per op"
     },
     {
-      "source": "GitHub search: is:issue state:open \"bounty\" \"documentation\" \"$\"",
-      "title": "[Tutorial] Concurrent Transactions on Midnight: UTXO Race Conditions & Workarounds",
-      "url": "https://github.com/midnightntwrk/contributor-hub/issues/301",
-      "amount_usd": 500.0,
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "[Tutorial] Midnight vs Other Privacy Chains: Architecture Comparison for Developers",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/324",
+      "amount_usd": 300.0,
       "labels": [
         "public",
         "content-proposal",
         "bounty",
         "low-priority"
       ],
-      "comments": 20,
+      "comments": 22,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-26T04:43:57Z",
-      "created_at": "2026-04-13T01:13:30Z",
+      "updated_at": "2026-06-25T02:16:01Z",
+      "created_at": "2026-04-13T01:15:17Z",
       "score": 70,
       "status": "account_required",
       "reasons": [
@@ -641,7 +658,7 @@
         "recently updated",
         "requires account/claim/approval flow"
       ],
-      "body_preview": "## Type of Content **Tutorial** ## Summary Explain why two transactions from the same wallet can fail if they try to spend the same DUST UTXOs. Show the \"stale UTXO\" error, explain the UTXO model vs account model difference, and demonstrate patterns for sequential transaction queuing or multiple wallet instances for parallelism. ## Target Audience Developers ## Deliverables 1. **Written tutorial (2,500-3,500 words)** covering: - Why concurrent transactions from the same wallet can fail - The \"st"
+      "body_preview": "## Type of Content **Tutorial** ## Summary Compare Midnight's architecture (Compact + ZK circuits + Zswap + dual ledger) with other privacy-focused chains (Aztec's Noir + UTXO, Aleo's Leo + records, Mina's o1js + recursive SNARKs, Zcash's Sapling). Focus on developer experience: language design, state model, privacy model. An honest technical comparison, not marketing. ## Target Audience Developers and Web3 Enthusiasts ## Deliverables 1. **Written tutorial (2,000-3,000 words)** covering: - Midni"
     }
   ]
 }
