@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T22:26:42+00:00",
+  "generated_at_utc": "2026-06-26T22:33:23+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -10,8 +10,8 @@
   "counts": {
     "actionable": 1,
     "account_required": 3,
-    "watch": 152,
-    "rejected": 1071
+    "watch": 153,
+    "rejected": 1069
   },
   "target_status": {
     "target_usd": 5,
@@ -179,6 +179,23 @@
     },
     {
       "repo": "Chain-Love/chain-love",
+      "number": 1877,
+      "reward_basis": "58 oracle offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 3.48,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1877",
+      "title": "Update oracle offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1877",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T16:53:50Z",
+      "updated_at": "2026-06-26T22:31:14Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
       "number": 1878,
       "reward_basis": "105 platform offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.3,
@@ -214,8 +231,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1880,
-      "reward_basis": "100 wallet offer metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 6.0,
+      "reward_basis": "101 wallet offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.06,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1880",
       "title": "Update wallet offer metadata",
       "url": "https://github.com/Chain-Love/chain-love/pull/1880",
@@ -224,7 +241,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T17:17:02Z",
-      "updated_at": "2026-06-26T17:17:02Z",
+      "updated_at": "2026-06-26T22:31:15Z",
       "merged_at": null,
       "author": "EazyHood"
     },
@@ -299,8 +316,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1885,
-      "reward_basis": "124 second-batch API offer metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 7.44,
+      "reward_basis": "125 second-batch API offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 7.5,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1885",
       "title": "Update second API offer metadata batch",
       "url": "https://github.com/Chain-Love/chain-love/pull/1885",
@@ -309,7 +326,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T17:50:52Z",
-      "updated_at": "2026-06-26T20:09:32Z",
+      "updated_at": "2026-06-26T22:31:14Z",
       "merged_at": null,
       "author": "EazyHood"
     },
@@ -401,8 +418,8 @@
     {
       "repo": "Chain-Love/chain-love",
       "number": 1891,
-      "reward_basis": "115 fifth-batch API offer metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 6.9,
+      "reward_basis": "116 fifth-batch API offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.96,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1891",
       "title": "Update fifth API offer metadata batch",
       "url": "https://github.com/Chain-Love/chain-love/pull/1891",
@@ -411,15 +428,15 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T18:25:35Z",
-      "updated_at": "2026-06-26T20:09:37Z",
+      "updated_at": "2026-06-26T22:31:14Z",
       "merged_at": null,
       "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
       "number": 1892,
-      "reward_basis": "123 sixth-batch API offer metadata fields at 0.06 USDC each",
-      "estimated_reward_usdc": 7.38,
+      "reward_basis": "125 sixth-batch API offer metadata fields at 0.06 USDC each",
+      "estimated_reward_usdc": 7.5,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1892",
       "title": "Update sixth API offer metadata batch",
       "url": "https://github.com/Chain-Love/chain-love/pull/1892",
@@ -428,7 +445,7 @@
       "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T18:32:01Z",
-      "updated_at": "2026-06-26T20:59:43Z",
+      "updated_at": "2026-06-26T22:31:14Z",
       "merged_at": null,
       "author": "EazyHood"
     },
