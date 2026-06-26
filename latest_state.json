@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T15:20:12+00:00",
+  "generated_at_utc": "2026-06-26T15:22:42+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 13,
-    "watch": 248,
-    "rejected": 675
+    "watch": 261,
+    "rejected": 702
   },
   "target_status": {
     "target_usd": 5,
@@ -77,8 +77,16 @@
       "reward_basis": "21 current documentation/link cells at 0.06 USDC each",
       "estimated_reward_usdc": 1.26,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1869",
-      "status": "unknown",
-      "error": "HTTP Error 403: rate limit exceeded"
+      "title": "Fix current documentation links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1869",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T15:16:28Z",
+      "updated_at": "2026-06-26T15:16:28Z",
+      "merged_at": null,
+      "author": "EazyHood"
     }
   ],
   "top_opportunities": [
