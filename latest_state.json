@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T02:24:04+00:00",
+  "generated_at_utc": "2026-06-27T02:27:16+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 154,
-    "rejected": 1026
+    "watch": 155,
+    "rejected": 1025
   },
   "target_status": {
     "target_usd": 5,
@@ -1380,6 +1380,23 @@
       "draft": false,
       "created_at": "2026-06-27T02:06:49Z",
       "updated_at": "2026-06-27T02:06:49Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Disciplr-Org/Disciplr-backend",
+      "number": 786,
+      "reward_basis": "GrantFox/Stellar Wave issue #744; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/786",
+      "title": "Harden S3 evidence object-key validation",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/786",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:22:56Z",
+      "updated_at": "2026-06-27T02:22:56Z",
       "merged_at": null,
       "author": "EazyHood"
     }
