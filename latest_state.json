@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T04:16:58+00:00",
+  "generated_at_utc": "2026-06-27T04:20:27+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -10,7 +10,7 @@
   "counts": {
     "account_required": 3,
     "watch": 157,
-    "rejected": 1054
+    "rejected": 1055
   },
   "target_status": {
     "target_usd": 5,
@@ -1822,6 +1822,23 @@
       "draft": false,
       "created_at": "2026-06-27T04:05:58Z",
       "updated_at": "2026-06-27T04:05:58Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Disciplr-Org/Disciplr-backend",
+      "number": 797,
+      "reward_basis": "GrantFox/Stellar Wave issue #727; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/797",
+      "title": "feat: add verification idempotency keys",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/797",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T04:16:50Z",
+      "updated_at": "2026-06-27T04:16:50Z",
       "merged_at": null,
       "author": "EazyHood"
     }
