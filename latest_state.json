@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T01:08:32+00:00",
+  "generated_at_utc": "2026-06-27T01:11:56+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -717,6 +717,23 @@
       "draft": false,
       "created_at": "2026-06-27T01:00:52Z",
       "updated_at": "2026-06-27T01:00:52Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1912,
+      "reward_basis": "91 Symbiosis and Axelar bridge listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 5.46,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1912",
+      "title": "Add Symbiosis and Axelar bridge listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1912",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:08:42Z",
+      "updated_at": "2026-06-27T01:08:42Z",
       "merged_at": null,
       "author": "EazyHood"
     },
