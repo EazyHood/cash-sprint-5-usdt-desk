@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T02:32:46+00:00",
+  "generated_at_utc": "2026-06-27T02:36:00+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -1416,6 +1416,23 @@
       "updated_at": "2026-06-27T02:22:56Z",
       "merged_at": null,
       "author": "EazyHood"
+    },
+    {
+      "repo": "Disciplr-Org/Disciplr-backend",
+      "number": 787,
+      "reward_basis": "GrantFox/Stellar Wave issue #742; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/787",
+      "title": "test: rate limiter tenant isolation",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/787",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:33:03Z",
+      "updated_at": "2026-06-27T02:33:03Z",
+      "merged_at": null,
+      "author": "EazyHood"
     }
   ],
   "submitted_reward_issues": [
@@ -1568,7 +1585,7 @@
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%245%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/FAForever/server/issues/640) <!-- /Issuehunt Badges --> The server should not be sending any strings that get rendered in the client, because these strings are in English and we can't be sure that the user on the other end has their client set to English (in fact a majority of people probably knows English only as a second language, or does no"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty \"$5\" -label:invalid -label:wontfix",
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
       "title": "FlyCasual 2.5 UO Roadmap",
       "url": "https://github.com/Baledin/FlyCasual/issues/39",
       "amount_usd": null,
