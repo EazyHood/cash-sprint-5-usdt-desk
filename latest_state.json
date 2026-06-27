@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T03:34:41+00:00",
+  "generated_at_utc": "2026-06-27T03:38:14+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -1040,6 +1040,23 @@
       "draft": false,
       "created_at": "2026-06-27T03:28:53Z",
       "updated_at": "2026-06-27T03:28:53Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1931,
+      "reward_basis": "126 Guarda Bitget Wallet DCENT Exodus Tangem NuFi and Cwallet listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 7.56,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1931",
+      "title": "Add fourth wallet listing link batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1931",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:35:04Z",
+      "updated_at": "2026-06-27T03:35:04Z",
       "merged_at": null,
       "author": "EazyHood"
     },
