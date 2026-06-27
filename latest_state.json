@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T17:44:00+00:00",
+  "generated_at_utc": "2026-06-27T18:06:43+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -10,7 +10,7 @@
   "counts": {
     "account_required": 5,
     "watch": 161,
-    "rejected": 1067
+    "rejected": 1065
   },
   "target_status": {
     "target_usd": 5,
@@ -2044,7 +2044,7 @@
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://issuehunt.io/r/avajs/ava/issues/928/badge.svg\" />](https://issuehunt.io/r/avajs/ava/issues/928) <!-- /Issuehunt Badges --> See: https://github.com/avajs/ava/pull/918#issuecomment-227016238 `after.always` has some issues when used as a cleanup task. Specifically, it won't run if: - There are test failures and `--fail-fast` is used. - There are uncaught exceptions thrown. I've advocated using `.before` or `.beforeEach` to ensure s"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
       "title": "Party System [50 USD Bounty]",
       "url": "https://github.com/dxura/dxrp/issues/73",
       "amount_usd": 50.0,
@@ -2120,91 +2120,6 @@
       "body_preview": "## Problem `mobile/src/config/DeepLinkConfig.ts` defines deep link routes but they do not cover: - Bounty detail pages (`stellar://bounty/:id`) - Creator profile pages (`stellar://creator/:id`) - Email verification links (`stellar://verify?token=...`) - Payment completion callbacks from external wallets Without these, users tapping links in emails or other apps are dropped at the home screen. ## Fix 1. Register all route patterns in `DeepLinkConfig.ts` 2. In `AppNavigator.tsx`, add a `Linking` c"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty \"$10\" -label:invalid -label:wontfix",
-      "title": "[BOUNTY] [level:intermediate] Implement detailed log level configurations in FastAPI backend",
-      "url": "https://github.com/ritesh-1918/HELPDESK.AI/issues/2944",
-      "amount_usd": null,
-      "labels": [
-        "gssoc",
-        "gssoc:approved",
-        "level:beginner",
-        "level:intermediate",
-        "type:feature",
-        "bounty",
-        "type:refactor"
-      ],
-      "comments": 10,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-27T08:35:56Z",
-      "created_at": "2026-06-21T13:02:22Z",
-      "score": 10,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "recently updated"
-      ],
-      "body_preview": "## 🎯 Problem Statement Introduce configurable log levels and structured JSON formatting in the FastAPI backend logger to improve trace reliability. --- ### 🌟 Developer Action Network (Take 10 Seconds!) Before you raise your PR (strictly targeting the `gssoc` branch, NOT `main`), please complete these onboarding steps: 1. ⭐ **Star this repository**: https://github.com/ritesh-1918/HELPDESK.AI 2. 👤 **Follow the Project Admin**: https://github.com/ritesh-1918 (Mandatory - manual step) 3. 💼 **Connect"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$10\" -label:invalid -label:wontfix",
-      "title": "[BOUNTY] [level:intermediate] Standardize error handling and user-friendly JSON payloads in auth middleware",
-      "url": "https://github.com/ritesh-1918/HELPDESK.AI/issues/2945",
-      "amount_usd": null,
-      "labels": [
-        "gssoc",
-        "gssoc:approved",
-        "level:intermediate",
-        "type:bug",
-        "type:security",
-        "bounty"
-      ],
-      "comments": 9,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-27T08:35:55Z",
-      "created_at": "2026-06-21T13:02:26Z",
-      "score": 10,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "recently updated"
-      ],
-      "body_preview": "## 🎯 Problem Statement Refactor auth middleware exceptions to return clean, standardized error response schemas rather than raw system error strings. --- ### 🌟 Developer Action Network (Take 10 Seconds!) Before you raise your PR (strictly targeting the `gssoc` branch, NOT `main`), please complete these onboarding steps: 1. ⭐ **Star this repository**: https://github.com/ritesh-1918/HELPDESK.AI 2. 👤 **Follow the Project Admin**: https://github.com/ritesh-1918 (Mandatory - manual step) 3. 💼 **Conne"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$10\" -label:invalid -label:wontfix",
-      "title": "[BOUNTY] [level:advanced] Introduce caching for ticket list queries using Redis",
-      "url": "https://github.com/ritesh-1918/HELPDESK.AI/issues/2946",
-      "amount_usd": null,
-      "labels": [
-        "gssoc",
-        "gssoc:approved",
-        "level:beginner",
-        "level:advanced",
-        "bounty",
-        "type:performance"
-      ],
-      "comments": 9,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-27T08:35:54Z",
-      "created_at": "2026-06-21T13:02:32Z",
-      "score": 10,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "recently updated"
-      ],
-      "body_preview": "## 🎯 Problem Statement Integrate Redis caching for ticket list and stats queries to optimize DB queries under high developer load. --- ### 🌟 Developer Action Network (Take 10 Seconds!) Before you raise your PR (strictly targeting the `gssoc` branch, NOT `main`), please complete these onboarding steps: 1. ⭐ **Star this repository**: https://github.com/ritesh-1918/HELPDESK.AI 2. 👤 **Follow the Project Admin**: https://github.com/ritesh-1918 (Mandatory - manual step) 3. 💼 **Connect on LinkedIn**: h"
-    },
-    {
       "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
       "title": "[Bounty] Create a sett style auto-compounding LP token vault",
       "url": "https://github.com/SharedStake/Contracts/issues/7",
@@ -2228,6 +2143,71 @@
         "fast-lane label"
       ],
       "body_preview": "We want to move from geysers to Sett style vaults for our rewards, based on yearn vaults. We want this sett vault to be useable for LP providers for SGT ETH. It should have an accompanying strategy that allows it to auto-compound earnings in SGT by providing them as liquidity to uniswap, and selling any required to create the ETH side. Should have documentation for functionality and deployment. Should be tested on a testnet. We can send you SGT to test with on goerli. Bonus high value requiremen"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"Opire\" bounty",
+      "title": "L2: Implement Solana chain module",
+      "url": "https://github.com/kcolbchain/arka/issues/22",
+      "amount_usd": null,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "bounty"
+      ],
+      "comments": 7,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T01:21:39Z",
+      "created_at": "2026-06-05T14:17:17Z",
+      "score": 10,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "moderate discussion",
+        "fast-lane label"
+      ],
+      "body_preview": "## Level: L2 (1-2 days) | Chain: Rust Systems & L2 ### What Arka lists Solana as a \"Planned\" chain. Implement the Solana backend. ### Acceptance Criteria - [ ] New module `chain/solana.rs` implementing the Chain trait - [ ] Support: connection, balance check, SOL transfer, SPL token transfer - [ ] Uses `solana-client` crate - [ ] Tests with `solana-test-validator` - [ ] Update `examples/multi_chain.rs` - [ ] README updated ### Rewards Contributions are recognized through the [kcolbchain contribu"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
+      "title": "Bounty",
+      "url": "https://github.com/souleater06/mineagent/issues/21",
+      "amount_usd": null,
+      "labels": [],
+      "comments": 1,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T15:17:11Z",
+      "created_at": "2026-06-14T10:58:42Z",
+      "score": 5,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion"
+      ],
+      "body_preview": "Here's a complete English bounty post template you can copy, paste, and adapt. It's designed to be easily parsed by bots (e.g., GitHub Actions, Discord \"action board\" scrapers) and follows typical Lean/Mathlib collaboration style. ```markdown [Bounty] $XXX – Formalize (or disprove) the \"Prime Emergence Conjecture\" ## Problem in plain language I propose a new conjecture related to prime emergence. *(Replace the following with your actual conjecture – keep it concise and precise)* **Conjecture (na"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
+      "title": "DEEP SEEK",
+      "url": "https://github.com/souleater06/mineagent/issues/4",
+      "amount_usd": null,
+      "labels": [],
+      "comments": 0,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-13T21:38:20Z",
+      "created_at": "2026-06-13T21:38:20Z",
+      "score": 5,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion"
+      ],
+      "body_preview": "Ω-Coder：VSCode 插件伪代码 一、插件结构 ``` omega-coder/ ├── package.json # 插件配置 ├── extension.ts # 插件入口 ├── bountyCreator.ts # 悬赏创建模块 ├── bountyView.ts # 悬赏侧边栏 Webview ├── sandboxRunner.ts # 代码沙箱执行 ├── omegaArbiter.ts # 欧米伽裁决器 └── bountyChain.ts # 悬赏链集成（可选） ``` --- 二、package.json ```json { \"name\": \"omega-coder\", \"displayName\": \"Ω-Coder\", \"description\": \"不写代码的编程助手——把你的需求变成悬赏，让AI来竞标\", \"version\": \"0.1.0\", \"engines\": { \"vscode\": \"^1.80.0\" }, \"activationEvents\": [\"onCommand:omega-coder.createBounty\"], \"contribu"
     }
   ]
 }
