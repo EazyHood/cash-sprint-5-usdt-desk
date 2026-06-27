@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T02:41:46+00:00",
+  "generated_at_utc": "2026-06-27T02:45:03+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 156,
-    "rejected": 1022
+    "watch": 157,
+    "rejected": 1021
   },
   "target_status": {
     "target_usd": 5,
@@ -1448,6 +1448,23 @@
       "draft": false,
       "created_at": "2026-06-27T02:33:03Z",
       "updated_at": "2026-06-27T02:33:03Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Disciplr-Org/Disciplr-backend",
+      "number": 788,
+      "reward_basis": "GrantFox/Stellar Wave issue #736; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/788",
+      "title": "test: prismaScope concurrent no-leakage",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/788",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:38:46Z",
+      "updated_at": "2026-06-27T02:38:46Z",
       "merged_at": null,
       "author": "EazyHood"
     }
