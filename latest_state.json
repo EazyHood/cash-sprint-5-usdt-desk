@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T03:31:55+00:00",
+  "generated_at_utc": "2026-06-27T03:34:41+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -1652,6 +1652,23 @@
       "draft": false,
       "created_at": "2026-06-27T03:21:00Z",
       "updated_at": "2026-06-27T03:21:00Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Disciplr-Org/Disciplr-backend",
+      "number": 793,
+      "reward_basis": "GrantFox/Stellar Wave issue #732; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/793",
+      "title": "test: transaction repository cursor stability",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/793",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:30:08Z",
+      "updated_at": "2026-06-27T03:30:08Z",
       "merged_at": null,
       "author": "EazyHood"
     }
