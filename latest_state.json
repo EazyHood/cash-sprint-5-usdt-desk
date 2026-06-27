@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T03:00:54+00:00",
+  "generated_at_utc": "2026-06-27T03:04:16+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 159,
-    "rejected": 1022
+    "watch": 158,
+    "rejected": 1023
   },
   "target_status": {
     "target_usd": 5,
@@ -1533,6 +1533,23 @@
       "draft": false,
       "created_at": "2026-06-27T02:50:39Z",
       "updated_at": "2026-06-27T02:50:39Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Disciplr-Org/Disciplr-backend",
+      "number": 790,
+      "reward_basis": "GrantFox/Stellar Wave issue #740; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/790",
+      "title": "test: WebAuthn counter rollback",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/790",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:59:17Z",
+      "updated_at": "2026-06-27T02:59:17Z",
       "merged_at": null,
       "author": "EazyHood"
     }
