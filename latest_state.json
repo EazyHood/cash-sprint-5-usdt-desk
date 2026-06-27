@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T18:29:18+00:00",
+  "generated_at_utc": "2026-06-27T18:51:56+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,15 +9,15 @@
   },
   "counts": {
     "account_required": 5,
-    "watch": 160,
-    "rejected": 1066
+    "watch": 161,
+    "rejected": 1053
   },
   "target_status": {
     "target_usd": 5,
     "deadline_hours": 30,
     "earned_verified_usd": 0.0,
     "completion": "not_verified",
-    "note": "No incoming USDT/USDC >= target found since the sprint baseline."
+    "note": "Payment API unavailable: HTTP Error 502: Bad Gateway; PowerShell fallback failed: Invoke-WebRequest : error code: 502\nAt line:1 char:176\n+ ... limit=50'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand"
   },
   "github_search_status": {
     "status": "fresh"
