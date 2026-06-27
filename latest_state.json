@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T01:31:59+00:00",
+  "generated_at_utc": "2026-06-27T01:34:32+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 151,
-    "rejected": 1043
+    "watch": 152,
+    "rejected": 1044
   },
   "target_status": {
     "target_usd": 5,
@@ -1193,6 +1193,23 @@
       "draft": false,
       "created_at": "2026-06-27T01:25:25Z",
       "updated_at": "2026-06-27T01:25:25Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Disciplr-Org/Disciplr-backend",
+      "number": 781,
+      "reward_basis": "GrantFox/Stellar Wave issue #750; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/781",
+      "title": "security: add CSRF protection for cookie auth",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/781",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:31:33Z",
+      "updated_at": "2026-06-27T01:31:33Z",
       "merged_at": null,
       "author": "EazyHood"
     }
