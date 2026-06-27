@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T03:57:25+00:00",
+  "generated_at_utc": "2026-06-27T04:00:58+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -1091,6 +1091,23 @@
       "draft": false,
       "created_at": "2026-06-27T03:50:51Z",
       "updated_at": "2026-06-27T03:50:51Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1934,
+      "reward_basis": "112 Ascoin 1inch Edge Enkrypt FoxWallet IronWallet Sender Bifrost Keystone Ctrl Fluvi FxWallet Stackup Ambire and Bridge Wallet listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.72,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1934",
+      "title": "Add seventh wallet listing link batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1934",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:57:12Z",
+      "updated_at": "2026-06-27T03:57:12Z",
       "merged_at": null,
       "author": "EazyHood"
     },
