@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T20:37:53+00:00",
+  "generated_at_utc": "2026-06-27T21:00:31+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 4,
-    "watch": 158,
-    "rejected": 1068
+    "watch": 157,
+    "rejected": 1066
   },
   "target_status": {
     "target_usd": 5,
@@ -2069,6 +2069,27 @@
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%245%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/FAForever/server/issues/640) <!-- /Issuehunt Badges --> The server should not be sending any strings that get rendered in the client, because these strings are in English and we can't be sure that the user on the other end has their client set to English (in fact a majority of people probably knows English only as a second language, or does no"
     },
     {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Chemical Presses isn't storing excess as it should, causing clogs",
+      "url": "https://github.com/NovaSector/NovaSector/issues/7538",
+      "amount_usd": null,
+      "labels": [],
+      "comments": 0,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-27T20:47:17Z",
+      "created_at": "2026-06-27T20:44:09Z",
+      "score": 20,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion",
+        "recently updated"
+      ],
+      "body_preview": "### Client Version: 516.1659=>[516](https://www.byond.com/download/build/516)/[Windows](https://www.byond.com/download/build/516/516.1659_byond_setup.zip)/[Linux](https://www.byond.com/download/build/516/516.1659_byond_linux.zip) ### Issue Summary: Expected behavior: Chem presses are supposed to keep a storage inside them to automatically dispense once the stack on top reaches 10. I haven't found any PRs on here or /tg/ that mention changing this behavior, so I'm assuming it's a bug. (If it IS i"
+    },
+    {
       "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
       "title": "[Bounty] Create a sett style auto-compounding LP token vault",
       "url": "https://github.com/SharedStake/Contracts/issues/7",
@@ -2177,26 +2198,6 @@
         "very low discussion"
       ],
       "body_preview": "Create Wiki Page - Zcash Mining Pool Bounty: 0.18 ZEC Create a wiki page listing the Zcash mining pools in the Zcash ecosystem submit as markdown document: <https://github.com/ZecHub/zechub/tree/main/site/Using_Zcash> [Read more about this task and rewards on Dework.xyz](https://app.dework.xyz/zechub-2424/main-space-20666?taskId=660892ce-80a3-46df-abd4-dc32356f462b)"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"Dework\" bounty",
-      "title": "ZecWeekly Indonesian Translation - Zcash Shielded News Vol.23",
-      "url": "https://github.com/ZecHub/zechub/issues/1768",
-      "amount_usd": null,
-      "labels": [],
-      "comments": 0,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-22T09:27:28Z",
-      "created_at": "2026-06-22T09:27:28Z",
-      "score": 5,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion"
-      ],
-      "body_preview": "I would like to translate the Zcash Shielded News Vol.23 newsletter into Bahasa Indonesia to help grow the Zcash community in Indonesia and Southeast Asia. Indonesia has one of the largest crypto communities in the region and there is currently no Indonesian language content for Zcash Source: <https://substack.com/@zechub/p-202612866> Bounty: 0.035 ZEC [Read more about this task and rewards on Dework.xyz](https://app.dework.xyz/zechub-2424/main-space-20666?taskId=a403535b-1a25-48cf-9e81-37ac2701"
     }
   ]
 }
