@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T02:27:16+00:00",
+  "generated_at_utc": "2026-06-27T02:29:57+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,9 +8,8 @@
     "deadline_hours": 30
   },
   "counts": {
-    "account_required": 3,
-    "watch": 155,
-    "rejected": 1025
+    "watch": 30,
+    "rejected": 481
   },
   "target_status": {
     "target_usd": 5,
@@ -891,6 +890,23 @@
       "author": "EazyHood"
     },
     {
+      "repo": "Chain-Love/chain-love",
+      "number": 1922,
+      "reward_basis": "118 AllThatNode and OMNIA API listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 7.08,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1922",
+      "title": "Add AllThatNode and OMNIA API listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1922",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:25:48Z",
+      "updated_at": "2026-06-27T02:25:48Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
       "repo": "StellarLend/Stellarlend-frontend",
       "number": 546,
       "reward_basis": "GrantFox/Stellar Wave issue #524; MAYBE REWARDED after maintainer review and campaign eligibility",
@@ -1473,84 +1489,6 @@
   ],
   "top_opportunities": [
     {
-      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
-      "title": "ipython support",
-      "url": "https://github.com/Qix-/better-exceptions/issues/10",
-      "amount_usd": 70.0,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        ":dollar: Funded on Issuehunt"
-      ],
-      "comments": 23,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-13T21:26:02Z",
-      "created_at": "2017-03-22T22:02:55Z",
-      "score": 70,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "fast-lane label",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2470%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/Qix-/better-exceptions/issues/10) <!-- /Issuehunt Badges --> Does not appear to work in ipython (at least in emacs) <!-- Issuehunt content --> --- <details> <summary> <b>IssueHunt Summary</b> </summary> ### Backers (Total: $70.00) - [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
-      "title": "Make it easier to write reliable cleanup tasks",
-      "url": "https://github.com/avajs/ava/issues/928",
-      "amount_usd": 82.0,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "scope:test-interface",
-        ":dollar: Funded on Issuehunt"
-      ],
-      "comments": 39,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2023-07-03T15:04:35Z",
-      "created_at": "2016-06-19T20:05:43Z",
-      "score": 55,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "fast-lane label",
-        "stale",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://issuehunt.io/r/avajs/ava/issues/928/badge.svg\" />](https://issuehunt.io/r/avajs/ava/issues/928) <!-- /Issuehunt Badges --> See: https://github.com/avajs/ava/pull/918#issuecomment-227016238 `after.always` has some issues when used as a cleanup task. Specifically, it won't run if: - There are test failures and `--fail-fast` is used. - There are uncaught exceptions thrown. I've advocated using `.before` or `.beforeEach` to ensure s"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
-      "title": "Replace ban text with localizable message",
-      "url": "https://github.com/FAForever/server/issues/640",
-      "amount_usd": 5.0,
-      "labels": [
-        "requires client changes",
-        ":dollar: Funded on Issuehunt"
-      ],
-      "comments": 18,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-11T16:00:57Z",
-      "created_at": "2020-08-03T18:15:27Z",
-      "score": 25,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%245%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/FAForever/server/issues/640) <!-- /Issuehunt Badges --> The server should not be sending any strings that get rendered in the client, because these strings are in English and we can't be sure that the user on the other end has their client set to English (in fact a majority of people probably knows English only as a second language, or does no"
-    },
-    {
       "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
       "title": "Bounty",
       "url": "https://github.com/souleater06/mineagent/issues/21",
@@ -1570,56 +1508,6 @@
         "recently updated"
       ],
       "body_preview": "Here's a complete English bounty post template you can copy, paste, and adapt. It's designed to be easily parsed by bots (e.g., GitHub Actions, Discord \"action board\" scrapers) and follows typical Lean/Mathlib collaboration style. ```markdown [Bounty] $XXX – Formalize (or disprove) the \"Prime Emergence Conjecture\" ## Problem in plain language I propose a new conjecture related to prime emergence. *(Replace the following with your actual conjecture – keep it concise and precise)* **Conjecture (na"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
-      "title": "[Bounty] Create a sett style auto-compounding LP token vault",
-      "url": "https://github.com/SharedStake/Contracts/issues/7",
-      "amount_usd": null,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "bounty"
-      ],
-      "comments": 9,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-05-25T17:03:02Z",
-      "created_at": "2021-02-16T03:22:39Z",
-      "score": 10,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "fast-lane label"
-      ],
-      "body_preview": "We want to move from geysers to Sett style vaults for our rewards, based on yearn vaults. We want this sett vault to be useable for LP providers for SGT ETH. It should have an accompanying strategy that allows it to auto-compound earnings in SGT by providing them as liquidity to uniswap, and selling any required to create the ETH side. Should have documentation for functionality and deployment. Should be tested on a testnet. We can send you SGT to test with on goerli. Bonus high value requiremen"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"Opire\" bounty",
-      "title": "L2: Implement Solana chain module",
-      "url": "https://github.com/kcolbchain/arka/issues/22",
-      "amount_usd": null,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "bounty"
-      ],
-      "comments": 7,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-24T01:21:39Z",
-      "created_at": "2026-06-05T14:17:17Z",
-      "score": 10,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "fast-lane label"
-      ],
-      "body_preview": "## Level: L2 (1-2 days) | Chain: Rust Systems & L2 ### What Arka lists Solana as a \"Planned\" chain. Implement the Solana backend. ### Acceptance Criteria - [ ] New module `chain/solana.rs` implementing the Chain trait - [ ] Support: connection, balance check, SOL transfer, SPL token transfer - [ ] Uses `solana-client` crate - [ ] Tests with `solana-test-validator` - [ ] Update `examples/multi_chain.rs` - [ ] README updated ### Rewards Contributions are recognized through the [kcolbchain contribu"
     },
     {
       "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
@@ -1642,64 +1530,198 @@
       "body_preview": "Ω-Coder：VSCode 插件伪代码 一、插件结构 ``` omega-coder/ ├── package.json # 插件配置 ├── extension.ts # 插件入口 ├── bountyCreator.ts # 悬赏创建模块 ├── bountyView.ts # 悬赏侧边栏 Webview ├── sandboxRunner.ts # 代码沙箱执行 ├── omegaArbiter.ts # 欧米伽裁决器 └── bountyChain.ts # 悬赏链集成（可选） ``` --- 二、package.json ```json { \"name\": \"omega-coder\", \"displayName\": \"Ω-Coder\", \"description\": \"不写代码的编程助手——把你的需求变成悬赏，让AI来竞标\", \"version\": \"0.1.0\", \"engines\": { \"vscode\": \"^1.80.0\" }, \"activationEvents\": [\"onCommand:omega-coder.createBounty\"], \"contribu"
     },
     {
-      "source": "GitHub search: is:issue state:open \"Dework\" bounty",
-      "title": "Create Wiki Page - Zcash Mining Pool",
-      "url": "https://github.com/ZecHub/zechub/issues/1769",
+      "source": "GitHub search: is:issue state:open \"USDC\" \"bounty\" \"pull request\"",
+      "title": "Add Hardhat test suite for ListingRegistry.sol",
+      "url": "https://github.com/Nobayprotocol/Nobay-Protocol/issues/3",
       "amount_usd": null,
-      "labels": [],
-      "comments": 0,
+      "labels": [
+        "help wanted",
+        "Solidity",
+        "Bounty",
+        "Testing"
+      ],
+      "comments": 14,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-22T10:06:35Z",
-      "created_at": "2026-06-22T10:06:35Z",
-      "score": 5,
+      "updated_at": "2026-06-25T14:53:00Z",
+      "created_at": "2025-05-20T17:37:48Z",
+      "score": 0,
       "status": "watch",
       "reasons": [
         "no explicit USD/USDT/USDC amount found",
         "unassigned",
-        "very low discussion"
+        "busy thread",
+        "fast-lane label",
+        "recently updated"
       ],
-      "body_preview": "Create Wiki Page - Zcash Mining Pool Bounty: 0.18 ZEC Create a wiki page listing the Zcash mining pools in the Zcash ecosystem submit as markdown document: <https://github.com/ZecHub/zechub/tree/main/site/Using_Zcash> [Read more about this task and rewards on Dework.xyz](https://app.dework.xyz/zechub-2424/main-space-20666?taskId=660892ce-80a3-46df-abd4-dc32356f462b)"
+      "body_preview": "Build unit tests to verify: - Signature validity - Rejection of invalid signatures - Event emission - Seller mapping and metadata accuracy Optional: - Use Foundry in parallel for comparison Type: DevOps / QA Labels: testing, Solidity, help wanted"
     },
     {
-      "source": "GitHub search: is:issue state:open \"Dework\" bounty",
-      "title": "ZecWeekly Indonesian Translation - Zcash Shielded News Vol.23",
-      "url": "https://github.com/ZecHub/zechub/issues/1768",
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "feat: implement cancel_bounty to allow creators to retract open bounties",
+      "url": "https://github.com/mergemint-mint/mergemint-contracts/issues/261",
       "amount_usd": null,
-      "labels": [],
-      "comments": 0,
+      "labels": [
+        "enhancement"
+      ],
+      "comments": 1,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-22T09:27:28Z",
-      "created_at": "2026-06-22T09:27:28Z",
-      "score": 5,
+      "updated_at": "2026-06-27T01:45:00Z",
+      "created_at": "2026-06-23T12:41:25Z",
+      "score": -5,
       "status": "watch",
       "reasons": [
         "no explicit USD/USDT/USDC amount found",
         "unassigned",
-        "very low discussion"
+        "very low discussion",
+        "recently updated",
+        "requires account/claim/approval flow"
       ],
-      "body_preview": "I would like to translate the Zcash Shielded News Vol.23 newsletter into Bahasa Indonesia to help grow the Zcash community in Indonesia and Southeast Asia. Indonesia has one of the largest crypto communities in the region and there is currently no Indonesian language content for Zcash Source: <https://substack.com/@zechub/p-202612866> Bounty: 0.035 ZEC [Read more about this task and rewards on Dework.xyz](https://app.dework.xyz/zechub-2424/main-space-20666?taskId=a403535b-1a25-48cf-9e81-37ac2701"
+      "body_preview": "## Description Currently there is no mechanism for a bounty creator to cancel a bounty they have posted. If a maintainer creates a bounty, decides the issue is no longer relevant, or realises the reward amount is incorrect, they have no recourse — the bounty remains in the `\"open\"` state indefinitely, occupying the list and potentially attracting claims for work that will never be paid. Implementing `cancel_bounty` closes this gap and makes the bounty lifecycle complete from the creator's perspe"
     },
     {
-      "source": "GitHub search: is:issue state:open \"Dework\" bounty",
-      "title": "ZecWeekly Indonesian Translation - Zcash Shielded News Vol.21",
-      "url": "https://github.com/ZecHub/zechub/issues/1767",
+      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
+      "title": "[radar] SN open bounty 2026-06-13T09:31",
+      "url": "https://github.com/relayhop/sn-monetization-runtime/issues/90",
+      "amount_usd": null,
+      "labels": [
+        "radar",
+        "sn",
+        "bounty"
+      ],
+      "comments": 9,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-19T21:17:11Z",
+      "created_at": "2026-06-13T09:31:22Z",
+      "score": -5,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "moderate discussion"
+      ],
+      "body_preview": "New SN OPEN_BOUNTY detected: ``` 1507184 Stacker_Sports 3 603 2100 10 17.5 232181 3741 recent@Stacker_Sports|top@Stacker_Sports OPEN_BOUNTY,SELF_POST_OPP Weekly Random Sports Pick 'em ```"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Fleet-wide rollout of cron-spec-writer.sh source-check path fix (#218 follow-up)",
+      "url": "https://github.com/bobbiejaxn/fenstervertrieb/issues/220",
+      "amount_usd": null,
+      "labels": [
+        "enhancement",
+        "spec-ready",
+        "spec-approved"
+      ],
+      "comments": 1,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-27T01:37:57Z",
+      "created_at": "2026-06-26T20:53:34Z",
+      "score": -25,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion",
+        "no real bounty/funding signal",
+        "recently updated"
+      ],
+      "body_preview": "## Found During Shipping #218 — Audit SCRIPT_DIR/lib vs repo-root scripts/lib path resolution in cron-spec-writer.sh ## Location .pi/scripts/cron-spec-writer.sh line ~54 + scripts/cron-spec-writer.sh line ~48 (the canonical source + its mirror) ## Symptom Per-project manual update needed for fleet projects running the shared cron-spec-writer.sh template. Without propagation via update.sh, every fleet project still has the latent path bug (the library is silently never sourced in any fleet projec"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "🎲 Research wildcard: \"Insult Broadside\" — comedic combat via wit + crew morale",
+      "url": "https://github.com/cakuki/tidewake/issues/33",
+      "amount_usd": null,
+      "labels": [
+        "feature",
+        "design"
+      ],
+      "comments": 0,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-27T01:30:27Z",
+      "created_at": "2026-06-27T01:30:27Z",
+      "score": -25,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion",
+        "no real bounty/funding signal",
+        "recently updated"
+      ],
+      "body_preview": "**Research wildcard** from the Game Designer deep-learning loop (2026-06-27). Surfacing as backlog, not a commitment. ## Idea Put Ron Gilbert's \"insult sword-fighting\" (Monkey Island) on the water. During a ship engagement, alongside cannon fire, the two crews trade **shouted insults across the waves**. The player picks a jab; the enemy captain needs the right comeback. - **Land a cutting insult** → drops the **enemy crew's morale** → raises surrender/flee odds (capture the prize intact instead "
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Add proof-of-completion for bounties",
+      "url": "https://github.com/Space-Nebula/stellar-nebula-nomad/issues/196",
       "amount_usd": null,
       "labels": [],
       "comments": 0,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-22T09:26:38Z",
-      "created_at": "2026-06-22T09:26:38Z",
-      "score": 5,
+      "updated_at": "2026-06-27T00:28:25Z",
+      "created_at": "2026-06-27T00:28:25Z",
+      "score": -25,
       "status": "watch",
       "reasons": [
         "no explicit USD/USDT/USDC amount found",
         "unassigned",
-        "very low discussion"
+        "very low discussion",
+        "no real bounty/funding signal",
+        "recently updated"
       ],
-      "body_preview": "I would like to translate the Zcash Shielded News Vol.21 newsletter into Bahasa Indonesia to help grow the Zcash community in Indonesia and Southeast Asia. Indonesia has one of the largest crypto communities in the region and there is currently no Indonesian language content for Zcash Source: <https://substack.com/@zechub/p-200332557> Bounty: 0.035 ZEC [Read more about this task and rewards on Dework.xyz](https://app.dework.xyz/zechub-2424/main-space-20666?taskId=27ccf3d0-8ead-4762-905d-cb04fbc4"
+      "body_preview": "**Description**: Bounties can be claimed without verification **File Change**: `src/bounty_board.rs` **Accepted Criteria**: - Add evidence submission requirement - Implement verification by poster - Add dispute resolution mechanism **PR Branch**: `feat/bounty-verification` **PR Title**: Feature: Add bounty completion verification **Additional Note**: Prevents fraudulent claims"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
+      "title": "Seeking external cryptographic reviewer for first signed release",
+      "url": "https://github.com/Strykar/infnoise-provider/issues/13",
+      "amount_usd": null,
+      "labels": [
+        "help wanted"
+      ],
+      "comments": 2,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-09T05:08:48Z",
+      "created_at": "2026-04-26T10:14:18Z",
+      "score": -25,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion",
+        "fast-lane label",
+        "no real bounty/funding signal"
+      ],
+      "body_preview": "## What this is The first signed release of `infnoise-provider` is gated on a single remaining task: an external cryptographic review of [src/infnoise_prov.c](src/infnoise_prov.c). Everything else on the path-to-release checklist in [docs/TODO.txt](docs/TODO.txt) is done. ## Scope at a glance - **One file under deep review**: `src/infnoise_prov.c` (~660 lines, ~444 effective after stripping comments and blanks). - **Language and surface**: C11, OpenSSL 3.x Provider API, `OSSL_OP_RAND` seed sourc"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
+      "title": "[BOUNTY] N64 RustChain Mining ROM — Mine Crypto on Nintendo 64 (200 RTC)",
+      "url": "https://github.com/Scottcjn/legend-of-elya-n64/issues/10",
+      "amount_usd": null,
+      "labels": [
+        "bounty"
+      ],
+      "comments": 14,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-20T10:00:13Z",
+      "created_at": "2026-03-26T13:57:54Z",
+      "score": -30,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "busy thread"
+      ],
+      "body_preview": "## Mine RustChain on a Nintendo 64 — 200 RTC Cross-posted from [Rustchain #1877](https://github.com/Scottcjn/Rustchain/issues/1877). Integrate RustChain miner attestation into this ROM so a real N64 can participate in the blockchain network with a **4x MIPS antiquity multiplier** (MYTHIC tier). ### Requirements - RustChain attestation protocol via serial/USB bridge to host relay - Hardware fingerprinting using MIPS III CPU characteristics - Submit `device_arch: \"mips_r4300\"`, `device_family: \"N6"
     }
   ]
 }
