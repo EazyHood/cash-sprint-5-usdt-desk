@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T04:24:26+00:00",
+  "generated_at_utc": "2026-06-27T04:29:39+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,7 +9,7 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 157,
+    "watch": 158,
     "rejected": 1055
   },
   "target_status": {
@@ -1856,6 +1856,23 @@
       "draft": false,
       "created_at": "2026-06-27T04:16:50Z",
       "updated_at": "2026-06-27T04:16:50Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Disciplr-Org/Disciplr-backend",
+      "number": 798,
+      "reward_basis": "GrantFox/Stellar Wave issue #731; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/798",
+      "title": "test: organization service lifecycle and uniqueness",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/798",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T04:26:13Z",
+      "updated_at": "2026-06-27T04:26:13Z",
       "merged_at": null,
       "author": "EazyHood"
     }
