@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T00:44:27+00:00",
+  "generated_at_utc": "2026-06-27T00:48:30+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 152,
-    "rejected": 1061
+    "watch": 151,
+    "rejected": 1062
   },
   "target_status": {
     "target_usd": 5,
@@ -666,6 +666,23 @@
       "draft": false,
       "created_at": "2026-06-27T00:39:51Z",
       "updated_at": "2026-06-27T00:39:51Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1909,
+      "reward_basis": "130 Orbiter and Layerswap bridge listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 7.8,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1909",
+      "title": "Add Orbiter and Layerswap bridge listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1909",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:46:06Z",
+      "updated_at": "2026-06-27T00:46:06Z",
       "merged_at": null,
       "author": "EazyHood"
     },
