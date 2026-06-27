@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T15:25:39+00:00",
+  "generated_at_utc": "2026-06-27T15:48:28+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,8 +8,8 @@
     "deadline_hours": 30
   },
   "counts": {
-    "account_required": 5,
-    "watch": 186,
+    "account_required": 6,
+    "watch": 173,
     "rejected": 1042
   },
   "target_status": {
@@ -17,7 +17,7 @@
     "deadline_hours": 30,
     "earned_verified_usd": 0.0,
     "completion": "not_verified",
-    "note": "Payment API unavailable: The read operation timed out; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.ethplorer.io'\nAt line:1 char:176\n+ ... limit=50'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand"
+    "note": "No incoming USDT/USDC >= target found since the sprint baseline."
   },
   "github_search_status": {
     "status": "fresh"
@@ -29,8 +29,16 @@
       "reward_basis": "data quality link fixes; reviewed by Chain.Love maintainers",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1866",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1866'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Fix stale Meld, Moralis, and LunarCrush links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1866",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T14:20:19Z",
+      "updated_at": "2026-06-26T14:20:19Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -38,8 +46,16 @@
       "reward_basis": "178 SDK metadata cells at 0.06 USDC each",
       "estimated_reward_usdc": 10.68,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1867",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1867'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update SDK release metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1867",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T14:31:21Z",
+      "updated_at": "2026-06-26T22:04:41Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -47,8 +63,16 @@
       "reward_basis": "134 SDK metadata cells at 0.06 USDC each",
       "estimated_reward_usdc": 8.04,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1868",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1868'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update additional SDK release metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1868",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T14:47:46Z",
+      "updated_at": "2026-06-26T22:04:41Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -56,8 +80,16 @@
       "reward_basis": "21 current documentation/link cells at 0.06 USDC each",
       "estimated_reward_usdc": 1.26,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1869",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1869'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Fix current documentation links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1869",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T15:16:28Z",
+      "updated_at": "2026-06-26T15:16:28Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -65,8 +97,16 @@
       "reward_basis": "174 SDK metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 10.44,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1871",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1871'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update more SDK package metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1871",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T15:39:55Z",
+      "updated_at": "2026-06-26T22:04:41Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -74,8 +114,16 @@
       "reward_basis": "141 SDK metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 8.46,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1872",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1872'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update fourth SDK metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1872",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T16:09:19Z",
+      "updated_at": "2026-06-26T22:04:41Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -83,8 +131,16 @@
       "reward_basis": "two provider GitHub link fixes from the Chain.Love link-checker report",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1873",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1873'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Fix provider GitHub links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1873",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T16:30:29Z",
+      "updated_at": "2026-06-26T16:30:29Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -92,8 +148,16 @@
       "reward_basis": "133 security metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.98,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1874",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1874'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update security offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1874",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T16:31:30Z",
+      "updated_at": "2026-06-26T20:21:04Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -101,8 +165,16 @@
       "reward_basis": "147 oracle and explorer offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 8.82,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1876",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1876'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update oracle and explorer offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1876",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T16:46:26Z",
+      "updated_at": "2026-06-26T22:53:17Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -110,8 +182,16 @@
       "reward_basis": "105 platform offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.3,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1878",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1878'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update platform offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1878",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:00:50Z",
+      "updated_at": "2026-06-26T20:21:06Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -119,8 +199,16 @@
       "reward_basis": "101 ramp and faucet offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.06,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1879",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1879'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update ramp and faucet offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1879",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:12:46Z",
+      "updated_at": "2026-06-26T22:40:42Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -128,8 +216,16 @@
       "reward_basis": "101 wallet offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.06,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1880",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1880'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update wallet offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1880",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:17:02Z",
+      "updated_at": "2026-06-26T22:31:15Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -137,8 +233,16 @@
       "reward_basis": "140 analytics offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 8.4,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1881",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1881'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update analytics offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1881",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:25:46Z",
+      "updated_at": "2026-06-26T23:00:23Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -146,8 +250,16 @@
       "reward_basis": "94 bridge offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.64,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1882",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1882'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update bridge offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1882",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:32:39Z",
+      "updated_at": "2026-06-26T17:32:39Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -155,8 +267,16 @@
       "reward_basis": "129 API offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.74,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1883",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1883'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update API offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1883",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:39:00Z",
+      "updated_at": "2026-06-26T20:59:35Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -164,8 +284,16 @@
       "reward_basis": "100 MCP server offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.0,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1884",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1884'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update MCP server offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1884",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:48:30Z",
+      "updated_at": "2026-06-26T18:00:06Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -173,8 +301,16 @@
       "reward_basis": "125 second-batch API offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.5,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1885",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1885'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update second API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1885",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:50:52Z",
+      "updated_at": "2026-06-26T22:31:14Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -182,8 +318,16 @@
       "reward_basis": "100 service offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.0,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1886",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1886'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update service offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1886",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T17:55:17Z",
+      "updated_at": "2026-06-26T18:00:10Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -191,8 +335,16 @@
       "reward_basis": "136 third-batch API offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 8.16,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1887",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1887'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update third API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1887",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:04:47Z",
+      "updated_at": "2026-06-26T22:47:53Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -200,8 +352,16 @@
       "reward_basis": "100 second-batch MCP server offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.0,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1888",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1888'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update second MCP server metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1888",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:05:28Z",
+      "updated_at": "2026-06-26T18:05:28Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -209,8 +369,16 @@
       "reward_basis": "127 fourth-batch API offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.62,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1889",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1889'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update fourth API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1889",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:16:32Z",
+      "updated_at": "2026-06-26T22:21:11Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -218,8 +386,16 @@
       "reward_basis": "97 storage offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.82,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1890",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1890'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update storage offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1890",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:20:51Z",
+      "updated_at": "2026-06-26T18:20:51Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -227,8 +403,16 @@
       "reward_basis": "116 fifth-batch API offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.96,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1891",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1891'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update fifth API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1891",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:25:35Z",
+      "updated_at": "2026-06-26T22:31:14Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -236,8 +420,16 @@
       "reward_basis": "125 sixth-batch API offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.5,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1892",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1892'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update sixth API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1892",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:32:01Z",
+      "updated_at": "2026-06-26T22:31:14Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -245,8 +437,16 @@
       "reward_basis": "125 seventh-batch API offer metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.5,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1893",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1893'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update seventh API offer metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1893",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:37:26Z",
+      "updated_at": "2026-06-26T22:16:50Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -254,8 +454,16 @@
       "reward_basis": "101 remaining offer search metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.06,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1894",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1894'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update remaining offer search metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1894",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:47:14Z",
+      "updated_at": "2026-06-26T20:47:53Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -263,8 +471,16 @@
       "reward_basis": "100 third-batch MCP server metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.0,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1895",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1895'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update third MCP server metadata batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1895",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T18:56:27Z",
+      "updated_at": "2026-06-26T18:56:27Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -272,8 +488,16 @@
       "reward_basis": "87 remaining product and plan metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.22,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1896",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1896'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update remaining product and plan metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1896",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T19:10:20Z",
+      "updated_at": "2026-06-26T23:04:02Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -281,8 +505,16 @@
       "reward_basis": "94 remaining service product and plan metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.64,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1898",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1898'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update remaining service product and plan metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1898",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T19:26:08Z",
+      "updated_at": "2026-06-26T19:26:08Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -290,8 +522,16 @@
       "reward_basis": "136 remaining free-row offer and SDK metadata fields at 0.06 USDC each",
       "estimated_reward_usdc": 8.16,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1899",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1899'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Update remaining free-row offer metadata",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1899",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T19:41:02Z",
+      "updated_at": "2026-06-26T21:39:41Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -299,8 +539,16 @@
       "reward_basis": "236 Chainlink CCIP listing fields at 0.06 USDC each",
       "estimated_reward_usdc": 14.16,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1901",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1901'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add Chainlink CCIP listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1901",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T23:29:05Z",
+      "updated_at": "2026-06-26T23:29:05Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -308,8 +556,16 @@
       "reward_basis": "32 Chainlink Data Feeds oracle listing fields at 0.06 USDC each",
       "estimated_reward_usdc": 1.92,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1902",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1902'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add Chainlink Data Feeds oracle links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1902",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T23:39:15Z",
+      "updated_at": "2026-06-26T23:39:15Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -317,8 +573,16 @@
       "reward_basis": "82 oracle listing documentation link fields at 0.06 USDC each",
       "estimated_reward_usdc": 4.92,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1903",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1903'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add oracle listing documentation links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1903",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:02:28Z",
+      "updated_at": "2026-06-27T00:02:28Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -326,8 +590,16 @@
       "reward_basis": "24 faucet listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 1.44,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1904",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1904'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add faucet listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1904",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:08:50Z",
+      "updated_at": "2026-06-27T00:08:50Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -335,8 +607,16 @@
       "reward_basis": "21 explorer listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 1.26,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1905",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1905'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add explorer listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1905",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:18:12Z",
+      "updated_at": "2026-06-27T00:18:12Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -344,8 +624,16 @@
       "reward_basis": "216 ramp listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 12.96,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1906",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1906'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add ramp listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1906",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:25:06Z",
+      "updated_at": "2026-06-27T00:25:06Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -353,8 +641,16 @@
       "reward_basis": "92 SmolRefuel bridge listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.52,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1907",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1907'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add SmolRefuel bridge listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1907",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:33:54Z",
+      "updated_at": "2026-06-27T00:33:54Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -362,8 +658,16 @@
       "reward_basis": "154 Hyperlane and Stargate bridge listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 9.24,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1908",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1908'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add Hyperlane and Stargate bridge listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1908",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:39:51Z",
+      "updated_at": "2026-06-27T00:39:51Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -371,8 +675,16 @@
       "reward_basis": "130 Orbiter and Layerswap bridge listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.8,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1909",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1909'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add Orbiter and Layerswap bridge listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1909",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:46:06Z",
+      "updated_at": "2026-06-27T00:46:06Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -380,8 +692,16 @@
       "reward_basis": "117 Jumper and Interport bridge listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.02,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1910",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1910'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add Jumper and Interport bridge listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1910",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:52:21Z",
+      "updated_at": "2026-06-27T00:52:21Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -389,8 +709,16 @@
       "reward_basis": "100 Meson and Owlto bridge listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.0,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1911",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1911'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add Meson and Owlto bridge listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1911",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:00:52Z",
+      "updated_at": "2026-06-27T01:00:52Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -398,8 +726,16 @@
       "reward_basis": "91 Symbiosis and Axelar bridge listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.46,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1912",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1912'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add Symbiosis and Axelar bridge listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1912",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:08:42Z",
+      "updated_at": "2026-06-27T01:08:42Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -407,8 +743,16 @@
       "reward_basis": "92 Squid and Rubic bridge listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.52,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1913",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1913'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add Squid and Rubic bridge listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1913",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:15:49Z",
+      "updated_at": "2026-06-27T01:15:49Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -416,8 +760,16 @@
       "reward_basis": "107 Chainspot OkuTrade and Wanchain bridge listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.42,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1914",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1914'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add Chainspot Oku and Wanchain bridge listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1914",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:21:07Z",
+      "updated_at": "2026-06-27T01:21:07Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -425,8 +777,16 @@
       "reward_basis": "87 Celer CrossCurve and Transporter bridge listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.22,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1915",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1915'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add Celer CrossCurve and Transporter bridge listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1915",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:26:50Z",
+      "updated_at": "2026-06-27T01:26:50Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -434,8 +794,16 @@
       "reward_basis": "101 Superbridge Wormhole Across and deBridge bridge listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.06,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1916",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1916'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add Superbridge Wormhole Across and deBridge bridge links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1916",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:37:34Z",
+      "updated_at": "2026-06-27T01:37:34Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -443,8 +811,16 @@
       "reward_basis": "100 RhinoFi Synapse Asterizm ChainPort and Router Protocol bridge listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.0,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1917",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1917'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add RhinoFi Synapse Asterizm ChainPort and Router bridge links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1917",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:43:42Z",
+      "updated_at": "2026-06-27T01:43:42Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -452,8 +828,16 @@
       "reward_basis": "91 Allbridge Core Garden Defiway Mayan Connext PancakeSwap and Pheasant bridge listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.46,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1918",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1918'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add bridge action links for seven providers",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1918",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:49:35Z",
+      "updated_at": "2026-06-27T01:49:35Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -461,8 +845,16 @@
       "reward_basis": "87 remaining verified bridge listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.22,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1919",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1919'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add remaining verified bridge action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1919",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:00:31Z",
+      "updated_at": "2026-06-27T02:00:31Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -470,8 +862,16 @@
       "reward_basis": "84 verified analytics listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.04,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1920",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1920'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add verified analytics listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1920",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:10:11Z",
+      "updated_at": "2026-06-27T02:10:11Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -479,8 +879,16 @@
       "reward_basis": "125 BlockEden API listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.5,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1921",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1921'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add BlockEden API listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1921",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:18:30Z",
+      "updated_at": "2026-06-27T02:18:30Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -488,8 +896,16 @@
       "reward_basis": "118 AllThatNode and OMNIA API listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.08,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1922",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1922'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add AllThatNode and OMNIA API listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1922",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:25:48Z",
+      "updated_at": "2026-06-27T02:25:48Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -497,8 +913,16 @@
       "reward_basis": "176 Zeeve storage listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 10.56,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1923",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1923'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add Zeeve storage listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1923",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:33:27Z",
+      "updated_at": "2026-06-27T02:33:27Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -506,8 +930,16 @@
       "reward_basis": "108 Crust Network and Pinata storage listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.48,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1924",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1924'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add Crust and Pinata storage listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1924",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:46:20Z",
+      "updated_at": "2026-06-27T02:46:20Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -515,8 +947,16 @@
       "reward_basis": "84 Lighthouse storage listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.04,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1925",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1925'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add Lighthouse storage listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1925",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:52:10Z",
+      "updated_at": "2026-06-27T02:52:10Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -524,8 +964,16 @@
       "reward_basis": "111 Aleph Cloud and Filebase storage listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.66,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1926",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1926'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add Aleph and Filebase storage listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1926",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:58:05Z",
+      "updated_at": "2026-06-27T02:58:05Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -533,8 +981,16 @@
       "reward_basis": "102 4EVERLAND Openfort and Portal platform listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.12,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1927",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1927'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add platform listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1927",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:07:05Z",
+      "updated_at": "2026-06-27T03:07:05Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -542,8 +998,16 @@
       "reward_basis": "173 MetaMask Ledger Trust Wallet and OKX Wallet listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 10.38,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1928",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1928'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add core wallet listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1928",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:15:42Z",
+      "updated_at": "2026-06-27T03:15:42Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -551,8 +1015,16 @@
       "reward_basis": "163 Rabby SafePal Coin Wallet Math Wallet Coinomi and Gem Wallet listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 9.78,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1929",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1929'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add more wallet listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1929",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:23:12Z",
+      "updated_at": "2026-06-27T03:23:12Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -560,8 +1032,16 @@
       "reward_basis": "127 Trezor Atomic Wallet Zerion Walletverse TokenPocket and Binance Wallet listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.62,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1930",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1930'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add third wallet listing link batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1930",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:28:53Z",
+      "updated_at": "2026-06-27T03:28:53Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -569,8 +1049,16 @@
       "reward_basis": "126 Guarda Bitget Wallet DCENT Exodus Tangem NuFi and Cwallet listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 7.56,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1931",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1931'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add fourth wallet listing link batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1931",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:35:04Z",
+      "updated_at": "2026-06-27T03:35:04Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -578,8 +1066,16 @@
       "reward_basis": "114 KryptoGO Saakuru Clave Ronin Wallet CoolWallet Backpack Ellipal and Ownbit listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.84,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1932",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1932'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add fifth wallet listing link batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1932",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:40:47Z",
+      "updated_at": "2026-06-27T03:40:47Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -587,8 +1083,16 @@
       "reward_basis": "93 OneKey Wigwam Phantom Brave Wallet Rainbow Unstoppable Crypto.com Holdstation and Cypherock X1 listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 5.58,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1933",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1933'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add sixth wallet listing link batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1933",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:50:51Z",
+      "updated_at": "2026-06-27T03:50:51Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -596,8 +1100,16 @@
       "reward_basis": "112 Ascoin 1inch Edge Enkrypt FoxWallet IronWallet Sender Bifrost Keystone Ctrl Fluvi FxWallet Stackup Ambire and Bridge Wallet listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.72,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1934",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1934'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add seventh wallet listing link batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1934",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:57:12Z",
+      "updated_at": "2026-06-27T03:57:12Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -605,8 +1117,16 @@
       "reward_basis": "106 Safe Bybit Wallet Kuma Clear EVM Sorted Taho Talisman Ecoin Bitcoin.com Haha Degen Oxenflow SubWallet ONTO Sequence SecuX and Pillar listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.36,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1935",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1935'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add eighth wallet listing link batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1935",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T04:05:54Z",
+      "updated_at": "2026-06-27T04:05:54Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -614,8 +1134,16 @@
       "reward_basis": "102 3xpl MCP Nansen MCP Tatum Blockchain MCP and Blockscout MCP listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.12,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1936",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1936'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add MCP server listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1936",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T04:13:38Z",
+      "updated_at": "2026-06-27T04:13:38Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -623,8 +1151,16 @@
       "reward_basis": "107 Alchemy MCP Universal Crypto MCP Agenti Universal Crypto MCP HTTP and Codex MCP listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.42,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1937",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1937'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add second MCP server listing link batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1937",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T04:21:01Z",
+      "updated_at": "2026-06-27T04:21:01Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -632,8 +1168,16 @@
       "reward_basis": "103 Etherscan Hosted MCP Wallet Agent Coinbase AgentKit MCP Blocknative MCP EVM MCP Server and Web3 MCP listing action link fields at 0.06 USDC each",
       "estimated_reward_usdc": 6.18,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1938",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:114\n+ ... lls/1938'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Add third MCP server listing link batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1938",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T04:27:03Z",
+      "updated_at": "2026-06-27T04:27:03Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "StellarLend/Stellarlend-frontend",
@@ -641,8 +1185,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #524; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/546",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:124\n+ ... ulls/546'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: cover request id ULID helpers",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/546",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T21:17:32Z",
+      "updated_at": "2026-06-27T10:52:02Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "StellarLend/stellarlend-contracts",
@@ -650,8 +1202,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #1131; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/StellarLend/stellarlend-contracts/pulls/1163",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:126\n+ ... lls/1163'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test(amm): add mint share invariant proptests",
+      "url": "https://github.com/StellarLend/stellarlend-contracts/pull/1163",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T21:26:21Z",
+      "updated_at": "2026-06-27T10:51:57Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "StellarLend/Stellarlend-frontend",
@@ -659,8 +1219,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #541; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/547",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:124\n+ ... ulls/547'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: cover account export bundle scoping",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/547",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T21:36:36Z",
+      "updated_at": "2026-06-27T10:52:04Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "StellarLend/Stellarlend-frontend",
@@ -668,8 +1236,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #516; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/548",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:124\n+ ... ulls/548'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: cover transaction validator clamping",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/548",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T21:43:00Z",
+      "updated_at": "2026-06-27T10:52:06Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "StellarLend/Stellarlend-frontend",
@@ -677,8 +1253,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #542; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/549",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:124\n+ ... ulls/549'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: cover sentry telemetry guard",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/549",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T21:46:21Z",
+      "updated_at": "2026-06-27T10:52:09Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "StellarLend/Stellarlend-frontend",
@@ -686,8 +1270,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #535; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/550",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:124\n+ ... ulls/550'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "security: verify database TLS by default",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/550",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T21:50:45Z",
+      "updated_at": "2026-06-27T10:52:11Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "StellarLend/Stellarlend-frontend",
@@ -695,8 +1287,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #534; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/551",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:124\n+ ... ulls/551'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "security: compare csrf tokens in constant time",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/551",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T21:54:21Z",
+      "updated_at": "2026-06-27T10:52:14Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "StellarLend/Stellarlend-frontend",
@@ -704,8 +1304,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #538; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/552",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:124\n+ ... ulls/552'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "docs: document request id tracing",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/552",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T22:00:31Z",
+      "updated_at": "2026-06-27T10:52:17Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "StellarLend/Stellarlend-frontend",
@@ -713,8 +1321,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #537; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/555",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:124\n+ ... ulls/555'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "docs: add rbac role guide",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/555",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T22:04:02Z",
+      "updated_at": "2026-06-27T10:52:19Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "StellarLend/Stellarlend-frontend",
@@ -722,8 +1338,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #515; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/556",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:124\n+ ... ulls/556'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: cover transaction filter validation",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/556",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T22:07:51Z",
+      "updated_at": "2026-06-27T10:52:21Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "StellarLend/Stellarlend-frontend",
@@ -731,8 +1355,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #523; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/StellarLend/Stellarlend-frontend/pulls/557",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:124\n+ ... ulls/557'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: cover positions wallet query params",
+      "url": "https://github.com/StellarLend/Stellarlend-frontend/pull/557",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T23:37:49Z",
+      "updated_at": "2026-06-27T10:52:24Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -740,8 +1372,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #738; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/767",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/767'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: email provider injection guards",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/767",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T23:47:38Z",
+      "updated_at": "2026-06-27T10:52:56Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -749,8 +1389,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #757; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/768",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/768'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "docs: add configuration reference",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/768",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-26T23:53:18Z",
+      "updated_at": "2026-06-27T10:52:59Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -758,8 +1406,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #753; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/769",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/769'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "docs: add on-call SLO runbook",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/769",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:03:20Z",
+      "updated_at": "2026-06-27T10:53:01Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -767,8 +1423,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #758; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/770",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/770'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "docs: add contributor onboarding guide",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/770",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:12:09Z",
+      "updated_at": "2026-06-27T10:53:04Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -776,8 +1440,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #752; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/771",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/771'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "docs: add tenant isolation threat model",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/771",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:19:33Z",
+      "updated_at": "2026-06-27T10:53:07Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -785,8 +1457,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #747; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/772",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/772'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "security: enforce org-scoped GraphQL resolvers",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/772",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:34:39Z",
+      "updated_at": "2026-06-27T10:53:09Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -794,8 +1474,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #735; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/773",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/773'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: queryParser prototype-pollution and injection guards",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/773",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:41:59Z",
+      "updated_at": "2026-06-27T10:53:12Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -803,8 +1491,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #737; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/774",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/774'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: graphql depth-limit and complexity guard",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/774",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:48:28Z",
+      "updated_at": "2026-06-27T10:53:14Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -812,8 +1508,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #749; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/775",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/775'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "security: add CodeQL workflow and dependency-review gate",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/775",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:51:37Z",
+      "updated_at": "2026-06-27T10:53:17Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -821,8 +1525,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #748; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/777",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/777'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "security: add privacy logger allowlist guard",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/777",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:58:24Z",
+      "updated_at": "2026-06-27T10:53:20Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -830,8 +1542,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #746; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/778",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/778'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "security: add SSRF guard for evidence references",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/778",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:04:04Z",
+      "updated_at": "2026-06-27T10:53:22Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -839,8 +1559,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #745; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/779",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/779'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "security: strict JWT audience issuer validation",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/779",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:17:30Z",
+      "updated_at": "2026-06-27T10:53:25Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -848,8 +1576,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #741; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/780",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/780'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: add API-key timing resistance coverage",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/780",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:25:25Z",
+      "updated_at": "2026-06-27T10:53:27Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -857,8 +1593,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #750; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/781",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/781'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "security: add CSRF protection for cookie auth",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/781",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:31:33Z",
+      "updated_at": "2026-06-27T10:53:30Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -866,8 +1610,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #756; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/782",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/782'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "perf: benchmark export stream backpressure",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/782",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:37:41Z",
+      "updated_at": "2026-06-27T10:53:32Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -875,8 +1627,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #751; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/783",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/783'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "docs: accountability vault upgrade runbook",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/783",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:49:00Z",
+      "updated_at": "2026-06-27T10:53:35Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -884,8 +1644,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #755; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/784",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/784'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "perf: DataLoader-style analytics batch resolver",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/784",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:59:06Z",
+      "updated_at": "2026-06-27T10:53:38Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -893,8 +1661,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #754; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/785",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/785'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "perf: audit org-scoped list indexes",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/785",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:06:49Z",
+      "updated_at": "2026-06-27T10:53:40Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -902,8 +1678,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #744; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/786",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/786'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "Harden S3 evidence object-key validation",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/786",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:22:56Z",
+      "updated_at": "2026-06-27T10:53:59Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -911,8 +1695,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #742; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/787",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/787'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: rate limiter tenant isolation",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/787",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:33:03Z",
+      "updated_at": "2026-06-27T10:54:02Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -920,8 +1712,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #736; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/788",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/788'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: prismaScope concurrent no-leakage",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/788",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:38:46Z",
+      "updated_at": "2026-06-27T10:54:04Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -929,8 +1729,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #739; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/789",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/789'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: step-up action binding",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/789",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:50:39Z",
+      "updated_at": "2026-06-27T10:54:07Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -938,8 +1746,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #740; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/790",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/790'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: WebAuthn counter rollback",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/790",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:59:17Z",
+      "updated_at": "2026-06-27T10:54:10Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -947,8 +1763,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #734; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/791",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/791'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: milestone repository soft-delete and verifier queries",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/791",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:14:27Z",
+      "updated_at": "2026-06-27T10:54:14Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -956,8 +1780,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #733; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/792",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/792'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: ETL batch exactly-once guards",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/792",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:21:00Z",
+      "updated_at": "2026-06-27T10:54:17Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -965,8 +1797,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #732; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/793",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/793'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: transaction repository cursor stability",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/793",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:30:08Z",
+      "updated_at": "2026-06-27T10:54:20Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -974,8 +1814,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #724; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/794",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/794'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "feat: validate webhook event filters",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/794",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:38:24Z",
+      "updated_at": "2026-06-27T10:54:22Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -983,8 +1831,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #729; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/795",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/795'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: cover accountability vault partial payout boundaries",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/795",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:52:44Z",
+      "updated_at": "2026-06-27T10:54:25Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -992,8 +1848,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #725; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/796",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/796'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "feat: add job queue depth and stuck-job sweeper",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/796",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T04:05:58Z",
+      "updated_at": "2026-06-27T10:54:27Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -1001,8 +1865,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #727; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/797",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/797'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "feat: add verification idempotency keys",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/797",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T04:16:50Z",
+      "updated_at": "2026-06-27T10:54:30Z",
+      "merged_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Disciplr-Org/Disciplr-backend",
@@ -1010,8 +1882,16 @@
       "reward_basis": "GrantFox/Stellar Wave issue #731; MAYBE REWARDED after maintainer review and campaign eligibility",
       "estimated_reward_usdc": null,
       "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/798",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:121\n+ ... ulls/798'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand; gh pr view fallback failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com"
+      "title": "test: organization service lifecycle and uniqueness",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/798",
+      "state": "closed",
+      "status": "closed",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T04:26:13Z",
+      "updated_at": "2026-06-27T10:54:32Z",
+      "merged_at": null,
+      "author": "EazyHood"
     }
   ],
   "submitted_reward_issues": [
@@ -1022,8 +1902,15 @@
       "reward_basis": "DBIP reward if approved by Chain.Love maintainers",
       "estimated_reward_usdc": 10.0,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/issues/1870",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:115\n+ ... ues/1870'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand"
+      "title": "[DBIP] Clarify MCP endpoint and source URL fields",
+      "url": "https://github.com/Chain-Love/chain-love/issues/1870",
+      "state": "open",
+      "status": "open",
+      "labels": [],
+      "created_at": "2026-06-26T15:27:42Z",
+      "updated_at": "2026-06-26T15:27:42Z",
+      "closed_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "Chain-Love/chain-love",
@@ -1032,8 +1919,15 @@
       "reward_basis": "DBIP reward if approved by Chain.Love maintainers",
       "estimated_reward_usdc": 10.0,
       "api_url": "https://api.github.com/repos/Chain-Love/chain-love/issues/1900",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:115\n+ ... ues/1900'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand"
+      "title": "[DBIP] Add sourceUrls column for offer evidence provenance",
+      "url": "https://github.com/Chain-Love/chain-love/issues/1900",
+      "state": "open",
+      "status": "open",
+      "labels": [],
+      "created_at": "2026-06-26T23:12:50Z",
+      "updated_at": "2026-06-26T23:16:34Z",
+      "closed_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "APN-Network/bugs",
@@ -1042,8 +1936,15 @@
       "reward_basis": "README/product-flow mismatch; likely $10 USDT only if accepted and labeled by APN maintainers",
       "estimated_reward_usdt": 10.0,
       "api_url": "https://api.github.com/repos/APN-Network/bugs/issues/143",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:109\n+ ... sues/143'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand"
+      "title": "README tells testers to sign in even though APN advertises no signup/no email",
+      "url": "https://github.com/APN-Network/bugs/issues/143",
+      "state": "open",
+      "status": "open",
+      "labels": [],
+      "created_at": "2026-06-26T20:39:46Z",
+      "updated_at": "2026-06-26T20:49:15Z",
+      "closed_at": null,
+      "author": "EazyHood"
     },
     {
       "repo": "APN-Network/bugs",
@@ -1052,11 +1953,44 @@
       "reward_basis": "bug-report contact address mismatch; likely $10 USDT only if accepted and labeled by APN maintainers",
       "estimated_reward_usdt": 10.0,
       "api_url": "https://api.github.com/repos/APN-Network/bugs/issues/144",
-      "status": "unknown",
-      "error": "gh api failed: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n; urllib failed: <urlopen error [Errno 11001] getaddrinfo failed>; PowerShell fallback failed: Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'\nAt line:1 char:109\n+ ... sues/144'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand"
+      "title": "Public bug page uses bug@apn.tech while reward docs use bugs@apn.tech",
+      "url": "https://github.com/APN-Network/bugs/issues/144",
+      "state": "open",
+      "status": "open",
+      "labels": [],
+      "created_at": "2026-06-26T20:43:11Z",
+      "updated_at": "2026-06-26T20:49:15Z",
+      "closed_at": null,
+      "author": "EazyHood"
     }
   ],
   "top_opportunities": [
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Bot Commands - (Dev Bounty: $500)",
+      "url": "https://github.com/fluxerapp/fluxer-meta/issues/9",
+      "amount_usd": 500.0,
+      "labels": [
+        "Desktop",
+        "Mobile",
+        "Server"
+      ],
+      "comments": 3,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-27T15:34:33Z",
+      "created_at": "2026-06-03T17:58:46Z",
+      "score": 95,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "RECENT ISSUE COMMENTS: Hi, before I start any work here, can you confirm whether this one has an active BountyHub record and what scope you want for the first acceptable PR? The title says Dev Bounty: $500, but the issue body is empty and I do not see a BountyHub link in this thread. If this is still active, a short target scope or the bounty URL would help avoid noisy PRs. This does not have a bountyhub record. We have avoided putting this on bountyhub until we can give a more concrete spec. We"
+    },
     {
       "source": "GitHub search: is:issue state:open bounty \"$5\" -label:invalid -label:wontfix",
       "title": "Daily Issue Report — 2026-06-27",
@@ -1293,34 +2227,6 @@
         "recently updated"
       ],
       "body_preview": "## 🎯 Problem Statement Integrate Redis caching for ticket list and stats queries to optimize DB queries under high developer load. --- ### 🌟 Developer Action Network (Take 10 Seconds!) Before you raise your PR (strictly targeting the `gssoc` branch, NOT `main`), please complete these onboarding steps: 1. ⭐ **Star this repository**: https://github.com/ritesh-1918/HELPDESK.AI 2. 👤 **Follow the Project Admin**: https://github.com/ritesh-1918 (Mandatory - manual step) 3. 💼 **Connect on LinkedIn**: h"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$10\" -label:invalid -label:wontfix",
-      "title": "[BOUNTY] [level:critical] Implement AES-256 GCM encryption for user profiles table sensitive fields",
-      "url": "https://github.com/ritesh-1918/HELPDESK.AI/issues/2947",
-      "amount_usd": null,
-      "labels": [
-        "gssoc",
-        "gssoc:approved",
-        "level:intermediate",
-        "level:critical",
-        "type:security",
-        "bounty"
-      ],
-      "comments": 9,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-27T08:35:53Z",
-      "created_at": "2026-06-21T13:02:35Z",
-      "score": 10,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "recently updated"
-      ],
-      "body_preview": "## 🎯 Problem Statement Apply cryptographic AES-256 GCM encryption to sensitive fields in the user profiles table to secure private user information. --- ### 🌟 Developer Action Network (Take 10 Seconds!) Before you raise your PR (strictly targeting the `gssoc` branch, NOT `main`), please complete these onboarding steps: 1. ⭐ **Star this repository**: https://github.com/ritesh-1918/HELPDESK.AI 2. 👤 **Follow the Project Admin**: https://github.com/ritesh-1918 (Mandatory - manual step) 3. 💼 **Connec"
     }
   ]
 }
