@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T04:20:27+00:00",
+  "generated_at_utc": "2026-06-27T04:24:26+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -1142,6 +1142,23 @@
       "draft": false,
       "created_at": "2026-06-27T04:13:38Z",
       "updated_at": "2026-06-27T04:13:38Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1937,
+      "reward_basis": "107 Alchemy MCP Universal Crypto MCP Agenti Universal Crypto MCP HTTP and Codex MCP listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.42,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1937",
+      "title": "Add second MCP server listing link batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1937",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T04:21:01Z",
+      "updated_at": "2026-06-27T04:21:01Z",
       "merged_at": null,
       "author": "EazyHood"
     },
