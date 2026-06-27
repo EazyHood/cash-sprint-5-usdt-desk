@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T03:54:05+00:00",
+  "generated_at_utc": "2026-06-27T03:57:25+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 161,
-    "rejected": 1020
+    "watch": 160,
+    "rejected": 1022
   },
   "target_status": {
     "target_usd": 5,
@@ -1737,6 +1737,23 @@
       "draft": false,
       "created_at": "2026-06-27T03:38:24Z",
       "updated_at": "2026-06-27T03:38:24Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Disciplr-Org/Disciplr-backend",
+      "number": 795,
+      "reward_basis": "GrantFox/Stellar Wave issue #729; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/795",
+      "title": "test: cover accountability vault partial payout boundaries",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/795",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:52:44Z",
+      "updated_at": "2026-06-27T03:52:44Z",
       "merged_at": null,
       "author": "EazyHood"
     }
