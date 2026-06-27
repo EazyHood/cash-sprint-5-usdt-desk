@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T03:43:59+00:00",
+  "generated_at_utc": "2026-06-27T03:46:51+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -10,7 +10,7 @@
   "counts": {
     "account_required": 3,
     "watch": 160,
-    "rejected": 1023
+    "rejected": 1024
   },
   "target_status": {
     "target_usd": 5,
@@ -1057,6 +1057,23 @@
       "draft": false,
       "created_at": "2026-06-27T03:35:04Z",
       "updated_at": "2026-06-27T03:35:04Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1932,
+      "reward_basis": "114 KryptoGO Saakuru Clave Ronin Wallet CoolWallet Backpack Ellipal and Ownbit listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.84,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1932",
+      "title": "Add fifth wallet listing link batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1932",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:40:47Z",
+      "updated_at": "2026-06-27T03:40:47Z",
       "merged_at": null,
       "author": "EazyHood"
     },
