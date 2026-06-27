@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T16:35:44+00:00",
+  "generated_at_utc": "2026-06-27T16:58:40+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 6,
-    "watch": 161,
-    "rejected": 1066
+    "watch": 169,
+    "rejected": 1070
   },
   "target_status": {
     "target_usd": 5,
@@ -2144,6 +2144,33 @@
       "body_preview": "New SN OPEN_BOUNTY detected: ``` 1515426 Stacker_Sports 3 805 2100 12 16.4 232181 3785 recent@Stacker_Sports|top@Stacker_Sports OPEN_BOUNTY,SELF_POST_OPP Weekly Random Sports Pick 'em 1515489 Stacker_Sports 3 386 10000 6 15.5 88718 44789 recent@Stacker_Sports|top@Stacker_Sports OPEN_BOUNTY,SELF_POST_OPP The winner of the NBA Playoff Points Challenge is... ```"
     },
     {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "[MOBILE] Fix deep link configuration to handle all app URL schemes in DeepLinkConfig.ts",
+      "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/741",
+      "amount_usd": null,
+      "labels": [
+        "bug",
+        "Stellar Wave",
+        "mobile"
+      ],
+      "comments": 1,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-27T16:40:36Z",
+      "created_at": "2026-06-23T12:52:36Z",
+      "score": 10,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Problem `mobile/src/config/DeepLinkConfig.ts` defines deep link routes but they do not cover: - Bounty detail pages (`stellar://bounty/:id`) - Creator profile pages (`stellar://creator/:id`) - Email verification links (`stellar://verify?token=...`) - Payment completion callbacks from external wallets Without these, users tapping links in emails or other apps are dropped at the home screen. ## Fix 1. Register all route patterns in `DeepLinkConfig.ts` 2. In `AppNavigator.tsx`, add a `Linking` c"
+    },
+    {
       "source": "GitHub search: is:issue state:open bounty \"$10\" -label:invalid -label:wontfix",
       "title": "[BOUNTY] [level:intermediate] Implement detailed log level configurations in FastAPI backend",
       "url": "https://github.com/ritesh-1918/HELPDESK.AI/issues/2944",
@@ -2199,34 +2226,6 @@
         "recently updated"
       ],
       "body_preview": "## 🎯 Problem Statement Refactor auth middleware exceptions to return clean, standardized error response schemas rather than raw system error strings. --- ### 🌟 Developer Action Network (Take 10 Seconds!) Before you raise your PR (strictly targeting the `gssoc` branch, NOT `main`), please complete these onboarding steps: 1. ⭐ **Star this repository**: https://github.com/ritesh-1918/HELPDESK.AI 2. 👤 **Follow the Project Admin**: https://github.com/ritesh-1918 (Mandatory - manual step) 3. 💼 **Conne"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$10\" -label:invalid -label:wontfix",
-      "title": "[BOUNTY] [level:advanced] Introduce caching for ticket list queries using Redis",
-      "url": "https://github.com/ritesh-1918/HELPDESK.AI/issues/2946",
-      "amount_usd": null,
-      "labels": [
-        "gssoc",
-        "gssoc:approved",
-        "level:beginner",
-        "level:advanced",
-        "bounty",
-        "type:performance"
-      ],
-      "comments": 9,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-27T08:35:54Z",
-      "created_at": "2026-06-21T13:02:32Z",
-      "score": 10,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "recently updated"
-      ],
-      "body_preview": "## 🎯 Problem Statement Integrate Redis caching for ticket list and stats queries to optimize DB queries under high developer load. --- ### 🌟 Developer Action Network (Take 10 Seconds!) Before you raise your PR (strictly targeting the `gssoc` branch, NOT `main`), please complete these onboarding steps: 1. ⭐ **Star this repository**: https://github.com/ritesh-1918/HELPDESK.AI 2. 👤 **Follow the Project Admin**: https://github.com/ritesh-1918 (Mandatory - manual step) 3. 💼 **Connect on LinkedIn**: h"
     }
   ]
 }
