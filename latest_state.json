@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T00:29:37+00:00",
+  "generated_at_utc": "2026-06-27T00:36:17+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 157,
-    "rejected": 1056
+    "watch": 156,
+    "rejected": 1058
   },
   "target_status": {
     "target_usd": 5,
@@ -632,6 +632,23 @@
       "draft": false,
       "created_at": "2026-06-27T00:25:06Z",
       "updated_at": "2026-06-27T00:25:06Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1907,
+      "reward_basis": "92 SmolRefuel bridge listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 5.52,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1907",
+      "title": "Add SmolRefuel bridge listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1907",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:33:54Z",
+      "updated_at": "2026-06-27T00:33:54Z",
       "merged_at": null,
       "author": "EazyHood"
     },
