@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T00:50:42+00:00",
+  "generated_at_utc": "2026-06-27T00:54:22+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 151,
-    "rejected": 1058
+    "watch": 152,
+    "rejected": 1055
   },
   "target_status": {
     "target_usd": 5,
@@ -989,6 +989,40 @@
       "draft": false,
       "created_at": "2026-06-27T00:41:59Z",
       "updated_at": "2026-06-27T00:41:59Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Disciplr-Org/Disciplr-backend",
+      "number": 774,
+      "reward_basis": "GrantFox/Stellar Wave issue #737; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/774",
+      "title": "test: graphql depth-limit and complexity guard",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/774",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:48:28Z",
+      "updated_at": "2026-06-27T00:48:28Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Disciplr-Org/Disciplr-backend",
+      "number": 775,
+      "reward_basis": "GrantFox/Stellar Wave issue #749; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/775",
+      "title": "security: add CodeQL workflow and dependency-review gate",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/775",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:51:37Z",
+      "updated_at": "2026-06-27T00:51:37Z",
       "merged_at": null,
       "author": "EazyHood"
     }
