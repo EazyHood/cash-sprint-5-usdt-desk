@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T02:57:56+00:00",
+  "generated_at_utc": "2026-06-27T03:00:54+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,7 +9,7 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 158,
+    "watch": 159,
     "rejected": 1022
   },
   "target_status": {
@@ -955,6 +955,23 @@
       "draft": false,
       "created_at": "2026-06-27T02:52:10Z",
       "updated_at": "2026-06-27T02:52:10Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1926,
+      "reward_basis": "111 Aleph Cloud and Filebase storage listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.66,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1926",
+      "title": "Add Aleph and Filebase storage listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1926",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:58:05Z",
+      "updated_at": "2026-06-27T02:58:05Z",
       "merged_at": null,
       "author": "EazyHood"
     },
