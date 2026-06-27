@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T01:26:13+00:00",
+  "generated_at_utc": "2026-06-27T01:28:33+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 153,
-    "rejected": 1047
+    "watch": 151,
+    "rejected": 1044
   },
   "target_status": {
     "target_usd": 5,
@@ -1159,6 +1159,23 @@
       "draft": false,
       "created_at": "2026-06-27T01:17:30Z",
       "updated_at": "2026-06-27T01:17:30Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Disciplr-Org/Disciplr-backend",
+      "number": 780,
+      "reward_basis": "GrantFox/Stellar Wave issue #741; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/780",
+      "title": "test: add API-key timing resistance coverage",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/780",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:25:25Z",
+      "updated_at": "2026-06-27T01:25:25Z",
       "merged_at": null,
       "author": "EazyHood"
     }
