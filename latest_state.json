@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T15:48:28+00:00",
+  "generated_at_utc": "2026-06-27T16:12:37+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 6,
-    "watch": 173,
-    "rejected": 1042
+    "watch": 162,
+    "rejected": 1050
   },
   "target_status": {
     "target_usd": 5,
@@ -1992,7 +1992,7 @@
       "body_preview": "RECENT ISSUE COMMENTS: Hi, before I start any work here, can you confirm whether this one has an active BountyHub record and what scope you want for the first acceptable PR? The title says Dev Bounty: $500, but the issue body is empty and I do not see a BountyHub link in this thread. If this is still active, a short target scope or the bounty URL would help avoid noisy PRs. This does not have a bountyhub record. We have avoided putting this on bountyhub until we can give a more concrete spec. We"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty \"$5\" -label:invalid -label:wontfix",
+      "source": "GitHub search: is:issue state:open bounty \"$10\" -label:invalid -label:wontfix",
       "title": "Daily Issue Report — 2026-06-27",
       "url": "https://github.com/3ni8ma/aarushkarak-website/issues/37",
       "amount_usd": 10.0,
@@ -2077,10 +2077,10 @@
       "labels": [
         "good first issue"
       ],
-      "comments": 9,
+      "comments": 10,
       "assignees": 1,
       "state": "open",
-      "updated_at": "2026-06-27T14:32:06Z",
+      "updated_at": "2026-06-27T15:59:18Z",
       "created_at": "2026-06-27T13:26:53Z",
       "score": 40,
       "status": "account_required",
