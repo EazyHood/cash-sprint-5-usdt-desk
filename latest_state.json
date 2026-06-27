@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T03:28:56+00:00",
+  "generated_at_utc": "2026-06-27T03:31:55+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -1023,6 +1023,23 @@
       "draft": false,
       "created_at": "2026-06-27T03:23:12Z",
       "updated_at": "2026-06-27T03:23:12Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1930,
+      "reward_basis": "127 Trezor Atomic Wallet Zerion Walletverse TokenPocket and Binance Wallet listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 7.62,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1930",
+      "title": "Add third wallet listing link batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1930",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:28:53Z",
+      "updated_at": "2026-06-27T03:28:53Z",
       "merged_at": null,
       "author": "EazyHood"
     },
