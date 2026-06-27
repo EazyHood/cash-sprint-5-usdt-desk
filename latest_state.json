@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T04:04:03+00:00",
+  "generated_at_utc": "2026-06-27T04:09:19+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 160,
-    "rejected": 1022
+    "watch": 158,
+    "rejected": 1048
   },
   "target_status": {
     "target_usd": 5,
@@ -1112,6 +1112,23 @@
       "author": "EazyHood"
     },
     {
+      "repo": "Chain-Love/chain-love",
+      "number": 1935,
+      "reward_basis": "106 Safe Bybit Wallet Kuma Clear EVM Sorted Taho Talisman Ecoin Bitcoin.com Haha Degen Oxenflow SubWallet ONTO Sequence SecuX and Pillar listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.36,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1935",
+      "title": "Add eighth wallet listing link batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1935",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T04:05:54Z",
+      "updated_at": "2026-06-27T04:05:54Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
       "repo": "StellarLend/Stellarlend-frontend",
       "number": 546,
       "reward_basis": "GrantFox/Stellar Wave issue #524; MAYBE REWARDED after maintainer review and campaign eligibility",
@@ -1771,6 +1788,23 @@
       "draft": false,
       "created_at": "2026-06-27T03:52:44Z",
       "updated_at": "2026-06-27T03:52:44Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Disciplr-Org/Disciplr-backend",
+      "number": 796,
+      "reward_basis": "GrantFox/Stellar Wave issue #725; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/796",
+      "title": "feat: add job queue depth and stuck-job sweeper",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/796",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T04:05:58Z",
+      "updated_at": "2026-06-27T04:05:58Z",
       "merged_at": null,
       "author": "EazyHood"
     }
