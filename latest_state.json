@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T01:20:54+00:00",
+  "generated_at_utc": "2026-06-27T01:23:38+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -755,6 +755,23 @@
       "author": "EazyHood"
     },
     {
+      "repo": "Chain-Love/chain-love",
+      "number": 1914,
+      "reward_basis": "107 Chainspot OkuTrade and Wanchain bridge listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.42,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1914",
+      "title": "Add Chainspot Oku and Wanchain bridge listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1914",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:21:07Z",
+      "updated_at": "2026-06-27T01:21:07Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
       "repo": "StellarLend/Stellarlend-frontend",
       "number": 546,
       "reward_basis": "GrantFox/Stellar Wave issue #524; MAYBE REWARDED after maintainer review and campaign eligibility",
@@ -1296,32 +1313,6 @@
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%245%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/FAForever/server/issues/640) <!-- /Issuehunt Badges --> The server should not be sending any strings that get rendered in the client, because these strings are in English and we can't be sure that the user on the other end has their client set to English (in fact a majority of people probably knows English only as a second language, or does no"
     },
     {
-      "source": "GitHub search: is:issue state:open \"Opire\" bounty",
-      "title": "L2: Implement Solana chain module",
-      "url": "https://github.com/kcolbchain/arka/issues/22",
-      "amount_usd": null,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "bounty"
-      ],
-      "comments": 7,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-24T01:21:39Z",
-      "created_at": "2026-06-05T14:17:17Z",
-      "score": 25,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "fast-lane label",
-        "recently updated"
-      ],
-      "body_preview": "## Level: L2 (1-2 days) | Chain: Rust Systems & L2 ### What Arka lists Solana as a \"Planned\" chain. Implement the Solana backend. ### Acceptance Criteria - [ ] New module `chain/solana.rs` implementing the Chain trait - [ ] Support: connection, balance check, SOL transfer, SPL token transfer - [ ] Uses `solana-client` crate - [ ] Tests with `solana-test-validator` - [ ] Update `examples/multi_chain.rs` - [ ] README updated ### Rewards Contributions are recognized through the [kcolbchain contribu"
-    },
-    {
       "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
       "title": "Bounty",
       "url": "https://github.com/souleater06/mineagent/issues/21",
@@ -1366,6 +1357,31 @@
         "fast-lane label"
       ],
       "body_preview": "We want to move from geysers to Sett style vaults for our rewards, based on yearn vaults. We want this sett vault to be useable for LP providers for SGT ETH. It should have an accompanying strategy that allows it to auto-compound earnings in SGT by providing them as liquidity to uniswap, and selling any required to create the ETH side. Should have documentation for functionality and deployment. Should be tested on a testnet. We can send you SGT to test with on goerli. Bonus high value requiremen"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"Opire\" bounty",
+      "title": "L2: Implement Solana chain module",
+      "url": "https://github.com/kcolbchain/arka/issues/22",
+      "amount_usd": null,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "bounty"
+      ],
+      "comments": 7,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T01:21:39Z",
+      "created_at": "2026-06-05T14:17:17Z",
+      "score": 10,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "moderate discussion",
+        "fast-lane label"
+      ],
+      "body_preview": "## Level: L2 (1-2 days) | Chain: Rust Systems & L2 ### What Arka lists Solana as a \"Planned\" chain. Implement the Solana backend. ### Acceptance Criteria - [ ] New module `chain/solana.rs` implementing the Chain trait - [ ] Support: connection, balance check, SOL transfer, SPL token transfer - [ ] Uses `solana-client` crate - [ ] Tests with `solana-test-validator` - [ ] Update `examples/multi_chain.rs` - [ ] README updated ### Rewards Contributions are recognized through the [kcolbchain contribu"
     },
     {
       "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
