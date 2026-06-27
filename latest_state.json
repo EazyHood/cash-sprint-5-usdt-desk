@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T16:58:40+00:00",
+  "generated_at_utc": "2026-06-27T17:21:19+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,9 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "account_required": 6,
-    "watch": 169,
-    "rejected": 1070
+    "account_required": 5,
+    "watch": 163,
+    "rejected": 1074
   },
   "target_status": {
     "target_usd": 5,
@@ -1966,32 +1966,6 @@
   ],
   "top_opportunities": [
     {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "Bot Commands - (Dev Bounty: $500)",
-      "url": "https://github.com/fluxerapp/fluxer-meta/issues/9",
-      "amount_usd": 500.0,
-      "labels": [
-        "Desktop",
-        "Mobile",
-        "Server"
-      ],
-      "comments": 3,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-27T15:34:33Z",
-      "created_at": "2026-06-03T17:58:46Z",
-      "score": 95,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "RECENT ISSUE COMMENTS: Hi, before I start any work here, can you confirm whether this one has an active BountyHub record and what scope you want for the first acceptable PR? The title says Dev Bounty: $500, but the issue body is empty and I do not see a BountyHub link in this thread. If this is still active, a short target scope or the bounty URL would help avoid noisy PRs. This does not have a bountyhub record. We have avoided putting this on bountyhub until we can give a more concrete spec. We"
-    },
-    {
       "source": "GitHub search: is:issue state:open bounty \"$10\" -label:invalid -label:wontfix",
       "title": "Daily Issue Report — 2026-06-27",
       "url": "https://github.com/3ni8ma/aarushkarak-website/issues/37",
@@ -2226,6 +2200,34 @@
         "recently updated"
       ],
       "body_preview": "## 🎯 Problem Statement Refactor auth middleware exceptions to return clean, standardized error response schemas rather than raw system error strings. --- ### 🌟 Developer Action Network (Take 10 Seconds!) Before you raise your PR (strictly targeting the `gssoc` branch, NOT `main`), please complete these onboarding steps: 1. ⭐ **Star this repository**: https://github.com/ritesh-1918/HELPDESK.AI 2. 👤 **Follow the Project Admin**: https://github.com/ritesh-1918 (Mandatory - manual step) 3. 💼 **Conne"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$10\" -label:invalid -label:wontfix",
+      "title": "[BOUNTY] [level:advanced] Introduce caching for ticket list queries using Redis",
+      "url": "https://github.com/ritesh-1918/HELPDESK.AI/issues/2946",
+      "amount_usd": null,
+      "labels": [
+        "gssoc",
+        "gssoc:approved",
+        "level:beginner",
+        "level:advanced",
+        "bounty",
+        "type:performance"
+      ],
+      "comments": 9,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-27T08:35:54Z",
+      "created_at": "2026-06-21T13:02:32Z",
+      "score": 10,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "moderate discussion",
+        "recently updated"
+      ],
+      "body_preview": "## 🎯 Problem Statement Integrate Redis caching for ticket list and stats queries to optimize DB queries under high developer load. --- ### 🌟 Developer Action Network (Take 10 Seconds!) Before you raise your PR (strictly targeting the `gssoc` branch, NOT `main`), please complete these onboarding steps: 1. ⭐ **Star this repository**: https://github.com/ritesh-1918/HELPDESK.AI 2. 👤 **Follow the Project Admin**: https://github.com/ritesh-1918 (Mandatory - manual step) 3. 💼 **Connect on LinkedIn**: h"
     }
   ]
 }
