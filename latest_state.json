@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T17:21:19+00:00",
+  "generated_at_utc": "2026-06-27T17:44:00+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 5,
-    "watch": 163,
-    "rejected": 1074
+    "watch": 161,
+    "rejected": 1067
   },
   "target_status": {
     "target_usd": 5,
@@ -2093,31 +2093,6 @@
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%245%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/FAForever/server/issues/640) <!-- /Issuehunt Badges --> The server should not be sending any strings that get rendered in the client, because these strings are in English and we can't be sure that the user on the other end has their client set to English (in fact a majority of people probably knows English only as a second language, or does no"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty \"$5\" -label:invalid -label:wontfix",
-      "title": "[radar] SN open bounty 2026-06-27T08:48",
-      "url": "https://github.com/relayhop/sn-monetization-runtime/issues/101",
-      "amount_usd": null,
-      "labels": [
-        "radar",
-        "sn",
-        "bounty"
-      ],
-      "comments": 1,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-27T10:11:53Z",
-      "created_at": "2026-06-27T08:48:02Z",
-      "score": 20,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion",
-        "recently updated"
-      ],
-      "body_preview": "New SN OPEN_BOUNTY detected: ``` 1515426 Stacker_Sports 3 805 2100 12 16.4 232181 3785 recent@Stacker_Sports|top@Stacker_Sports OPEN_BOUNTY,SELF_POST_OPP Weekly Random Sports Pick 'em 1515489 Stacker_Sports 3 386 10000 6 15.5 88718 44789 recent@Stacker_Sports|top@Stacker_Sports OPEN_BOUNTY,SELF_POST_OPP The winner of the NBA Playoff Points Challenge is... ```"
-    },
-    {
       "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
       "title": "[MOBILE] Fix deep link configuration to handle all app URL schemes in DeepLinkConfig.ts",
       "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/741",
@@ -2228,6 +2203,31 @@
         "recently updated"
       ],
       "body_preview": "## 🎯 Problem Statement Integrate Redis caching for ticket list and stats queries to optimize DB queries under high developer load. --- ### 🌟 Developer Action Network (Take 10 Seconds!) Before you raise your PR (strictly targeting the `gssoc` branch, NOT `main`), please complete these onboarding steps: 1. ⭐ **Star this repository**: https://github.com/ritesh-1918/HELPDESK.AI 2. 👤 **Follow the Project Admin**: https://github.com/ritesh-1918 (Mandatory - manual step) 3. 💼 **Connect on LinkedIn**: h"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
+      "title": "[Bounty] Create a sett style auto-compounding LP token vault",
+      "url": "https://github.com/SharedStake/Contracts/issues/7",
+      "amount_usd": null,
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "bounty"
+      ],
+      "comments": 9,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-05-25T17:03:02Z",
+      "created_at": "2021-02-16T03:22:39Z",
+      "score": 10,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "moderate discussion",
+        "fast-lane label"
+      ],
+      "body_preview": "We want to move from geysers to Sett style vaults for our rewards, based on yearn vaults. We want this sett vault to be useable for LP providers for SGT ETH. It should have an accompanying strategy that allows it to auto-compound earnings in SGT by providing them as liquidity to uniswap, and selling any required to create the ETH side. Should have documentation for functionality and deployment. Should be tested on a testnet. We can send you SGT to test with on goerli. Bonus high value requiremen"
     }
   ]
 }
