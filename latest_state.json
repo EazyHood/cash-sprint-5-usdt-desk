@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T03:17:44+00:00",
+  "generated_at_utc": "2026-06-27T03:20:26+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -989,6 +989,23 @@
       "draft": false,
       "created_at": "2026-06-27T03:07:05Z",
       "updated_at": "2026-06-27T03:07:05Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1928,
+      "reward_basis": "173 MetaMask Ledger Trust Wallet and OKX Wallet listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 10.38,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1928",
+      "title": "Add core wallet listing links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1928",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T03:15:42Z",
+      "updated_at": "2026-06-27T03:15:42Z",
       "merged_at": null,
       "author": "EazyHood"
     },
