@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T00:22:37+00:00",
+  "generated_at_utc": "2026-06-27T00:27:27+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 158,
-    "rejected": 1067
+    "watch": 157,
+    "rejected": 1057
   },
   "target_status": {
     "target_usd": 5,
@@ -615,6 +615,23 @@
       "draft": false,
       "created_at": "2026-06-27T00:18:12Z",
       "updated_at": "2026-06-27T00:18:12Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1906,
+      "reward_basis": "216 ramp listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 12.96,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1906",
+      "title": "Add ramp listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1906",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:25:06Z",
+      "updated_at": "2026-06-27T00:25:06Z",
       "merged_at": null,
       "author": "EazyHood"
     },
