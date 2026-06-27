@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T00:42:17+00:00",
+  "generated_at_utc": "2026-06-27T00:44:27+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -955,6 +955,23 @@
       "draft": false,
       "created_at": "2026-06-27T00:34:39Z",
       "updated_at": "2026-06-27T00:34:39Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Disciplr-Org/Disciplr-backend",
+      "number": 773,
+      "reward_basis": "GrantFox/Stellar Wave issue #735; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/773",
+      "title": "test: queryParser prototype-pollution and injection guards",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/773",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:41:59Z",
+      "updated_at": "2026-06-27T00:41:59Z",
       "merged_at": null,
       "author": "EazyHood"
     }
