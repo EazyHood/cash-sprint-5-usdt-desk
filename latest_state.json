@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T02:16:52+00:00",
+  "generated_at_utc": "2026-06-27T02:21:19+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 153,
-    "rejected": 1025
+    "watch": 154,
+    "rejected": 1026
   },
   "target_status": {
     "target_usd": 5,
@@ -870,6 +870,23 @@
       "draft": false,
       "created_at": "2026-06-27T02:10:11Z",
       "updated_at": "2026-06-27T02:10:11Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1921,
+      "reward_basis": "125 BlockEden API listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 7.5,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1921",
+      "title": "Add BlockEden API listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1921",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T02:18:30Z",
+      "updated_at": "2026-06-27T02:18:30Z",
       "merged_at": null,
       "author": "EazyHood"
     },
