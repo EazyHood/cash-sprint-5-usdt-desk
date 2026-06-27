@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T19:14:32+00:00",
+  "generated_at_utc": "2026-06-27T19:37:19+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,16 +8,16 @@
     "deadline_hours": 30
   },
   "counts": {
-    "account_required": 5,
-    "watch": 160,
-    "rejected": 1054
+    "account_required": 4,
+    "watch": 158,
+    "rejected": 1059
   },
   "target_status": {
     "target_usd": 5,
     "deadline_hours": 30,
     "earned_verified_usd": 0.0,
     "completion": "not_verified",
-    "note": "Payment API unavailable: HTTP Error 502: Bad Gateway; PowerShell fallback failed: Invoke-WebRequest : error code: 502\nAt line:1 char:176\n+ ... limit=50'; (Invoke-WebRequest -UseBasicParsing -TimeoutSec 20 -Uri $u ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc \n   eption\n    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand"
+    "note": "No incoming USDT/USDC >= target found since the sprint baseline."
   },
   "github_search_status": {
     "status": "fresh"
@@ -1966,30 +1966,6 @@
   ],
   "top_opportunities": [
     {
-      "source": "GitHub search: is:issue state:open bounty \"$10\" -label:invalid -label:wontfix",
-      "title": "Daily Issue Report — 2026-06-27",
-      "url": "https://github.com/3ni8ma/aarushkarak-website/issues/37",
-      "amount_usd": 10.0,
-      "labels": [
-        "automated-report"
-      ],
-      "comments": 0,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-27T08:39:54Z",
-      "created_at": "2026-06-27T08:39:54Z",
-      "score": 80,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "very low discussion",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "# Daily Issue Discovery — 2026-06-27 Found **15** open issues matching your stack. | # | Repo | Issue | Labels | |---|------|-------|--------| | 1 | Streampay-Org/StreamPay-Frontend | [Add release notes generator for contracts/CHANGELOG.md](https://github.com/Streampay-Org/StreamPay-Frontend/issues/460) | documentation, good first issue, Stellar Wave, smart-contract, GRANTFOX OSS, OFFICIAL CAMPAIGN | | 2 | Xoulomon/Stellar-Save | [[DevOps] Implement secret scanning and pre-commit hooks repo-wide"
-    },
-    {
       "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
       "title": "ipython support",
       "url": "https://github.com/Qix-/better-exceptions/issues/10",
@@ -2093,33 +2069,6 @@
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%245%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/FAForever/server/issues/640) <!-- /Issuehunt Badges --> The server should not be sending any strings that get rendered in the client, because these strings are in English and we can't be sure that the user on the other end has their client set to English (in fact a majority of people probably knows English only as a second language, or does no"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "[MOBILE] Fix deep link configuration to handle all app URL schemes in DeepLinkConfig.ts",
-      "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/741",
-      "amount_usd": null,
-      "labels": [
-        "bug",
-        "Stellar Wave",
-        "mobile"
-      ],
-      "comments": 1,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-27T16:40:36Z",
-      "created_at": "2026-06-23T12:52:36Z",
-      "score": 10,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion",
-        "fast-lane label",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "## Problem `mobile/src/config/DeepLinkConfig.ts` defines deep link routes but they do not cover: - Bounty detail pages (`stellar://bounty/:id`) - Creator profile pages (`stellar://creator/:id`) - Email verification links (`stellar://verify?token=...`) - Payment completion callbacks from external wallets Without these, users tapping links in emails or other apps are dropped at the home screen. ## Fix 1. Register all route patterns in `DeepLinkConfig.ts` 2. In `AppNavigator.tsx`, add a `Linking` c"
-    },
-    {
       "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
       "title": "[Bounty] Create a sett style auto-compounding LP token vault",
       "url": "https://github.com/SharedStake/Contracts/issues/7",
@@ -2208,6 +2157,46 @@
         "very low discussion"
       ],
       "body_preview": "Ω-Coder：VSCode 插件伪代码 一、插件结构 ``` omega-coder/ ├── package.json # 插件配置 ├── extension.ts # 插件入口 ├── bountyCreator.ts # 悬赏创建模块 ├── bountyView.ts # 悬赏侧边栏 Webview ├── sandboxRunner.ts # 代码沙箱执行 ├── omegaArbiter.ts # 欧米伽裁决器 └── bountyChain.ts # 悬赏链集成（可选） ``` --- 二、package.json ```json { \"name\": \"omega-coder\", \"displayName\": \"Ω-Coder\", \"description\": \"不写代码的编程助手——把你的需求变成悬赏，让AI来竞标\", \"version\": \"0.1.0\", \"engines\": { \"vscode\": \"^1.80.0\" }, \"activationEvents\": [\"onCommand:omega-coder.createBounty\"], \"contribu"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"Dework\" bounty",
+      "title": "Create Wiki Page - Zcash Mining Pool",
+      "url": "https://github.com/ZecHub/zechub/issues/1769",
+      "amount_usd": null,
+      "labels": [],
+      "comments": 0,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-22T10:06:35Z",
+      "created_at": "2026-06-22T10:06:35Z",
+      "score": 5,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion"
+      ],
+      "body_preview": "Create Wiki Page - Zcash Mining Pool Bounty: 0.18 ZEC Create a wiki page listing the Zcash mining pools in the Zcash ecosystem submit as markdown document: <https://github.com/ZecHub/zechub/tree/main/site/Using_Zcash> [Read more about this task and rewards on Dework.xyz](https://app.dework.xyz/zechub-2424/main-space-20666?taskId=660892ce-80a3-46df-abd4-dc32356f462b)"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"Dework\" bounty",
+      "title": "ZecWeekly Indonesian Translation - Zcash Shielded News Vol.23",
+      "url": "https://github.com/ZecHub/zechub/issues/1768",
+      "amount_usd": null,
+      "labels": [],
+      "comments": 0,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-22T09:27:28Z",
+      "created_at": "2026-06-22T09:27:28Z",
+      "score": 5,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion"
+      ],
+      "body_preview": "I would like to translate the Zcash Shielded News Vol.23 newsletter into Bahasa Indonesia to help grow the Zcash community in Indonesia and Southeast Asia. Indonesia has one of the largest crypto communities in the region and there is currently no Indonesian language content for Zcash Source: <https://substack.com/@zechub/p-202612866> Bounty: 0.035 ZEC [Read more about this task and rewards on Dework.xyz](https://app.dework.xyz/zechub-2424/main-space-20666?taskId=a403535b-1a25-48cf-9e81-37ac2701"
     }
   ]
 }
