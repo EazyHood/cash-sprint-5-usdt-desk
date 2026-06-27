@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T00:16:20+00:00",
+  "generated_at_utc": "2026-06-27T00:20:33+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -598,6 +598,23 @@
       "draft": false,
       "created_at": "2026-06-27T00:08:50Z",
       "updated_at": "2026-06-27T00:08:50Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1905,
+      "reward_basis": "21 explorer listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 1.26,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1905",
+      "title": "Add explorer listing action links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1905",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T00:18:12Z",
+      "updated_at": "2026-06-27T00:18:12Z",
       "merged_at": null,
       "author": "EazyHood"
     },
