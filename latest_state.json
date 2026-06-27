@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T04:29:39+00:00",
+  "generated_at_utc": "2026-06-27T04:33:54+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 158,
-    "rejected": 1055
+    "watch": 159,
+    "rejected": 1054
   },
   "target_status": {
     "target_usd": 5,
@@ -1159,6 +1159,23 @@
       "draft": false,
       "created_at": "2026-06-27T04:21:01Z",
       "updated_at": "2026-06-27T04:21:01Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1938,
+      "reward_basis": "103 Etherscan Hosted MCP Wallet Agent Coinbase AgentKit MCP Blocknative MCP EVM MCP Server and Web3 MCP listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.18,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1938",
+      "title": "Add third MCP server listing link batch",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1938",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T04:27:03Z",
+      "updated_at": "2026-06-27T04:27:03Z",
       "merged_at": null,
       "author": "EazyHood"
     },
