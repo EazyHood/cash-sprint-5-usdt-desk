@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T22:31:25+00:00",
+  "generated_at_utc": "2026-06-27T22:54:08+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 4,
-    "watch": 165,
-    "rejected": 1062
+    "watch": 167,
+    "rejected": 1065
   },
   "target_status": {
     "target_usd": 5,
@@ -2090,6 +2090,33 @@
       "body_preview": "### Client Version: 516.1659=>[516](https://www.byond.com/download/build/516)/[Windows](https://www.byond.com/download/build/516/516.1659_byond_setup.zip)/[Linux](https://www.byond.com/download/build/516/516.1659_byond_linux.zip) ### Issue Summary: Expected behavior: Chem presses are supposed to keep a storage inside them to automatically dispense once the stack on top reaches 10. I haven't found any PRs on here or /tg/ that mention changing this behavior, so I'm assuming it's a bug. (If it IS i"
     },
     {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "[MOBILE] Fix deep link configuration to handle all app URL schemes in DeepLinkConfig.ts",
+      "url": "https://github.com/yosemite01/stellar-creator-portfolio/issues/741",
+      "amount_usd": null,
+      "labels": [
+        "bug",
+        "Stellar Wave",
+        "mobile"
+      ],
+      "comments": 2,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-27T22:35:12Z",
+      "created_at": "2026-06-23T12:52:36Z",
+      "score": 10,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "## Problem `mobile/src/config/DeepLinkConfig.ts` defines deep link routes but they do not cover: - Bounty detail pages (`stellar://bounty/:id`) - Creator profile pages (`stellar://creator/:id`) - Email verification links (`stellar://verify?token=...`) - Payment completion callbacks from external wallets Without these, users tapping links in emails or other apps are dropped at the home screen. ## Fix 1. Register all route patterns in `DeepLinkConfig.ts` 2. In `AppNavigator.tsx`, add a `Linking` c"
+    },
+    {
       "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
       "title": "[Bounty] Create a sett style auto-compounding LP token vault",
       "url": "https://github.com/SharedStake/Contracts/issues/7",
@@ -2178,26 +2205,6 @@
         "very low discussion"
       ],
       "body_preview": "Ω-Coder：VSCode 插件伪代码 一、插件结构 ``` omega-coder/ ├── package.json # 插件配置 ├── extension.ts # 插件入口 ├── bountyCreator.ts # 悬赏创建模块 ├── bountyView.ts # 悬赏侧边栏 Webview ├── sandboxRunner.ts # 代码沙箱执行 ├── omegaArbiter.ts # 欧米伽裁决器 └── bountyChain.ts # 悬赏链集成（可选） ``` --- 二、package.json ```json { \"name\": \"omega-coder\", \"displayName\": \"Ω-Coder\", \"description\": \"不写代码的编程助手——把你的需求变成悬赏，让AI来竞标\", \"version\": \"0.1.0\", \"engines\": { \"vscode\": \"^1.80.0\" }, \"activationEvents\": [\"onCommand:omega-coder.createBounty\"], \"contribu"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"Dework\" bounty",
-      "title": "Create Wiki Page - Zcash Mining Pool",
-      "url": "https://github.com/ZecHub/zechub/issues/1769",
-      "amount_usd": null,
-      "labels": [],
-      "comments": 0,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-22T10:06:35Z",
-      "created_at": "2026-06-22T10:06:35Z",
-      "score": 5,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion"
-      ],
-      "body_preview": "Create Wiki Page - Zcash Mining Pool Bounty: 0.18 ZEC Create a wiki page listing the Zcash mining pools in the Zcash ecosystem submit as markdown document: <https://github.com/ZecHub/zechub/tree/main/site/Using_Zcash> [Read more about this task and rewards on Dework.xyz](https://app.dework.xyz/zechub-2424/main-space-20666?taskId=660892ce-80a3-46df-abd4-dc32356f462b)"
     }
   ]
 }
