@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T01:40:12+00:00",
+  "generated_at_utc": "2026-06-27T01:42:50+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 153,
-    "rejected": 1043
+    "watch": 151,
+    "rejected": 1041
   },
   "target_status": {
     "target_usd": 5,
@@ -1227,6 +1227,23 @@
       "draft": false,
       "created_at": "2026-06-27T01:31:33Z",
       "updated_at": "2026-06-27T01:31:33Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Disciplr-Org/Disciplr-backend",
+      "number": 782,
+      "reward_basis": "GrantFox/Stellar Wave issue #756; MAYBE REWARDED after maintainer review and campaign eligibility",
+      "estimated_reward_usdc": null,
+      "api_url": "https://api.github.com/repos/Disciplr-Org/Disciplr-backend/pulls/782",
+      "title": "perf: benchmark export stream backpressure",
+      "url": "https://github.com/Disciplr-Org/Disciplr-backend/pull/782",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:37:41Z",
+      "updated_at": "2026-06-27T01:37:41Z",
       "merged_at": null,
       "author": "EazyHood"
     }
