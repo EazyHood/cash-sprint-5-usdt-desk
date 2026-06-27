@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T01:42:50+00:00",
+  "generated_at_utc": "2026-06-27T01:46:19+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 3,
-    "watch": 151,
-    "rejected": 1041
+    "watch": 152,
+    "rejected": 1039
   },
   "target_status": {
     "target_usd": 5,
@@ -802,6 +802,23 @@
       "draft": false,
       "created_at": "2026-06-27T01:37:34Z",
       "updated_at": "2026-06-27T01:37:34Z",
+      "merged_at": null,
+      "author": "EazyHood"
+    },
+    {
+      "repo": "Chain-Love/chain-love",
+      "number": 1917,
+      "reward_basis": "100 RhinoFi Synapse Asterizm ChainPort and Router Protocol bridge listing action link fields at 0.06 USDC each",
+      "estimated_reward_usdc": 6.0,
+      "api_url": "https://api.github.com/repos/Chain-Love/chain-love/pulls/1917",
+      "title": "Add RhinoFi Synapse Asterizm ChainPort and Router bridge links",
+      "url": "https://github.com/Chain-Love/chain-love/pull/1917",
+      "state": "open",
+      "status": "open",
+      "mergeable": true,
+      "draft": false,
+      "created_at": "2026-06-27T01:43:42Z",
+      "updated_at": "2026-06-27T01:43:42Z",
       "merged_at": null,
       "author": "EazyHood"
     },
