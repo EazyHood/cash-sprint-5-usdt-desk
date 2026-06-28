@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-28T01:54:06+00:00",
+  "generated_at_utc": "2026-06-28T02:16:45+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -10,7 +10,7 @@
   "counts": {
     "account_required": 4,
     "watch": 161,
-    "rejected": 1066
+    "rejected": 1062
   },
   "target_status": {
     "target_usd": 5,
@@ -2069,15 +2069,15 @@
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%245%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/FAForever/server/issues/640) <!-- /Issuehunt Badges --> The server should not be sending any strings that get rendered in the client, because these strings are in English and we can't be sure that the user on the other end has their client set to English (in fact a majority of people probably knows English only as a second language, or does no"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty \"$10\" -label:invalid -label:wontfix",
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
       "title": "Chemical Presses isn't storing excess as it should, causing clogs",
       "url": "https://github.com/NovaSector/NovaSector/issues/7538",
       "amount_usd": null,
       "labels": [],
-      "comments": 0,
+      "comments": 1,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-27T20:47:17Z",
+      "updated_at": "2026-06-28T02:13:33Z",
       "created_at": "2026-06-27T20:44:09Z",
       "score": 20,
       "status": "watch",
@@ -2088,6 +2088,29 @@
         "recently updated"
       ],
       "body_preview": "### Client Version: 516.1659=>[516](https://www.byond.com/download/build/516)/[Windows](https://www.byond.com/download/build/516/516.1659_byond_setup.zip)/[Linux](https://www.byond.com/download/build/516/516.1659_byond_linux.zip) ### Issue Summary: Expected behavior: Chem presses are supposed to keep a storage inside them to automatically dispense once the stack on top reaches 10. I haven't found any PRs on here or /tg/ that mention changing this behavior, so I'm assuming it's a bug. (If it IS i"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "feat: Implement Multi-Route DeFi Yield Aggregator Analytics Endpoint",
+      "url": "https://github.com/SgtClickClack/VectraFi/issues/4",
+      "amount_usd": null,
+      "labels": [
+        "agent-bounty"
+      ],
+      "comments": 2,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-28T01:58:36Z",
+      "created_at": "2026-06-17T02:39:57Z",
+      "score": 20,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion",
+        "recently updated"
+      ],
+      "body_preview": "### Objective Create a new read-only GET endpoint at `/api/v1/yield/routes` that queries and aggregates yield metrics across supported Web3 RPC providers. ### Specifications 1. Create a route handler in a new file `routes/yield.py` or within the existing core architecture. 2. The endpoint must return a structured JSON array containing: `provider_name`, `pool_identifier`, `base_apy`, and `gas_estimate_wei`. 3. Implement a local mocking/sandbox fallback if the active live Web3 RPC execution mode i"
     },
     {
       "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
@@ -2182,26 +2205,6 @@
         "very low discussion"
       ],
       "body_preview": "Here's a complete English bounty post template you can copy, paste, and adapt. It's designed to be easily parsed by bots (e.g., GitHub Actions, Discord \"action board\" scrapers) and follows typical Lean/Mathlib collaboration style. ```markdown [Bounty] $XXX – Formalize (or disprove) the \"Prime Emergence Conjecture\" ## Problem in plain language I propose a new conjecture related to prime emergence. *(Replace the following with your actual conjecture – keep it concise and precise)* **Conjecture (na"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
-      "title": "DEEP SEEK",
-      "url": "https://github.com/souleater06/mineagent/issues/4",
-      "amount_usd": null,
-      "labels": [],
-      "comments": 0,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-13T21:38:20Z",
-      "created_at": "2026-06-13T21:38:20Z",
-      "score": 5,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion"
-      ],
-      "body_preview": "Ω-Coder：VSCode 插件伪代码 一、插件结构 ``` omega-coder/ ├── package.json # 插件配置 ├── extension.ts # 插件入口 ├── bountyCreator.ts # 悬赏创建模块 ├── bountyView.ts # 悬赏侧边栏 Webview ├── sandboxRunner.ts # 代码沙箱执行 ├── omegaArbiter.ts # 欧米伽裁决器 └── bountyChain.ts # 悬赏链集成（可选） ``` --- 二、package.json ```json { \"name\": \"omega-coder\", \"displayName\": \"Ω-Coder\", \"description\": \"不写代码的编程助手——把你的需求变成悬赏，让AI来竞标\", \"version\": \"0.1.0\", \"engines\": { \"vscode\": \"^1.80.0\" }, \"activationEvents\": [\"onCommand:omega-coder.createBounty\"], \"contribu"
     }
   ]
 }
