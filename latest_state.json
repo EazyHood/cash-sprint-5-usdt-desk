@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-28T09:16:50+00:00",
+  "generated_at_utc": "2026-06-28T09:40:02+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 5,
-    "watch": 170,
-    "rejected": 1027
+    "watch": 165,
+    "rejected": 1038
   },
   "target_status": {
     "target_usd": 5,
@@ -2182,28 +2182,29 @@
       "body_preview": "## Scope - burner-wallet and potentially other components like dapparatus currently do not include package-lock.json or yarn.lock - These files are supposed to be committed however as they provide integrity when installing dependencies ## Deliverables - Add yarn.lock and package-lock.json in all components used by the burner-wallet. ## Roles bounty gardener: @TimDaub / 15% bounty worker: name / 75% bounty reviewer: name / 15%"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "Extract and display embedded subtitles",
-      "url": "https://github.com/stashapp/stash/issues/3875",
+      "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
+      "title": "[Bounty] Create a sett style auto-compounding LP token vault",
+      "url": "https://github.com/SharedStake/Contracts/issues/7",
       "amount_usd": null,
       "labels": [
-        "bounty",
-        "feature request"
+        "enhancement",
+        "help wanted",
+        "bounty"
       ],
-      "comments": 8,
+      "comments": 9,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-28T06:44:52Z",
-      "created_at": "2023-07-02T16:51:59Z",
+      "updated_at": "2026-05-25T17:03:02Z",
+      "created_at": "2021-02-16T03:22:39Z",
       "score": 10,
       "status": "watch",
       "reasons": [
         "no explicit USD/USDT/USDC amount found",
         "unassigned",
         "moderate discussion",
-        "recently updated"
+        "fast-lane label"
       ],
-      "body_preview": "**Is your feature request related to a problem? Please describe.** Currently mkv files that have subtitles embedded will not display those subtitles. **Describe the solution you'd like** Stash can display external captions but it should also be able to display embedded captions. Most desktop and mobile media players can display embedded captions so if possible can embedded captions be displayed in the Stash video player."
+      "body_preview": "We want to move from geysers to Sett style vaults for our rewards, based on yearn vaults. We want this sett vault to be useable for LP providers for SGT ETH. It should have an accompanying strategy that allows it to auto-compound earnings in SGT by providing them as liquidity to uniswap, and selling any required to create the ETH side. Should have documentation for functionality and deployment. Should be tested on a testnet. We can send you SGT to test with on goerli. Bonus high value requiremen"
     }
   ]
 }
