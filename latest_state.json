@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-28T03:27:01+00:00",
+  "generated_at_utc": "2026-06-28T03:49:44+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,9 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "account_required": 4,
-    "watch": 161,
-    "rejected": 1088
+    "account_required": 5,
+    "watch": 158,
+    "rejected": 1090
   },
   "target_status": {
     "target_usd": 5,
@@ -1992,6 +1992,31 @@
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2470%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/Qix-/better-exceptions/issues/10) <!-- /Issuehunt Badges --> Does not appear to work in ipython (at least in emacs) <!-- Issuehunt content --> --- <details> <summary> <b>IssueHunt Summary</b> </summary> ### Backers (Total: $70.00) - [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt"
     },
     {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Support text files/object type",
+      "url": "https://github.com/stashapp/stash/issues/1259",
+      "amount_usd": 40.0,
+      "labels": [
+        "bounty",
+        "feature request"
+      ],
+      "comments": 13,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-28T03:34:41Z",
+      "created_at": "2021-04-02T04:43:09Z",
+      "score": 70,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "**Is your feature request related to a problem? Please describe.** There isn't a native way to add text files in Stash. **Describe the solution you'd like** Adding support for text files/stories. Metadata I would like to see: ``` name author url for source website of source date language cover front cover back Rating Tags Details tag line Link To Audio ``` I would like BBCode support for text formatting. Also, linking audio to text and playing/reading at the same time, **Additional context** Add"
+    },
+    {
       "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
       "title": "Make it easier to write reliable cleanup tasks",
       "url": "https://github.com/avajs/ava/issues/928",
@@ -2185,26 +2210,6 @@
         "fast-lane label"
       ],
       "body_preview": "## Level: L2 (1-2 days) | Chain: Rust Systems & L2 ### What Arka lists Solana as a \"Planned\" chain. Implement the Solana backend. ### Acceptance Criteria - [ ] New module `chain/solana.rs` implementing the Chain trait - [ ] Support: connection, balance check, SOL transfer, SPL token transfer - [ ] Uses `solana-client` crate - [ ] Tests with `solana-test-validator` - [ ] Update `examples/multi_chain.rs` - [ ] README updated ### Rewards Contributions are recognized through the [kcolbchain contribu"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
-      "title": "Bounty",
-      "url": "https://github.com/souleater06/mineagent/issues/21",
-      "amount_usd": null,
-      "labels": [],
-      "comments": 1,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-24T15:17:11Z",
-      "created_at": "2026-06-14T10:58:42Z",
-      "score": 5,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion"
-      ],
-      "body_preview": "Here's a complete English bounty post template you can copy, paste, and adapt. It's designed to be easily parsed by bots (e.g., GitHub Actions, Discord \"action board\" scrapers) and follows typical Lean/Mathlib collaboration style. ```markdown [Bounty] $XXX – Formalize (or disprove) the \"Prime Emergence Conjecture\" ## Problem in plain language I propose a new conjecture related to prime emergence. *(Replace the following with your actual conjecture – keep it concise and precise)* **Conjecture (na"
     }
   ]
 }
