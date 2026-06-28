@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-28T02:40:03+00:00",
+  "generated_at_utc": "2026-06-28T03:02:56+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -10,7 +10,7 @@
   "counts": {
     "account_required": 4,
     "watch": 161,
-    "rejected": 1064
+    "rejected": 1089
   },
   "target_status": {
     "target_usd": 5,
@@ -2070,6 +2070,30 @@
     },
     {
       "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Flamers can flame through generators",
+      "url": "https://github.com/cmss13-devs/cmss13/issues/12541",
+      "amount_usd": null,
+      "labels": [
+        "Bug"
+      ],
+      "comments": 0,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-28T02:56:38Z",
+      "created_at": "2026-06-28T02:56:38Z",
+      "score": 35,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion",
+        "fast-lane label",
+        "recently updated"
+      ],
+      "body_preview": "## Testmerges <a href=\"https://github.com/cmss13-devs/cmss13/pull/11075\">#11075: 'Ticket Panel (Adminhelps &amp; Mentorhelps)' by GeneriedJenelle at commit 6b82f92004</a><br><a href=\"https://github.com/cmss13-devs/cmss13/pull/12174\">#12174: 'Yautja Armor Sets' by realforest2001 at commit 90c66798ed</a><br><a href=\"https://github.com/cmss13-devs/cmss13/pull/10414\">#10414: 'Port: Harm Intent uses Auto-Fire instead of PB' by MistChristmas at commit d44502d495</a><br><a href=\"https://github.com/cmss"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
       "title": "Chemical Presses isn't storing excess as it should, causing clogs",
       "url": "https://github.com/NovaSector/NovaSector/issues/7538",
       "amount_usd": null,
@@ -2185,26 +2209,6 @@
         "fast-lane label"
       ],
       "body_preview": "## Level: L2 (1-2 days) | Chain: Rust Systems & L2 ### What Arka lists Solana as a \"Planned\" chain. Implement the Solana backend. ### Acceptance Criteria - [ ] New module `chain/solana.rs` implementing the Chain trait - [ ] Support: connection, balance check, SOL transfer, SPL token transfer - [ ] Uses `solana-client` crate - [ ] Tests with `solana-test-validator` - [ ] Update `examples/multi_chain.rs` - [ ] README updated ### Rewards Contributions are recognized through the [kcolbchain contribu"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
-      "title": "Bounty",
-      "url": "https://github.com/souleater06/mineagent/issues/21",
-      "amount_usd": null,
-      "labels": [],
-      "comments": 1,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-24T15:17:11Z",
-      "created_at": "2026-06-14T10:58:42Z",
-      "score": 5,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion"
-      ],
-      "body_preview": "Here's a complete English bounty post template you can copy, paste, and adapt. It's designed to be easily parsed by bots (e.g., GitHub Actions, Discord \"action board\" scrapers) and follows typical Lean/Mathlib collaboration style. ```markdown [Bounty] $XXX – Formalize (or disprove) the \"Prime Emergence Conjecture\" ## Problem in plain language I propose a new conjecture related to prime emergence. *(Replace the following with your actual conjecture – keep it concise and precise)* **Conjecture (na"
     }
   ]
 }
