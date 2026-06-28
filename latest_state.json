@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-28T00:45:07+00:00",
+  "generated_at_utc": "2026-06-28T01:08:05+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 4,
-    "watch": 156,
-    "rejected": 1072
+    "watch": 155,
+    "rejected": 1071
   },
   "target_status": {
     "target_usd": 5,
@@ -2069,7 +2069,7 @@
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%245%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/FAForever/server/issues/640) <!-- /Issuehunt Badges --> The server should not be sending any strings that get rendered in the client, because these strings are in English and we can't be sure that the user on the other end has their client set to English (in fact a majority of people probably knows English only as a second language, or does no"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "source": "GitHub search: is:issue state:open bounty \"$10\" -label:invalid -label:wontfix",
       "title": "Chemical Presses isn't storing excess as it should, causing clogs",
       "url": "https://github.com/NovaSector/NovaSector/issues/7538",
       "amount_usd": null,
