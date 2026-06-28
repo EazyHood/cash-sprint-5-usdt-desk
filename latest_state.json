@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-28T03:49:44+00:00",
+  "generated_at_utc": "2026-06-28T09:16:50+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -9,8 +9,8 @@
   },
   "counts": {
     "account_required": 5,
-    "watch": 158,
-    "rejected": 1090
+    "watch": 170,
+    "rejected": 1027
   },
   "target_status": {
     "target_usd": 5,
@@ -1966,6 +1966,30 @@
   ],
   "top_opportunities": [
     {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Daily Issue Report — 2026-06-27",
+      "url": "https://github.com/3ni8ma/aarushkarak-website/issues/37",
+      "amount_usd": 10.0,
+      "labels": [
+        "automated-report"
+      ],
+      "comments": 0,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-28T07:50:48Z",
+      "created_at": "2026-06-27T08:39:54Z",
+      "score": 80,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "very low discussion",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "# Daily Issue Discovery — 2026-06-27 Found **15** open issues matching your stack. | # | Repo | Issue | Labels | |---|------|-------|--------| | 1 | Streampay-Org/StreamPay-Frontend | [Add release notes generator for contracts/CHANGELOG.md](https://github.com/Streampay-Org/StreamPay-Frontend/issues/460) | documentation, good first issue, Stellar Wave, smart-contract, GRANTFOX OSS, OFFICIAL CAMPAIGN | | 2 | Xoulomon/Stellar-Save | [[DevOps] Implement secret scanning and pre-commit hooks repo-wide"
+    },
+    {
       "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
       "title": "ipython support",
       "url": "https://github.com/Qix-/better-exceptions/issues/10",
@@ -1990,31 +2014,6 @@
         "requires account/claim/approval flow"
       ],
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2470%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/Qix-/better-exceptions/issues/10) <!-- /Issuehunt Badges --> Does not appear to work in ipython (at least in emacs) <!-- Issuehunt content --> --- <details> <summary> <b>IssueHunt Summary</b> </summary> ### Backers (Total: $70.00) - [<img src='https://avatars3.githubusercontent.com/u/44827199?v=4' alt='issuehunt' width=24 height=24> issuehunt"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "Support text files/object type",
-      "url": "https://github.com/stashapp/stash/issues/1259",
-      "amount_usd": 40.0,
-      "labels": [
-        "bounty",
-        "feature request"
-      ],
-      "comments": 13,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-28T03:34:41Z",
-      "created_at": "2021-04-02T04:43:09Z",
-      "score": 70,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "**Is your feature request related to a problem? Please describe.** There isn't a native way to add text files in Stash. **Describe the solution you'd like** Adding support for text files/stories. Metadata I would like to see: ``` name author url for source website of source date language cover front cover back Rating Tags Details tag line Link To Audio ``` I would like BBCode support for text formatting. Also, linking audio to text and playing/reading at the same time, **Additional context** Add"
     },
     {
       "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
@@ -2095,27 +2094,24 @@
     },
     {
       "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "Flamers can flame through generators",
-      "url": "https://github.com/cmss13-devs/cmss13/issues/12541",
+      "title": "Shadow public falsification bounty",
+      "url": "https://github.com/impartshadow/echo-site/issues/1",
       "amount_usd": null,
-      "labels": [
-        "Bug"
-      ],
+      "labels": [],
       "comments": 0,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-28T02:56:38Z",
-      "created_at": "2026-06-28T02:56:38Z",
-      "score": 35,
+      "updated_at": "2026-06-28T07:51:34Z",
+      "created_at": "2026-06-27T12:03:21Z",
+      "score": 20,
       "status": "watch",
       "reasons": [
         "no explicit USD/USDT/USDC amount found",
         "unassigned",
         "very low discussion",
-        "fast-lane label",
         "recently updated"
       ],
-      "body_preview": "## Testmerges <a href=\"https://github.com/cmss13-devs/cmss13/pull/11075\">#11075: 'Ticket Panel (Adminhelps &amp; Mentorhelps)' by GeneriedJenelle at commit 6b82f92004</a><br><a href=\"https://github.com/cmss13-devs/cmss13/pull/12174\">#12174: 'Yautja Armor Sets' by realforest2001 at commit 90c66798ed</a><br><a href=\"https://github.com/cmss13-devs/cmss13/pull/10414\">#10414: 'Port: Harm Intent uses Auto-Fire instead of PB' by MistChristmas at commit d44502d495</a><br><a href=\"https://github.com/cmss"
+      "body_preview": "<!-- shadow:falsification-bounty:v1 --> # Shadow public falsification bounty Shadow is publishing the current acquisition bet as a commentable public challenge. Bring one concrete production-agent failure, audit gap, or receipt requirement that matches this market bet. ## Current 7-day bet - Channel under test: `substack_notes` - Outcome progress: `0/1` - Due: `2026-06-28T12:03:24.695253+00:00` - Hypothesis: If Shadow allocates the next acquisition week toward substack_notes, that channel should"
     },
     {
       "source": "GitHub search: is:issue state:open bounty USDT -label:invalid -label:wontfix",
@@ -2162,54 +2158,52 @@
       "body_preview": "### Client Version: 516.1659=>[516](https://www.byond.com/download/build/516)/[Windows](https://www.byond.com/download/build/516/516.1659_byond_setup.zip)/[Linux](https://www.byond.com/download/build/516/516.1659_byond_linux.zip) ### Issue Summary: Expected behavior: Chem presses are supposed to keep a storage inside them to automatically dispense once the stack on top reaches 10. I haven't found any PRs on here or /tg/ that mention changing this behavior, so I'm assuming it's a bug. (If it IS i"
     },
     {
-      "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
-      "title": "[Bounty] Create a sett style auto-compounding LP token vault",
-      "url": "https://github.com/SharedStake/Contracts/issues/7",
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Add package-lock.json and yarn.lock",
+      "url": "https://github.com/austintgriffith/burner-wallet/issues/216",
       "amount_usd": null,
       "labels": [
-        "enhancement",
-        "help wanted",
-        "bounty"
+        "bounty",
+        "size-XXS"
       ],
-      "comments": 9,
+      "comments": 4,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-05-25T17:03:02Z",
-      "created_at": "2021-02-16T03:22:39Z",
+      "updated_at": "2026-06-28T07:27:13Z",
+      "created_at": "2019-06-05T12:50:54Z",
       "score": 10,
       "status": "watch",
       "reasons": [
         "no explicit USD/USDT/USDC amount found",
         "unassigned",
         "moderate discussion",
-        "fast-lane label"
+        "recently updated"
       ],
-      "body_preview": "We want to move from geysers to Sett style vaults for our rewards, based on yearn vaults. We want this sett vault to be useable for LP providers for SGT ETH. It should have an accompanying strategy that allows it to auto-compound earnings in SGT by providing them as liquidity to uniswap, and selling any required to create the ETH side. Should have documentation for functionality and deployment. Should be tested on a testnet. We can send you SGT to test with on goerli. Bonus high value requiremen"
+      "body_preview": "## Scope - burner-wallet and potentially other components like dapparatus currently do not include package-lock.json or yarn.lock - These files are supposed to be committed however as they provide integrity when installing dependencies ## Deliverables - Add yarn.lock and package-lock.json in all components used by the burner-wallet. ## Roles bounty gardener: @TimDaub / 15% bounty worker: name / 75% bounty reviewer: name / 15%"
     },
     {
-      "source": "GitHub search: is:issue state:open \"Opire\" bounty",
-      "title": "L2: Implement Solana chain module",
-      "url": "https://github.com/kcolbchain/arka/issues/22",
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Extract and display embedded subtitles",
+      "url": "https://github.com/stashapp/stash/issues/3875",
       "amount_usd": null,
       "labels": [
-        "enhancement",
-        "help wanted",
-        "bounty"
+        "bounty",
+        "feature request"
       ],
-      "comments": 7,
+      "comments": 8,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-24T01:21:39Z",
-      "created_at": "2026-06-05T14:17:17Z",
+      "updated_at": "2026-06-28T06:44:52Z",
+      "created_at": "2023-07-02T16:51:59Z",
       "score": 10,
       "status": "watch",
       "reasons": [
         "no explicit USD/USDT/USDC amount found",
         "unassigned",
         "moderate discussion",
-        "fast-lane label"
+        "recently updated"
       ],
-      "body_preview": "## Level: L2 (1-2 days) | Chain: Rust Systems & L2 ### What Arka lists Solana as a \"Planned\" chain. Implement the Solana backend. ### Acceptance Criteria - [ ] New module `chain/solana.rs` implementing the Chain trait - [ ] Support: connection, balance check, SOL transfer, SPL token transfer - [ ] Uses `solana-client` crate - [ ] Tests with `solana-test-validator` - [ ] Update `examples/multi_chain.rs` - [ ] README updated ### Rewards Contributions are recognized through the [kcolbchain contribu"
+      "body_preview": "**Is your feature request related to a problem? Please describe.** Currently mkv files that have subtitles embedded will not display those subtitles. **Describe the solution you'd like** Stash can display external captions but it should also be able to display embedded captions. Most desktop and mobile media players can display embedded captions so if possible can embedded captions be displayed in the Stash video player."
     }
   ]
 }
