@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-30T02:24:31+00:00",
+  "generated_at_utc": "2026-06-30T02:47:17+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -10,8 +10,8 @@
   "counts": {
     "actionable": 1,
     "account_required": 4,
-    "watch": 178,
-    "rejected": 1039
+    "watch": 179,
+    "rejected": 1035
   },
   "target_status": {
     "target_usd": 5,
@@ -2160,6 +2160,31 @@
       "body_preview": "### Objective Create a new read-only GET endpoint at `/api/v1/yield/routes` that queries and aggregates yield metrics across supported Web3 RPC providers. ### Specifications 1. Create a route handler in a new file `routes/yield.py` or within the existing core architecture. 2. The endpoint must return a structured JSON array containing: `provider_name`, `pool_identifier`, `base_apy`, and `gas_estimate_wei`. 3. Implement a local mocking/sandbox fallback if the active live Web3 RPC execution mode i"
     },
     {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Finish rimble-ui integration",
+      "url": "https://github.com/austintgriffith/burner-wallet/issues/204",
+      "amount_usd": null,
+      "labels": [
+        "enhancement",
+        "bounty",
+        "size-M"
+      ],
+      "comments": 3,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-30T02:44:06Z",
+      "created_at": "2019-06-04T15:28:22Z",
+      "score": 10,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "moderate discussion",
+        "recently updated"
+      ],
+      "body_preview": "## Scope - The [rim branch](https://github.com/austintgriffith/burner-wallet/tree/rim) of the burner-wallet is actually quite awesome. It relies on Consensys' rimble-ui and allows users to whitelabel the burner-wallet simply by editing a [theme.js](https://github.com/austintgriffith/burner-wallet/blob/rim/src/theme.js) file - The rim branch is almost ready to be merged into master, but still has a few components not yet migrated ## Deliverables - Identify all components in the rim branch that ar"
+    },
+    {
       "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
       "title": "Custom hook for PolygonId!",
       "url": "https://github.com/unlock-protocol/unlock/issues/13624",
@@ -2181,31 +2206,6 @@
         "recently updated"
       ],
       "body_preview": "Similar to the [Gitcoin Hook](https://www.youtube.com/watch?v=WvGyiTQa1z0), we are looking for someone to create a [PolygonId](https://www.polygonid.com/) hook. This hook should be configurable thru the Lock's settings. On the checkout, the checkout flow should include an extra step to let the user \"prove\" their polygonId so that only addresses that have been \"proven\" can complete a purchase of the NFT membership/ticket."
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
-      "title": "[Bounty] Create a sett style auto-compounding LP token vault",
-      "url": "https://github.com/SharedStake/Contracts/issues/7",
-      "amount_usd": null,
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "bounty"
-      ],
-      "comments": 9,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-05-25T17:03:02Z",
-      "created_at": "2021-02-16T03:22:39Z",
-      "score": 10,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "fast-lane label"
-      ],
-      "body_preview": "We want to move from geysers to Sett style vaults for our rewards, based on yearn vaults. We want this sett vault to be useable for LP providers for SGT ETH. It should have an accompanying strategy that allows it to auto-compound earnings in SGT by providing them as liquidity to uniswap, and selling any required to create the ETH side. Should have documentation for functionality and deployment. Should be tested on a testnet. We can send you SGT to test with on goerli. Bonus high value requiremen"
     }
   ]
 }
