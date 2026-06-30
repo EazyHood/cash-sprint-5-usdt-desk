@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-30T04:41:49+00:00",
+  "generated_at_utc": "2026-06-30T05:04:49+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -11,8 +11,8 @@
     "actionable": 7,
     "manual_review": 1,
     "account_required": 4,
-    "watch": 180,
-    "rejected": 1032
+    "watch": 179,
+    "rejected": 1031
   },
   "target_status": {
     "target_usd": 5,
@@ -1998,10 +1998,10 @@
         "funded",
         "available"
       ],
-      "comments": 6,
+      "comments": 7,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-30T04:30:29Z",
+      "updated_at": "2026-06-30T05:01:27Z",
       "created_at": "2026-06-25T21:49:55Z",
       "score": 93,
       "status": "actionable",
@@ -2040,56 +2040,6 @@
     },
     {
       "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "Frantic bounty #67: runx skill: agency charter validator",
-      "url": "https://github.com/auscaster/frantic-board/issues/167",
-      "amount_usd": 7.0,
-      "labels": [
-        "bounty",
-        "funded",
-        "available"
-      ],
-      "comments": 8,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-30T04:30:45Z",
-      "created_at": "2026-06-25T21:50:16Z",
-      "score": 92,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion",
-        "recently updated"
-      ],
-      "body_preview": "Frantic bounty #67 runx skill: agency charter validator Worker price: $7 Slots: 1 Status: Available Claim: https://gofrantic.com/bounties/67 Funding receipt: https://gofrantic.com/r/591b2da11a8e Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:67 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWVudHJ5LnByb3ZpZGVyLXRocmVhZC1jcmVhdGUudjEiLCJjaGFubmVsIjoiZ2l0aHViX2lzc3VlIiwi"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "Frantic bounty #66: runx skill: flaky test judge",
-      "url": "https://github.com/auscaster/frantic-board/issues/166",
-      "amount_usd": 7.0,
-      "labels": [
-        "bounty",
-        "funded",
-        "available"
-      ],
-      "comments": 6,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-30T04:30:40Z",
-      "created_at": "2026-06-25T21:50:09Z",
-      "score": 92,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion",
-        "recently updated"
-      ],
-      "body_preview": "Frantic bounty #66 runx skill: flaky test judge Worker price: $7 Slots: 1 Status: Available Claim: https://gofrantic.com/bounties/66 Funding receipt: https://gofrantic.com/r/374648d7689d Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:66 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWVudHJ5LnByb3ZpZGVyLXRocmVhZC1jcmVhdGUudjEiLCJjaGFubmVsIjoiZ2l0aHViX2lzc3VlIiwic291cmNl"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
       "title": "Frantic bounty #65: runx skill: deliverability judge",
       "url": "https://github.com/auscaster/frantic-board/issues/165",
       "amount_usd": 7.0,
@@ -2098,10 +2048,10 @@
         "funded",
         "available"
       ],
-      "comments": 6,
+      "comments": 7,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-30T04:30:35Z",
+      "updated_at": "2026-06-30T05:01:33Z",
       "created_at": "2026-06-25T21:50:02Z",
       "score": 92,
       "status": "actionable",
@@ -2115,9 +2065,9 @@
     },
     {
       "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "Frantic bounty #62: runx skill: spam risk reviewer",
-      "url": "https://github.com/auscaster/frantic-board/issues/162",
-      "amount_usd": 6.0,
+      "title": "Frantic bounty #66: runx skill: flaky test judge",
+      "url": "https://github.com/auscaster/frantic-board/issues/166",
+      "amount_usd": 7.0,
       "labels": [
         "bounty",
         "funded",
@@ -2126,7 +2076,57 @@
       "comments": 7,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-30T04:30:18Z",
+      "updated_at": "2026-06-30T05:01:31Z",
+      "created_at": "2026-06-25T21:50:09Z",
+      "score": 92,
+      "status": "actionable",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "recently updated"
+      ],
+      "body_preview": "Frantic bounty #66 runx skill: flaky test judge Worker price: $7 Slots: 1 Status: Available Claim: https://gofrantic.com/bounties/66 Funding receipt: https://gofrantic.com/r/374648d7689d Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:66 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWVudHJ5LnByb3ZpZGVyLXRocmVhZC1jcmVhdGUudjEiLCJjaGFubmVsIjoiZ2l0aHViX2lzc3VlIiwic291cmNl"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Frantic bounty #67: runx skill: agency charter validator",
+      "url": "https://github.com/auscaster/frantic-board/issues/167",
+      "amount_usd": 7.0,
+      "labels": [
+        "bounty",
+        "funded",
+        "available"
+      ],
+      "comments": 9,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-30T05:01:29Z",
+      "created_at": "2026-06-25T21:50:16Z",
+      "score": 92,
+      "status": "actionable",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "recently updated"
+      ],
+      "body_preview": "Frantic bounty #67 runx skill: agency charter validator Worker price: $7 Slots: 1 Status: Available Claim: https://gofrantic.com/bounties/67 Funding receipt: https://gofrantic.com/r/591b2da11a8e Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:67 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWVudHJ5LnByb3ZpZGVyLXRocmVhZC1jcmVhdGUudjEiLCJjaGFubmVsIjoiZ2l0aHViX2lzc3VlIiwi"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Frantic bounty #62: runx skill: spam risk reviewer",
+      "url": "https://github.com/auscaster/frantic-board/issues/162",
+      "amount_usd": 6.0,
+      "labels": [
+        "bounty",
+        "funded",
+        "available"
+      ],
+      "comments": 8,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-30T05:01:36Z",
       "created_at": "2026-06-25T21:49:39Z",
       "score": 91,
       "status": "actionable",
@@ -2148,10 +2148,10 @@
         "funded",
         "available"
       ],
-      "comments": 11,
+      "comments": 12,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-30T04:30:24Z",
+      "updated_at": "2026-06-30T05:01:35Z",
       "created_at": "2026-06-25T21:49:47Z",
       "score": 67,
       "status": "manual_review",
