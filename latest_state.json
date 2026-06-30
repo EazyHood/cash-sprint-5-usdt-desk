@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-30T01:38:38+00:00",
+  "generated_at_utc": "2026-06-30T02:01:35+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -10,8 +10,8 @@
   "counts": {
     "actionable": 1,
     "account_required": 4,
-    "watch": 175,
-    "rejected": 1036
+    "watch": 179,
+    "rejected": 1038
   },
   "target_status": {
     "target_usd": 5,
@@ -2091,7 +2091,7 @@
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%245%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/FAForever/server/issues/640) <!-- /Issuehunt Badges --> The server should not be sending any strings that get rendered in the client, because these strings are in English and we can't be sure that the user on the other end has their client set to English (in fact a majority of people probably knows English only as a second language, or does no"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty USDC -label:invalid -label:wontfix",
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
       "title": "[Frontend] Implement member contribution form on the group detail page",
       "url": "https://github.com/coopfinance/coopfin-frontend/issues/12",
       "amount_usd": null,
@@ -2099,10 +2099,10 @@
         "frontend",
         "bounty"
       ],
-      "comments": 4,
+      "comments": 5,
       "assignees": 0,
       "state": "open",
-      "updated_at": "2026-06-29T13:11:48Z",
+      "updated_at": "2026-06-30T01:51:17Z",
       "created_at": "2026-06-29T12:29:35Z",
       "score": 25,
       "status": "watch",
@@ -2114,6 +2114,27 @@
         "recently updated"
       ],
       "body_preview": "Problem Members cannot submit contributions through the UI. The frontend has no form that calls TreasuryContract.contribute() — which is the core action of a cooperative savings group. Task Create src/components/groups/contribute-modal.tsx: 1. Amount input (USDC, validated against group's minContribution rule) 2. Period selector (auto-populated with current cycle, editable) 3. Shows current wallet balance before submitting 4. On submit: a. Builds Soroban transaction calling contribute(member, am"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "[Skill Proposal] solana-actions-blinks-skill — Actions & Blinks for AI coding agents",
+      "url": "https://github.com/solanabr/skill-bounty/issues/115",
+      "amount_usd": null,
+      "labels": [],
+      "comments": 0,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-30T01:35:45Z",
+      "created_at": "2026-06-29T22:23:48Z",
+      "score": 20,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion",
+        "recently updated"
+      ],
+      "body_preview": "## Problem statement Builders and AI coding agents need to ship **shareable on-chain interactions** (tips, swaps, votes, sign-in) via **Solana Actions** and **Blockchain Links (Blinks)**. The spec spans GET/POST/OPTIONS handlers, `actions.json` domain mapping, CORS, callback security, and wallet-facing blink URLs — but this knowledge is **fragmented** across docs, examples, and one-off repos. Without a curated skill, agents often produce non-compliant endpoints or depend on broken third-party pr"
     },
     {
       "source": "GitHub search: is:issue state:open bounty USDT -label:invalid -label:wontfix",
@@ -2137,27 +2158,6 @@
         "recently updated"
       ],
       "body_preview": "### Objective Create a new read-only GET endpoint at `/api/v1/yield/routes` that queries and aggregates yield metrics across supported Web3 RPC providers. ### Specifications 1. Create a route handler in a new file `routes/yield.py` or within the existing core architecture. 2. The endpoint must return a structured JSON array containing: `provider_name`, `pool_identifier`, `base_apy`, and `gas_estimate_wei`. 3. Implement a local mocking/sandbox fallback if the active live Web3 RPC execution mode i"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USDC -label:invalid -label:wontfix",
-      "title": "[Skill Proposal] solana-actions-blinks-skill — Actions & Blinks for AI coding agents",
-      "url": "https://github.com/solanabr/skill-bounty/issues/115",
-      "amount_usd": null,
-      "labels": [],
-      "comments": 0,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-29T22:23:48Z",
-      "created_at": "2026-06-29T22:23:48Z",
-      "score": 20,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion",
-        "recently updated"
-      ],
-      "body_preview": "## Problem statement Builders and AI coding agents need to ship **shareable on-chain interactions** (tips, swaps, votes, sign-in) via **Solana Actions** and **Blockchain Links (Blinks)**. The spec spans GET/POST/OPTIONS handlers, `actions.json` domain mapping, CORS, callback security, and wallet-facing blink URLs — but this knowledge is **fragmented** across docs, examples, and one-off repos. Without a curated skill, agents often produce non-compliant endpoints or depend on broken third-party pr"
     },
     {
       "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
