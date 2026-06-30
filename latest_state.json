@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-30T05:04:49+00:00",
+  "generated_at_utc": "2026-06-30T05:27:42+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,11 +8,11 @@
     "deadline_hours": 30
   },
   "counts": {
-    "actionable": 7,
+    "actionable": 6,
     "manual_review": 1,
     "account_required": 4,
-    "watch": 179,
-    "rejected": 1031
+    "watch": 182,
+    "rejected": 1030
   },
   "target_status": {
     "target_usd": 5,
@@ -2015,31 +2015,6 @@
     },
     {
       "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "Frantic bounty #61: runx skill: CI failure triage and classification",
-      "url": "https://github.com/auscaster/frantic-board/issues/161",
-      "amount_usd": 8.0,
-      "labels": [
-        "bounty",
-        "funded",
-        "available"
-      ],
-      "comments": 8,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-30T04:30:12Z",
-      "created_at": "2026-06-25T21:49:31Z",
-      "score": 93,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion",
-        "recently updated"
-      ],
-      "body_preview": "Frantic bounty #61 runx skill: CI failure triage and classification Worker price: $8 Slots: 1 Status: Available Claim: https://gofrantic.com/bounties/61 Funding receipt: https://gofrantic.com/r/adb5a3681983 Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:61 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWVudHJ5LnByb3ZpZGVyLXRocmVhZC1jcmVhdGUudjEiLCJjaGFubmVsIjoiZ2l0aHVi"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
       "title": "Frantic bounty #65: runx skill: deliverability judge",
       "url": "https://github.com/auscaster/frantic-board/issues/165",
       "amount_usd": 7.0,
@@ -2216,6 +2191,31 @@
         "requires account/claim/approval flow"
       ],
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://issuehunt.io/r/avajs/ava/issues/928/badge.svg\" />](https://issuehunt.io/r/avajs/ava/issues/928) <!-- /Issuehunt Badges --> See: https://github.com/avajs/ava/pull/918#issuecomment-227016238 `after.always` has some issues when used as a cleanup task. Specifically, it won't run if: - There are test failures and `--fail-fast` is used. - There are uncaught exceptions thrown. I've advocated using `.before` or `.beforeEach` to ensure s"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
+      "title": "Party System [50 USD Bounty]",
+      "url": "https://github.com/dxura/dxrp/issues/73",
+      "amount_usd": 50.0,
+      "labels": [
+        "good first issue"
+      ],
+      "comments": 10,
+      "assignees": 1,
+      "state": "open",
+      "updated_at": "2026-06-29T06:11:30Z",
+      "created_at": "2026-06-27T13:26:53Z",
+      "score": 40,
+      "status": "account_required",
+      "reasons": [
+        "explicit payout >= $5",
+        "already assigned",
+        "moderate discussion",
+        "fast-lane label",
+        "recently updated",
+        "requires account/claim/approval flow"
+      ],
+      "body_preview": "**To claim this bounty, you have to apply here and be approved prior to commencement.** Basically recreate this (nicely): https://www.gmodstore.com/market/view/simple-party-system <img width=\"983\" height=\"559\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ae7860f4-ee07-47a5-b1d2-775d9d874846\" /> **Operator config:** This part can be added later but: Base Content should have a \"System\" addon content type which you can add/remove from an gamemode Then you can provide system config, i"
     }
   ]
 }
