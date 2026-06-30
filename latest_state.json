@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-30T04:18:53+00:00",
+  "generated_at_utc": "2026-06-30T04:41:49+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,10 +8,11 @@
     "deadline_hours": 30
   },
   "counts": {
-    "actionable": 1,
+    "actionable": 7,
+    "manual_review": 1,
     "account_required": 4,
     "watch": 180,
-    "rejected": 1044
+    "rejected": 1032
   },
   "target_status": {
     "target_usd": 5,
@@ -1967,7 +1968,7 @@
   ],
   "top_opportunities": [
     {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "source": "GitHub search: is:issue state:open bounty \"$10\" -label:invalid -label:wontfix",
       "title": "send with link for large numbers failing",
       "url": "https://github.com/austintgriffith/burner-wallet/issues/240",
       "amount_usd": 200.0,
@@ -1986,6 +1987,181 @@
         "recently updated"
       ],
       "body_preview": "when sending a large amount with link (20'000 native) the following error appears: Error: [number-to-bn] while converting number 2e+22 to BN.js instance, error: invalid number value. Value must be an integer, hex string , BN or BigNumber instance. Note, decimals are not supported src/app.js:1684 <!-- ## How to create a new bounty? 1. Create an issue with SMART (Specific, Measurable, Achievable, Relevant, Time bound) description. 2. Add the bounty to the \"TO DO\" collumn of the bounty board: https"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Frantic bounty #64: runx skill: oncall alert triage",
+      "url": "https://github.com/auscaster/frantic-board/issues/164",
+      "amount_usd": 8.0,
+      "labels": [
+        "bounty",
+        "funded",
+        "available"
+      ],
+      "comments": 6,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-30T04:30:29Z",
+      "created_at": "2026-06-25T21:49:55Z",
+      "score": 93,
+      "status": "actionable",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "recently updated"
+      ],
+      "body_preview": "Frantic bounty #64 runx skill: oncall alert triage Worker price: $8 Slots: 1 Status: Available Claim: https://gofrantic.com/bounties/64 Funding receipt: https://gofrantic.com/r/3f199c41239c Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:64 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWVudHJ5LnByb3ZpZGVyLXRocmVhZC1jcmVhdGUudjEiLCJjaGFubmVsIjoiZ2l0aHViX2lzc3VlIiwic291c"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Frantic bounty #61: runx skill: CI failure triage and classification",
+      "url": "https://github.com/auscaster/frantic-board/issues/161",
+      "amount_usd": 8.0,
+      "labels": [
+        "bounty",
+        "funded",
+        "available"
+      ],
+      "comments": 8,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-30T04:30:12Z",
+      "created_at": "2026-06-25T21:49:31Z",
+      "score": 93,
+      "status": "actionable",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "recently updated"
+      ],
+      "body_preview": "Frantic bounty #61 runx skill: CI failure triage and classification Worker price: $8 Slots: 1 Status: Available Claim: https://gofrantic.com/bounties/61 Funding receipt: https://gofrantic.com/r/adb5a3681983 Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:61 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWVudHJ5LnByb3ZpZGVyLXRocmVhZC1jcmVhdGUudjEiLCJjaGFubmVsIjoiZ2l0aHVi"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Frantic bounty #67: runx skill: agency charter validator",
+      "url": "https://github.com/auscaster/frantic-board/issues/167",
+      "amount_usd": 7.0,
+      "labels": [
+        "bounty",
+        "funded",
+        "available"
+      ],
+      "comments": 8,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-30T04:30:45Z",
+      "created_at": "2026-06-25T21:50:16Z",
+      "score": 92,
+      "status": "actionable",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "recently updated"
+      ],
+      "body_preview": "Frantic bounty #67 runx skill: agency charter validator Worker price: $7 Slots: 1 Status: Available Claim: https://gofrantic.com/bounties/67 Funding receipt: https://gofrantic.com/r/591b2da11a8e Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:67 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWVudHJ5LnByb3ZpZGVyLXRocmVhZC1jcmVhdGUudjEiLCJjaGFubmVsIjoiZ2l0aHViX2lzc3VlIiwi"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Frantic bounty #66: runx skill: flaky test judge",
+      "url": "https://github.com/auscaster/frantic-board/issues/166",
+      "amount_usd": 7.0,
+      "labels": [
+        "bounty",
+        "funded",
+        "available"
+      ],
+      "comments": 6,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-30T04:30:40Z",
+      "created_at": "2026-06-25T21:50:09Z",
+      "score": 92,
+      "status": "actionable",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "recently updated"
+      ],
+      "body_preview": "Frantic bounty #66 runx skill: flaky test judge Worker price: $7 Slots: 1 Status: Available Claim: https://gofrantic.com/bounties/66 Funding receipt: https://gofrantic.com/r/374648d7689d Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:66 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWVudHJ5LnByb3ZpZGVyLXRocmVhZC1jcmVhdGUudjEiLCJjaGFubmVsIjoiZ2l0aHViX2lzc3VlIiwic291cmNl"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Frantic bounty #65: runx skill: deliverability judge",
+      "url": "https://github.com/auscaster/frantic-board/issues/165",
+      "amount_usd": 7.0,
+      "labels": [
+        "bounty",
+        "funded",
+        "available"
+      ],
+      "comments": 6,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-30T04:30:35Z",
+      "created_at": "2026-06-25T21:50:02Z",
+      "score": 92,
+      "status": "actionable",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "recently updated"
+      ],
+      "body_preview": "Frantic bounty #65 runx skill: deliverability judge Worker price: $7 Slots: 1 Status: Available Claim: https://gofrantic.com/bounties/65 Funding receipt: https://gofrantic.com/r/5302d84a59a8 Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:65 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWVudHJ5LnByb3ZpZGVyLXRocmVhZC1jcmVhdGUudjEiLCJjaGFubmVsIjoiZ2l0aHViX2lzc3VlIiwic291"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Frantic bounty #62: runx skill: spam risk reviewer",
+      "url": "https://github.com/auscaster/frantic-board/issues/162",
+      "amount_usd": 6.0,
+      "labels": [
+        "bounty",
+        "funded",
+        "available"
+      ],
+      "comments": 7,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-30T04:30:18Z",
+      "created_at": "2026-06-25T21:49:39Z",
+      "score": 91,
+      "status": "actionable",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "moderate discussion",
+        "recently updated"
+      ],
+      "body_preview": "Frantic bounty #62 runx skill: spam risk reviewer Worker price: $6 Slots: 1 Status: Available Claim: https://gofrantic.com/bounties/62 Funding receipt: https://gofrantic.com/r/d010a8a6e4fa Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:62 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWVudHJ5LnByb3ZpZGVyLXRocmVhZC1jcmVhdGUudjEiLCJjaGFubmVsIjoiZ2l0aHViX2lzc3VlIiwic291cm"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "Frantic bounty #63: runx skill: renewal risk judge",
+      "url": "https://github.com/auscaster/frantic-board/issues/163",
+      "amount_usd": 7.0,
+      "labels": [
+        "bounty",
+        "funded",
+        "available"
+      ],
+      "comments": 11,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-30T04:30:24Z",
+      "created_at": "2026-06-25T21:49:47Z",
+      "score": 67,
+      "status": "manual_review",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "busy thread",
+        "recently updated"
+      ],
+      "body_preview": "Frantic bounty #63 runx skill: renewal risk judge Worker price: $7 Slots: 1 Status: Available Claim: https://gofrantic.com/bounties/63 Funding receipt: https://gofrantic.com/r/950397a3ce94 Frantic is the source of truth. This GitHub issue is a mirrored board thread. <!-- runx-outbox-envelope: v1 --> <!-- runx-outbox-entry: frantic:bounty:63 --> <!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWVudHJ5LnByb3ZpZGVyLXRocmVhZC1jcmVhdGUudjEiLCJjaGFubmVsIjoiZ2l0aHViX2lzc3VlIiwic291cm"
     },
     {
       "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
@@ -2040,172 +2216,6 @@
         "requires account/claim/approval flow"
       ],
       "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://issuehunt.io/r/avajs/ava/issues/928/badge.svg\" />](https://issuehunt.io/r/avajs/ava/issues/928) <!-- /Issuehunt Badges --> See: https://github.com/avajs/ava/pull/918#issuecomment-227016238 `after.always` has some issues when used as a cleanup task. Specifically, it won't run if: - There are test failures and `--fail-fast` is used. - There are uncaught exceptions thrown. I've advocated using `.before` or `.beforeEach` to ensure s"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USD -label:invalid -label:wontfix",
-      "title": "Party System [50 USD Bounty]",
-      "url": "https://github.com/dxura/dxrp/issues/73",
-      "amount_usd": 50.0,
-      "labels": [
-        "good first issue"
-      ],
-      "comments": 10,
-      "assignees": 1,
-      "state": "open",
-      "updated_at": "2026-06-29T06:11:30Z",
-      "created_at": "2026-06-27T13:26:53Z",
-      "score": 40,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "already assigned",
-        "moderate discussion",
-        "fast-lane label",
-        "recently updated",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "**To claim this bounty, you have to apply here and be approved prior to commencement.** Basically recreate this (nicely): https://www.gmodstore.com/market/view/simple-party-system <img width=\"983\" height=\"559\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ae7860f4-ee07-47a5-b1d2-775d9d874846\" /> **Operator config:** This part can be added later but: Base Content should have a \"System\" addon content type which you can add/remove from an gamemode Then you can provide system config, i"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
-      "title": "Replace ban text with localizable message",
-      "url": "https://github.com/FAForever/server/issues/640",
-      "amount_usd": 5.0,
-      "labels": [
-        "requires client changes",
-        ":dollar: Funded on Issuehunt"
-      ],
-      "comments": 18,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-11T16:00:57Z",
-      "created_at": "2020-08-03T18:15:27Z",
-      "score": 25,
-      "status": "account_required",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "busy thread",
-        "requires account/claim/approval flow"
-      ],
-      "body_preview": "<!-- Issuehunt Badges --> [<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%245%20Funded-%2300A156.svg\" />](https://issuehunt.io/r/FAForever/server/issues/640) <!-- /Issuehunt Badges --> The server should not be sending any strings that get rendered in the client, because these strings are in English and we can't be sure that the user on the other end has their client set to English (in fact a majority of people probably knows English only as a second language, or does no"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "[Frontend] Implement member contribution form on the group detail page",
-      "url": "https://github.com/coopfinance/coopfin-frontend/issues/12",
-      "amount_usd": null,
-      "labels": [
-        "frontend",
-        "bounty"
-      ],
-      "comments": 5,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-30T01:51:17Z",
-      "created_at": "2026-06-29T12:29:35Z",
-      "score": 25,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "fast-lane label",
-        "recently updated"
-      ],
-      "body_preview": "Problem Members cannot submit contributions through the UI. The frontend has no form that calls TreasuryContract.contribute() — which is the core action of a cooperative savings group. Task Create src/components/groups/contribute-modal.tsx: 1. Amount input (USDC, validated against group's minContribution rule) 2. Period selector (auto-populated with current cycle, editable) 3. Shows current wallet balance before submitting 4. On submit: a. Builds Soroban transaction calling contribute(member, am"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "[Skill Proposal] solana-actions-blinks-skill — Actions & Blinks for AI coding agents",
-      "url": "https://github.com/solanabr/skill-bounty/issues/115",
-      "amount_usd": null,
-      "labels": [],
-      "comments": 0,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-30T01:35:45Z",
-      "created_at": "2026-06-29T22:23:48Z",
-      "score": 20,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion",
-        "recently updated"
-      ],
-      "body_preview": "## Problem statement Builders and AI coding agents need to ship **shareable on-chain interactions** (tips, swaps, votes, sign-in) via **Solana Actions** and **Blockchain Links (Blinks)**. The spec spans GET/POST/OPTIONS handlers, `actions.json` domain mapping, CORS, callback security, and wallet-facing blink URLs — but this knowledge is **fragmented** across docs, examples, and one-off repos. Without a curated skill, agents often produce non-compliant endpoints or depend on broken third-party pr"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty USDT -label:invalid -label:wontfix",
-      "title": "feat: Implement Multi-Route DeFi Yield Aggregator Analytics Endpoint",
-      "url": "https://github.com/SgtClickClack/VectraFi/issues/4",
-      "amount_usd": null,
-      "labels": [
-        "agent-bounty"
-      ],
-      "comments": 2,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-28T01:58:36Z",
-      "created_at": "2026-06-17T02:39:57Z",
-      "score": 20,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion",
-        "recently updated"
-      ],
-      "body_preview": "### Objective Create a new read-only GET endpoint at `/api/v1/yield/routes` that queries and aggregates yield metrics across supported Web3 RPC providers. ### Specifications 1. Create a route handler in a new file `routes/yield.py` or within the existing core architecture. 2. The endpoint must return a structured JSON array containing: `provider_name`, `pool_identifier`, `base_apy`, and `gas_estimate_wei`. 3. Implement a local mocking/sandbox fallback if the active live Web3 RPC execution mode i"
-    },
-    {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "Finish rimble-ui integration",
-      "url": "https://github.com/austintgriffith/burner-wallet/issues/204",
-      "amount_usd": null,
-      "labels": [
-        "enhancement",
-        "bounty",
-        "size-M"
-      ],
-      "comments": 5,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-30T03:00:04Z",
-      "created_at": "2019-06-04T15:28:22Z",
-      "score": 10,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "recently updated"
-      ],
-      "body_preview": "## Scope - The [rim branch](https://github.com/austintgriffith/burner-wallet/tree/rim) of the burner-wallet is actually quite awesome. It relies on Consensys' rimble-ui and allows users to whitelabel the burner-wallet simply by editing a [theme.js](https://github.com/austintgriffith/burner-wallet/blob/rim/src/theme.js) file - The rim branch is almost ready to be merged into master, but still has a few components not yet migrated ## Deliverables - Identify all components in the rim branch that ar"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
-      "title": "Custom hook for PolygonId!",
-      "url": "https://github.com/unlock-protocol/unlock/issues/13624",
-      "amount_usd": null,
-      "labels": [
-        "💰bounty"
-      ],
-      "comments": 4,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-29T03:20:44Z",
-      "created_at": "2024-04-12T19:03:06Z",
-      "score": 10,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "moderate discussion",
-        "recently updated"
-      ],
-      "body_preview": "Similar to the [Gitcoin Hook](https://www.youtube.com/watch?v=WvGyiTQa1z0), we are looking for someone to create a [PolygonId](https://www.polygonid.com/) hook. This hook should be configurable thru the Lock's settings. On the checkout, the checkout flow should include an extra step to let the user \"prove\" their polygonId so that only addresses that have been \"proven\" can complete a purchase of the NFT membership/ticket."
     }
   ]
 }
