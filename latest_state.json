@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-30T02:01:35+00:00",
+  "generated_at_utc": "2026-06-30T02:24:31+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -10,8 +10,8 @@
   "counts": {
     "actionable": 1,
     "account_required": 4,
-    "watch": 179,
-    "rejected": 1038
+    "watch": 178,
+    "rejected": 1039
   },
   "target_status": {
     "target_usd": 5,
