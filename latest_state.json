@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-30T00:52:08+00:00",
+  "generated_at_utc": "2026-06-30T01:07:10+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,10 +8,9 @@
     "deadline_hours": 30
   },
   "counts": {
-    "actionable": 1,
     "account_required": 4,
-    "watch": 164,
-    "rejected": 939
+    "watch": 170,
+    "rejected": 1039
   },
   "target_status": {
     "target_usd": 5,
@@ -85,7 +84,7 @@
       "url": "https://github.com/Chain-Love/chain-love/pull/1869",
       "state": "open",
       "status": "open",
-      "mergeable": null,
+      "mergeable": true,
       "draft": false,
       "created_at": "2026-06-26T15:16:28Z",
       "updated_at": "2026-06-26T15:16:28Z",
@@ -1967,30 +1966,6 @@
   ],
   "top_opportunities": [
     {
-      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
-      "title": "[bounty] Create a YouTube demo video — Free Lifetime access",
-      "url": "https://github.com/stefanoviana/deepalpha/issues/21",
-      "amount_usd": 199.0,
-      "labels": [
-        "documentation",
-        "help wanted"
-      ],
-      "comments": 5,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-19T01:19:00Z",
-      "created_at": "2026-05-03T19:26:57Z",
-      "score": 120,
-      "status": "actionable",
-      "reasons": [
-        "explicit payout >= $5",
-        "unassigned",
-        "moderate discussion",
-        "fast-lane label"
-      ],
-      "body_preview": "We need a professional demo video showing DeepAlpha in action. **What to show:** - Registration flow (30 seconds) - Dashboard overview - Starting the bot in Paper Mode - Real-time positions opening - PnL tracking - Settings (Paper/Live toggle) **Requirements:** - 3-5 minutes long - Screen recording with voiceover (English) - Background music - Upload to YouTube **Reward:** Lifetime Pro access ($199 value) **Difficulty:** Easy (non-coding)"
-    },
-    {
       "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
       "title": "ipython support",
       "url": "https://github.com/Qix-/better-exceptions/issues/10",
@@ -2119,27 +2094,6 @@
       "body_preview": "Problem Members cannot submit contributions through the UI. The frontend has no form that calls TreasuryContract.contribute() — which is the core action of a cooperative savings group. Task Create src/components/groups/contribute-modal.tsx: 1. Amount input (USDC, validated against group's minContribution rule) 2. Period selector (auto-populated with current cycle, editable) 3. Shows current wallet balance before submitting 4. On submit: a. Builds Soroban transaction calling contribute(member, am"
     },
     {
-      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
-      "title": "[Skill Proposal] solana-actions-blinks-skill — Actions & Blinks for AI coding agents",
-      "url": "https://github.com/solanabr/skill-bounty/issues/115",
-      "amount_usd": null,
-      "labels": [],
-      "comments": 0,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-29T22:23:48Z",
-      "created_at": "2026-06-29T22:23:48Z",
-      "score": 20,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion",
-        "recently updated"
-      ],
-      "body_preview": "## Problem statement Builders and AI coding agents need to ship **shareable on-chain interactions** (tips, swaps, votes, sign-in) via **Solana Actions** and **Blockchain Links (Blinks)**. The spec spans GET/POST/OPTIONS handlers, `actions.json` domain mapping, CORS, callback security, and wallet-facing blink URLs — but this knowledge is **fragmented** across docs, examples, and one-off repos. Without a curated skill, agents often produce non-compliant endpoints or depend on broken third-party pr"
-    },
-    {
       "source": "GitHub search: is:issue state:open bounty USDT -label:invalid -label:wontfix",
       "title": "feat: Implement Multi-Route DeFi Yield Aggregator Analytics Endpoint",
       "url": "https://github.com/SgtClickClack/VectraFi/issues/4",
@@ -2161,6 +2115,27 @@
         "recently updated"
       ],
       "body_preview": "### Objective Create a new read-only GET endpoint at `/api/v1/yield/routes` that queries and aggregates yield metrics across supported Web3 RPC providers. ### Specifications 1. Create a route handler in a new file `routes/yield.py` or within the existing core architecture. 2. The endpoint must return a structured JSON array containing: `provider_name`, `pool_identifier`, `base_apy`, and `gas_estimate_wei`. 3. Implement a local mocking/sandbox fallback if the active live Web3 RPC execution mode i"
+    },
+    {
+      "source": "GitHub search: is:issue state:open bounty USDC -label:invalid -label:wontfix",
+      "title": "[Skill Proposal] solana-actions-blinks-skill — Actions & Blinks for AI coding agents",
+      "url": "https://github.com/solanabr/skill-bounty/issues/115",
+      "amount_usd": null,
+      "labels": [],
+      "comments": 0,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-29T22:23:48Z",
+      "created_at": "2026-06-29T22:23:48Z",
+      "score": 20,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion",
+        "recently updated"
+      ],
+      "body_preview": "## Problem statement Builders and AI coding agents need to ship **shareable on-chain interactions** (tips, swaps, votes, sign-in) via **Solana Actions** and **Blockchain Links (Blinks)**. The spec spans GET/POST/OPTIONS handlers, `actions.json` domain mapping, CORS, callback security, and wallet-facing blink URLs — but this knowledge is **fragmented** across docs, examples, and one-off repos. Without a curated skill, agents often produce non-compliant endpoints or depend on broken third-party pr"
     },
     {
       "source": "GitHub search: is:issue state:open \"Gitcoin\" bounty",
@@ -2209,6 +2184,26 @@
         "fast-lane label"
       ],
       "body_preview": "We want to move from geysers to Sett style vaults for our rewards, based on yearn vaults. We want this sett vault to be useable for LP providers for SGT ETH. It should have an accompanying strategy that allows it to auto-compound earnings in SGT by providing them as liquidity to uniswap, and selling any required to create the ETH side. Should have documentation for functionality and deployment. Should be tested on a testnet. We can send you SGT to test with on goerli. Bonus high value requiremen"
+    },
+    {
+      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
+      "title": "Bounty",
+      "url": "https://github.com/souleater06/mineagent/issues/21",
+      "amount_usd": null,
+      "labels": [],
+      "comments": 1,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-24T15:17:11Z",
+      "created_at": "2026-06-14T10:58:42Z",
+      "score": 5,
+      "status": "watch",
+      "reasons": [
+        "no explicit USD/USDT/USDC amount found",
+        "unassigned",
+        "very low discussion"
+      ],
+      "body_preview": "Here's a complete English bounty post template you can copy, paste, and adapt. It's designed to be easily parsed by bots (e.g., GitHub Actions, Discord \"action board\" scrapers) and follows typical Lean/Mathlib collaboration style. ```markdown [Bounty] $XXX – Formalize (or disprove) the \"Prime Emergence Conjecture\" ## Problem in plain language I propose a new conjecture related to prime emergence. *(Replace the following with your actual conjecture – keep it concise and precise)* **Conjecture (na"
     }
   ]
 }
