@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-30T01:07:10+00:00",
+  "generated_at_utc": "2026-06-30T01:38:38+00:00",
   "wallet": {
     "asset": "USDT",
     "network": "Ethereum / ERC-20",
@@ -8,9 +8,10 @@
     "deadline_hours": 30
   },
   "counts": {
+    "actionable": 1,
     "account_required": 4,
-    "watch": 170,
-    "rejected": 1039
+    "watch": 175,
+    "rejected": 1036
   },
   "target_status": {
     "target_usd": 5,
@@ -1966,6 +1967,27 @@
   ],
   "top_opportunities": [
     {
+      "source": "GitHub search: is:issue state:open bounty \"$\" -label:invalid -label:wontfix",
+      "title": "send with link for large numbers failing",
+      "url": "https://github.com/austintgriffith/burner-wallet/issues/240",
+      "amount_usd": 200.0,
+      "labels": [],
+      "comments": 1,
+      "assignees": 0,
+      "state": "open",
+      "updated_at": "2026-06-30T01:21:16Z",
+      "created_at": "2019-07-29T06:30:35Z",
+      "score": 130,
+      "status": "actionable",
+      "reasons": [
+        "explicit payout >= $5",
+        "unassigned",
+        "very low discussion",
+        "recently updated"
+      ],
+      "body_preview": "when sending a large amount with link (20'000 native) the following error appears: Error: [number-to-bn] while converting number 2e+22 to BN.js instance, error: invalid number value. Value must be an integer, hex string , BN or BigNumber instance. Note, decimals are not supported src/app.js:1684 <!-- ## How to create a new bounty? 1. Create an issue with SMART (Specific, Measurable, Achievable, Relevant, Time bound) description. 2. Add the bounty to the \"TO DO\" collumn of the bounty board: https"
+    },
+    {
       "source": "GitHub search: is:issue state:open \"IssueHunt\" bounty",
       "title": "ipython support",
       "url": "https://github.com/Qix-/better-exceptions/issues/10",
@@ -2184,26 +2206,6 @@
         "fast-lane label"
       ],
       "body_preview": "We want to move from geysers to Sett style vaults for our rewards, based on yearn vaults. We want this sett vault to be useable for LP providers for SGT ETH. It should have an accompanying strategy that allows it to auto-compound earnings in SGT by providing them as liquidity to uniswap, and selling any required to create the ETH side. Should have documentation for functionality and deployment. Should be tested on a testnet. We can send you SGT to test with on goerli. Bonus high value requiremen"
-    },
-    {
-      "source": "GitHub search: is:issue state:open \"crypto bounty\" \"$\" -label:invalid -label:wontfix",
-      "title": "Bounty",
-      "url": "https://github.com/souleater06/mineagent/issues/21",
-      "amount_usd": null,
-      "labels": [],
-      "comments": 1,
-      "assignees": 0,
-      "state": "open",
-      "updated_at": "2026-06-24T15:17:11Z",
-      "created_at": "2026-06-14T10:58:42Z",
-      "score": 5,
-      "status": "watch",
-      "reasons": [
-        "no explicit USD/USDT/USDC amount found",
-        "unassigned",
-        "very low discussion"
-      ],
-      "body_preview": "Here's a complete English bounty post template you can copy, paste, and adapt. It's designed to be easily parsed by bots (e.g., GitHub Actions, Discord \"action board\" scrapers) and follows typical Lean/Mathlib collaboration style. ```markdown [Bounty] $XXX – Formalize (or disprove) the \"Prime Emergence Conjecture\" ## Problem in plain language I propose a new conjecture related to prime emergence. *(Replace the following with your actual conjecture – keep it concise and precise)* **Conjecture (na"
     }
   ]
 }
